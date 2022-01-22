@@ -57,6 +57,11 @@ gen_bucket_config(){
     fi
 }
 
+# librewolf
+echo "starise/Scoop-Confetti" >> bucket.config
+# chezmoi
+echo "twpayne/scoop-bucket" >> bucket.config
+
 # download bucket
 download_bucket(){
     buckets=$(cat bucket.config)
