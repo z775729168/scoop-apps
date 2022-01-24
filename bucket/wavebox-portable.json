@@ -14,12 +14,21 @@
     },
     "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal",
     "bin": "Wavebox.exe",
+    "bin": [
+        [
+            "Wavebox.exe",
+            "wavebox",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
     "shortcuts": [
         [
             "Wavebox.exe",
-            "Wavebox"
+            "Wavebox",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
+    "persist": "User Data",
     "checkver": {
         "url": "https://download.wavebox.app/appcast/appcast.xml?platform=win32&channel=core&isPayingUser=true",
         "xpath": "/rss/channel/item/enclosure/@sparkle:shortVersionString"
