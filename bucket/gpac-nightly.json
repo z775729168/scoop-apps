@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0-DEV-rev1673",
+    "version": "1.1.0-DEV-rev1682",
     "description": "Multimedia framework developed for research and academic purposes",
     "homepage": "https://gpac.wp.imt.fr/",
     "license": "LGPL-2.1-or-later",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-1.1.0-DEV-rev1673-gc53866d3-master-x64.exe#/dl.7z",
-            "hash": "c8ffac0f8140465b454fbd18f590528be9539c3c5a06e326a23e82070a9548e8"
+            "url": "http://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-1.1.0-DEV-rev1682-g6b5bdbc7-master-x64.exe#/dl.7z",
+            "hash": "1fa2a95e0f552a1ed2fa5814797ffdcab5991cb5831631a377d4482e53d1223b"
         },
         "32bit": {
-            "url": "http://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-1.1.0-DEV-rev1673-gc53866d3-master-win32.exe#/dl.7z",
-            "hash": "3b2749c2f2c74d42e9a4ec4252df0f4da37938bb7aeebda470de049490c86eba"
+            "url": "http://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-1.1.0-DEV-rev1682-g6b5bdbc7-master-win32.exe#/dl.7z",
+            "hash": "a0113e2435925b56803ffd2ed61c24452b4b21d5bd2a9bb123afdff63a4165dc"
         }
     },
     "pre_install": [
