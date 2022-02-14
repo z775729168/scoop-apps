@@ -1,16 +1,16 @@
 {
-    "version": "98.0b2",
+    "version": "98.0b4",
     "description": "Beta builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/en-US/firefox/beta/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/98.0b2/win64/en-US/Firefox%20Setup%2098.0b2.exe#/dl.7z",
-            "hash": "sha512:e3a9486a3ef4888f7b6fbf7bd940ad10858dec7bded3903d2a93f4fbcb7b30f25a3bbe41ed50d57a464c4d7db961cff407692f5b0786143a578f95e83f88857a"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/98.0b4/win64/en-US/Firefox%20Setup%2098.0b4.exe#/dl.7z",
+            "hash": "sha512:1b0958ef70fd2068561ad22f2e94ea02cf7c09681b6ae4c27560ca9958c49911a11e8c4cc015ab69d72b2fcdaa7c1b36847c705f53bde9591ba980275b09d084"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/98.0b2/win32/en-US/Firefox%20Setup%2098.0b2.exe#/dl.7z",
-            "hash": "sha512:afbb29ff9fa5842fd0235bca34bf9187c26afd7b64d2e35fb9c030e834499b19b4f08befafd754f7b844c0ce2bc436e097bdb9b599afd045e43c71120bb3bc90"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/98.0b4/win32/en-US/Firefox%20Setup%2098.0b4.exe#/dl.7z",
+            "hash": "sha512:5e733322e4c58d1e72a476493ab7693ac41a1efdc9d5cead501fee6ead178484405fb81d66bce6cad60d65f99ef4d66c7b82c68534506ddf8a8e848bb2617380"
         }
     },
     "extract_dir": "core",
