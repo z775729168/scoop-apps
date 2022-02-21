@@ -366,6 +366,7 @@ zeebe-modeler.json    ScoopInstaller/Extras
 streamlink.json    ScoopInstaller/Extras
 silex-desktop.json    ScoopInstaller/Extras
 snaketail.json    ScoopInstaller/Extras
+mendeley.json    ScoopInstaller/Extras
 metrogit.json    ScoopInstaller/Extras
 squashfs-tools.json    ScoopInstaller/Extras
 stellarium.json    ScoopInstaller/Extras
@@ -453,7 +454,6 @@ pandownload.json    ScoopInstaller/Extras
 dartium-content-shell.json    ScoopInstaller/Extras
 bulk-rename-utility.json    ScoopInstaller/Extras
 rawtherapee.json    ScoopInstaller/Extras
-task.json    ScoopInstaller/Extras
 keepass-plugin-keeanywhere.json    ScoopInstaller/Extras
 resizer.json    ScoopInstaller/Extras
 wiztree.json    ScoopInstaller/Extras
@@ -978,6 +978,7 @@ explorerplusplus.json    ScoopInstaller/Extras
 inboxer.json    ScoopInstaller/Extras
 ocat.json    ScoopInstaller/Extras
 mqttx.json    ScoopInstaller/Extras
+jexiftoolgui.json    ScoopInstaller/Extras
 krita.json    ScoopInstaller/Extras
 ytsubconverter.json    ScoopInstaller/Extras
 logstalgia.json    ScoopInstaller/Extras
@@ -1237,6 +1238,7 @@ mp3directcut.json    ScoopInstaller/Extras
 responsively.json    ScoopInstaller/Extras
 msbuild-structured-log-viewer.json    ScoopInstaller/Extras
 linqpad.json    ScoopInstaller/Extras
+mumble-server.json    ScoopInstaller/Extras
 jaspersoft-studio.json    ScoopInstaller/Extras
 vapoursyntheditor.json    ScoopInstaller/Extras
 kid3.json    ScoopInstaller/Extras
@@ -2054,6 +2056,7 @@ zulu16-jdk.json    ScoopInstaller/Java
 zulu15-jre.json    ScoopInstaller/Java
 zulufx16-jre.json    ScoopInstaller/Java
 liberica-lite-jdk.json    ScoopInstaller/Java
+dragonwell17-jdk.json    ScoopInstaller/Java
 zulu12-jre.json    ScoopInstaller/Java
 gluon-openjfx-monocle-sdk.json    ScoopInstaller/Java
 dragonwell8-jdk.json    ScoopInstaller/Java
@@ -3569,6 +3572,7 @@ regdelta.json    rasa/scoops
 remount.json    rasa/scoops
 id3mtag.json    rasa/scoops
 res-set.json    rasa/scoops
+stc.json    rasa/scoops
 ztree.json    rasa/scoops
 mvmc.json    rasa/scoops
 openssh-win32.json    rasa/scoops
@@ -4468,7 +4472,6 @@ SciHubEVA.json    dodorz/scoop
 Wing101.json    dodorz/scoop
 PDFMatePDFMerger.json    dodorz/scoop
 Screenink.json    dodorz/scoop
-Typora_dodorz.json    dodorz/scoop
 okPlayer.json    dodorz/scoop
 ArcThemALL.json    dodorz/scoop
 kpcli_dodorz.json    dodorz/scoop
@@ -4728,6 +4731,7 @@ proton-launcher.json    kiennq/scoop-misc
 llvm-x.json    kiennq/scoop-misc
 cemuhook-webgyro.json    kiennq/scoop-misc
 emax64.json    kiennq/scoop-misc
+emusak-ui.json    kiennq/scoop-misc
 cemu-x.json    kiennq/scoop-misc
 neovim-dev.json    kiennq/scoop-misc
 emacs-x.json    kiennq/scoop-misc
@@ -4764,7 +4768,6 @@ wechat-beta.json    scoopcn/scoopcn
 dolphin_borger.json    borger/scoop-emulators
 tegra-rcm-gui.json    borger/scoop-emulators
 desmume_borger.json    borger/scoop-emulators
-citra_borger.json    borger/scoop-emulators
 mgba-dev_borger.json    borger/scoop-emulators
 pcsx2-dev_borger.json    borger/scoop-emulators
 cemuhook_borger.json    borger/scoop-emulators
@@ -5772,6 +5775,7 @@ SABnzbd-Portable.json    ACooper81/scoop-apps
 VideoReDoTVSuiteV6-Install.json    ACooper81/scoop-apps
 ComputerManagementDsc-PSModule.json    ACooper81/scoop-apps
 DadroitJsonViewer-Portable.json    ACooper81/scoop-apps
+PeerBlock-Portable.json    ACooper81/scoop-apps
 SordumRunAsTool-Portable.json    ACooper81/scoop-apps
 Capture2Text-Portable.json    ACooper81/scoop-apps
 DHCPServer-Portable.json    ACooper81/scoop-apps
@@ -6028,6 +6032,7 @@ MiTeCTaskManagerDeLuxe-Portable.json    ACooper81/scoop-apps
 NirsoftControlMyMonitor-Portable.json    ACooper81/scoop-apps
 SoftwareOKAutoHideDesktopIcons-Portable.json    ACooper81/scoop-apps
 FlowLauncher-Portable.json    ACooper81/scoop-apps
+WinSCP-Portable.json    ACooper81/scoop-apps
 VirtualBoxWithExtensionPack-Install.json    ACooper81/scoop-apps
 MicrosoftVisualStudioCommunity2022-Install.json    ACooper81/scoop-apps
 taskbarx_ACooper81.json    ACooper81/scoop-apps
