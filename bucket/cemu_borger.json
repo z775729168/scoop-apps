@@ -1,8 +1,11 @@
 {
     "homepage": "https://cemu.info/",
-    "description": "Nintendo Wii emulator",
+    "description": "Nintendo Wii U emulator",
     "version": "1.26.2f",
-    "license": "Freeware",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://cemu.info"
+    },
     "architecture": {
         "64bit": {
             "url": "https://cemu.info/releases/cemu_1.26.2.zip",
