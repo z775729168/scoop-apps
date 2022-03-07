@@ -1,7 +1,11 @@
 {
-    "homepage": "https://citra-emu.org/",
     "version": "1757",
-    "license": "GPL-2.0-only",
+    "description": "Nintendo 3DS emulator",
+    "homepage": "https://citra-emu.org/",
+    "license": {
+        "url": "https://github.com/citra-emu/citra-nightly/blob/master/license.txt",
+        "identifier": "GPL-2.0"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/citra-emu/citra-nightly/releases/download/nightly-1757/citra-windows-mingw-20220305-ac98458.7z",
@@ -9,19 +13,31 @@
         }
     },
     "extract_dir": "nightly-mingw",
-    "shortcuts": [
-        [
-            "citra-qt.exe",
-            "Citra (Nightly)"
-        ]
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\user\")) {",
+        "   New-Item -Path \"$persist_dir\" -Name \"user\" -ItemType \"directory\" | Out-Null",
+        "   if (Test-Path \"$env:APPDATA\\Citra\") {",
+        "       Write-host \"Migrating AppData...\" -ForegroundColor yellow",
+        "       Copy-Item -Path \"$env:APPDATA\\Citra\\*\" -Destination \"$persist_dir\\user\" -Recurse",
+        "       Remove-Item -Path \"$env:APPDATA\\Citra\" -Recurse",
+        "   }",
+        "}"
     ],
     "bin": [
         "citra.exe",
+        "citra-qt.exe",
         "citra-room.exe"
     ],
+    "shortcuts": [
+        [
+            "citra-qt.exe",
+            "Citra"
+        ]
+    ],
+    "persist": "user",
     "checkver": {
-        "url": "https://github.com/citra-emu/citra-nightly/releases",
-        "regex": "/citra-emu/citra-nightly/releases/download/nightly-([\\d]+)/citra-windows-(?<env>[\\w]+)-(?<commit>[\\d]{8}-[\\da-f]{7})\\.(?<zip>7z|zip)"
+        "github": "https://github.com/citra-emu/citra-nightly",
+        "regex": "download/nightly-([\\d]+)/citra-windows-(?<env>[\\w]+)-(?<commit>[\\d]{8}-[\\da-f]{7})\\.(?<zip>7z|zip)"
     },
     "autoupdate": {
         "architecture": {
@@ -29,6 +45,6 @@
                 "url": "https://github.com/citra-emu/citra-nightly/releases/download/nightly-$version/citra-windows-$matchEnv-$matchCommit.$matchZip"
             }
         },
-        "extract_dir": "nightly-$matchEnv"
+        "extract_dir": "canary-$matchEnv"
     }
 }

@@ -9,13 +9,13 @@
             "hash": "53f2b83c1ba06229932e2f080f8a458a20206c0509ad14357206fce4718d7954"
         }
     },
+    "post_install": "New-Item -ItemType file \"$dir\\portable.txt\" | Out-Null",
     "shortcuts": [
         [
             "pegasus-fe.exe",
             "Pegasus (Latest)"
         ]
     ],
-    "post_install": "New-Item -ItemType file \"$dir\\portable.txt\" | Out-Null",
     "checkver": {
         "url": "https://api.github.com/repos/mmatyas/pegasus-frontend/releases/tags/continuous",
         "regex": "continuous/pegasus-fe_([\\w\\d-]+)_win-mingw-static.zip"
