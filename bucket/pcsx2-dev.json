@@ -1,0 +1,88 @@
+{
+    "version": "1.7.2466",
+    "description": "A feature rich FOSS PlayStation 2 emulator (development version)",
+    "homepage": "https://pcsx2.net/",
+    "license": {
+        "url": "https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3",
+        "identifier": "GPL-3.0"
+    },
+    "notes": [
+        "ATTENTION: PCSX2 requires a dump of the PS2 BIOS to function.",
+        "Place the BIOS file in $persist_dir\\bios",
+        "Learn more at https://wiki.pcsx2.net/Setting_up_Windows_version#BIOS"
+    ],
+    "suggest": {
+        "Microsoft Visual C++ Runtime 2019": "extras/vcredist2019"
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\")) {",
+        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
+        "   if (Test-Path \"$env:USERPROFILE\\Documents\\PCSX2\") {",
+        "       Write-host \"Migrating AppData...\" -ForegroundColor yellow",
+        "       Copy-Item -Path \"$env:USERPROFILE\\Documents\\PCSX2\\*\" -Destination \"$persist_dir\" -Recurse",
+        "       Remove-Item -Path \"$env:USERPROFILE\\Documents\\PCSX2\" -Recurse",
+        "   }",
+        "}"
+    ],
+    "persist": [
+        "bios",
+        "cheats_ws",
+        "cheats",
+        "inis",
+        "logs",
+        "memcards",
+        "portable.ini",
+        "shaders\\GSdx_FX_Settings.ini",
+        "snaps",
+        "sstates"
+    ],
+    "checkver": {
+        "url": "https://github.com/PCSX2/pcsx2/releases.atom",
+        "regex": "v(?<basever>\\d+\\.\\d+)\\.(?<build>\\d+)",
+        "replace": "${basever}.${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-32bit-AVX2.7z"
+            },
+            "64bit": {
+                "url": "https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-64bit-AVX2.7z"
+            }
+        }
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.2466/pcsx2-v1.7.2466-windows-32bit-AVX2.7z",
+            "hash": "9ee8f83d6cc104b7b654a498dcd02db183f59a46e2d3e110a800ac11a28b9e4a",
+            "bin": [
+                [
+                    "pcsx2-avx2.exe",
+                    "pcsx2-dev"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "pcsx2-avx2.exe",
+                    "PCSX2 (development)"
+                ]
+            ]
+        },
+        "64bit": {
+            "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.2466/pcsx2-v1.7.2466-windows-64bit-AVX2.7z",
+            "hash": "05dfb1cfa17796904ce635d572ba5a8281272f0a307e0fe36a2c404339dd8280",
+            "bin": [
+                [
+                    "pcsx2x64-avx2.exe",
+                    "pcsx2-dev"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "pcsx2x64-avx2.exe",
+                    "PCSX2 (development)"
+                ]
+            ]
+        }
+    }
+}

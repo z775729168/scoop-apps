@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/alibaba/nacos",
+    "license": "Apache-2.0",
+    "version": "1.4.3",
+    "url": "https://github.com/alibaba/nacos/releases/download/1.4.3/nacos-server-1.4.3.zip",
+    "hash": "0c6ab72c8612d179da041c7a5e5073f2148275df549a9e08e8011dd7eadb026a",
+    "extract_dir": "nacos",
+    "bin": [
+        [
+            "bin\\startup.cmd",
+            "nacos-startup"
+        ],
+        [
+            "bin\\shutdown.cmd",
+            "nacos-shutdown"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "tomcat/oraclejdk8",
+            "java/openjdk",
+            "java/temurin11-jdk",
+            "java/zulu"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/alibaba/nacos"
+    },
+    "autoupdate": {
+        "url": "https://github.com/alibaba/nacos/releases/download/$version/nacos-server-$version.zip",
+        "extract_dir": "nacos"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "homepage": "https://www.glorylogic.com/encrypt-care.html",
+    "description": "Encrypt or decrypt text and files in batch mode, generate, verify and export file checksums.",
+    "version": "5.0",
+    "license": "For personal use only",
+    "url": "https://www.glorylogic.com/downloads/encryptcare_5.0.exe",
+    "hash": "4426be5e3593d44cb4275f95d90ce01a37d2fe6abc628f47ffb1c0626a6ad617",
+    "innosetup": true,
+    "bin": "encryptcare.exe",
+    "shortcuts": [
+        [
+            "encryptcare.exe",
+            "Encrypt Care Free"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.glorylogic.com/download.html",
+        "regex": "Encrypt Care .*?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.glorylogic.com/downloads/encryptcare_$version.exe"
+    }
+}

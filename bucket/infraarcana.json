@@ -1,0 +1,40 @@
+{
+    "version": "20220313-18847e15",
+    "description": "A roguelike game set in the early 20th century",
+    "homepage": "https://sites.google.com/site/infraarcana/home",
+    "license": {
+        "url": "https://gitlab.com/martin-tornqvist/ia/-/blob/develop/installed_files/LICENSE.txt",
+        "identifier": "AGPL-3.0-or-later"
+    },
+    "notes": "User data are stored in C:\\Users\\[USERNAME]\\AppData\\Roaming\\infra_arcana",
+    "shortcuts": [
+        [
+            "ia.exe",
+            "Infra Arcana\\Infra Arcana"
+        ],
+        [
+            "manual.txt",
+            "Infra Arcana\\Infra Arcana Manual"
+        ]
+    ],
+    "checkver": {
+        "url": "https://gitlab.com/martin-tornqvist/ia/-/jobs",
+        "regex": "passed(?:.*\\n){4}.*(?<job>[0-9]{10})\">build-windows(?:.*\\n){13}.*\\/commit\\/[0-9a-f]{40}\">(?<commit>[0-9a-f]{8})<\\/a>(?:.*\\n){20}.*datetime=\"(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})",
+        "replace": "${year}${month}${day}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitlab.com/martin-tornqvist/ia/-/jobs/$matchJob/artifacts/download#/dl.zip",
+                "extract_dir": "ia windows x64 $matchCommit $matchYear-$matchMonth-$matchDay"
+            }
+        }
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://gitlab.com/martin-tornqvist/ia/-/jobs/2196892839/artifacts/download#/dl.zip",
+            "hash": "72e8354c2012f4abb9e8b217509160e5231f459452ffd681dee3337c501e929c",
+            "extract_dir": "ia windows x64 18847e15 2022-03-13"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "version": "6.0.2",
+    "description": "A metadata scraper for JAV. (Movie Data Capture)",
+    "homepage": "https://github.com/yoshiko2/Movie_Data_Capture",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yoshiko2/Movie_Data_Capture/releases/download/6.0.2/Movie_Data_Capture-CLI-6.0.2-Windows-amd64.zip",
+            "hash": "b8239e876c879602fdb4d5cf82f33eb63839c43fe3713ad1d97a1dfaf7d148f9"
+        }
+    },
+    "bin": "Movie_Data_Capture.exe",
+    "persist": "config.ini",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/yoshiko2/Movie_Data_Capture/releases/download/$version/Movie_Data_Capture-CLI-$version-Windows-amd64.zip"
+            }
+        }
+    }
+}

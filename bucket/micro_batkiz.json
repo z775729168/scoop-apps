@@ -1,0 +1,35 @@
+{
+    "version": "3.10.0",
+    "description": "Micro is a platform for cloud native application development",
+    "homepage": "https://github.com/micro/micro",
+    "license": {
+        "identifier": "PolyForm Shield License",
+        "url": "https://github.com/micro/micro/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/micro/micro/releases/download/v3.10.0/micro-v3.10.0-windows-amd64.zip",
+            "hash": "d2ab497a597be84b83893906b95dc5bf93e91894bb8c60b8764b747bf5e8b96d"
+        },
+        "32bit": {
+            "url": "https://github.com/micro/micro/releases/download/v3.10.0/micro-v3.10.0-windows-386.zip",
+            "hash": "c66dbe21622b07f12a252c3cbe19e4aec51b50841edb1a47595d06f2a023beba"
+        }
+    },
+    "bin": "micro.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/micro/micro/releases/download/v$version/micro-v$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/micro/micro/releases/download/v$version/micro-v$version-windows-386.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/micro/micro/releases/download/v$version/checksums.txt",
+            "mode": "extract"
+        }
+    }
+}

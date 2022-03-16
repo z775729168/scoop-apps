@@ -1,0 +1,33 @@
+{
+    "version": "0.138.0",
+    "description": "A desktop debugging platform for mobile developers",
+    "homepage": "https://fbflipper.com",
+    "license": "MIT",
+    "suggest": {
+        "adb": "adb",
+        "watchman": "watchman"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/facebook/flipper/releases/download/v0.138.0/Flipper-win.zip",
+            "hash": "4c8046702b03c3ef4eb6ae6bbc662ee2037db7db544455d711b24bbcf1db5437"
+        }
+    },
+    "bin": "Flipper.exe",
+    "shortcuts": [
+        [
+            "Flipper.exe",
+            "Facebook Flipper"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/facebook/flipper"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/facebook/flipper/releases/download/v$version/Flipper-win.zip"
+            }
+        }
+    }
+}

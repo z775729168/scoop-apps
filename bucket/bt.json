@@ -1,0 +1,30 @@
+{
+    "version": "2.5",
+    "description": "Opens required browser based on configuration",
+    "homepage": "https://www.aloneguid.uk/projects/bt/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.aloneguid.uk/projects/bt/bin/bt-2.5.zip",
+            "hash": "ebbbca725662653f8c90b7579c9c8a06faac3cc6674ac8968762dac25134ea55"
+        }
+    },
+    "bin": "bt.exe",
+    "shortcuts": [
+        [
+            "bt.exe",
+            "Browser Tamer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.aloneguid.uk/projects/bt/bin/latest.txt",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.aloneguid.uk/projects/bt/bin/bt-$version.zip"
+            }
+        }
+    }
+}

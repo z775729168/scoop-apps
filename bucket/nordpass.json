@@ -1,0 +1,56 @@
+{
+    "version": "4.19.10",
+    "description": "A password management solution for a secure digital life.",
+    "homepage": "https://nordpass.com/",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.npass.app/windows/NordPassSetup.exe#/dl.7z",
+            "hash": "sha512:e19da8faf4db6b6b6a91baeed20b98f9a039422ee0101d0f7769df340a4992739eb71fbc0537aa9c5ac599239ccca7e56fad6b01472c25c0366eb94880958380",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+        },
+        "32bit": {
+            "url": "https://downloads.npass.app/windows_x86/NordPassSetup_x86.exe#/dl.7z",
+            "hash": "sha512:bcd5883724dfd4a8714ced6eb25c5f8d4b33c1238d8fc7c1ade43c16b07153a2133773c57d3c2c913460adbcd757b5b1576dfe2da2453021b4cdf606525f3a50",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
+    "bin": [
+        [
+            "NordPass.exe",
+            "NordPass",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "NordPass.exe",
+            "NordPass",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://downloads.npass.app/windows/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.npass.app/windows/NordPassSetup.exe#/dl.7z",
+                "hash": {
+                    "url": "https://downloads.npass.app/windows/latest.yml",
+                    "regex": "sha512:\\s*$base64"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.npass.app/windows_x86/NordPassSetup_x86.exe#/dl.7z",
+                "hash": {
+                    "url": "https://downloads.npass.app/windows_x86/latest.yml",
+                    "regex": "sha512:\\s*$base64"
+                }
+            }
+        }
+    }
+}

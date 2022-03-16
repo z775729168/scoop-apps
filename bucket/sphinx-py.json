@@ -1,0 +1,33 @@
+{
+    "version": "4.4.0",
+    "homepage": "https://www.sphinx-doc.org/en/master/",
+    "description": "Documentation builder.",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/sphinx-doc/sphinx/blob/3.x/LICENSE"
+    },
+    "depends": "python-bucket-utils",
+    "url": "https://github.com/sphinx-doc/sphinx/archive/v4.4.0.zip",
+    "hash": "17d9fe4773c6d7a5361407933739c4fbb65bab242cbd118cd7f6e2ca1c405c98",
+    "extract_dir": "sphinx-4.4.0",
+    "installer": {
+        "script": [
+            "if ($global) { install-python-package --global --quiet --dir $dir }",
+            "else { install-python-package --quiet --dir $dir }",
+            "if ($LASTEXITCODE) { exit 1 }"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "if ($global) { uninstall-python-package $app --global --dir $dir }",
+            "else { uninstall-python-package $app --dir $dir }"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/sphinx-doc/sphinx"
+    },
+    "autoupdate": {
+        "url": "https://github.com/sphinx-doc/sphinx/archive/v$version.zip",
+        "extract_dir": "sphinx-$version"
+    }
+}

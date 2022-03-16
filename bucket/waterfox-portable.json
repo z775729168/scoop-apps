@@ -1,0 +1,31 @@
+{
+    "version": "4.0.8",
+    "description": "The 100% fresh, free-range, ethical browser (portable classic branch).",
+    "homepage": "https://www.waterfox.net",
+    "license": "MPL-2.0",
+    "url": "https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.8/Waterfox.G4.0.8.Setup.exe#/dl.7z",
+    "hash": "76b964ecced62345e831aa6f3bfca1c92cf8e792d2e2779edc8bdcb6c92dfd95",
+    "extract_dir": "core",
+    "bin": [
+        [
+            "waterfox.exe",
+            "waterfox",
+            "-Profile \"$dir\\Profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "waterfox.exe",
+            "Waterfox",
+            "-Profile Profile"
+        ]
+    ],
+    "persist": "Profile",
+    "checkver": {
+        "github": "https://github.com/WaterfoxCo/Waterfox",
+        "regex": "/releases/tag/(?:v|V|g|G)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/WaterfoxCo/Waterfox/releases/download/G$version/Waterfox.G$version.Setup.exe#/dl.7z"
+    }
+}

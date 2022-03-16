@@ -1,0 +1,27 @@
+{
+    "homepage": "https://visualvm.github.io/",
+    "license": "https://visualvm.github.io/gplv2+ce.html",
+    "version": "2.1.2",
+    "url": "https://github.com/oracle/visualvm/releases/download/2.1.2/visualvm_212.zip",
+    "hash": "37017782ebf14c02f535cdf8b5e2e0ef4e74659df60d776e11897346e7e6eb5c",
+    "extract_dir": "visualvm_212",
+    "bin": [
+        [
+            "bin\\visualvm.exe",
+            "visualvm"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "bin\\visualvm.exe",
+            "VisualVM"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/oracle/visualvm"
+    },
+    "autoupdate": {
+        "url": "https://github.com/oracle/visualvm/releases/download/$version/visualvm_$cleanVersion.zip",
+        "extract_dir": "visualvm_$cleanVersion"
+    }
+}

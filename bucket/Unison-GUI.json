@@ -1,0 +1,39 @@
+{
+    "homepage": "https://www.cis.upenn.edu/~bcpierce/unison",
+    "license": "GPL-3.0-only",
+    "version": "2.52.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bcpierce00/unison/releases/download/v2.52.0/unison-v2.52.0+ocaml-4.12.1+x86_64.windows.zip",
+            "hash": "47ff268b77db8215556e1b2116a9b43c7364ee1d28cf241cd60e5e9d085da20d"
+        },
+        "32bit": {
+            "url": "https://github.com/bcpierce00/unison/releases/download/v2.52.0/unison-v2.52.0+ocaml-4.10.2+i386.windows.zip",
+            "hash": "19f2e1ba39f300fada565c687ff726fa6bff140511b2bf7d0acc19843e6d412f"
+        }
+    },
+    "bin": [
+        "bin\\unison.exe",
+        "bin\\unison-gtk2.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\unison-gtk2.exe",
+            "Unison"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/bcpierce00/unison/releases/latest",
+        "regex": "unison-v[\\d.]+\\d\\+ocaml-(?<ocver32>[\\d.]+)\\+i386.windows.zip[\\w\\W]*unison-v([\\d.]+\\d)\\+ocaml-(?<ocver64>[\\d.]+)\\+x86_64.windows.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bcpierce00/unison/releases/download/v$version/unison-v$version+ocaml-$matchOcver64+x86_64.windows.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/bcpierce00/unison/releases/download/v$version/unison-v$version+ocaml-$matchOcver32+i386.windows.zip"
+            }
+        }
+    }
+}

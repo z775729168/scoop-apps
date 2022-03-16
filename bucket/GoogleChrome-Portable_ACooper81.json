@@ -1,0 +1,39 @@
+{
+    "##": "http://get-chrome.herokuapp.com/",
+    "version": "99.0.4844.74",
+    "description": "Google Chrome. Fast, secure, and free web browser, built for the modern web.",
+    "homepage": "https://www.google.com/chrome/",
+    "notes": "https://tools.shuax.com/chrome/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.google.com/chrome/privacy/eula_text.html"
+    },
+    "changelog": "https://chromereleases.googleblog.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/release2/chrome/ad5qsbmqmqcmile6xtm25ucb7hkq_99.0.4844.74/99.0.4844.74_chrome_installer.exe#/dl.7z",
+            "hash": "39540ac1bf3979bd11a09d0843aa5f66bdf2ba0cf234c2eb186a5728fa35dda4"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/release2/chrome/ad5qsbmqmqcmile6xtm25ucb7hkq_99.0.4844.74/99.0.4844.74_chrome_installer.exe#/dl.7z",
+            "hash": "39540ac1bf3979bd11a09d0843aa5f66bdf2ba0cf234c2eb186a5728fa35dda4"
+        }
+    },
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
+    },
+    "bin": "chrome.exe",
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Google Chrome"
+        ]
+    ],
+    "checkver": {
+        "url": "http://get-chrome.herokuapp.com/",
+        "regex": "(?sm)https://dl.google.com(?<downloadurl>[\\w.-/].*?)</code>.*?_([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://dl.google.com$matchDownloadurl#/dl.7z"
+    }
+}

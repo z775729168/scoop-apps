@@ -1,0 +1,31 @@
+{
+    "version": "0.33",
+    "description": "A simple terminal UI for git commands",
+    "homepage": "https://github.com/jesseduffield/lazygit",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.33/lazygit_0.33_Windows_x86_64.zip",
+            "hash": "80e9d7849ca86077b56238e680484f6ec1d4d6efb39b036c8a601538e396d399"
+        },
+        "32bit": {
+            "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.33/lazygit_0.33_Windows_32-bit.zip",
+            "hash": "477c6848c1a6f152473940b64aa30ed4b0002846baa1bbd1c3d2e945697cac0c"
+        }
+    },
+    "bin": "lazygit.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jesseduffield/lazygit/releases/download/v$version/lazygit_$version_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/jesseduffield/lazygit/releases/download/v$version/lazygit_$version_Windows_32-bit.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

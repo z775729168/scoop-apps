@@ -1,0 +1,33 @@
+{
+    "version": "0.0.6",
+    "description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go",
+    "homepage": "https://projectdiscovery.io/open-source",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/projectdiscovery/proxify/releases/download/v0.0.6/proxify_0.0.6_windows_amd64.zip",
+            "hash": "0a39860249813a88e21a3648edf0042c6a89cb892246a56c6781a9ce03180d1a"
+        },
+        "32bit": {
+            "url": "https://github.com/projectdiscovery/proxify/releases/download/v0.0.6/proxify_0.0.6_windows_386.zip",
+            "hash": "36cea6f05bd2e6670f51c4aff8cf6893a2eeec7d2830c26742943194473ca991"
+        }
+    },
+    "bin": "proxify.exe",
+    "checkver": {
+        "github": "https://github.com/projectdiscovery/proxify"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/projectdiscovery/proxify/releases/download/v$version/proxify_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/projectdiscovery/proxify/releases/download/v$version/proxify_$version_windows_386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/proxify_$version_checksums.txt"
+        }
+    }
+}

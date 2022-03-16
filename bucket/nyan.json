@@ -1,0 +1,32 @@
+{
+    "version": "0.11.0",
+    "description": "Colored `cat` command.",
+    "homepage": "https://github.com/toshimaru/nyan",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/toshimaru/nyan/releases/download/v0.11.0/nyan_Windows_x86_64.zip",
+            "hash": "50ce18b0976d9f6f7073a9df4d78354136ef8a31804c59ab60fba751da7a8c6c"
+        },
+        "32bit": {
+            "url": "https://github.com/toshimaru/nyan/releases/download/v0.11.0/nyan_Windows_i386.zip",
+            "hash": "2d7bc5521381817a0f007abad79ff09dcab8733587d9f54ebd66d77a3d1dafb2"
+        }
+    },
+    "bin": "nyan.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/toshimaru/nyan/releases/download/v$version/nyan_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/toshimaru/nyan/releases/download/v$version/nyan_Windows_i386.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/toshimaru/nyan/releases/download/v$version/checksums.txt",
+            "mode": "extract"
+        }
+    }
+}

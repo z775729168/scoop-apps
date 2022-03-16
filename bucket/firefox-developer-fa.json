@@ -1,0 +1,59 @@
+{
+    "version": "99.0b4",
+    "description": "Developer builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/fa-IR/firefox/developer/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/devedition/releases/99.0b4/win64/fa-IR/Firefox%20Setup%2099.0b4.exe#/dl.7z",
+            "hash": "sha512:4f908e367ba37dc95dd9ef429e049d386c11e0f6f96f928598eb093fab86b4f72ba9b7e60cf1f0e432bf797cde21b3691e916ef40417a3595421d183d4b543e7"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/devedition/releases/99.0b4/win32/fa-IR/Firefox%20Setup%2099.0b4.exe#/dl.7z",
+            "hash": "sha512:4f908e367ba37dc95dd9ef429e049d386c11e0f6f96f928598eb093fab86b4f72ba9b7e60cf1f0e432bf797cde21b3691e916ef40417a3595421d183d4b543e7"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-dev-fa",
+            "-profile \"$dir\\profile\""
+        ],
+        [
+            "firefox.exe",
+            "firefox-developer-fa",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Developer (fa)",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "persist": "profile",
+    "checkver": {
+        "url": "https://www.mozilla.org/de/firefox/all/",
+        "regex": "<option value=\"desktop_developer\">([\\db.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win64/fa-IR/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/fa-IR/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win32/fa-IR/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/fa-IR/$basename"
+                }
+            }
+        }
+    }
+}

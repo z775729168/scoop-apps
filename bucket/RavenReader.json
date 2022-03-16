@@ -1,0 +1,26 @@
+{
+    "homepage": "https://ravenreader.app",
+    "license": "MIT",
+    "version": "1.0.72",
+    "url": "https://download.helloefficiency.com/ravenreader/Raven%20Reader%20Setup%201.0.72.exe#/dl.7z",
+    "hash": "9b552a4848152c4f862ab0327fb54ec934afa888c1ac7c9c37579c3cc9c91cfd",
+    "installer": {
+        "script": [
+            "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall Raven Reader.exe\" -Force -Recurse"
+        ]
+    },
+    "bin": "Raven Reader.exe",
+    "shortcuts": [
+        [
+            "Raven Reader.exe",
+            "Raven Reader"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hello-efficiency-inc/raven-reader"
+    },
+    "autoupdate": {
+        "url": "https://download.helloefficiency.com/ravenreader/Raven%20Reader%20Setup%20$version.exe#/dl.7z"
+    }
+}

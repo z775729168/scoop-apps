@@ -1,0 +1,71 @@
+{
+    "version": "2.6.3",
+    "description": "Nintendo NES and Famicom emulator",
+    "homepage": "http://www.fceux.com",
+    "license": {
+        "url": "https://github.com/TASEmulators/fceux/blob/master/COPYING",
+        "identifier": "GPL-2.0"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/fceultra/Binaries/2.6.3/fceux-2.6.3-win32.zip",
+            "hash": "sha1:690bb213d7861c33fc1d4261eadb1820769850e2",
+            "bin": [
+                [
+                    "fceux.exe",
+                    "fceux"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "fceux.exe",
+                    "FCEUX"
+                ]
+            ]
+        },
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/fceultra/Binaries/2.6.3/qfceux-2.6.3-win64.zip",
+            "hash": "sha1:690bb213d7861c33fc1d4261eadb1820769850e2",
+            "extract_dir": "bin",
+            "bin": [
+                [
+                    "qfceux.exe",
+                    "fceux"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "qfceux.exe",
+                    "FCEUX"
+                ]
+            ]
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\fceux.cfg\")) {",
+        "    New-Item \"$dir\\fceux.cfg\" -Type File | Out-Null",
+        "}"
+    ],
+    "persist": [
+        "cheats",
+        "fcs",
+        "movies",
+        "sav",
+        "snaps",
+        "fceux.cfg"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/fceultra/rss?path=/Binaries/",
+        "regex": "Binaries/([\\d.]+)/fceux-[\\d.]+-win[\\d]{2}\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/fceultra/Binaries/$version/fceux-$version-win32.zip"
+            },
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/fceultra/Binaries/$version/qfceux-$version-win64.zip"
+            }
+        }
+    }
+}

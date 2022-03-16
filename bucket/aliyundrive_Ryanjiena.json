@@ -1,0 +1,37 @@
+{
+    "version": "2.4.0",
+    "description": "Aliyundrive is a fast, non-intrusive, secure enough, easy to share personal network disk.",
+    "homepage": "https://www.aliyundrive.com/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.aliyundrive.com/protocol/service"
+    },
+    "url": "https://yunpan.aliyun.com/downloads/apps/desktop/aDrive-2.4.0.exe#/dl.7z",
+    "hash": "sha512:712ee39677f6f3c90286d123464625ad0d0666d8b5819dd747645b694575b958442aab4c0d5de477dfc97bddd2ded3fdbb62ee3eefe441d678028e95312801c0",
+    "pre_install": [
+        "Remove-Item \"$dir\\$*\" -Recurse",
+        "Remove-Item \"$dir\\Uninst*\" -Recurse"
+    ],
+    "uninstaller": {
+        "script": "Write-Host \"Remove User Data: 'Remove-Item -Path \"$env:APPDATA\\aDrive\" -Recurse -Force'\" -Foreground Magenta"
+    },
+    "bin": "aDrive.exe",
+    "shortcuts": [
+        [
+            "aDrive.exe",
+            "阿里云盘"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/aliyundrive-latest.yml",
+        "regex": "^version:[\\s]+([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://yunpan.aliyun.com/downloads/apps/desktop/aDrive-$version.exe#/dl.7z",
+        "hash": {
+            "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/aliyundrive-latest.yml",
+            "mode": "extract",
+            "regex": "sha512.*?$base64"
+        }
+    }
+}

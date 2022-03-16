@@ -1,0 +1,58 @@
+{
+    "version": "2022.1-221.4994.43",
+    "description": "Cross-Platform IDE for Ruby on Rails by JetBrains. (Early Access Program)",
+    "homepage": "https://www.jetbrains.com/ruby/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.jetbrains.com/store/license.html"
+    },
+    "url": "https://download.jetbrains.com/ruby/RubyMine-221.4994.43.exe#/dl.7z",
+    "hash": "c94fb0dd2bd10a68fc751656d8744e8f5cab2d6f1e175c8b6c0369a555b56b88",
+    "extract_to": "IDE",
+    "installer": {
+        "script": [
+            "& \"$bucketsdir\\versions\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
+            "Remove-Item \"$dir\\IDE\\`$*\" -Force -Recurse"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "IDE\\bin\\rubymine64.exe",
+                    "rubymine"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "IDE\\bin\\rubymine64.exe",
+                    "JetBrains\\RubyMine (Early Access Program)"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "IDE\\bin\\rubymine.exe",
+            "shortcuts": [
+                [
+                    "IDE\\bin\\rubymine.exe",
+                    "JetBrains\\RubyMine (Early Access Program)"
+                ]
+            ]
+        }
+    },
+    "persist": [
+        "IDE\\bin\\idea.properties",
+        "profile"
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=RM&latest=true&platform=zip&type=eap",
+        "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
+        "replace": "${ver}-${build}"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/ruby/RubyMine-$preReleaseVersion.exe#/dl.7z",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
