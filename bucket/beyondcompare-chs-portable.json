@@ -6,7 +6,6 @@
         "identifier": "Shareware",
         "url": "https://www.scootersoftware.com/index.php?zz=kb_licensev4"
     },
-    "notes": "Add Beyond Compare as a context menu option by running: '$dir\\install-context.reg'",
     "url": "https://pan.jiemi.workers.dev/?file=/scoop/BCompare/BComparePortable_v4.4.1.26165_20211220.7z",
     "hash": "63e7a3ce816dd3c6ccf0455e9a3fef0ea061728e45e268bd25f0068ef514da8d",
     "bin": [
@@ -20,20 +19,6 @@
             "BComparePortable.exe",
             "Beyond Compare 4"
         ]
-    ],
-    "post_install": [
-        "$dir_escaped = \"$dir\".Replace('\\', '\\\\')",
-        "\"install-context-$architecture\", \"uninstall-context\" | ForEach-Object {",
-        "  if (Test-Path \"$bucketsdir\\extras\\scripts\\beyondcompare\\$_.reg\") {",
-        "    $content = Get-Content \"$bucketsdir\\extras\\scripts\\beyondcompare\\$_.reg\"",
-        "    $content = $content.Replace('$install_dir', $dir_escaped)",
-        "    if ($global) {",
-        "      $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
-        "    }",
-        "    $outfile_no_arch = $_.Replace(\"-$architecture\", \"\")",
-        "    $content | Set-Content -Path \"$dir\\$outfile_no_arch.reg\"",
-        "  }",
-        "}"
     ],
     "checkver": {
         "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/bcompare",
