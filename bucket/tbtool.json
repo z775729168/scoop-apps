@@ -38,12 +38,12 @@
         "PnPDevice.ini"
     ],
     "checkver": {
-        "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/tools#/dl.7z",
+        "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/tools",
         "regex": "(?s)(?<filename>tbtool_v(?<version>[\\d.]+)_(?<date>\\d+)\\.(?:exe|zip|7z))",
         "reverse": true
     },
     "autoupdate": {
-        "url": "https://pan.jiemi.workers.dev/?file=/scoop/tools/$matchFilename",
+        "url": "https://pan.jiemi.workers.dev/?file=/scoop/tools/$matchFilename#/dl.7z",
         "hash": {
             "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/tools",
             "mode": "extract",
