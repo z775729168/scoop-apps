@@ -1,4 +1,5 @@
 name    bucket
+mailmaster.json    kkzzhizhou/scoop-zapps
 goproxy.json    kkzzhizhou/scoop-zapps
 termius.json    kkzzhizhou/scoop-zapps
 lx-music-desktop.json    kkzzhizhou/scoop-zapps
@@ -9,6 +10,7 @@ Grub2.json    kkzzhizhou/scoop-zapps
 ShadowsocksR.json    kkzzhizhou/scoop-zapps
 SogouPinyin-Portable.json    kkzzhizhou/scoop-zapps
 wintogo.json    kkzzhizhou/scoop-zapps
+aliyunpan.json    kkzzhizhou/scoop-zapps
 Whitecloud.json    kkzzhizhou/scoop-zapps
 ZeroTier.json    kkzzhizhou/scoop-zapps
 officetool-dotnet.json    kkzzhizhou/scoop-zapps
@@ -64,6 +66,7 @@ nmap.json    kkzzhizhou/scoop-zapps
 winsnap.json    kkzzhizhou/scoop-zapps
 SecureCRT.json    kkzzhizhou/scoop-zapps
 BatToExeConverter.json    kkzzhizhou/scoop-zapps
+neteasepopo.json    kkzzhizhou/scoop-zapps
 Notepad3-mod.json    kkzzhizhou/scoop-zapps
 magnetW.json    kkzzhizhou/scoop-zapps
 ApkMessenger.json    kkzzhizhou/scoop-zapps
@@ -527,6 +530,7 @@ gcfscape.json    ScoopInstaller/Extras
 ryzen-controller.json    ScoopInstaller/Extras
 dont-sleep.json    ScoopInstaller/Extras
 keepass-plugin-readable-passphrase.json    ScoopInstaller/Extras
+winspy.json    ScoopInstaller/Extras
 painter.json    ScoopInstaller/Extras
 love.json    ScoopInstaller/Extras
 text-grab.json    ScoopInstaller/Extras
@@ -2866,6 +2870,7 @@ openssl-light.json    ScoopInstaller/Versions
 webstorm-eap.json    ScoopInstaller/Versions
 slack-beta.json    ScoopInstaller/Versions
 postgresql13.json    ScoopInstaller/Versions
+oss-cad-suite-nightly.json    ScoopInstaller/Versions
 nodejs7.json    ScoopInstaller/Versions
 pycharm-rc.json    ScoopInstaller/Versions
 tomcat8.json    ScoopInstaller/Versions
@@ -6210,12 +6215,10 @@ BBDown_Ryanjiena.json    Ryanjiena/scoop-apps
 biyi_Ryanjiena.json    Ryanjiena/scoop-apps
 typora-stable.json    Ryanjiena/scoop-apps
 aliyundrive_Ryanjiena.json    Ryanjiena/scoop-apps
-clash-for-windows-portable-cn.json    Ryanjiena/scoop-apps
 google-chrome-dev-portable.json    Ryanjiena/scoop-apps
 tbtool.json    Ryanjiena/scoop-apps
 wepe.json    Ryanjiena/scoop-apps
 MouseInc_Ryanjiena.json    Ryanjiena/scoop-apps
-clash-for-windows-cn.json    Ryanjiena/scoop-apps
 360chromex-portable.json    Ryanjiena/scoop-apps
 tldr_Ryanjiena.json    Ryanjiena/scoop-apps
 Office-Tool-ISO-en-us.json    Ryanjiena/scoop-apps
@@ -6341,7 +6344,6 @@ caffeinated.json    naderi/scoop-bucket
 bitmana.json    naderi/scoop-bucket
 firefox-nightly-de.json    naderi/scoop-bucket
 keyfinder.json    naderi/scoop-bucket
-thisiswin11_naderi.json    naderi/scoop-bucket
 launchy-qt.json    naderi/scoop-bucket
 sshfs.json    naderi/scoop-bucket
 wavebox-portable.json    naderi/scoop-bucket
@@ -6387,7 +6389,6 @@ windedit.json    naderi/scoop-bucket
 xnview-classic-min.json    naderi/scoop-bucket
 fmedia_naderi.json    naderi/scoop-bucket
 mdict_naderi.json    naderi/scoop-bucket
-whynotwin11_naderi.json    naderi/scoop-bucket
 hash-explorer_naderi.json    naderi/scoop-bucket
 cwtch.json    naderi/scoop-bucket
 mp3tag-portable.json    naderi/scoop-bucket
@@ -6460,7 +6461,6 @@ tortoise-svn.json    naderi/scoop-bucket
 dont-sleep-portable.json    naderi/scoop-bucket
 directory-compare.json    naderi/scoop-bucket
 fontviewok.json    naderi/scoop-bucket
-figma_naderi.json    naderi/scoop-bucket
 dev-cpp-no-compiler.json    naderi/scoop-bucket
 mitec-windows-registry-recovery.json    naderi/scoop-bucket
 thunderbird-fa.json    naderi/scoop-bucket
