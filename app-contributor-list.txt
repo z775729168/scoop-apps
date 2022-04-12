@@ -4650,6 +4650,7 @@ dug.json    hoilc/scoop-lemon
 lamedropxpd.json    hoilc/scoop-lemon
 pinniped-cli.json    hoilc/scoop-lemon
 imgpkg.json    hoilc/scoop-lemon
+skywalking-cli.json    hoilc/scoop-lemon
 helio.json    hoilc/scoop-lemon
 wincrypt-sshagent_hoilc.json    hoilc/scoop-lemon
 trdsql.json    hoilc/scoop-lemon
@@ -5505,6 +5506,7 @@ CloudMusic.json    Paxxs/Cluttered-bucket
 KeybMap64.json    Paxxs/Cluttered-bucket
 UAC.xshell6.json    Paxxs/Cluttered-bucket
 UAC.Xmind-8.json    Paxxs/Cluttered-bucket
+dotnet-desktop-runtime_Paxxs.json    Paxxs/Cluttered-bucket
 Aida64-En.json    Paxxs/Cluttered-bucket
 UAC.ZXPInstaller.json    Paxxs/Cluttered-bucket
 Sakura_frpc.json    Paxxs/Cluttered-bucket
@@ -5714,6 +5716,7 @@ Tencent-Meeting_Ryanjiena.json    Ryanjiena/scoop-apps
 PandaOCR_Ryanjiena.json    Ryanjiena/scoop-apps
 xnviewmp_Ryanjiena.json    Ryanjiena/scoop-apps
 Imagine_Ryanjiena.json    Ryanjiena/scoop-apps
+SogouWBInput-noad.json    Ryanjiena/scoop-apps
 xnview-minimal.json    Ryanjiena/scoop-apps
 PixivUtil2.json    Ryanjiena/scoop-apps
 bandizip-np.json    Ryanjiena/scoop-apps
@@ -5771,6 +5774,7 @@ NTFSInfo.json    Ryanjiena/scoop-apps
 revo-uninstaller-pro.json    Ryanjiena/scoop-apps
 PandaOCR-Pro.json    Ryanjiena/scoop-apps
 typoraCracker.json    Ryanjiena/scoop-apps
+SogouInput.json    Ryanjiena/scoop-apps
 beyondcompare-chs-portable.json    Ryanjiena/scoop-apps
 bandizip6_Ryanjiena.json    Ryanjiena/scoop-apps
 vscode-insiders_Ryanjiena.json    Ryanjiena/scoop-apps
@@ -5792,6 +5796,7 @@ Pixeval.json    Ryanjiena/scoop-apps
 yarn-completion.json    Ryanjiena/scoop-apps
 xnview-standard.json    Ryanjiena/scoop-apps
 qq-mod-portable.json    Ryanjiena/scoop-apps
+SogouWBInput-lite.json    Ryanjiena/scoop-apps
 apifox_Ryanjiena.json    Ryanjiena/scoop-apps
 apifox-portable.json    Ryanjiena/scoop-apps
 wepe.json    Ryanjiena/scoop-apps
@@ -5843,6 +5848,7 @@ v2rayN-beta.json    Ryanjiena/scoop-apps
 AccessChk.json    Ryanjiena/scoop-apps
 xnshell.json    Ryanjiena/scoop-apps
 potplayer-dev-noad-portable.json    Ryanjiena/scoop-apps
+SogouInput-noad.json    Ryanjiena/scoop-apps
 ShadowsocksR-full.json    Ryanjiena/scoop-apps
 utools_Ryanjiena.json    Ryanjiena/scoop-apps
 unblockneteasemusic.json    Ryanjiena/scoop-apps
@@ -5881,6 +5887,7 @@ CrystalDiskInfo-KureiKei.json    Ryanjiena/scoop-apps
 qqmusic_Ryanjiena.json    Ryanjiena/scoop-apps
 OracleJDK8p.json    Ryanjiena/scoop-apps
 PendMoves.json    Ryanjiena/scoop-apps
+SogouInput-lite.json    Ryanjiena/scoop-apps
 BilibiliLiveRecorder.json    Ryanjiena/scoop-apps
 xnview-extended.json    Ryanjiena/scoop-apps
 FiddlerEverywhere.json    Ryanjiena/scoop-apps
@@ -6029,6 +6036,7 @@ SDeleteCLI-Portable.json    ACooper81/scoop-apps
 XAMPP-Portable.json    ACooper81/scoop-apps
 NirsoftMultiMonitorTool-Portable.json    ACooper81/scoop-apps
 OandOAppBuster-Portable.json    ACooper81/scoop-apps
+SophiApp-Portable.json    ACooper81/scoop-apps
 KDEConnect-Portable.json    ACooper81/scoop-apps
 TwinkleTray-Portable.json    ACooper81/scoop-apps
 Plexamp-Portable.json    ACooper81/scoop-apps
@@ -6630,6 +6638,7 @@ pycharm-portable_naderi.json    naderi/scoop-bucket
 firefox-developer-portable.json    naderi/scoop-bucket
 smart-svg-viewer.json    naderi/scoop-bucket
 opera-developer.json    naderi/scoop-bucket
+processko_naderi.json    naderi/scoop-bucket
 ydl-ui-portable.json    naderi/scoop-bucket
 babelpad_naderi.json    naderi/scoop-bucket
 thunderbird-beta-de.json    naderi/scoop-bucket
@@ -6678,6 +6687,7 @@ wise-registry-cleaner.json    naderi/scoop-bucket
 tortoise-svn.json    naderi/scoop-bucket
 thunderbird-de.json    naderi/scoop-bucket
 copy-handler.json    naderi/scoop-bucket
+yt-spammer-purge.json    naderi/scoop-bucket
 firefox-beta-fa.json    naderi/scoop-bucket
 epicgames.json    naderi/scoop-bucket
 wox_naderi.json    naderi/scoop-bucket
@@ -6735,6 +6745,7 @@ officetoolplus_naderi.json    naderi/scoop-bucket
 winrar-de.json    naderi/scoop-bucket
 radarr.json    naderi/scoop-bucket
 texniccenter_naderi.json    naderi/scoop-bucket
+youtube-local.json    naderi/scoop-bucket
 mitec-exe-explorer.json    naderi/scoop-bucket
 securefs_naderi.json    naderi/scoop-bucket
 alwaysmousewheel.json    naderi/scoop-bucket
@@ -6758,9 +6769,11 @@ ant-renamer.json    naderi/scoop-bucket
 vlc-portable_naderi.json    naderi/scoop-bucket
 cpod_naderi.json    naderi/scoop-bucket
 caffeinated.json    naderi/scoop-bucket
+gyroflow.json    naderi/scoop-bucket
 winrar-fa.json    naderi/scoop-bucket
 autodarkmode_naderi.json    naderi/scoop-bucket
 xion-audio-player.json    naderi/scoop-bucket
+pushbullet.json    naderi/scoop-bucket
 mitec-xml-viewer.json    naderi/scoop-bucket
 gitnote_naderi.json    naderi/scoop-bucket
 hdcleaner_naderi.json    naderi/scoop-bucket
