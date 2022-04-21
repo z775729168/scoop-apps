@@ -1,6 +1,6 @@
 {
-    "version": "103.0.5014.0",
-    "description": "Fast, secure, and free web browser, built for the modern web(Canary, Portable Edition).",
+    "version": "101.0.4951.41",
+    "description": "Fast, secure, and free web browser, built for the modern web(Beta, Portable Edition).",
     "homepage": "https://www.google.com/chrome/",
     "license": {
         "identifier": "Freeware",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/lfzbf2phxfwirjr424dc7iqrr4_103.0.5014.0/103.0.5014.0_chrome_installer.exe#/dl.7z",
-            "hash": "c3644b9fb7a2a6dd18126fa7b0099ebbfb9ae4b7dc034d6a1863104ce1f06eaa"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/adhsa4gplkf573nizk5shcj4dsfq_101.0.4951.41/101.0.4951.41_chrome_installer.exe#/dl.7z",
+            "hash": "a766ef7c9af7598cc021fd120fcaf52772237c7de7591a00e75485cc14647422"
         },
         "32bit": {
-            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/acrwm2hy5b2ilvmoc5sxnwlqk2ha_103.0.5014.0/103.0.5014.0_chrome_installer.exe#/dl.7z",
-            "hash": "a176e1fc04e4f6b88a628d3f7e7af6dff3941aa72a521d5359b8e4e2539e23a7"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/adnuzcfdd5hcbzuidzfp6h4fkx4q_101.0.4951.41/101.0.4951.41_chrome_installer.exe#/dl.7z",
+            "hash": "8a8087408e3142ae5b213838515b290e8b273b64f43cde224f40f6004e771e96"
         }
     },
     "installer": {
@@ -22,14 +22,14 @@
     "bin": [
         [
             "chrome.exe",
-            "chrome-canary",
+            "chrome-beta",
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "chrome.exe",
-            "Google Chrome Canary",
+            "Google Chrome Beta",
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
@@ -42,7 +42,7 @@
     "persist": "User Data",
     "checkver": {
         "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/chrome",
-        "regex": "(?sm)canary.*?win-x86.*?(?<86>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe).*?win-x64.*?(?<64>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe)"
+        "regex": "(?sm)beta.*?win-x86.*?(?<86>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe).*?win-x64.*?(?<64>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe)"
     },
     "autoupdate": {
         "architecture": {
@@ -50,14 +50,14 @@
                 "url": "https://redirector.gvt1.com/edgedl/release2/$match64#/dl.7z",
                 "hash": {
                     "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/chrome",
-                    "jsonpath": "$[?(@.Product == 'canary')].Release[?(@.Architecture == 'win-x64')].Hash"
+                    "jsonpath": "$[?(@.Product == 'beta')].Release[?(@.Architecture == 'win-x64')].Hash"
                 }
             },
             "32bit": {
                 "url": "https://redirector.gvt1.com/edgedl/release2/$match86#/dl.7z",
                 "hash": {
                     "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/chrome",
-                    "jsonpath": "$[?(@.Product == 'canary')].Release[?(@.Architecture == 'win-x86')].Hash"
+                    "jsonpath": "$[?(@.Product == 'beta')].Release[?(@.Architecture == 'win-x86')].Hash"
                 }
             }
         }

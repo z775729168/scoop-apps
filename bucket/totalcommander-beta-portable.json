@@ -1,0 +1,84 @@
+{
+    "version": "10.50",
+    "description": "Total Commander is a Shareware file manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10, and Windows® 3.1.",
+    "homepage": "https://www.ghisler.com",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.totalcommander.ch/beta/tc1050x64_b2.exe",
+            "hash": "0bc34bbe0187f7299f0e7a98e78d9cc4ffbeebf792c6f874deb719b7fffd11a7",
+            "bin": [
+                [
+                    "TOTALCMD64.EXE",
+                    "tcmd"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "TOTALCMD64.EXE",
+                    "Total Commander (beta)"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.totalcommander.ch/beta/tc1050x32_b2.exe",
+            "hash": "621ec03f367a24e48b95d2d223236f86a1ad41ef9e7d093f448b128ebbab6031",
+            "bin": [
+                [
+                    "TOTALCMD.EXE",
+                    "tcmd"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "TOTALCMD.EXE",
+                    "Total Commander (beta)"
+                ]
+            ]
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\$fname\" \"$dir\\_tmp\"",
+        "Expand-7zipArchive \"$dir\\_tmp\\INSTALL.CAB\" \"$dir\" -Removal",
+        "Move-Item \"$dir\\e\\*\" \"$dir\"",
+        "Remove-Item -Recurse \"$dir\\d\", \"$dir\\e\", \"$dir\\_tmp\", \"$dir\\$fname\"",
+        "\"[Configuration]`r`nUseIniInProgramDir=7`r`nAlternateUserIni=wincmd_user.ini\" | Out-File -Encoding ASCII \"$dir\\wincmd.ini\"",
+        "ForEach ($emptyFile in $manifest.persist) {New-Item \"$dir\\$emptyFile\" -ItemType file -ErrorAction SilentlyContinue | Out-Null}"
+    ],
+    "persist": [
+        "plugins",
+        "language",
+        "no.bar",
+        "default.bar",
+        "default.br2",
+        "vertical.bar",
+        "vertical.br2",
+        "system.bar",
+        "system.br2",
+        "usercmd.ini",
+        "wcx_ftp.ini",
+        "wincmd.ini",
+        "wincmd.key",
+        "wincmd_user.ini",
+        "wincmd_history.ini",
+        "wincmd_plugins.ini",
+        "contplug.ini",
+        "fsplugin.ini",
+        "lsplugin.ini",
+        "pkplugin.ini"
+    ],
+    "checkver": {
+        "url": "https://www.ghisler.com/1050_beta.htm",
+        "regex": "Download Total Commander\\s+([\\w.]+)\\s*beta\\s*(?<beta>[\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.totalcommander.ch/beta/tc$cleanVersionx64_b$matchBeta.exe"
+            },
+            "32bit": {
+                "url": "https://www.totalcommander.ch/beta/tc$cleanVersionx32_b$matchBeta.exe"
+            }
+        }
+    }
+}
