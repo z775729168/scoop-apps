@@ -1,5 +1,5 @@
 {
-    "version": "1.6.1",
+    "version": "1.6.3",
     "description": "Simple set of tools to make working with GPG and SSH keys easier on Windows 10/11.",
     "homepage": "https://github.com/rupor-github/win-gpg-agent",
     "license": "Apache-2.0",
@@ -12,8 +12,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rupor-github/win-gpg-agent/releases/download/v1.6.1/win-gpg-agent.zip",
-            "hash": "f3bbffe1a5c0a78c848508468299d62c2e8e5aa9ef7694f4d073815bb9a6c131"
+            "url": "https://github.com/rupor-github/win-gpg-agent/releases/download/v1.6.3/win-gpg-agent.zip",
+            "hash": "23cc5e7b7e1937049ab7a416871713f44fbf84a002aa58fd6326d99876b79cd0"
         }
     },
     "pre_install": [
@@ -36,7 +36,11 @@
         "  ) -join '' | Set-Content \"$dir\\agent-gui.conf\" -Encoding ASCII",
         "}"
     ],
-    "persist": "agent-gui.conf",
+    "persist": [
+        "agent-gui.conf",
+        "pinentry.conf",
+        "sorelay.conf"
+    ],
     "shortcuts": [
         [
             "agent-gui.exe",
