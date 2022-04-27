@@ -74,8 +74,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - zhoujin7/tomato
 - Paxxs/Cluttered-bucket
 - scoopcn/scoopcn
-- borger/scoop-emulators
 - Ryanjiena/scoop-apps
+- borger/scoop-emulators
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - ACooper81/scoop-apps
