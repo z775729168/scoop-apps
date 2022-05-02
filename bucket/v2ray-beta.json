@@ -1,16 +1,16 @@
 {
-    "version": "4.45.0",
+    "version": "5.0.5",
     "description": "A platform for building proxies to bypass network restrictions. (beta)",
     "homepage": "https://www.v2fly.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-windows-64.zip",
-            "hash": "sha512:b92fc30c2454cc319511f100351ab3f469b4eec9b257dab7846e82eed6835f659ba31aae16d813263c2421925c8f648ae2612e2e518261958f64f134a340436c"
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.0.5/v2ray-windows-64.zip",
+            "hash": "sha512:fef01b04837fd4a9a563b1e4a277d64c4f79daef45e4e7ae7413326df7c3efc9eaf0ebf51b64fcb5683e1e33b2ef06204b5a8f95784b47c57efbaa5d045f464e"
         },
         "32bit": {
-            "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-windows-32.zip",
-            "hash": "sha512:1f6b92f8ea4ecc8bb4bef8f8c0f505346292f403707728b01104e5fe457cd1d7a6df389d831ee33812de73dacc5c84d0584923689adbd33e193e6598c8e5deba"
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.0.5/v2ray-windows-32.zip",
+            "hash": "sha512:9b2ec220ddb0f0fb77633e70ca88acfb64161fe8f043b81461d21804a119226fe4686ce9b1a229e8edd024677475a8d442d5534656029c8e8b58b19664d2df44"
         }
     },
     "bin": "v2ray.exe",
