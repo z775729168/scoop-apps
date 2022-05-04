@@ -68,11 +68,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - hoilc/scoop-lemon
 - Qv2ray/mochi
-- dodorz/scoop
-- ZvonimirSun/scoop-iszy
 - kiennq/scoop-misc
-- zhoujin7/tomato
+- dodorz/scoop
 - Paxxs/Cluttered-bucket
+- ZvonimirSun/scoop-iszy
+- zhoujin7/tomato
 - scoopcn/scoopcn
 - borger/scoop-emulators
 - wzv5/ScoopBucket
