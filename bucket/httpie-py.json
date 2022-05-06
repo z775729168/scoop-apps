@@ -1,12 +1,12 @@
 {
-    "version": "3.1.0",
+    "version": "3.2.1",
     "homepage": "https://httpie.org/",
     "description": "Command-line HTTP client.",
     "license": "BSD-3-Clause",
     "depends": "python-bucket-utils",
-    "url": "https://github.com/jakubroztocil/httpie/archive/3.1.0.zip",
-    "hash": "792a0c51b7110bcbb32b716fdcf4296e5bdfe04db744dadd6ec7210f16eccb50",
-    "extract_dir": "httpie-3.1.0",
+    "url": "https://github.com/jakubroztocil/httpie/archive/3.2.1.zip",
+    "hash": "e9bfc5acb7275e3449bcbff68f0388034a5dfbf856a0821f238806a66c475f3b",
+    "extract_dir": "httpie-3.2.1",
     "installer": {
         "script": [
             "if ($global) { install-python-package --global --quiet --dir $dir }",
