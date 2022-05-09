@@ -1,0 +1,65 @@
+{
+    "version": "103.0.5052.0",
+    "description": "Fast, secure, and free web browser, built for the modern web(Canary, Portable Edition).",
+    "homepage": "https://www.google.com/chrome/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.google.com/chrome/privacy/eula_text.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/adcbu7bng76slnxfgvuxtorgj4va_103.0.5052.0/103.0.5052.0_chrome_installer.exe#/dl.7z",
+            "hash": "1dbd3aaf773946da649e2076767534cf8094fba5395f089b22b3d3519c3c1074"
+        },
+        "32bit": {
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ac6xdyb4gajy5yfhnrbodmdpanmq_103.0.5052.0/103.0.5052.0_chrome_installer.exe#/dl.7z",
+            "hash": "4f7f58505ea8332a890f7ab3c0f3ac657e9fbedc1e6d778e9fdaba1eb788b57f"
+        }
+    },
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "chrome-canary",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Google Chrome Canary",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "post_install": [
+        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Google\\Chrome\\User Data\")) {",
+        "    info '[Portable Mode]: Copying user data...'",
+        "    Copy-Item \"$env:LocalAppData\\Google\\Chrome\\User Data\\*\" \"$dir\\User Data\" -Recurse",
+        "}"
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json",
+        "regex": "(?sm)canary.*?win-x86.*?(?<86>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe).*?win-x64.*?(?<64>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://redirector.gvt1.com/edgedl/release2/$match64#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json",
+                    "jsonpath": "$[?(@.Product == 'canary')].Release[?(@.Architecture == 'win-x64')].Hash"
+                }
+            },
+            "32bit": {
+                "url": "https://redirector.gvt1.com/edgedl/release2/$match86#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/Ryanjiena/MetaVersion/raw/main/chrome.json",
+                    "jsonpath": "$[?(@.Product == 'canary')].Release[?(@.Architecture == 'win-x86')].Hash"
+                }
+            }
+        }
+    }
+}
