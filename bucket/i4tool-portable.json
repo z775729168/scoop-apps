@@ -34,7 +34,7 @@
         "Download"
     ],
     "checkver": {
-        "url": "https://github.com/Ryanjiena/MetaVersion/raw/main/header",
+        "url": "https://github.com/Ryanjiena/MetaVersion/raw/main/header.json",
         "jsonpath": "$[?(@.name == 'i4tool')].redirect",
         "regex": "https://d-ali4tool.i4.cn/(?<url>.*?i4Tools_v([\\d.]+).*?\\.exe)"
     },

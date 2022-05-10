@@ -1,9 +1,9 @@
 {
     "version": "1.5.1",
-    "description": "哔哩下载姬 downkyi, B 站视频下载工具, 支持批量下载, 支持 4K, 支持解除地区限制下载, 提供工具箱(音视频提取、去水印等).",
+    "description": "bilibili video download tool, support batch download, 4K, remove regional download restrictions, provide toolbox(audio and video extraction, watermark removal, etc.).",
     "homepage": "https://github.com/leiurayer/downkyi",
     "license": {
-        "identifier": "GPL-3.0-only",
+        "identifier": "GPL-3.0-or-later",
         "url": "https://github.com/leiurayer/downkyi/blob/main/LICENSE"
     },
     "url": "https://github.com/leiurayer/downkyi/releases/download/v1.5.1/DownKyi-1.5.1.zip",
@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "DownKyi.exe",
-            "哔哩下载姬"
+            "DownKyi"
         ]
     ],
     "persist": [

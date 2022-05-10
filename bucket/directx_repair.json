@@ -1,11 +1,13 @@
 {
     "version": "4.1.0.30770",
-    "description": "DirectX 修复工具 (DirectX Repair) 是一款系统级工具软件，简便易用",
+    "description": "The program is designed mainly for the 0xc000007b problem and can fix the problem perfectly.",
     "homepage": "https://blog.csdn.net/vbcom/article/details/7245186",
-    "license": "GNU General Public License v3.0",
+    "license": {
+        "identifier": "GPL-3.0-or-later"
+    },
     "notes": [
-        "常见问题解答 <https://blog.csdn.net/VBcom/article/details/12647463>",
-        "问题反馈 <https://blog.csdn.net/vbcom/article/details/7245186>"
+        "FAQ: <https://blog.csdn.net/VBcom/article/details/12647463>",
+        "Feedback: <https://blog.csdn.net/vbcom/article/details/7245186>"
     ],
     "url": "https://pan.jiemi.workers.dev/?file=/scoop/DirectX_Repair/DirectX_Repair(Enhanced_Edition)_v4.1.0.30770.7z",
     "hash": "76507bc43e17e584b0a7e0cebf95c3a5855c5e17dd6ea837dbdcd7fd299216ff",

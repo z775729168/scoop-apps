@@ -1,14 +1,15 @@
 {
     "version": "1.4.8",
-    "description": "一款命令行式哔哩哔哩下载器. Bilibili Downloader.",
+    "description": "A command line tool that supports bilibili video downloads, maintained by nilaoda.",
     "homepage": "https://github.com/nilaoda/BBDown",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/nilaoda/BBDown/blob/master/LICENSE"
     },
     "notes": [
-        "本软件合并时需要使用 ffmpeg ，也可能需要使用 mp4box，用于合并杜比视界.",
-        "除了 win-x64 外，均未测试过. 如果您需要x86版本，请自行编译."
+        "This software requires external programs for mixing:",
+        "- Normal video: ffmpeg, or mp4box",
+        "- Dolby Vision: ffmpeg5.0 or higher or the new mp4box."
     ],
     "depends": "aria2",
     "suggest": {
