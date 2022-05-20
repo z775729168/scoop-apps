@@ -1,6 +1,6 @@
 {
     "homepage": "https://brave.com",
-    "version": "1.41.2",
+    "version": "1.41.5",
     "description": "Secure, Fast & Private Web Browser with Adblocker (nightly release)",
     "license": {
         "identifier": "Freeware,BSD-3-Clause,GPL-3.0-only,...",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.41.2/brave-v1.41.2-win32-x64.zip",
-            "hash": "8a262fd945e1da47fedbda727062757b033043059c82f4857c9899785d48d0ad"
+            "url": "https://github.com/brave/brave-browser/releases/download/v1.41.5/brave-v1.41.5-win32-x64.zip",
+            "hash": "518e00cd8a949f4aedfb7a646b5bde73d239a4e9b3714005b1da6f46fe3fc609"
         }
     },
     "bin": [
