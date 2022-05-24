@@ -275,6 +275,7 @@ baka-mplayer.json    ScoopInstaller/Extras
 q-dir.json    ScoopInstaller/Extras
 ffmpeg-batch.json    ScoopInstaller/Extras
 xnviewmp.json    ScoopInstaller/Extras
+universal-mediacreationtool.json    ScoopInstaller/Extras
 praat.json    ScoopInstaller/Extras
 find-java.json    ScoopInstaller/Extras
 uivonim.json    ScoopInstaller/Extras
@@ -1236,6 +1237,7 @@ streamlink.json    ScoopInstaller/Extras
 sqlitespy.json    ScoopInstaller/Extras
 workrave.json    ScoopInstaller/Extras
 mypaint.json    ScoopInstaller/Extras
+rustdesk_ScoopInstaller.json    ScoopInstaller/Extras
 spek.json    ScoopInstaller/Extras
 deadbeef.json    ScoopInstaller/Extras
 kid3.json    ScoopInstaller/Extras
@@ -4231,19 +4233,6 @@ exiftoolgui.json    everyx/scoop-bucket
 clash_everyx.json    everyx/scoop-bucket
 CascadiaMonoPL.json    everyx/scoop-bucket
 VideoPanoramasPlayer.json    everyx/scoop-bucket
-corsair-icue.json    TheRandomLabs/Scoop-Bucket
-custom-resolution-utility.json    TheRandomLabs/Scoop-Bucket
-ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
-musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
-rfxgen.json    TheRandomLabs/Scoop-Bucket
-win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
-shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
-neovim-dev.json    TheRandomLabs/Scoop-Bucket
-windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
-luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
 rstudio-daily-electron.json    cderv/r-bucket
 rstudio-1.3.json    cderv/r-bucket
 tinytex-extra.json    cderv/r-bucket
@@ -4265,6 +4254,19 @@ rstudio-pro-preview.json    cderv/r-bucket
 quarto.json    cderv/r-bucket
 r-release.json    cderv/r-bucket
 rstudio-daily_cderv.json    cderv/r-bucket
+corsair-icue.json    TheRandomLabs/Scoop-Bucket
+custom-resolution-utility.json    TheRandomLabs/Scoop-Bucket
+ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
+musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
+rfxgen.json    TheRandomLabs/Scoop-Bucket
+win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
+shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
+neovim-dev.json    TheRandomLabs/Scoop-Bucket
+windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
+luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
 packetsender.json    hoilc/scoop-lemon
 trdsql.json    hoilc/scoop-lemon
 vcluster.json    hoilc/scoop-lemon
@@ -6030,6 +6032,7 @@ LibreWolf-Portable.json    ACooper81/scoop-apps
 ImgBurn-Portable.json    ACooper81/scoop-apps
 Windows10UpdateAssistant-Portable.json    ACooper81/scoop-apps
 NirsoftUninstallView-Portable.json    ACooper81/scoop-apps
+Audacity-Install.json    ACooper81/scoop-apps
 ThisIsWin11-Portable.json    ACooper81/scoop-apps
 SandboxiePlus-Portable.json    ACooper81/scoop-apps
 NirsoftWifiInfoView-Portable.json    ACooper81/scoop-apps
@@ -6075,6 +6078,7 @@ UNetbootin-Portable.json    ACooper81/scoop-apps
 Arduino-Portable.json    ACooper81/scoop-apps
 AutoHotkey-Portable.json    ACooper81/scoop-apps
 WindowsPrivacyDashboard-Portable.json    ACooper81/scoop-apps
+DYMOConnect-Install.json    ACooper81/scoop-apps
 Steam-Portable.json    ACooper81/scoop-apps
 RunAsTICLI-Portable.json    ACooper81/scoop-apps
 NirsoftCurrPorts-Portable.json    ACooper81/scoop-apps
@@ -6213,6 +6217,7 @@ SteamCmdCLI-Portable.json    ACooper81/scoop-apps
 FormatFactory-Portable.json    ACooper81/scoop-apps
 Brave-UserInstall.json    ACooper81/scoop-apps
 MiTeCSQLiteQuery-Portable.json    ACooper81/scoop-apps
+Audacity-Portable.json    ACooper81/scoop-apps
 CloneApp-Portable.json    ACooper81/scoop-apps
 SysinternalsSuite-Portable.json    ACooper81/scoop-apps
 MPC-BE-Portable.json    ACooper81/scoop-apps
@@ -6467,7 +6472,6 @@ mitec-network-scanner.json    naderi/scoop-bucket
 winusb.json    naderi/scoop-bucket
 sshfs.json    naderi/scoop-bucket
 officetoolplus_naderi.json    naderi/scoop-bucket
-powershell-preview_naderi.json    naderi/scoop-bucket
 waterfox-portable.json    naderi/scoop-bucket
 cinta-notes.json    naderi/scoop-bucket
 chrome-portable.json    naderi/scoop-bucket
@@ -6501,7 +6505,6 @@ strokes-plus.json    naderi/scoop-bucket
 uplay_naderi.json    naderi/scoop-bucket
 winrar-fa.json    naderi/scoop-bucket
 thunderbird-beta-fa.json    naderi/scoop-bucket
-powershell_naderi.json    naderi/scoop-bucket
 font-mikhak.json    naderi/scoop-bucket
 wfc_naderi.json    naderi/scoop-bucket
 chrome-beta-portable.json    naderi/scoop-bucket
