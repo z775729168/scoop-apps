@@ -1,5 +1,5 @@
 {
-    "version": "0.0.22-13662",
+    "version": "0.0.22-13665",
     "description": "Open-source Sony PlayStation 3 emulator",
     "homepage": "https://rpcs3.net/",
     "license": {
@@ -17,22 +17,18 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-5b0badc21596b5763d5fe59e78f97ded6212d6b2/rpcs3-v0.0.22-13662-5b0badc2_win64.7z",
-            "hash": "b2ef16b91ba52879f0d6efd21b01760fc0bc49e078c9e4500a94fddcd4aa97be"
+            "url": "https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-95233b5299a2b85a07316b88669ebd679948b78a/rpcs3-v0.0.22-13665-95233b52_win64.7z",
+            "hash": "cd27eadd0260a8ff98a8c60257b57421c60ea2f834eec1227c1d7baed9fecc8b"
         }
     },
     "pre_install": [
-        "ensure \"$persist_dir\" | Out-Null",
-        "Get-ChildItem \"$persist_dir\\*\" -Include 'config.yml', 'games.yml' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
+        "if (!(Test-Path \"$persist_dir\")) {",
+        "   New-Item \"$persist_dir\" -ItemType Directory | Out-Null",
+        "   New-Item \"$persist_dir\\config.yml\" -ItemType File | Out-Null",
+        "   New-Item \"$persist_dir\\games.yml\" -ItemType File | Out-Null",
+        "   '[Meta]', 'checkUpdateStart=false' | Set-Content \"$dir\\GuiConfigs\\CurrentSettings.ini\"",
+        "}"
     ],
-    "uninstaller": {
-        "script": [
-            "ensure \"$persist_dir\" | Out-Null",
-            "'config.yml', 'games.yml' | ForEach-Object {",
-            "    Copy-Item \"$dir\\$_\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force",
-            "}"
-        ]
-    },
     "bin": "rpcs3.exe",
     "shortcuts": [
         [
@@ -53,7 +49,9 @@
         "firmware",
         "GuiConfigs",
         "Icons",
-        "patches"
+        "patches",
+        "config.yml",
+        "games.yml"
     ],
     "checkver": {
         "url": "https://rpcs3.net/compatibility?b",
