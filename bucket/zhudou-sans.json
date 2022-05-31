@@ -1,25 +1,13 @@
 {
-    "version": "1.235",
-    "description": "An open-source Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。",
-    "homepage": "https://github.com/lxgw/LxgwWenKai",
+    "version": "1.000",
+    "description": "煮豆黑体是衍生自 Noto Sans 和思源黑体的标点符号字体家族，支持中日韩标点、全角字母、全角数字及一些特殊符号（本字体不包含汉字、假名、谚文、一般西文和数字，请和其他字体搭配使用）",
+    "homepage": "https://github.com/Buernia/Zhudou-Sans",
     "license": "OFL-1.1",
-    "url": [
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.235/LXGWWenKai-Bold.ttf",
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.235/LXGWWenKai-Light.ttf",
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.235/LXGWWenKai-Regular.ttf"
-    ],
-    "hash": [
-        "285c55e3ba5d95387c2494eadc06ae5e4d63dc053523849116ee3765e567ebec",
-        "e6dc161040f017ffa5fd4b4ae518235fc382be22f9d8bd2d75587cc45da9db39",
-        "f738c7c4a22646f141ffe4882ffe360f1bb120a7857c896c933f61a43d44308f"
-    ],
+    "url": "https://github.com/Buernia/Zhudou-Sans/releases/download/v1.000/Zhudou.Sans.zip",
+    "hash": "dae5ff79f8f1db78661a6ec0ae7c1732965c034a3c04bd95cd43baabd14996ca",
     "checkver": "github",
     "autoupdate": {
-        "url": [
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Bold.ttf",
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Light.ttf",
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Regular.ttf"
-        ]
+        "url": "https://github.com/Buernia/Zhudou-Sans/releases/download/v$version/Zhudou.Sans.zip"
     },
     "installer": {
         "script": [
@@ -59,7 +47,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'LXGWWenKai' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font family 'Zhudou Sans' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }

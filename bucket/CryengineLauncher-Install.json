@@ -1,18 +1,13 @@
 {
-    "version": "2022.5.0.8",
-    "description": "GameMaker Studio 2. GameMaker has helped developers create much-loved and multi-million seller games",
-    "homepage": "https://www.yoyogames.com/en/gamemaker",
+    "version": "2.1.1",
+    "description": "CRYENGINE Launcher. The most powerful game development platform for you and your team to create world-class entertainment experiences",
+    "homepage": "https://www.cryengine.com",
     "license": "Proprietary",
-    "changelog": "https://gms.yoyogames.com/ReleaseNotes.html",
-    "architecture": {
-        "64bit": {
-            "url": "https://gms.yoyogames.com/GameMaker-Installer-2022.5.0.8.exe#/setup.exe",
-            "hash": "c2a3b4a5b02350306227684b020d3451e8dba265965933bd432770629ee3285d"
-        }
-    },
-    "pre_download": "Assert-Administrator",
+    "changelog": "https://docs.cryengine.com/display/RN/Launcher+Release+Notes",
+    "url": "https://content.cryengine.com/cryengine-launcher/CRYENGINE_Launcher.exe#/setup.exe",
+    "hash": "d10215f72dc7d7d9713467d4b3707473f8ed2f11abf7a8616e8800395fd32902",
     "pre_install": [
-        "$processname = \"GameMakerStudio\"",
+        "$processname = \"CRYENGINE Launcher\"",
         "$process = Get-Process $processname -ErrorAction SilentlyContinue",
         "if ($process) {",
         "   $process.CloseMainWindow()",
@@ -25,11 +20,12 @@
     ],
     "installer": {
         "script": [
-            "$ProgramFiles = [Environment]::GetFolderPath(\"ProgramFiles\")",
-            "$filepath = \"$ProgramFiles\\GameMaker Studio 2\\GameMaker.exe\"",
+            "$programname = \"CRYENGINE Launcher*\"",
+            "$AppData = [Environment]::GetFolderPath(\"LocalApplicationData\")",
+            "$filepath = \"$AppData\\Programs\\CRYENGINE Launcher\\CRYENGINE_Launcher.exe\"",
             "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "{",
-            "   &\"$dir\\setup.exe\" /S | Out-Null",
+            "   &\"$dir\\setup.exe\" /S /D=\"C:\\Program Files\\CRYENGINE Launcher\" | Out-Null",
             "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "   {",
             "       exit 1",
@@ -39,19 +35,15 @@
         ]
     },
     "post_install": [
-        "$programname = \"GameMaker\"",
+        "$programname = \"CRYENGINE Launcher\"",
         "$CommonDesktopPath = [Environment]::GetFolderPath(\"CommonDesktopDirectory\")",
         "if (Test-Path \"$CommonDesktopPath\\$programname.lnk\") {Remove-Item \"$CommonDesktopPath\\$programname.lnk\" -Force}"
     ],
     "checkver": {
-        "url": "https://gmapi.gnysek.pl/",
-        "regex": "Current version is <b>([\\d.]+)"
+        "url": "https://docs.cryengine.com/display/RN/Launcher+Release+Notes",
+        "regex": ">CRYENGINE Launcher ([\\d.]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://gms.yoyogames.com/GameMaker-Installer-$version.exe#/setup.exe"
-            }
-        }
+        "url": "https://content.cryengine.com/cryengine-launcher/CRYENGINE_Launcher.exe#/setup.exe"
     }
 }
