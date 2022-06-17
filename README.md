@@ -95,6 +95,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Velgus/Scoop-Portapps
 - ChinLong/scoop-customize
 - Darkatse/Scoop-Darkatse
+- seumsc/scoop-seu
 - rivy/scoop-bucket
 - ddavness/scoop-roblox
 - alextwothousand/scoop-bucket
