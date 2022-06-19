@@ -415,6 +415,7 @@ quick-picture-viewer.json    ScoopInstaller/Extras
 windows-terminal.json    ScoopInstaller/Extras
 shadered.json    ScoopInstaller/Extras
 waifu2x-caffe.json    ScoopInstaller/Extras
+vial.json    ScoopInstaller/Extras
 natural-docs.json    ScoopInstaller/Extras
 xx-net.json    ScoopInstaller/Extras
 nwjs-sdk.json    ScoopInstaller/Extras
@@ -739,6 +740,7 @@ hydrogen.json    ScoopInstaller/Extras
 processhacker.json    ScoopInstaller/Extras
 mobalivecd.json    ScoopInstaller/Extras
 mdloader.json    ScoopInstaller/Extras
+pine64-updater.json    ScoopInstaller/Extras
 beekeeper-studio.json    ScoopInstaller/Extras
 jcpicker.json    ScoopInstaller/Extras
 librewolf.json    ScoopInstaller/Extras
@@ -1106,6 +1108,7 @@ psfzf.json    ScoopInstaller/Extras
 jetbrains-hub.json    ScoopInstaller/Extras
 deltachat.json    ScoopInstaller/Extras
 vieas.json    ScoopInstaller/Extras
+unsubscan.json    ScoopInstaller/Extras
 avidemux.json    ScoopInstaller/Extras
 hwinfo.json    ScoopInstaller/Extras
 nimbletext.json    ScoopInstaller/Extras
@@ -1308,6 +1311,7 @@ eclipse-sdk.json    ScoopInstaller/Extras
 blender.json    ScoopInstaller/Extras
 notepad3.json    ScoopInstaller/Extras
 posh-git.json    ScoopInstaller/Extras
+via.json    ScoopInstaller/Extras
 geany.json    ScoopInstaller/Extras
 chef-workstation.json    ScoopInstaller/Extras
 macast-debug.json    ScoopInstaller/Extras
@@ -1652,6 +1656,7 @@ notejoy.json    ScoopInstaller/Extras
 butterflow-ui.json    ScoopInstaller/Extras
 codeblocks.json    ScoopInstaller/Extras
 redshift-tray.json    ScoopInstaller/Extras
+imo-messenger.json    ScoopInstaller/Extras
 dukto.json    ScoopInstaller/Extras
 zeppelin.json    ScoopInstaller/Extras
 mambaforge.json    ScoopInstaller/Extras
@@ -3177,6 +3182,7 @@ multipar-beta.json    ScoopInstaller/Versions
 php56.json    ScoopInstaller/Versions
 php81.json    ScoopInstaller/Versions
 brave-nightly.json    ScoopInstaller/Versions
+sqlitebrowser-nightly.json    ScoopInstaller/Versions
 r-patched.json    ScoopInstaller/Versions
 cuda6.5.json    ScoopInstaller/Versions
 mysql56.json    ScoopInstaller/Versions
@@ -6390,6 +6396,7 @@ Audacity-Install.json    ACooper81/scoop-apps
 Snipaste-Portable.json    ACooper81/scoop-apps
 Transwiz-Portable.json    ACooper81/scoop-apps
 Kdenlive-Portable.json    ACooper81/scoop-apps
+ShutterEncoder-Portable.json    ACooper81/scoop-apps
 PSModule.json    ACooper81/scoop-apps
 installmsi.json    ACooper81/scoop-apps
 portable.json    ACooper81/scoop-apps
@@ -7130,6 +7137,7 @@ darktable-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 teamviewer-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 resilio-sync-np.json    ScoopInstaller/Nonportable
 glasswire-np.json    ScoopInstaller/Nonportable
+virtualbox-with-extension-pack-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 asio4all-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 nvidia-display-driver-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 nushell_MCOfficer.json    MCOfficer/scoop-bucket
@@ -7498,6 +7506,7 @@ perl@5.22.2.1+gcc.json    rivy/scoop-bucket
 nodejs@12.9.0.json    rivy/scoop-bucket
 gh@0.11.0.json    rivy/scoop-bucket
 fnm_rivy.json    rivy/scoop-bucket
+vscode@1.68.1.json    rivy/scoop-bucket
 volta_rivy.json    rivy/scoop-bucket
 hyper@2.1.0-canary.2.json    rivy/scoop-bucket
 nim@1.0.4.json    rivy/scoop-bucket
@@ -7571,6 +7580,7 @@ curl@7.70.0.json    rivy/scoop-bucket
 msys2@2019-05-24.json    rivy/scoop-bucket
 7zip@18.04.json    rivy/scoop-bucket
 gpg@1.json    rivy/scoop-bucket
+cmake@3.23.2.json    rivy/scoop-bucket
 perl@5.10.1.1+gcc.json    rivy/scoop-bucket
 vagrant_rivy.json    rivy/scoop-bucket
 openssh@latest.json    rivy/scoop-bucket
