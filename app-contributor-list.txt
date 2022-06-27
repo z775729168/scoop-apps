@@ -213,6 +213,7 @@ database.net.json    ScoopInstaller/Extras
 wifi-manager.json    ScoopInstaller/Extras
 webcord.json    ScoopInstaller/Extras
 kicad.json    ScoopInstaller/Extras
+sleek.json    ScoopInstaller/Extras
 sphinxbase.json    ScoopInstaller/Extras
 fontforge.json    ScoopInstaller/Extras
 upx-easy-gui.json    ScoopInstaller/Extras
@@ -243,6 +244,7 @@ openliberty.json    ScoopInstaller/Extras
 kubebox.json    ScoopInstaller/Extras
 mkcert.json    ScoopInstaller/Extras
 freecad.json    ScoopInstaller/Extras
+teamviewer-qs.json    ScoopInstaller/Extras
 tuxguitar.json    ScoopInstaller/Extras
 pdfsam-visual.json    ScoopInstaller/Extras
 msikombustor.json    ScoopInstaller/Extras
@@ -373,6 +375,7 @@ bulk-rename-utility.json    ScoopInstaller/Extras
 dbgl.json    ScoopInstaller/Extras
 pomotodo.json    ScoopInstaller/Extras
 cyberduck.json    ScoopInstaller/Extras
+camstudio.json    ScoopInstaller/Extras
 blisk.json    ScoopInstaller/Extras
 svcat.json    ScoopInstaller/Extras
 natural-docs.json    ScoopInstaller/Extras
@@ -1099,6 +1102,7 @@ locale-emulator.json    ScoopInstaller/Extras
 solvespace.json    ScoopInstaller/Extras
 gpg4win.json    ScoopInstaller/Extras
 qbittorrent-enhanced.json    ScoopInstaller/Extras
+jackett.json    ScoopInstaller/Extras
 wincompose.json    ScoopInstaller/Extras
 status.json    ScoopInstaller/Extras
 mpc-hc.json    ScoopInstaller/Extras
@@ -1112,6 +1116,7 @@ touchcursor.json    ScoopInstaller/Extras
 filelight.json    ScoopInstaller/Extras
 crystaldiskmark.json    ScoopInstaller/Extras
 ksnip.json    ScoopInstaller/Extras
+mellow.json    ScoopInstaller/Extras
 vieb.json    ScoopInstaller/Extras
 free-shooter.json    ScoopInstaller/Extras
 yacreader.json    ScoopInstaller/Extras
@@ -1232,6 +1237,7 @@ lightscreen.json    ScoopInstaller/Extras
 xmllint.json    ScoopInstaller/Extras
 pritunl-client.json    ScoopInstaller/Extras
 qt-creator-cdb-ext.json    ScoopInstaller/Extras
+stash.json    ScoopInstaller/Extras
 rambox.json    ScoopInstaller/Extras
 hokus.json    ScoopInstaller/Extras
 nwjs-sdk.json    ScoopInstaller/Extras
@@ -1509,6 +1515,7 @@ explorerplusplus.json    ScoopInstaller/Extras
 robo3t.json    ScoopInstaller/Extras
 rufus.json    ScoopInstaller/Extras
 linqpadless.json    ScoopInstaller/Extras
+maple.json    ScoopInstaller/Extras
 fnr.json    ScoopInstaller/Extras
 umbrello.json    ScoopInstaller/Extras
 mqtt-explorer.json    ScoopInstaller/Extras
@@ -3177,6 +3184,7 @@ nuget3.json    ScoopInstaller/Versions
 brave-nightly.json    ScoopInstaller/Versions
 rstudio-daily.json    ScoopInstaller/Versions
 love10.json    ScoopInstaller/Versions
+typora0.11.18.json    ScoopInstaller/Versions
 rtools40.json    ScoopInstaller/Versions
 ruby19.json    ScoopInstaller/Versions
 idea-ultimate-eap.json    ScoopInstaller/Versions
@@ -3750,7 +3758,7 @@ cf-tool.json    kidonng/sushi
 wechat_kidonng.json    kidonng/sushi
 v2ray-domain-list-community.json    kidonng/sushi
 cpeditor.json    kidonng/sushi
-mellow.json    kidonng/sushi
+mellow_kidonng.json    kidonng/sushi
 firefox-tete009-portable.json    kidonng/sushi
 youtube-dl-wpf.json    kidonng/sushi
 qv2ray-plugin-naiveproxy.json    kidonng/sushi
@@ -5781,7 +5789,6 @@ winrar-sc_ZvonimirSun.json    ZvonimirSun/scoop-iszy
 mobaxterm_ZvonimirSun.json    ZvonimirSun/scoop-iszy
 clash-for-windows_ZvonimirSun.json    ZvonimirSun/scoop-iszy
 wechat_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-qgis-np.json    ZvonimirSun/scoop-iszy
 oracle-instant-client11.json    ZvonimirSun/scoop-iszy
 oraclejdk8.json    ZvonimirSun/scoop-iszy
 everything-toolbar.json    ZvonimirSun/scoop-iszy
@@ -5969,6 +5976,7 @@ EdgeDeflector-Portable.json    ACooper81/scoop-apps
 StreamlabsDesktop-Portable.json    ACooper81/scoop-apps
 Privazer-Portable.json    ACooper81/scoop-apps
 Radarr-Portable.json    ACooper81/scoop-apps
+GliderCLI-Portable.json    ACooper81/scoop-apps
 BurntToast-PSModule.json    ACooper81/scoop-apps
 SoftwareOKPrintTestPageOK-Portable.json    ACooper81/scoop-apps
 MicrosoftEdge-Install.json    ACooper81/scoop-apps
@@ -6242,6 +6250,7 @@ SoftwareOKAutoHideMouseCursor-Portable.json    ACooper81/scoop-apps
 KDEConnect-Portable.json    ACooper81/scoop-apps
 SnappyDriverInstallerOrigin-Portable.json    ACooper81/scoop-apps
 Rufus-Portable.json    ACooper81/scoop-apps
+WinObjEx64-Portable.json    ACooper81/scoop-apps
 SUMo-Install.json    ACooper81/scoop-apps
 LogitechOptions-Install.json    ACooper81/scoop-apps
 NoMansSkySaveEditor-Portable.json    ACooper81/scoop-apps
@@ -6770,20 +6779,6 @@ googlechrome-portable_42wim.json    42wim/scoop-bucket
 googlechrome-canary_42wim.json    42wim/scoop-bucket
 nomachine-enterprise.json    42wim/scoop-bucket
 msedge-canary.json    42wim/scoop-bucket
-chrome_krproject.json    krproject/qi-windows
-shadowsocks_krproject.json    krproject/qi-windows
-wpsoffice_krproject.json    krproject/qi-windows
-openvpn_krproject.json    krproject/qi-windows
-postman_krproject.json    krproject/qi-windows
-openssl_krproject.json    krproject/qi-windows
-dbvis_krproject.json    krproject/qi-windows
-oraclejdk8u.json    krproject/qi-windows
-nodejs-lts_krproject.json    krproject/qi-windows
-maven_krproject.json    krproject/qi-windows
-jmeter_krproject.json    krproject/qi-windows
-rustup_krproject.json    krproject/qi-windows
-vscode_krproject.json    krproject/qi-windows
-sts_krproject.json    krproject/qi-windows
 nodejs-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 nvidia-display-driver-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 winbtrfs-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -6803,7 +6798,6 @@ office-365-apps-minimal-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 auto-dark-mode-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 asio4all-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 office-365-apps-np_ScoopInstaller.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-full-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 zerotier-np.json    ScoopInstaller/Nonportable
 virtualbox-with-extension-pack-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 everything-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -6822,6 +6816,20 @@ lockhunter-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 sandboxie-classic-np.json    ScoopInstaller/Nonportable
 winrar-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 glasswire-np.json    ScoopInstaller/Nonportable
+chrome_krproject.json    krproject/qi-windows
+shadowsocks_krproject.json    krproject/qi-windows
+wpsoffice_krproject.json    krproject/qi-windows
+openvpn_krproject.json    krproject/qi-windows
+postman_krproject.json    krproject/qi-windows
+openssl_krproject.json    krproject/qi-windows
+dbvis_krproject.json    krproject/qi-windows
+oraclejdk8u.json    krproject/qi-windows
+nodejs-lts_krproject.json    krproject/qi-windows
+maven_krproject.json    krproject/qi-windows
+jmeter_krproject.json    krproject/qi-windows
+rustup_krproject.json    krproject/qi-windows
+vscode_krproject.json    krproject/qi-windows
+sts_krproject.json    krproject/qi-windows
 socat.json    excitoon/scoop-user
 make_excitoon.json    excitoon/scoop-user
 git_excitoon.json    excitoon/scoop-user
