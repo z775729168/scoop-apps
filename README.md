@@ -66,10 +66,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - everyx/scoop-bucket
 - cderv/r-bucket
 - TheRandomLabs/Scoop-Bucket
-- Paxxs/Cluttered-bucket
 - hoilc/scoop-lemon
-- Qv2ray/mochi
+- Paxxs/Cluttered-bucket
 - scoopcn/scoopcn
+- Qv2ray/mochi
 - dodorz/scoop
 - kiennq/scoop-misc
 - ZvonimirSun/scoop-iszy
