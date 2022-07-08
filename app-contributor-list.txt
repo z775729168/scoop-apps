@@ -1114,6 +1114,7 @@ locale-emulator.json    ScoopInstaller/Extras
 solvespace.json    ScoopInstaller/Extras
 gpg4win.json    ScoopInstaller/Extras
 qbittorrent-enhanced.json    ScoopInstaller/Extras
+bomi.json    ScoopInstaller/Extras
 jackett.json    ScoopInstaller/Extras
 wincompose.json    ScoopInstaller/Extras
 status.json    ScoopInstaller/Extras
@@ -3094,6 +3095,7 @@ cuda9.0.json    ScoopInstaller/Versions
 keepassxc2.6.6.json    ScoopInstaller/Versions
 oneget.json    ScoopInstaller/Versions
 imagemagick-ffmpeg.json    ScoopInstaller/Versions
+pester4.json    ScoopInstaller/Versions
 firefox-developer.json    ScoopInstaller/Versions
 cuda6.0.json    ScoopInstaller/Versions
 espanso-pre.json    ScoopInstaller/Versions
@@ -3160,7 +3162,6 @@ php70-xdebug.json    ScoopInstaller/Versions
 cuda10.0.json    ScoopInstaller/Versions
 goland-eap.json    ScoopInstaller/Versions
 gopass184.json    ScoopInstaller/Versions
-emule-cv.json    ScoopInstaller/Versions
 steam.json    ScoopInstaller/Versions
 kdenlive-nightly.json    ScoopInstaller/Versions
 lua-joedf.json    ScoopInstaller/Versions
@@ -3275,6 +3276,7 @@ de4dot-net45.json    ScoopInstaller/Versions
 ruby27.json    ScoopInstaller/Versions
 dataspell-eap.json    ScoopInstaller/Versions
 deepgit402.json    ScoopInstaller/Versions
+emule-cv.json    ScoopInstaller/Versions
 nirext.json    kodybrown/scoop-nirsoft
 appreadwritecounter.json    kodybrown/scoop-nirsoft
 firefoxdownloadsview.json    kodybrown/scoop-nirsoft
@@ -4167,17 +4169,6 @@ mmview.json    MCOfficer/scoop-nirsoft
 flashcookiesview_MCOfficer.json    MCOfficer/scoop-nirsoft
 exifdataview_MCOfficer.json    MCOfficer/scoop-nirsoft
 ntfslinksview_MCOfficer.json    MCOfficer/scoop-nirsoft
-wsl-sles.json    KNOXDEV/wsl
-wsl-ubuntu2004.json    KNOXDEV/wsl
-wsl-ubuntu1604.json    KNOXDEV/wsl
-wsl-ubuntu1804-arm.json    KNOXDEV/wsl
-wsl-ubuntu2004-arm.json    KNOXDEV/wsl
-wsl-ubuntu1804.json    KNOXDEV/wsl
-wsl-fedora.json    KNOXDEV/wsl
-wsl-debian.json    KNOXDEV/wsl
-wsl-kali.json    KNOXDEV/wsl
-wsl-opensuse.json    KNOXDEV/wsl
-wsl-fedora-arm.json    KNOXDEV/wsl
 remnote.json    echoiron/echo-scoop
 hbuilderx.json    echoiron/echo-scoop
 qq_echoiron.json    echoiron/echo-scoop
@@ -4261,6 +4252,17 @@ newfiletime.json    echoiron/echo-scoop
 notepad3_echoiron.json    echoiron/echo-scoop
 neatreader.json    echoiron/echo-scoop
 MouseInc_echoiron.json    echoiron/echo-scoop
+wsl-sles.json    KNOXDEV/wsl
+wsl-ubuntu2004.json    KNOXDEV/wsl
+wsl-ubuntu1604.json    KNOXDEV/wsl
+wsl-ubuntu1804-arm.json    KNOXDEV/wsl
+wsl-ubuntu2004-arm.json    KNOXDEV/wsl
+wsl-ubuntu1804.json    KNOXDEV/wsl
+wsl-fedora.json    KNOXDEV/wsl
+wsl-debian.json    KNOXDEV/wsl
+wsl-kali.json    KNOXDEV/wsl
+wsl-opensuse.json    KNOXDEV/wsl
+wsl-fedora-arm.json    KNOXDEV/wsl
 redream_hermanjustnu.json    hermanjustnu/scoop-emulators
 mame_hermanjustnu.json    hermanjustnu/scoop-emulators
 beebem.json    hermanjustnu/scoop-emulators
@@ -5981,6 +5983,7 @@ Ventoy-Portable.json    ACooper81/scoop-apps
 Microsoft.NETCoreRuntime-Install.json    ACooper81/scoop-apps
 AnyBurn-Portable.json    ACooper81/scoop-apps
 SandboxiePlus-Portable.json    ACooper81/scoop-apps
+mStream-Portable.json    ACooper81/scoop-apps
 CryengineLauncher-Install.json    ACooper81/scoop-apps
 TeraCopy-Install.json    ACooper81/scoop-apps
 Bart-Portable.json    ACooper81/scoop-apps
@@ -6136,6 +6139,7 @@ WOX-Portable.json    ACooper81/scoop-apps
 BeekeeperStudio-Portable.json    ACooper81/scoop-apps
 NirsoftAdvancedRun-Portable.json    ACooper81/scoop-apps
 Plexamp-Portable.json    ACooper81/scoop-apps
+pacaptrCLI-Portable.json    ACooper81/scoop-apps
 ForceBindIPCLI-Portable.json    ACooper81/scoop-apps
 SpeedTestCLI-Portable.json    ACooper81/scoop-apps
 ProperTree-Portable.json    ACooper81/scoop-apps
@@ -6188,6 +6192,7 @@ Bitwarden-Portable.json    ACooper81/scoop-apps
 Brave-Portable.json    ACooper81/scoop-apps
 Ocenaudio-Portable.json    ACooper81/scoop-apps
 Telegram-Portable.json    ACooper81/scoop-apps
+Pode-PSModule.json    ACooper81/scoop-apps
 JSONStreamEditorCLI-Portable.json    ACooper81/scoop-apps
 HiBitUninstaller-Portable.json    ACooper81/scoop-apps
 WinfetchCLI-Portable.json    ACooper81/scoop-apps
@@ -6206,6 +6211,7 @@ AllwaySyncnGo-Portable.json    ACooper81/scoop-apps
 VidCoder-Portable.json    ACooper81/scoop-apps
 SordumDesktopIniEditor-Portable.json    ACooper81/scoop-apps
 HeroicGameLauncher-Portable.json    ACooper81/scoop-apps
+NitroShare-Portable.json    ACooper81/scoop-apps
 SABnzbd-Portable.json    ACooper81/scoop-apps
 FreeTube-Portable.json    ACooper81/scoop-apps
 WindowsISODownloader-Portable.json    ACooper81/scoop-apps
@@ -6233,6 +6239,7 @@ BeautySearch-Portable.json    ACooper81/scoop-apps
 qBittorrent-Install.json    ACooper81/scoop-apps
 FanControl-Portable.json    ACooper81/scoop-apps
 PueuedCLI-Portable.json    ACooper81/scoop-apps
+Oasis-Portable.json    ACooper81/scoop-apps
 NTLite-Portable.json    ACooper81/scoop-apps
 WhatChanged-Portable.json    ACooper81/scoop-apps
 TranslucentTB-Install.json    ACooper81/scoop-apps
@@ -6287,6 +6294,7 @@ NirsoftFolderChangesView-Portable.json    ACooper81/scoop-apps
 4KSlideshowMaker-Portable.json    ACooper81/scoop-apps
 OandOShutUp10-Portable.json    ACooper81/scoop-apps
 RevoUninstaller-Portable.json    ACooper81/scoop-apps
+PEAnatomist-Portable.json    ACooper81/scoop-apps
 RunAsTICLI-Portable.json    ACooper81/scoop-apps
 CuteHttpFileServer-Portable.json    ACooper81/scoop-apps
 SoftOrganizer-Portable.json    ACooper81/scoop-apps
@@ -6344,6 +6352,8 @@ SUMo-Install.json    ACooper81/scoop-apps
 LogitechOptions-Install.json    ACooper81/scoop-apps
 NoMansSkySaveEditor-Portable.json    ACooper81/scoop-apps
 IrfanViewPlugins-Install.json    ACooper81/scoop-apps
+Privexec-Portable.json    ACooper81/scoop-apps
+NordPass-Portable.json    ACooper81/scoop-apps
 MusicBrainzPicard-Portable.json    ACooper81/scoop-apps
 WaitCLI-Portable.json    ACooper81/scoop-apps
 DrFolder-Portable.json    ACooper81/scoop-apps
@@ -6371,6 +6381,7 @@ AutoHotkey-Install.json    ACooper81/scoop-apps
 qBittorrentEnhanced-Portable.json    ACooper81/scoop-apps
 AccentApplicator-UserInstall.json    ACooper81/scoop-apps
 MuseScore-Portable.json    ACooper81/scoop-apps
+PrivateWin10-Portable.json    ACooper81/scoop-apps
 CenterTaskbar-Portable.json    ACooper81/scoop-apps
 YumiUefi-Portable.json    ACooper81/scoop-apps
 EnableLoopbackUtility-Portable.json    ACooper81/scoop-apps
@@ -6396,6 +6407,7 @@ GoogleChrome-Install.json    ACooper81/scoop-apps
 SysinternalsSuite-Portable.json    ACooper81/scoop-apps
 RoboIntern-Portable.json    ACooper81/scoop-apps
 PSWindowsUpdate-PSModule.json    ACooper81/scoop-apps
+OpenRA-Portable.json    ACooper81/scoop-apps
 XAMPP-Portable.json    ACooper81/scoop-apps
 AppBuster-Portable.json    ACooper81/scoop-apps
 NirsoftCurrPorts-Portable.json    ACooper81/scoop-apps
@@ -6426,6 +6438,7 @@ Mixxx-Portable.json    ACooper81/scoop-apps
 FilesInspector-Portable.json    ACooper81/scoop-apps
 ZintBarcodeGenerator-Portable.json    ACooper81/scoop-apps
 DUMo-Portable.json    ACooper81/scoop-apps
+PRemoteM-Portable.json    ACooper81/scoop-apps
 PlexMediaServer-Portable.json    ACooper81/scoop-apps
 scoop-search_ACooper81.json    ACooper81/scoop-apps
 DeezerDesktop-Portable.json    ACooper81/scoop-apps
