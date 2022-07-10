@@ -1,0 +1,32 @@
+{
+    "version": "1.5.fix1",
+    "description": "A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
+    "homepage": "https://github.com/huiyadanli/RevokeMsgPatcher",
+    "license": "GNU General Public License v3.0",
+    "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/1.5/RevokeMsgPatcher.v1.5.fix1.zip",
+    "hash": "a105eac4e665d1a335f65e97a7c1b0053a0b37d68c9acb1dfe2d1d52a31a299e",
+    "extract_dir": "RevokeMsgPatcher.v1.5",
+    "shortcuts": [
+        [
+            "RevokeMsgPatcher.exe",
+            "RevokeMsgPatcher"
+        ],
+        [
+            "RevokeMsgPatcher.exe",
+            "微信/QQ/TIM防撤回补丁"
+        ],
+        [
+            "RevokeMsgPatcher.MultiInstance.exe",
+            "RevokeMsgPatcher.MultiInstance"
+        ],
+        [
+            "RevokeMsgPatcher.MultiInstance.exe",
+            "微信多开小工具"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/$version/RevokeMsgPatcher.v$version.zip",
+        "extract_dir": "RevokeMsgPatcher.v$version"
+    }
+}
