@@ -923,6 +923,7 @@ potplayer.json    ScoopInstaller/Extras
 basilisk.json    ScoopInstaller/Extras
 telegram.json    ScoopInstaller/Extras
 aws-session-manager-plugin.json    ScoopInstaller/Extras
+rife-ncnn-vulkan.json    ScoopInstaller/Extras
 clingo.json    ScoopInstaller/Extras
 vcredist2010.json    ScoopInstaller/Extras
 dual-monitor-tools.json    ScoopInstaller/Extras
@@ -2690,6 +2691,7 @@ doom-retro.json    Calinou/scoop-games
 stella.json    Calinou/scoop-games
 paintball2.json    Calinou/scoop-games
 openxcom.json    Calinou/scoop-games
+cemu-dev.json    Calinou/scoop-games
 project64.json    Calinou/scoop-games
 fillets.json    Calinou/scoop-games
 vkquake2.json    Calinou/scoop-games
@@ -4774,6 +4776,7 @@ danmaku-factory.json    hoilc/scoop-lemon
 timevertor.json    hoilc/scoop-lemon
 terminus-player.json    hoilc/scoop-lemon
 classviewer.json    hoilc/scoop-lemon
+glooctl.json    hoilc/scoop-lemon
 bleconsole.json    hoilc/scoop-lemon
 gif123.json    hoilc/scoop-lemon
 stripe-cli.json    hoilc/scoop-lemon
@@ -5919,7 +5922,6 @@ duckstation_borger.json    borger/scoop-emulators
 retroarch_borger.json    borger/scoop-emulators
 melonds_borger.json    borger/scoop-emulators
 xenia_borger.json    borger/scoop-emulators
-cemu-dev.json    borger/scoop-emulators
 steam-rom-manager_borger.json    borger/scoop-emulators
 yuzu-dev_borger.json    borger/scoop-emulators
 citra_borger.json    borger/scoop-emulators
@@ -5933,7 +5935,6 @@ pcsx2-dev_borger.json    borger/scoop-emulators
 ppsspp-dev_borger.json    borger/scoop-emulators
 desmume_borger.json    borger/scoop-emulators
 redream-dev_borger.json    borger/scoop-emulators
-cxbx-reloaded_borger.json    borger/scoop-emulators
 project64-dev_borger.json    borger/scoop-emulators
 xemu_borger.json    borger/scoop-emulators
 scummvm-nightly_borger.json    borger/scoop-emulators
@@ -6867,6 +6868,7 @@ shelltools-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 vpnc-front-end-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 everything-beta-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 pgadmin4-np_ScoopInstaller.json    ScoopInstaller/Nonportable
+iddsampledriver-ge9-np.json    ScoopInstaller/Nonportable
 glasswire-lite-np.json    ScoopInstaller/Nonportable
 xampp-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 protonvpn-np.json    ScoopInstaller/Nonportable
@@ -7559,6 +7561,7 @@ Thunder_ygguorun.json    ygguorun/scoop-bucket
 hash.json    ygguorun/scoop-bucket
 DotNetVersions.json    ygguorun/scoop-bucket
 doggo_ygguorun.json    ygguorun/scoop-bucket
+winscppwd.json    ygguorun/scoop-bucket
 go-cqhttp.json    ygguorun/scoop-bucket
 CopyTranslator_ygguorun.json    ygguorun/scoop-bucket
 PingFangTC.json    ygguorun/scoop-bucket
