@@ -1,5 +1,5 @@
 {
-    "version": "1.29",
+    "version": "1.31",
     "description": "RoboIntern. Automate repetitive tasks at ease",
     "homepage": "https://robointern.tech/index.html",
     "license": "",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://robointern.tech/release/x64/RoboIntern.zip",
-            "hash": "7c266ca856206c59bd0706b7bee2bb78bbeb67adb81804f75d2512ae73973d12"
+            "hash": "f3da6499d7f6b34ed1f1ae115e2a1123c6abfaa64401d89d774b850e49b03367"
         },
         "32bit": {
             "url": "https://robointern.tech/release/RoboIntern.zip",
-            "hash": "04a85611ad8b010c3ec520f83cef5de4b521d6888accdbe6165384dcc06c9f06"
+            "hash": "2eb4829013c65f89d08dcdcf0fe891db627ae9a4e3916a83ffed428d32b8f6a0"
         }
     },
     "pre_install": [
