@@ -843,6 +843,7 @@ puttie.json    ScoopInstaller/Extras
 folder-marker.json    ScoopInstaller/Extras
 colorcontrol.json    ScoopInstaller/Extras
 mellowplayer.json    ScoopInstaller/Extras
+diskcheckup.json    ScoopInstaller/Extras
 zeplin.json    ScoopInstaller/Extras
 maxto.json    ScoopInstaller/Extras
 patheditor.json    ScoopInstaller/Extras
@@ -1390,7 +1391,6 @@ t-clock.json    ScoopInstaller/Extras
 010editor.json    ScoopInstaller/Extras
 util-linux-ng.json    ScoopInstaller/Extras
 wox.json    ScoopInstaller/Extras
-autohotkey-installer.json    ScoopInstaller/Extras
 mu-editor.json    ScoopInstaller/Extras
 logexpert.json    ScoopInstaller/Extras
 aria-ng-gui.json    ScoopInstaller/Extras
@@ -2643,6 +2643,7 @@ nanoboyadvance.json    Calinou/scoop-games
 mednaffe.json    Calinou/scoop-games
 freeorion-test.json    Calinou/scoop-games
 mame.json    Calinou/scoop-games
+doomrunner.json    Calinou/scoop-games
 openra.json    Calinou/scoop-games
 r2modman.json    Calinou/scoop-games
 toontownoffline.json    Calinou/scoop-games
@@ -6455,6 +6456,7 @@ WOX-Portable.json    ACooper81/scoop-apps
 StegifyCLI-Portable.json    ACooper81/scoop-apps
 LockHunter-Portable.json    ACooper81/scoop-apps
 Inkscape-Portable.json    ACooper81/scoop-apps
+WindowsTerminalPreview-Portable.json    ACooper81/scoop-apps
 NirsoftFolderChangesView-Portable.json    ACooper81/scoop-apps
 CCleaner-Portable.json    ACooper81/scoop-apps
 GoogleChrome-Install.json    ACooper81/scoop-apps
@@ -6854,6 +6856,7 @@ scdl-py.json    TheRandomLabs/Scoop-Python
 wheel-py.json    TheRandomLabs/Scoop-Python
 setuptools-py.json    TheRandomLabs/Scoop-Python
 nvidia-display-driver-with-3d-vision-np_ScoopInstaller.json    ScoopInstaller/Nonportable
+autohotkey-np.json    ScoopInstaller/Nonportable
 lavfilters-np.json    ScoopInstaller/Nonportable
 xampp-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 sandboxie-plus-np.json    ScoopInstaller/Nonportable
@@ -7314,7 +7317,7 @@ curl_excitoon.json    excitoon/scoop-user
 spacesniffer_excitoon.json    excitoon/scoop-user
 gcc8.json    excitoon/scoop-user
 bazel0.19.2.json    excitoon/scoop-user
-unshield.json    excitoon/scoop-user
+unshield_excitoon.json    excitoon/scoop-user
 wdiff.json    excitoon/scoop-user
 xmouse.json    excitoon/scoop-user
 gcc72.json    excitoon/scoop-user
