@@ -1,13 +1,13 @@
 {
-    "version": "1.22.24",
+    "version": "1.22.30",
     "description": "Terminal/ssh/serial port/sftp client",
     "homepage": "https://electerm.github.io/electerm/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/electerm/electerm/releases/download/v1.22.24/electerm-1.22.24-win-x64.tar.gz",
-            "hash": "946e44dd29506cd07544ac397fc023a026f21a38da41102ba4876b4c524f5c89",
-            "extract_dir": "electerm-1.22.24-win-x64"
+            "url": "https://github.com/electerm/electerm/releases/download/v1.22.30/electerm-1.22.30-win-x64.tar.gz",
+            "hash": "d8faaff566b591fdef7e9a98b2d73bc68dbed6460868e668b4f13108a718613f",
+            "extract_dir": "electerm-1.22.30-win-x64"
         }
     },
     "bin": "electerm.exe",
