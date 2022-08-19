@@ -1,14 +1,14 @@
 {
     "architecture": {
         "32bit": {
-            "extract_dir": "cmake-3.24.20220817-gd9063ca-windows-i386",
-            "hash": "06b04d4a6c57d322c80b8f8a4f6c3f69a3bba08e6f0a97fbeb6f3b67d27ddfb2",
-            "url": "https://cmake.org/files/dev/cmake-3.24.20220817-gd9063ca-windows-i386.zip"
+            "extract_dir": "cmake-3.24.20220818-g67db700-windows-i386",
+            "hash": "29f9d31d8a1bef01a18c6314c61baf4d2d670e9906b4b09113fb1cb89404f79a",
+            "url": "https://cmake.org/files/dev/cmake-3.24.20220818-g67db700-windows-i386.zip"
         },
         "64bit": {
-            "extract_dir": "cmake-3.24.20220817-gd9063ca-windows-x86_64",
-            "hash": "d8f062a9332c784d1256a22e30b23e757fb171355dec129f2bfec96a3add03cf",
-            "url": "https://cmake.org/files/dev/cmake-3.24.20220817-gd9063ca-windows-x86_64.zip"
+            "extract_dir": "cmake-3.24.20220818-g67db700-windows-x86_64",
+            "hash": "a3d4c61058a6fda00c4cc47688266e931b3d70b1ec96c80e5d0e5eed33c4e44e",
+            "url": "https://cmake.org/files/dev/cmake-3.24.20220818-g67db700-windows-x86_64.zip"
         }
     },
     "autoupdate": {
@@ -43,5 +43,5 @@
             "cmake-gui"
         ]
     ],
-    "version": "3.24.20220817"
+    "version": "3.24.20220818"
 }
