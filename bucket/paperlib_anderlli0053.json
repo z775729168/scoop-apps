@@ -1,12 +1,12 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "sha512:662f42ad0db679fa5c6b0740665ff51667600e90996e743ce5240ed833110106f67711e33b95df62e6ccc84a7e8c52a79b587af92e85daa5a4867e82025a0c2e",
+            "hash": "sha512:aeee2116d87511c103d2f67cd33bd5b3b8ba46489fee4600c78b25c7cf84a698bb5cf7d0553c5df845ede5a6920fad77498e6432bb55f3b5a579e9791720df63",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
             ],
-            "url": "https://github.com/GeoffreyChen777/paperlib/releases/download/release-electron-1.9.5/Paperlib_1.9.5.exe#/dl.7z"
+            "url": "https://github.com/GeoffreyChen777/paperlib/releases/download/release-electron-1.9.7/Paperlib_1.9.7.exe#/dl.7z"
         }
     },
     "autoupdate": {
@@ -35,5 +35,5 @@
             "Paperlib"
         ]
     ],
-    "version": "1.9.5"
+    "version": "1.9.7"
 }
