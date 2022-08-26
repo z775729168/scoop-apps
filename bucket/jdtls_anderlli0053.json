@@ -11,7 +11,7 @@
         "url": "https://download.eclipse.org/jdtls/snapshots/latest.txt"
     },
     "description": "Java language server",
-    "hash": "a03824226c587ab52cf72a4d3e895dee805cd8b8fb5d62edda491c2a3be4117f",
+    "hash": "4aa5ee391b19976c389dde4053c50fb8eeb6b6e2932d52f5081ce2e6d1a0d870",
     "homepage": "https://projects.eclipse.org/projects/eclipse.jdt.ls",
     "installer": {
         "script": "shim (search_in_path python.exe) $global jdtls \"$dir\\bin\\jdtls\""
@@ -24,6 +24,6 @@
     "uninstaller": {
         "script": "rm_shim jdtls (shimdir $global) jdtls"
     },
-    "url": "https://download.eclipse.org/jdtls/snapshots/jdt-language-server-1.15.0-202208240237.tar.gz",
-    "version": "1.15.0-202208240237"
+    "url": "https://download.eclipse.org/jdtls/snapshots/jdt-language-server-1.15.0-202208261636.tar.gz",
+    "version": "1.15.0-202208261636"
 }
