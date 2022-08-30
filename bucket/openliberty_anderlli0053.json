@@ -26,7 +26,7 @@
  },
  "description": "Server runtime available to JavaTM developers",
  "extract_dir": "wlp",
- "hash": "0a29c2842767fb4be432c5af4e404bce2f9f063c15e9d42b7c1a47dceebaba90",
+ "hash": "640a828a9bba1c73c5200c2489de35e71fb204e58e5e10b4c3297381bd476927",
  "homepage": "https://openliberty.io/",
  "license": "EPL-1.0",
  "notes": "server.bat is aliased to wlp, client.bat is aliased to wlp-client",
@@ -34,6 +34,6 @@
  "suggest": {
   "JDK": "java/openjdk"
  },
- "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/22.0.0.8/openliberty-22.0.0.8.zip",
- "version": "22.0.0.8"
+ "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/22.0.0.9/openliberty-22.0.0.9.zip",
+ "version": "22.0.0.9"
 }
