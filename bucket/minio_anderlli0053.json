@@ -1,8 +1,8 @@
 {
  "architecture": {
   "64bit": {
-   "hash": "c1cc381bc29ccf749aa43daf636a8b93394e9c2e02e543deda765d4eccbaf5d4",
-   "url": "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.2022-08-22T23-53-06Z#/minio.exe"
+   "hash": "011df97b7f4d61b8d6431c93d69bdec93a6617f37433cbb319525f7139c75959",
+   "url": "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.2022-08-26T19-53-15Z#/minio.exe"
   }
  },
  "autoupdate": {
@@ -26,5 +26,5 @@
  "suggest": {
   "minio-client": "minio-client"
  },
- "version": "2022-08-22T23-53-06Z"
+ "version": "2022-08-26T19-53-15Z"
 }

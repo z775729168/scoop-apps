@@ -1,9 +1,9 @@
 {
  "architecture": {
   "64bit": {
-   "extract_dir": "questdb-6.5-no-jre-bin",
-   "hash": "a3cdc050ce178d0373d853d00952d8ec2d21ef952ea4d97281d96223b90c1b9a",
-   "url": "https://github.com/questdb/questdb/releases/download/6.5/questdb-6.5-no-jre-bin.tar.gz"
+   "extract_dir": "questdb-6.5.1-no-jre-bin",
+   "hash": "7135cb82615ad9a35c6a3377e2a8e1daeda65fee13ad0ce74ab4bd0ba8f06376",
+   "url": "https://github.com/questdb/questdb/releases/download/6.5.1/questdb-6.5.1-no-jre-bin.tar.gz"
   }
  },
  "autoupdate": {
@@ -29,5 +29,5 @@
  "suggest": {
   "JDK": "java/openjdk"
  },
- "version": "6.5"
+ "version": "6.5.1"
 }

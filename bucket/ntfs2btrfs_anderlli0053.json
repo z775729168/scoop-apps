@@ -1,8 +1,8 @@
 {
  "architecture": {
   "64bit": {
-   "hash": "0a9e21139d473aaf50152a9cc4eba230d639e3eb04d582f615c61534acd2822c",
-   "url": "https://github.com/maharmstone/ntfs2btrfs/releases/download/20210923/ntfs2btrfs-20210923.zip"
+   "hash": "3b2c6a899a552ace39dacd10646a6f79e0fa7333512dd1a8d1a255c267fa8b36",
+   "url": "https://github.com/maharmstone/ntfs2btrfs/releases/download/20220812/ntfs2btrfs-20220812.zip"
   }
  },
  "autoupdate": {
@@ -21,5 +21,5 @@
  "suggest": {
   "WinBtrfs": "nonportable/winbtrfs-np"
  },
- "version": "20210923"
+ "version": "20220812"
 }

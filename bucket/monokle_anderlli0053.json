@@ -1,8 +1,8 @@
 {
  "architecture": {
   "64bit": {
-   "hash": "sha512:39649a6cd8c2fbf5a9250c7cc4a487eb8ec1aba12591ca1d6add5fa8986ce48ac14d2d52f7efc0846fd412056213ebdfe0519baacf632e9f1babaad7395e1b84",
-   "url": "https://github.com/kubeshop/monokle/releases/download/v1.10.1/Monokle-win-1.10.1-x64.exe#/dl.7z"
+   "hash": "sha512:d5cf0d05b48bb3579f4dd84c2d32f239edffa9f3156b9003c959b0a27f07b419c71d7b58e5d374b1ed44f91c2256686114c33bad108184532343feb384b54468",
+   "url": "https://github.com/kubeshop/monokle/releases/download/v1.10.3/Monokle-win-1.10.3-x64.exe#/dl.7z"
   }
  },
  "autoupdate": {
@@ -48,5 +48,5 @@
  "uninstaller": {
   "script": "Remove-Item $env:APPDATA\\monokle -Force -Recurse"
  },
- "version": "1.10.1"
+ "version": "1.10.3"
 }

@@ -1,12 +1,12 @@
 {
  "architecture": {
   "32bit": {
-   "hash": "dc9506f1b1e7ef7697926c46b74eef9c8687c2f4c073c5a010f0910539cab3e6",
-   "url": "https://msedgedriver.azureedge.net/106.0.1366.0/edgedriver_win32.zip"
+   "hash": "913ec93e3b2242e10a4c1c6f20554c362a14ef571f5aa76a7a7d3f7e4751accd",
+   "url": "https://msedgedriver.azureedge.net/106.0.1367.0/edgedriver_win32.zip"
   },
   "64bit": {
-   "hash": "c4ae1b8290e579104625c669d16566943775104d89baf2f1dd006e12094dbd35",
-   "url": "https://msedgedriver.azureedge.net/106.0.1366.0/edgedriver_win64.zip"
+   "hash": "61876c25f756240883cb582f890549c95edeb82b0822d1d914ad399657576b59",
+   "url": "https://msedgedriver.azureedge.net/106.0.1367.0/edgedriver_win64.zip"
   }
  },
  "autoupdate": {
@@ -31,5 +31,5 @@
   "url": "https://az813057.vo.msecnd.net/webdriver/license.html"
  },
  "notes": "For legacy (EdgeHTML) version, see 'versions/edgedriver-legacy'.",
- "version": "106.0.1366.0"
+ "version": "106.0.1367.0"
 }

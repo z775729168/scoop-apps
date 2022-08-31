@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Iosevka.zip"
  },
  "checkver": "github",
- "hash": "6bd29ef886b808d1d76dd85f82b8823452265fda582801734aab6f9460270de3",
+ "hash": "317cf0db55def94629e833243ae6fca2ce8d67fbc341f23fcf4d56c18f45b392",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Iosevka.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.1/Iosevka.zip",
+ "version": "2.2.1"
 }
