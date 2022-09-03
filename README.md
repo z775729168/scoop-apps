@@ -86,9 +86,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - krproject/qi-windows
 - mogeko/scoop-sysinternals
 - excitoon/scoop-user
-- batkiz/backit
 - jfut/scoop-jfut
 - iquiw/scoop-bucket
+- batkiz/backit
 - anderlli0053/DEV-tools
 - alextwothousand/scoop-bucket
 - MCOfficer/scoop-bucket
@@ -100,7 +100,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoop_bucket_misty
 - ygguorun/scoop-bucket
 - seumsc/scoop-seu
-- rivy/scoop-bucket
 - ddavness/scoop-roblox
 - nickbudi/scoop-bucket
 - Darkatse/Scoop-KanColle
