@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Monofur.zip"
  },
  "checkver": "github",
- "hash": "12abec8cc29a55a127ef1eb583d2a45cb44ba60e19115b2a068fc4de1e86b338",
+ "hash": "965d3f193da2558192459755031cce852f422a13c75dec190eb503257eb5ab88",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Monofur.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.1/Monofur.zip",
+ "version": "2.2.1"
 }

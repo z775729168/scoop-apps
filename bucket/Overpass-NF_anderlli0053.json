@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Overpass.zip"
  },
  "checkver": "github",
- "hash": "b5f7522a2e884562cfca4c32fa708d537b884efb5d055ad617a3b503d9f842f7",
+ "hash": "2e875cdad756e6e6333648cadbae132b0b6a095378f5fd825b9ebb1fdafedc66",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Overpass.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.1/Overpass.zip",
+ "version": "2.2.1"
 }

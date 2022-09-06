@@ -4,7 +4,7 @@
  },
  "checkver": "github",
  "extract_dir": "TrueType/IBM-Plex-Sans-JP/hinted",
- "hash": "647df0e498e4592a0961d61cc1c32be634921b8ec3bef4f9a94ca335b9c40a66",
+ "hash": "e9c10287af7234243f4c8155e7a003d37389e8775be7faac7b270ed4fda07f69",
  "homepage": "https://github.com/IBM/plex",
  "installer": {
   "script": [
@@ -48,6 +48,6 @@
    "Write-Host \"The 'IBM Plex Sans JP' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/IBM/plex/releases/download/v6.0.2/TrueType.zip",
- "version": "6.0.2"
+ "url": "https://github.com/IBM/plex/releases/download/v6.1.0/TrueType.zip",
+ "version": "6.1.0"
 }
