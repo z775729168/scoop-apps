@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/JetBrainsMono.zip"
  },
  "checkver": "github",
- "hash": "842013fa44b6896d4eb91635a81ef75244d78d7f61ff866c9dfd3315a67788cd",
+ "hash": "8b9b6c58081d179ecd50839a6b211dbd24b61e66d87715860129b6138982ee7b",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip",
+ "version": "2.2.2"
 }

@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Gohu.zip"
  },
  "checkver": "github",
- "hash": "23f43a0b68c10818df40fc36269f969bc9f15a0d4cacd253e1d2dd9a4955dd37",
+ "hash": "8797d419f5540f8b15c6bbafb99d50bc372ed703be188ed82ab26540fad062db",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.1/Gohu.zip",
- "version": "2.2.1"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Gohu.zip",
+ "version": "2.2.2"
 }
