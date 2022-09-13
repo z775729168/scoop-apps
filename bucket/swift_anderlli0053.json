@@ -1,8 +1,8 @@
 {
  "architecture": {
   "64bit": {
-   "hash": "ef5c2dc920165aa70af7781b98f666bab22b8dc07a18564f1897f3567d18202b",
-   "url": "https://download.swift.org/swift-5.6.3-release/windows10/swift-5.6.3-RELEASE/swift-5.6.3-RELEASE-windows10.exe"
+   "hash": "cc5580e347c492cf4f6c74e0e59d78938cb7b1484ba9a72cbd923c6ee6a4fe3d",
+   "url": "https://download.swift.org/swift-5.7-release/windows10/swift-5.7-RELEASE/swift-5.7-RELEASE-windows10.exe"
   }
  },
  "autoupdate": {
@@ -40,5 +40,5 @@
   "To make swift toolchain work, you must have Visual Studio and Windows SDK components installed.",
   "Please read https://www.swift.org/getting-started/#support-files for Supporting Files installation guide."
  ],
- "version": "5.6.3"
+ "version": "5.7"
 }

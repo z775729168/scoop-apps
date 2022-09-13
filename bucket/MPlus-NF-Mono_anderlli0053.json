@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/MPlus.zip"
  },
  "checkver": "github",
- "hash": "d88b440d40747fd196bc86a741a6c0233737600c3b20e50e7512d7ea3e74b90e",
+ "hash": "dcbec092ecf13ddf872b5d7af1f1df0081a2eb5492527ae99df4adeb423c39fc",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/MPlus.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/MPlus.zip",
+ "version": "2.2.2"
 }
