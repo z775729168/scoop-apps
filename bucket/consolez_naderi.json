@@ -21,8 +21,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/cbucher/console",
-        "regex": "title=\"version\\s([\\d.]+)\""
+        "url": "https://github.com/cbucher/console/releases/latest",
+        "regex": "/ConsoleZ.([\\d.]+).7z"
     },
     "autoupdate": {
         "architecture": {
