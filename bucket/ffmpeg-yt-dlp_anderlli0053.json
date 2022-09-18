@@ -2,13 +2,13 @@
  "architecture": {
   "32bit": {
    "extract_dir": "ffmpeg-n5.1.1-4-g425ffaec23-win32-gpl-5.1",
-   "hash": "dca28b7597476a1e76faee50c08ca5192ebd69500948e644895f8f5b1c2ab9ed",
-   "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-09-12-13-09/ffmpeg-n5.1.1-4-g425ffaec23-win32-gpl-5.1.zip"
+   "hash": "1997aa0ab24001282ef048c943cddc35a1325da668511e603471d618a7534846",
+   "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-09-17-13-04/ffmpeg-n5.1.1-4-g425ffaec23-win32-gpl-5.1.zip"
   },
   "64bit": {
    "extract_dir": "ffmpeg-n5.1.1-4-g425ffaec23-win64-gpl-5.1",
-   "hash": "794aa35c68e1c7f3d9d16731dbd194ad029c18f331335dafb3862fc765d82391",
-   "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-09-12-13-09/ffmpeg-n5.1.1-4-g425ffaec23-win64-gpl-5.1.zip"
+   "hash": "ffa1ab00e32074e40372acdff92d5286cf3e56130021bc14572bf35a22b09d16",
+   "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-09-17-13-04/ffmpeg-n5.1.1-4-g425ffaec23-win64-gpl-5.1.zip"
   }
  },
  "autoupdate": {
@@ -55,5 +55,5 @@
  "suggest": {
   "yt-dlp": "yt-dlp"
  },
- "version": "5.1.1-4-20220912"
+ "version": "5.1.1-4-20220917"
 }
