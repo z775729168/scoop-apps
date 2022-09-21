@@ -1289,6 +1289,7 @@ goneovim.json    ScoopInstaller/Extras
 trojita.json    ScoopInstaller/Extras
 clash-mini.json    ScoopInstaller/Extras
 workrave.json    ScoopInstaller/Extras
+wsl-distrod.json    ScoopInstaller/Extras
 rainmeter.json    ScoopInstaller/Extras
 microsip.json    ScoopInstaller/Extras
 eclipse-sdk.json    ScoopInstaller/Extras
@@ -2896,7 +2897,6 @@ regester.json    ivaquero/scoopet
 obs-studio-cn.json    ivaquero/scoopet
 downkyi_ivaquero.json    ivaquero/scoopet
 partition-assistant.json    ivaquero/scoopet
-winget_ivaquero.json    ivaquero/scoopet
 lx-music.json    ivaquero/scoopet
 cajviewer.json    ivaquero/scoopet
 wisecare365.json    ivaquero/scoopet
@@ -3162,6 +3162,7 @@ elasticsearch5.json    ScoopInstaller/Versions
 php56-xdebug.json    ScoopInstaller/Versions
 de4dot-net35.json    ScoopInstaller/Versions
 python35.json    ScoopInstaller/Versions
+winget-preview.json    ScoopInstaller/Versions
 msys2-20200517.json    ScoopInstaller/Versions
 elasticsearch2.json    ScoopInstaller/Versions
 spotbugs-beta.json    ScoopInstaller/Versions
@@ -5857,6 +5858,7 @@ BaiduPanFilesTransfers.json    dodorz/scoop
 IcecreamPDFEditor.json    dodorz/scoop
 WriteMonkey3.json    dodorz/scoop
 ssr.json    dodorz/scoop
+lolcat.json    dodorz/scoop
 JSONedit.json    dodorz/scoop
 PanDownload_dodorz.json    dodorz/scoop
 LibgenDesktop.json    dodorz/scoop
@@ -7354,24 +7356,6 @@ consolez_naderi.json    naderi/scoop-bucket
 ant-renamer.json    naderi/scoop-bucket
 xpdf-tools-all_naderi.json    naderi/scoop-bucket
 texniccenter_naderi.json    naderi/scoop-bucket
-lite_ChungZH.json    ChungZH/peach
-translatium.json    ChungZH/peach
-notepanda.json    ChungZH/peach
-kanmail.json    ChungZH/peach
-swifty.json    ChungZH/peach
-drawio_ChungZH.json    ChungZH/peach
-runjs.json    ChungZH/peach
-apkstudio.json    ChungZH/peach
-switch.json    ChungZH/peach
-qownnotes_ChungZH.json    ChungZH/peach
-lemon_ChungZH.json    ChungZH/peach
-toggl_ChungZH.json    ChungZH/peach
-caret_ChungZH.json    ChungZH/peach
-qtpass_ChungZH.json    ChungZH/peach
-tencent-edu_ChungZH.json    ChungZH/peach
-vivetool_ChungZH.json    ChungZH/peach
-parsify.json    ChungZH/peach
-mongood.json    ChungZH/peach
 perl@5.24+gcc.json    anderlli0053/DEV-tools
 python@mini-2.7.16.json    anderlli0053/DEV-tools
 perl@5.26+gcc+PDL-LD.json    anderlli0053/DEV-tools
@@ -7604,12 +7588,14 @@ vdesk_anderlli0053.json    anderlli0053/DEV-tools
 runningcheese-chrome.json    anderlli0053/DEV-tools
 php5.5.27-nts.json    anderlli0053/DEV-tools
 xdelta_anderlli0053.json    anderlli0053/DEV-tools
+ResilioSync_anderlli0053.json    anderlli0053/DEV-tools
 kubebox_anderlli0053.json    anderlli0053/DEV-tools
 perl_anderlli0053.json    anderlli0053/DEV-tools
 mpc-be_anderlli0053.json    anderlli0053/DEV-tools
 FlashPad_anderlli0053.json    anderlli0053/DEV-tools
 dogecoincore_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.12-nts.json    anderlli0053/DEV-tools
+MergeGen_anderlli0053.json    anderlli0053/DEV-tools
 MuseScorePortable.json    anderlli0053/DEV-tools
 wslgit_anderlli0053.json    anderlli0053/DEV-tools
 windows-switcher_anderlli0053.json    anderlli0053/DEV-tools
@@ -7651,6 +7637,7 @@ mpv-git_anderlli0053.json    anderlli0053/DEV-tools
 masvis_anderlli0053.json    anderlli0053/DEV-tools
 zoomit.json    anderlli0053/DEV-tools
 StrokesPlus-Portable_anderlli0053.json    anderlli0053/DEV-tools
+SpacedeskDriver_anderlli0053.json    anderlli0053/DEV-tools
 firefox-beta-zh-cn_anderlli0053.json    anderlli0053/DEV-tools
 mpress_anderlli0053.json    anderlli0053/DEV-tools
 SDeleteCLI-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -7750,8 +7737,10 @@ Scilab_anderlli0053.json    anderlli0053/DEV-tools
 mpv_anderlli0053.json    anderlli0053/DEV-tools
 EmbyTheater-Portable_anderlli0053.json    anderlli0053/DEV-tools
 listen1desktop_anderlli0053.json    anderlli0053/DEV-tools
+gife_anderlli0053.json    anderlli0053/DEV-tools
 eksctl_anderlli0053.json    anderlli0053/DEV-tools
 quark.json    anderlli0053/DEV-tools
+CorelVideoStudio_anderlli0053.json    anderlli0053/DEV-tools
 php5.2.3-nts.json    anderlli0053/DEV-tools
 start-reader_anderlli0053.json    anderlli0053/DEV-tools
 thrift_anderlli0053.json    anderlli0053/DEV-tools
@@ -7865,6 +7854,7 @@ featherwallet_anderlli0053.json    anderlli0053/DEV-tools
 suanpan_anderlli0053.json    anderlli0053/DEV-tools
 php5.2.15-nts.json    anderlli0053/DEV-tools
 soundswitch_anderlli0053.json    anderlli0053/DEV-tools
+Sandboxie-Classic_anderlli0053.json    anderlli0053/DEV-tools
 rife-ncnn-vulkan_anderlli0053.json    anderlli0053/DEV-tools
 8uftp_anderlli0053.json    anderlli0053/DEV-tools
 glslang-nightly_anderlli0053.json    anderlli0053/DEV-tools
@@ -7910,6 +7900,7 @@ KasperskyTDSSKillerPortable.json    anderlli0053/DEV-tools
 coder_anderlli0053.json    anderlli0053/DEV-tools
 less_anderlli0053.json    anderlli0053/DEV-tools
 browserdownloadsview_anderlli0053.json    anderlli0053/DEV-tools
+AliIM_anderlli0053.json    anderlli0053/DEV-tools
 gpg@2.2.23.json    anderlli0053/DEV-tools
 php5.5.31-nts.json    anderlli0053/DEV-tools
 fat32format-gui_anderlli0053.json    anderlli0053/DEV-tools
@@ -8004,6 +7995,7 @@ deepl_anderlli0053.json    anderlli0053/DEV-tools
 curl_anderlli0053.json    anderlli0053/DEV-tools
 pip-tool_anderlli0053.json    anderlli0053/DEV-tools
 yacreader_anderlli0053.json    anderlli0053/DEV-tools
+SetACL_anderlli0053.json    anderlli0053/DEV-tools
 ThinkComposer_anderlli0053.json    anderlli0053/DEV-tools
 ArpsiftCLI-Portable_anderlli0053.json    anderlli0053/DEV-tools
 python39_anderlli0053.json    anderlli0053/DEV-tools
@@ -8017,12 +8009,14 @@ php3.0.17.json    anderlli0053/DEV-tools
 grepWinPortable.json    anderlli0053/DEV-tools
 ResEdit_anderlli0053.json    anderlli0053/DEV-tools
 ape_anderlli0053.json    anderlli0053/DEV-tools
+ComIntRep_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.38.json    anderlli0053/DEV-tools
 fiji_anderlli0053.json    anderlli0053/DEV-tools
 jellyfin-mpv-shim_anderlli0053.json    anderlli0053/DEV-tools
 kotatogram_anderlli0053.json    anderlli0053/DEV-tools
 productkeyscanner_anderlli0053.json    anderlli0053/DEV-tools
 go@1.11.2.json    anderlli0053/DEV-tools
+journey_anderlli0053.json    anderlli0053/DEV-tools
 mactype-np_anderlli0053.json    anderlli0053/DEV-tools
 clash-for-windows_anderlli0053.json    anderlli0053/DEV-tools
 z.lua_anderlli0053.json    anderlli0053/DEV-tools
@@ -8169,6 +8163,7 @@ gomplate_anderlli0053.json    anderlli0053/DEV-tools
 chronograf_anderlli0053.json    anderlli0053/DEV-tools
 cuda11.0_anderlli0053.json    anderlli0053/DEV-tools
 bitsmanager_anderlli0053.json    anderlli0053/DEV-tools
+ThunderS_anderlli0053.json    anderlli0053/DEV-tools
 FormatFactory-Portable_anderlli0053.json    anderlli0053/DEV-tools
 php4.3.11.json    anderlli0053/DEV-tools
 imagemagick-lean_anderlli0053.json    anderlli0053/DEV-tools
@@ -8305,6 +8300,7 @@ miniconda2_anderlli0053.json    anderlli0053/DEV-tools
 DeepL-Portable_anderlli0053.json    anderlli0053/DEV-tools
 winlibs-mingw-msvcrt_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.24.json    anderlli0053/DEV-tools
+LLFTOOL_anderlli0053.json    anderlli0053/DEV-tools
 PopManPortable.json    anderlli0053/DEV-tools
 now-cli_anderlli0053.json    anderlli0053/DEV-tools
 stunnel549_anderlli0053.json    anderlli0053/DEV-tools
@@ -8343,6 +8339,7 @@ go@1.18.1.json    anderlli0053/DEV-tools
 compactor_anderlli0053.json    anderlli0053/DEV-tools
 traymond_anderlli0053.json    anderlli0053/DEV-tools
 mist_anderlli0053.json    anderlli0053/DEV-tools
+Bootice_anderlli0053.json    anderlli0053/DEV-tools
 mingit_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.21.json    anderlli0053/DEV-tools
 Toucan.json    anderlli0053/DEV-tools
@@ -8448,6 +8445,8 @@ DUMoPortable.json    anderlli0053/DEV-tools
 kalk_anderlli0053.json    anderlli0053/DEV-tools
 kid3_anderlli0053.json    anderlli0053/DEV-tools
 gacview_anderlli0053.json    anderlli0053/DEV-tools
+Zkey_anderlli0053.json    anderlli0053/DEV-tools
+SetDefaultBrowser_anderlli0053.json    anderlli0053/DEV-tools
 FocusWriter_anderlli0053.json    anderlli0053/DEV-tools
 mongodb34_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.22.json    anderlli0053/DEV-tools
@@ -8536,11 +8535,13 @@ glitter_anderlli0053.json    anderlli0053/DEV-tools
 mayelite.json    anderlli0053/DEV-tools
 winauth_anderlli0053.json    anderlli0053/DEV-tools
 jd-cli_anderlli0053.json    anderlli0053/DEV-tools
+Xshell_anderlli0053.json    anderlli0053/DEV-tools
 gibo_anderlli0053.json    anderlli0053/DEV-tools
 OperaGXPortable.json    anderlli0053/DEV-tools
 atom_anderlli0053.json    anderlli0053/DEV-tools
 extraterm_anderlli0053.json    anderlli0053/DEV-tools
 freeciv_anderlli0053.json    anderlli0053/DEV-tools
+SunloginClient_anderlli0053.json    anderlli0053/DEV-tools
 gcc@8.1.0-multilib+x32.json    anderlli0053/DEV-tools
 protonmail-bridge_anderlli0053.json    anderlli0053/DEV-tools
 ruffle-nightly_anderlli0053.json    anderlli0053/DEV-tools
@@ -8549,6 +8550,7 @@ fossil_anderlli0053.json    anderlli0053/DEV-tools
 Fahkwang_anderlli0053.json    anderlli0053/DEV-tools
 Github-CLI_anderlli0053.json    anderlli0053/DEV-tools
 copytranslator_anderlli0053.json    anderlli0053/DEV-tools
+KindleSend_anderlli0053.json    anderlli0053/DEV-tools
 winscan2pdf_anderlli0053.json    anderlli0053/DEV-tools
 php5.5.34.json    anderlli0053/DEV-tools
 gitea-beta_anderlli0053.json    anderlli0053/DEV-tools
@@ -8579,6 +8581,7 @@ FARR_anderlli0053.json    anderlli0053/DEV-tools
 x2goclient_anderlli0053.json    anderlli0053/DEV-tools
 simplenote_anderlli0053.json    anderlli0053/DEV-tools
 fzf_anderlli0053.json    anderlli0053/DEV-tools
+wintogo_anderlli0053.json    anderlli0053/DEV-tools
 msikombustor_anderlli0053.json    anderlli0053/DEV-tools
 polaris_anderlli0053.json    anderlli0053/DEV-tools
 specPortable.json    anderlli0053/DEV-tools
@@ -8677,7 +8680,9 @@ docker-cli_anderlli0053.json    anderlli0053/DEV-tools
 sogouinput-xingkbjm.json    anderlli0053/DEV-tools
 yosys_anderlli0053.json    anderlli0053/DEV-tools
 languagetool_anderlli0053.json    anderlli0053/DEV-tools
+R-Studio_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.32-nts.json    anderlli0053/DEV-tools
+CorelDraw_anderlli0053.json    anderlli0053/DEV-tools
 brotli_anderlli0053.json    anderlli0053/DEV-tools
 sdelete.json    anderlli0053/DEV-tools
 navicat-premium.json    anderlli0053/DEV-tools
@@ -8695,6 +8700,7 @@ qBittorrent-Portable_anderlli0053.json    anderlli0053/DEV-tools
 coodesker-portable_anderlli0053.json    anderlli0053/DEV-tools
 jim_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.12-nts.json    anderlli0053/DEV-tools
+RAMExpect_anderlli0053.json    anderlli0053/DEV-tools
 guipropview_anderlli0053.json    anderlli0053/DEV-tools
 InkscapePortable.json    anderlli0053/DEV-tools
 sfk_anderlli0053.json    anderlli0053/DEV-tools
@@ -8797,6 +8803,7 @@ vpnc-front-end-np_anderlli0053.json    anderlli0053/DEV-tools
 git-interactive-rebase-tool_anderlli0053.json    anderlli0053/DEV-tools
 wkhtmltopdf_anderlli0053.json    anderlli0053/DEV-tools
 adrestore.json    anderlli0053/DEV-tools
+WinNTSetup_anderlli0053.json    anderlli0053/DEV-tools
 plexamp_anderlli0053.json    anderlli0053/DEV-tools
 reviewdog_anderlli0053.json    anderlli0053/DEV-tools
 nunit-extension-nunit-v2-driver_anderlli0053.json    anderlli0053/DEV-tools
@@ -8807,11 +8814,13 @@ tailwindcss_anderlli0053.json    anderlli0053/DEV-tools
 clashweb_anderlli0053.json    anderlli0053/DEV-tools
 ascii-sector_anderlli0053.json    anderlli0053/DEV-tools
 webcacheimageinfo_anderlli0053.json    anderlli0053/DEV-tools
+nextcloud-uploader_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.28.json    anderlli0053/DEV-tools
 lamedropxpd_anderlli0053.json    anderlli0053/DEV-tools
 notepads-np_anderlli0053.json    anderlli0053/DEV-tools
 meow_anderlli0053.json    anderlli0053/DEV-tools
 abricotine_anderlli0053.json    anderlli0053/DEV-tools
+DeskDock_anderlli0053.json    anderlli0053/DEV-tools
 wsl2-distro-manager.json    anderlli0053/DEV-tools
 xiaolai_anderlli0053.json    anderlli0053/DEV-tools
 FreeFileSyncPortable.json    anderlli0053/DEV-tools
@@ -8864,6 +8873,7 @@ RisohEditor_anderlli0053.json    anderlli0053/DEV-tools
 perl-pdl_anderlli0053.json    anderlli0053/DEV-tools
 mosh-client_anderlli0053.json    anderlli0053/DEV-tools
 tim-mod-portable.json    anderlli0053/DEV-tools
+QiDian_anderlli0053.json    anderlli0053/DEV-tools
 nerdctl_anderlli0053.json    anderlli0053/DEV-tools
 ExifPilot_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.33-nts.json    anderlli0053/DEV-tools
@@ -8922,6 +8932,7 @@ NirsoftRegFromApp-Portable_anderlli0053.json    anderlli0053/DEV-tools
 CloneApp-Portable_anderlli0053.json    anderlli0053/DEV-tools
 elasticsearch_anderlli0053.json    anderlli0053/DEV-tools
 trafficmonitor-lite_anderlli0053.json    anderlli0053/DEV-tools
+WTGA_anderlli0053.json    anderlli0053/DEV-tools
 blender-launcher_anderlli0053.json    anderlli0053/DEV-tools
 errorlookup_anderlli0053.json    anderlli0053/DEV-tools
 firefox-beta-fa_anderlli0053.json    anderlli0053/DEV-tools
@@ -9023,6 +9034,7 @@ nsudo_anderlli0053.json    anderlli0053/DEV-tools
 drawio-desktop.json    anderlli0053/DEV-tools
 IronPortable.json    anderlli0053/DEV-tools
 php7.1.2.json    anderlli0053/DEV-tools
+EasyBCD_anderlli0053.json    anderlli0053/DEV-tools
 innounp_anderlli0053.json    anderlli0053/DEV-tools
 php4.3.10.json    anderlli0053/DEV-tools
 php5.3.10-nts.json    anderlli0053/DEV-tools
@@ -9048,6 +9060,7 @@ colon_anderlli0053.json    anderlli0053/DEV-tools
 tachidesk-jui_anderlli0053.json    anderlli0053/DEV-tools
 wifi-password-revealer_anderlli0053.json    anderlli0053/DEV-tools
 caffeinated_anderlli0053.json    anderlli0053/DEV-tools
+Thunder_anderlli0053.json    anderlli0053/DEV-tools
 cpu-v_anderlli0053.json    anderlli0053/DEV-tools
 VirtualBox-Extension-Pack-Install_anderlli0053.json    anderlli0053/DEV-tools
 steam-library-manager_anderlli0053.json    anderlli0053/DEV-tools
@@ -9067,6 +9080,7 @@ gpg_anderlli0053.json    anderlli0053/DEV-tools
 whatinstartup_anderlli0053.json    anderlli0053/DEV-tools
 php5.2.11.json    anderlli0053/DEV-tools
 swift-snapshot_anderlli0053.json    anderlli0053/DEV-tools
+magnetW_anderlli0053.json    anderlli0053/DEV-tools
 OpenHashTab_anderlli0053.json    anderlli0053/DEV-tools
 spearmint_anderlli0053.json    anderlli0053/DEV-tools
 VNCViewer-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -9098,7 +9112,9 @@ latexindent_anderlli0053.json    anderlli0053/DEV-tools
 bilibililiverecorddownloader.json    anderlli0053/DEV-tools
 arend_anderlli0053.json    anderlli0053/DEV-tools
 IrfanViewPlugins-Install_anderlli0053.json    anderlli0053/DEV-tools
+SSDLife_anderlli0053.json    anderlli0053/DEV-tools
 FantasqueSansMono-NF_anderlli0053.json    anderlli0053/DEV-tools
+AdobeIllustrator_anderlli0053.json    anderlli0053/DEV-tools
 everything-cli_anderlli0053.json    anderlli0053/DEV-tools
 digikam_anderlli0053.json    anderlli0053/DEV-tools
 camo-studio_anderlli0053.json    anderlli0053/DEV-tools
@@ -9124,6 +9140,7 @@ ruby30_anderlli0053.json    anderlli0053/DEV-tools
 android-studio_anderlli0053.json    anderlli0053/DEV-tools
 flutter_anderlli0053.json    anderlli0053/DEV-tools
 notion-enhanced_anderlli0053.json    anderlli0053/DEV-tools
+WsaToolbox_anderlli0053.json    anderlli0053/DEV-tools
 nvm@1.1.7.json    anderlli0053/DEV-tools
 ArthaPortable.json    anderlli0053/DEV-tools
 nanaget_anderlli0053.json    anderlli0053/DEV-tools
@@ -9174,6 +9191,7 @@ dart-dev_anderlli0053.json    anderlli0053/DEV-tools
 RmEDirCLI-Portable_anderlli0053.json    anderlli0053/DEV-tools
 tsip_anderlli0053.json    anderlli0053/DEV-tools
 vagrant@2.2.9.json    anderlli0053/DEV-tools
+EassosRestore_anderlli0053.json    anderlli0053/DEV-tools
 SoftwareOKAutoHideDesktopIcons-Portable_anderlli0053.json    anderlli0053/DEV-tools
 quick-change-resolution_anderlli0053.json    anderlli0053/DEV-tools
 nps-server_anderlli0053.json    anderlli0053/DEV-tools
@@ -9242,6 +9260,7 @@ guetzli_anderlli0053.json    anderlli0053/DEV-tools
 dpkgen_anderlli0053.json    anderlli0053/DEV-tools
 php7.1.3.json    anderlli0053/DEV-tools
 mine-imator_anderlli0053.json    anderlli0053/DEV-tools
+ssr-native_anderlli0053.json    anderlli0053/DEV-tools
 k9s_anderlli0053.json    anderlli0053/DEV-tools
 mycrypto_anderlli0053.json    anderlli0053/DEV-tools
 RenameMaster_anderlli0053.json    anderlli0053/DEV-tools
@@ -9502,6 +9521,7 @@ TypeAndRun_anderlli0053.json    anderlli0053/DEV-tools
 cacher_anderlli0053.json    anderlli0053/DEV-tools
 TwinkleTray-Portable_anderlli0053.json    anderlli0053/DEV-tools
 zinc_anderlli0053.json    anderlli0053/DEV-tools
+excel-regular-tool.json    anderlli0053/DEV-tools
 enable-loopback_anderlli0053.json    anderlli0053/DEV-tools
 clash-verge_anderlli0053.json    anderlli0053/DEV-tools
 etcd_anderlli0053.json    anderlli0053/DEV-tools
@@ -9565,6 +9585,7 @@ ldc_anderlli0053.json    anderlli0053/DEV-tools
 JDK.json    anderlli0053/DEV-tools
 yubico-piv-tool_anderlli0053.json    anderlli0053/DEV-tools
 DynDNSSimplyClientPortable.json    anderlli0053/DEV-tools
+ali-workbench.json    anderlli0053/DEV-tools
 php5.5.0-nts.json    anderlli0053/DEV-tools
 foobar2000_anderlli0053.json    anderlli0053/DEV-tools
 wabt_anderlli0053.json    anderlli0053/DEV-tools
@@ -9724,6 +9745,7 @@ colored-text_anderlli0053.json    anderlli0053/DEV-tools
 asciidocfx_anderlli0053.json    anderlli0053/DEV-tools
 php7.0.8.json    anderlli0053/DEV-tools
 okPlayer_anderlli0053.json    anderlli0053/DEV-tools
+KindleUnpack_anderlli0053.json    anderlli0053/DEV-tools
 i2p-zero-gui_anderlli0053.json    anderlli0053/DEV-tools
 regscanner_anderlli0053.json    anderlli0053/DEV-tools
 rtcwcoop_anderlli0053.json    anderlli0053/DEV-tools
@@ -9746,6 +9768,7 @@ php5.5.2-nts.json    anderlli0053/DEV-tools
 php5.5.7.json    anderlli0053/DEV-tools
 DelAge_anderlli0053.json    anderlli0053/DEV-tools
 php5.5.4.json    anderlli0053/DEV-tools
+SogouWubi-Portable_anderlli0053.json    anderlli0053/DEV-tools
 tusk_anderlli0053.json    anderlli0053/DEV-tools
 llvm_anderlli0053.json    anderlli0053/DEV-tools
 SetSFN_anderlli0053.json    anderlli0053/DEV-tools
@@ -9773,12 +9796,14 @@ deta_anderlli0053.json    anderlli0053/DEV-tools
 another-redis-desktop-manager_anderlli0053.json    anderlli0053/DEV-tools
 steampp_anderlli0053.json    anderlli0053/DEV-tools
 keepass-plugin-keetraytotp_anderlli0053.json    anderlli0053/DEV-tools
+Venue11Remap_anderlli0053.json    anderlli0053/DEV-tools
 git-lfs_anderlli0053.json    anderlli0053/DEV-tools
 InconsolataGo-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
 memo.json    anderlli0053/DEV-tools
 crypto-notepad_anderlli0053.json    anderlli0053/DEV-tools
 php5.5.2.json    anderlli0053/DEV-tools
 chrome-canary-portable_anderlli0053.json    anderlli0053/DEV-tools
+neteasepopo_anderlli0053.json    anderlli0053/DEV-tools
 openliberty_anderlli0053.json    anderlli0053/DEV-tools
 baretail_anderlli0053.json    anderlli0053/DEV-tools
 imagecacheviewer_anderlli0053.json    anderlli0053/DEV-tools
@@ -9835,6 +9860,7 @@ vcredist2015_anderlli0053.json    anderlli0053/DEV-tools
 internet-download-manager-portable.json    anderlli0053/DEV-tools
 php5.1.2.json    anderlli0053/DEV-tools
 wssocks_anderlli0053.json    anderlli0053/DEV-tools
+ecloud_anderlli0053.json    anderlli0053/DEV-tools
 quarto_anderlli0053.json    anderlli0053/DEV-tools
 squashfs-tools_anderlli0053.json    anderlli0053/DEV-tools
 dnsproxy_anderlli0053.json    anderlli0053/DEV-tools
@@ -9856,6 +9882,7 @@ win-aio_anderlli0053.json    anderlli0053/DEV-tools
 rethinkdb_anderlli0053.json    anderlli0053/DEV-tools
 msys2-20200517_anderlli0053.json    anderlli0053/DEV-tools
 IBMPlexSans-KR_anderlli0053.json    anderlli0053/DEV-tools
+TreeSize_anderlli0053.json    anderlli0053/DEV-tools
 celestia_anderlli0053.json    anderlli0053/DEV-tools
 gcc@8.2.0-multilib.json    anderlli0053/DEV-tools
 php7.0.4.json    anderlli0053/DEV-tools
@@ -9898,6 +9925,7 @@ mitec_anderlli0053.json-viewer.json    anderlli0053/DEV-tools
 phantomjs_anderlli0053.json    anderlli0053/DEV-tools
 elvish_anderlli0053.json    anderlli0053/DEV-tools
 eclipse-cpp_anderlli0053.json    anderlli0053/DEV-tools
+wps_anderlli0053.json    anderlli0053/DEV-tools
 uncrustify_anderlli0053.json    anderlli0053/DEV-tools
 musictag_anderlli0053.json    anderlli0053/DEV-tools
 InterityDownloader_anderlli0053.json    anderlli0053/DEV-tools
@@ -9954,6 +9982,7 @@ octant_anderlli0053.json    anderlli0053/DEV-tools
 jcli_anderlli0053.json    anderlli0053/DEV-tools
 sqlyog-community_anderlli0053.json    anderlli0053/DEV-tools
 ydl-ui_anderlli0053.json    anderlli0053/DEV-tools
+PhotoZoomPro_anderlli0053.json    anderlli0053/DEV-tools
 NitroShare-Portable_anderlli0053.json    anderlli0053/DEV-tools
 SauerbratenPortable.json    anderlli0053/DEV-tools
 Pode-PSModule_anderlli0053.json    anderlli0053/DEV-tools
@@ -10019,11 +10048,13 @@ DoubleCommander_anderlli0053.json    anderlli0053/DEV-tools
 Source-Han-Sans-HC_anderlli0053.json    anderlli0053/DEV-tools
 x265_anderlli0053.json    anderlli0053/DEV-tools
 vscode@1.64.0.json    anderlli0053/DEV-tools
+FileLocatorPro_anderlli0053.json    anderlli0053/DEV-tools
 php5.2.13-nts.json    anderlli0053/DEV-tools
 font-nika_anderlli0053.json    anderlli0053/DEV-tools
 php5.5.20.json    anderlli0053/DEV-tools
 makeme.json    anderlli0053/DEV-tools
 FreeFileSync-Portable_anderlli0053.json    anderlli0053/DEV-tools
+DriverGenius_anderlli0053.json    anderlli0053/DEV-tools
 defraggler_anderlli0053.json    anderlli0053/DEV-tools
 adobe-source-han-serif-tw-fonts_anderlli0053.json    anderlli0053/DEV-tools
 Anuphan_anderlli0053.json    anderlli0053/DEV-tools
@@ -10033,7 +10064,9 @@ runany_anderlli0053.json    anderlli0053/DEV-tools
 xmousebuttoncontrol_anderlli0053.json    anderlli0053/DEV-tools
 cleanafterme_anderlli0053.json    anderlli0053/DEV-tools
 navicat-premium-15-chs.json    anderlli0053/DEV-tools
+EverythingToolbar_anderlli0053.json    anderlli0053/DEV-tools
 hyperfine_anderlli0053.json    anderlli0053/DEV-tools
+WimTool_anderlli0053.json    anderlli0053/DEV-tools
 gitkube_anderlli0053.json    anderlli0053/DEV-tools
 smartty_anderlli0053.json    anderlli0053/DEV-tools
 webcord_anderlli0053.json    anderlli0053/DEV-tools
@@ -10057,8 +10090,10 @@ php5.5.12.json    anderlli0053/DEV-tools
 gifcam-chs.json    anderlli0053/DEV-tools
 specialfoldersview_anderlli0053.json    anderlli0053/DEV-tools
 terraform011_anderlli0053.json    anderlli0053/DEV-tools
+EnigmaVirtualBox_anderlli0053.json    anderlli0053/DEV-tools
 echoargs_anderlli0053.json    anderlli0053/DEV-tools
 activemq_anderlli0053.json    anderlli0053/DEV-tools
+officetool-dotnet_anderlli0053.json    anderlli0053/DEV-tools
 kitty_anderlli0053.json    anderlli0053/DEV-tools
 nodejs@7.10.0.json    anderlli0053/DEV-tools
 php5.2.1.json    anderlli0053/DEV-tools
@@ -10311,6 +10346,7 @@ houdoku_anderlli0053.json    anderlli0053/DEV-tools
 datamash_anderlli0053.json    anderlli0053/DEV-tools
 AdguardHome_anderlli0053.json    anderlli0053/DEV-tools
 soundvolumeview_anderlli0053.json    anderlli0053/DEV-tools
+aliyunpan_anderlli0053.json    anderlli0053/DEV-tools
 TwinDistressPortable.json    anderlli0053/DEV-tools
 pencil2d_anderlli0053.json    anderlli0053/DEV-tools
 dockercompletion_anderlli0053.json    anderlli0053/DEV-tools
@@ -10398,6 +10434,7 @@ lokalise2_anderlli0053.json    anderlli0053/DEV-tools
 ctop_anderlli0053.json    anderlli0053/DEV-tools
 yy_anderlli0053.json    anderlli0053/DEV-tools
 n_m3u8dl-cli_anderlli0053.json    anderlli0053/DEV-tools
+Archivarius3000_anderlli0053.json    anderlli0053/DEV-tools
 cataclysm-dda-tiles_anderlli0053.json    anderlli0053/DEV-tools
 sameboy_anderlli0053.json    anderlli0053/DEV-tools
 qnapi_anderlli0053.json    anderlli0053/DEV-tools
@@ -10624,6 +10661,7 @@ cemu_anderlli0053.json    anderlli0053/DEV-tools
 rider-eap_anderlli0053.json    anderlli0053/DEV-tools
 teamide_anderlli0053.json    anderlli0053/DEV-tools
 winpython37ps2_anderlli0053.json    anderlli0053/DEV-tools
+xshell7p_anderlli0053.json    anderlli0053/DEV-tools
 inky_anderlli0053.json    anderlli0053/DEV-tools
 MarkEditor_anderlli0053.json    anderlli0053/DEV-tools
 earthly_anderlli0053.json    anderlli0053/DEV-tools
@@ -10678,6 +10716,7 @@ php5.5.32-nts.json    anderlli0053/DEV-tools
 BaiduCDP_anderlli0053.json    anderlli0053/DEV-tools
 WildRename_anderlli0053.json    anderlli0053/DEV-tools
 streamlink_anderlli0053.json    anderlli0053/DEV-tools
+VMware-viclient_anderlli0053.json    anderlli0053/DEV-tools
 php5.2.0.json    anderlli0053/DEV-tools
 mqtt-cli_anderlli0053.json    anderlli0053/DEV-tools
 kcc_anderlli0053.json    anderlli0053/DEV-tools
@@ -10705,6 +10744,7 @@ php5.6.10-nts.json    anderlli0053/DEV-tools
 msedge-canary-shuax.json    anderlli0053/DEV-tools
 dnslookup_anderlli0053.json    anderlli0053/DEV-tools
 confuser-ex_anderlli0053.json    anderlli0053/DEV-tools
+ApkMessenger_anderlli0053.json    anderlli0053/DEV-tools
 tickompiler_anderlli0053.json    anderlli0053/DEV-tools
 drawio_anderlli0053.json    anderlli0053/DEV-tools
 Exiv2_anderlli0053.json    anderlli0053/DEV-tools
@@ -10715,6 +10755,7 @@ redshift-tray_anderlli0053.json    anderlli0053/DEV-tools
 gephi_anderlli0053.json    anderlli0053/DEV-tools
 Rounded-X-Mplus_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.28-nts.json    anderlli0053/DEV-tools
+BlackBird-Player_anderlli0053.json    anderlli0053/DEV-tools
 NetSpeed_anderlli0053.json    anderlli0053/DEV-tools
 bicep_anderlli0053.json    anderlli0053/DEV-tools
 powertab_anderlli0053.json    anderlli0053/DEV-tools
@@ -10726,6 +10767,7 @@ php5.6.11-nts.json    anderlli0053/DEV-tools
 make@4.2.1.json    anderlli0053/DEV-tools
 deepgit402_anderlli0053.json    anderlli0053/DEV-tools
 freecommander_anderlli0053.json    anderlli0053/DEV-tools
+TotalUninstallPro_anderlli0053.json    anderlli0053/DEV-tools
 utools_anderlli0053.json    anderlli0053/DEV-tools
 patchcleaner_anderlli0053.json    anderlli0053/DEV-tools
 edgeless-hub.json    anderlli0053/DEV-tools
@@ -10743,6 +10785,7 @@ LXGWWenKaiScreenR_anderlli0053.json    anderlli0053/DEV-tools
 WinSW.Net2_anderlli0053.json    anderlli0053/DEV-tools
 nodejs10_anderlli0053.json    anderlli0053/DEV-tools
 xming_anderlli0053.json    anderlli0053/DEV-tools
+Grub2_anderlli0053.json    anderlli0053/DEV-tools
 tun2brook_anderlli0053.json    anderlli0053/DEV-tools
 gnupg1_anderlli0053.json    anderlli0053/DEV-tools
 oggdropxpd-libvorbis_anderlli0053.json    anderlli0053/DEV-tools
@@ -10806,6 +10849,7 @@ fontforge_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.12-nts.json    anderlli0053/DEV-tools
 pipp_anderlli0053.json    anderlli0053/DEV-tools
 tar_anderlli0053.json    anderlli0053/DEV-tools
+360Chrome_anderlli0053.json    anderlli0053/DEV-tools
 boringproxy_anderlli0053.json    anderlli0053/DEV-tools
 tortoisesvn_anderlli0053.json    anderlli0053/DEV-tools
 serial-cloner_anderlli0053.json    anderlli0053/DEV-tools
@@ -10892,6 +10936,7 @@ teraterm_anderlli0053.json    anderlli0053/DEV-tools
 helm-docs_anderlli0053.json    anderlli0053/DEV-tools
 gcc@9.1.0-multilib.json    anderlli0053/DEV-tools
 goland-rc_anderlli0053.json    anderlli0053/DEV-tools
+anki-with-sync_anderlli0053.json    anderlli0053/DEV-tools
 ProcessKO_anderlli0053.json    anderlli0053/DEV-tools
 rekor-cli_anderlli0053.json    anderlli0053/DEV-tools
 NSISPortableUnicode.json    anderlli0053/DEV-tools
@@ -11025,6 +11070,7 @@ crystaldiskmark-shizuku.json    anderlli0053/DEV-tools
 multidoge_anderlli0053.json    anderlli0053/DEV-tools
 monokle_anderlli0053.json    anderlli0053/DEV-tools
 nvm_anderlli0053.json    anderlli0053/DEV-tools
+Alt-C_anderlli0053.json    anderlli0053/DEV-tools
 calibre-normal_anderlli0053.json    anderlli0053/DEV-tools
 rtools35_anderlli0053.json    anderlli0053/DEV-tools
 postgresql13_anderlli0053.json    anderlli0053/DEV-tools
@@ -11273,6 +11319,7 @@ ultravnc_anderlli0053.json    anderlli0053/DEV-tools
 accessibility-insights.json    anderlli0053/DEV-tools
 NormCap-cn_anderlli0053.json    anderlli0053/DEV-tools
 licecap-chs.json    anderlli0053/DEV-tools
+FrpcGUI_anderlli0053.json    anderlli0053/DEV-tools
 enonic_anderlli0053.json    anderlli0053/DEV-tools
 WingetCLI-Install_anderlli0053.json    anderlli0053/DEV-tools
 HakushuKaisyoOiwai_anderlli0053.json    anderlli0053/DEV-tools
@@ -11368,6 +11415,7 @@ microsoft-powerapps-cli_anderlli0053.json    anderlli0053/DEV-tools
 hostednetworkstarter_anderlli0053.json    anderlli0053/DEV-tools
 story-writer_anderlli0053.json    anderlli0053/DEV-tools
 Operator-Mono-Fonts_anderlli0053.json    anderlli0053/DEV-tools
+Roadkil-DiskImage_anderlli0053.json    anderlli0053/DEV-tools
 seamonkey_anderlli0053.json    anderlli0053/DEV-tools
 nodejs@lts-6.10.3.json    anderlli0053/DEV-tools
 rpcs3_anderlli0053.json    anderlli0053/DEV-tools
@@ -11456,6 +11504,7 @@ y-cruncher_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.4-nts.json    anderlli0053/DEV-tools
 TinyImageProcessor-Portable_anderlli0053.json    anderlli0053/DEV-tools
 axel_anderlli0053.json    anderlli0053/DEV-tools
+Notepad3-mod_anderlli0053.json    anderlli0053/DEV-tools
 devdocs_anderlli0053.json    anderlli0053/DEV-tools
 hashcheck_anderlli0053.json    anderlli0053/DEV-tools
 zig@0.9.1.json    anderlli0053/DEV-tools
@@ -11505,6 +11554,7 @@ siteshoter_anderlli0053.json    anderlli0053/DEV-tools
 Windows10UpdateAssistant-Portable_anderlli0053.json    anderlli0053/DEV-tools
 trzsz_anderlli0053.json    anderlli0053/DEV-tools
 dotmemoryunit_anderlli0053.json    anderlli0053/DEV-tools
+irreader_anderlli0053.json    anderlli0053/DEV-tools
 jPortableBrowserSwitch.json    anderlli0053/DEV-tools
 php4.0.6.json    anderlli0053/DEV-tools
 EpicGamesLauncher-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -11533,6 +11583,7 @@ networkopenedfiles_anderlli0053.json    anderlli0053/DEV-tools
 deskreen_anderlli0053.json    anderlli0053/DEV-tools
 paint.net_anderlli0053.json    anderlli0053/DEV-tools
 lsd@0.21.0.json    anderlli0053/DEV-tools
+VbsToExe_anderlli0053.json    anderlli0053/DEV-tools
 mobaxterm_anderlli0053.json    anderlli0053/DEV-tools
 audacity2.4.2_anderlli0053.json    anderlli0053/DEV-tools
 imageglass-moon_anderlli0053.json    anderlli0053/DEV-tools
@@ -11542,6 +11593,7 @@ splayer-legacy_anderlli0053.json    anderlli0053/DEV-tools
 okular_anderlli0053.json    anderlli0053/DEV-tools
 lua-for-windows_anderlli0053.json    anderlli0053/DEV-tools
 hibit-uninstaller-portable.json    anderlli0053/DEV-tools
+MusicTools_anderlli0053.json    anderlli0053/DEV-tools
 newer-tanooki_anderlli0053.json    anderlli0053/DEV-tools
 icaros-np_anderlli0053.json    anderlli0053/DEV-tools
 swift_anderlli0053.json    anderlli0053/DEV-tools
@@ -11608,6 +11660,7 @@ powershell_anderlli0053.json    anderlli0053/DEV-tools
 ntfs2btrfs_anderlli0053.json    anderlli0053/DEV-tools
 EdgeDeflector-Portable_anderlli0053.json    anderlli0053/DEV-tools
 mpv-lachs0r_anderlli0053.json    anderlli0053/DEV-tools
+Foxmail_anderlli0053.json    anderlli0053/DEV-tools
 tradingview_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.7.json    anderlli0053/DEV-tools
 turtl_anderlli0053.json    anderlli0053/DEV-tools
@@ -11658,6 +11711,7 @@ vieb_anderlli0053.json    anderlli0053/DEV-tools
 sdl2-mixer_anderlli0053.json    anderlli0053/DEV-tools
 tcptunnel_anderlli0053.json    anderlli0053/DEV-tools
 mitmproxy_anderlli0053.json    anderlli0053/DEV-tools
+Reg2Nsis_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.8-nts.json    anderlli0053/DEV-tools
 quick-access-popup_anderlli0053.json    anderlli0053/DEV-tools
 LXGWWenKai_anderlli0053.json    anderlli0053/DEV-tools
@@ -11674,6 +11728,7 @@ Nomad.NET_anderlli0053.json    anderlli0053/DEV-tools
 networkconnectlog_anderlli0053.json    anderlli0053/DEV-tools
 unblockneteasemusic.json    anderlli0053/DEV-tools
 neteaseuu_anderlli0053.json    anderlli0053/DEV-tools
+AcronisTrueImage_anderlli0053.json    anderlli0053/DEV-tools
 msbuild-structured-log-viewer_anderlli0053.json    anderlli0053/DEV-tools
 amtool_anderlli0053.json    anderlli0053/DEV-tools
 weebp_anderlli0053.json    anderlli0053/DEV-tools
@@ -11685,6 +11740,7 @@ bbk-cli_anderlli0053.json    anderlli0053/DEV-tools
 Regester_anderlli0053.json    anderlli0053/DEV-tools
 oni_anderlli0053.json    anderlli0053/DEV-tools
 AllwaySyncnGo-Portable_anderlli0053.json    anderlli0053/DEV-tools
+Document-TagExplorer_anderlli0053.json    anderlli0053/DEV-tools
 php5.5.11-nts.json    anderlli0053/DEV-tools
 AlephNote_anderlli0053.json    anderlli0053/DEV-tools
 OpenOfficePortable.json    anderlli0053/DEV-tools
@@ -11708,6 +11764,7 @@ minisign_anderlli0053.json    anderlli0053/DEV-tools
 GoogleChromeDev-Portable_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.25-nts.json    anderlli0053/DEV-tools
 rtlutility_anderlli0053.json    anderlli0053/DEV-tools
+Copies_anderlli0053.json    anderlli0053/DEV-tools
 xz_anderlli0053.json    anderlli0053/DEV-tools
 PortableApps.comBetaChannel.json    anderlli0053/DEV-tools
 unity-hub.json    anderlli0053/DEV-tools
@@ -11876,6 +11933,7 @@ php5.4.34.json    anderlli0053/DEV-tools
 brave-beta_anderlli0053.json    anderlli0053/DEV-tools
 libwebp_anderlli0053.json    anderlli0053/DEV-tools
 revouninstaller_anderlli0053.json    anderlli0053/DEV-tools
+V2V-Converter_anderlli0053.json    anderlli0053/DEV-tools
 FilesInspector-Install_anderlli0053.json    anderlli0053/DEV-tools
 ravendb_anderlli0053.json    anderlli0053/DEV-tools
 dnsquerysniffer_anderlli0053.json    anderlli0053/DEV-tools
@@ -11951,6 +12009,7 @@ waifu2x-ncnn-vulkan_anderlli0053.json    anderlli0053/DEV-tools
 mcedit_anderlli0053.json    anderlli0053/DEV-tools
 GoogleChromeBeta-Portable_anderlli0053.json    anderlli0053/DEV-tools
 moneymanagerex_anderlli0053.json    anderlli0053/DEV-tools
+officetool_anderlli0053.json    anderlli0053/DEV-tools
 cv4pve-pepper_anderlli0053.json    anderlli0053/DEV-tools
 Terminus-NF_anderlli0053.json    anderlli0053/DEV-tools
 filezilla-server_anderlli0053.json    anderlli0053/DEV-tools
@@ -12200,6 +12259,7 @@ lemon_anderlli0053.json    anderlli0053/DEV-tools
 webcopy_anderlli0053.json    anderlli0053/DEV-tools
 n3dr_anderlli0053.json    anderlli0053/DEV-tools
 svtplay-dl_anderlli0053.json    anderlli0053/DEV-tools
+NpcGUI_anderlli0053.json    anderlli0053/DEV-tools
 msys2_anderlli0053.json    anderlli0053/DEV-tools
 osm_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.5-nts.json    anderlli0053/DEV-tools
@@ -12235,6 +12295,7 @@ ruby_anderlli0053.json    anderlli0053/DEV-tools
 r41_anderlli0053.json    anderlli0053/DEV-tools
 traefik_anderlli0053.json    anderlli0053/DEV-tools
 remetrics_anderlli0053.json    anderlli0053/DEV-tools
+BatToExeConverter_anderlli0053.json    anderlli0053/DEV-tools
 prince_anderlli0053.json    anderlli0053/DEV-tools
 sccache_anderlli0053.json    anderlli0053/DEV-tools
 JPEGViewPortable.json    anderlli0053/DEV-tools
@@ -12272,6 +12333,7 @@ dotnet5-sdk_anderlli0053.json    anderlli0053/DEV-tools
 hostsman_anderlli0053.json    anderlli0053/DEV-tools
 AntRenamer_anderlli0053.json    anderlli0053/DEV-tools
 PlexMediaPlayer-Portable_anderlli0053.json    anderlli0053/DEV-tools
+NoxPlayer_anderlli0053.json    anderlli0053/DEV-tools
 myuninstaller_anderlli0053.json    anderlli0053/DEV-tools
 msys2@2020-07-20.json    anderlli0053/DEV-tools
 plex-mpv-shim_anderlli0053.json    anderlli0053/DEV-tools
@@ -12371,6 +12433,7 @@ sed_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.json    anderlli0053/DEV-tools
 msiafterburner_anderlli0053.json    anderlli0053/DEV-tools
 task@3.12.0.json    anderlli0053/DEV-tools
+AnyTXT_anderlli0053.json    anderlli0053/DEV-tools
 whosip_anderlli0053.json    anderlli0053/DEV-tools
 superpowers-app_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.39-nts.json    anderlli0053/DEV-tools
@@ -12435,6 +12498,7 @@ Chord_anderlli0053.json    anderlli0053/DEV-tools
 EnableLoopbackUtility-Portable_anderlli0053.json    anderlli0053/DEV-tools
 SordumQemuSimpleBoot-Portable_anderlli0053.json    anderlli0053/DEV-tools
 LiberationMono-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
+DriverTalent_anderlli0053.json    anderlli0053/DEV-tools
 whoisthisdomain_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.19-nts.json    anderlli0053/DEV-tools
 IDPhotoStudioPortable.json    anderlli0053/DEV-tools
@@ -12471,7 +12535,9 @@ chatty_anderlli0053.json    anderlli0053/DEV-tools
 totalcommander-license.json    anderlli0053/DEV-tools
 filezilla-server0.9_anderlli0053.json    anderlli0053/DEV-tools
 protobuf312_anderlli0053.json    anderlli0053/DEV-tools
+TIM_anderlli0053.json    anderlli0053/DEV-tools
 ffqueue_anderlli0053.json    anderlli0053/DEV-tools
+AutoGUI_anderlli0053.json    anderlli0053/DEV-tools
 IBMPlexSans-JP_anderlli0053.json    anderlli0053/DEV-tools
 CoColor_anderlli0053.json    anderlli0053/DEV-tools
 xonotic_anderlli0053.json    anderlli0053/DEV-tools
@@ -12487,6 +12553,7 @@ servicebusexplorer_anderlli0053.json    anderlli0053/DEV-tools
 NirsoftRegistryChangesView-Portable_anderlli0053.json    anderlli0053/DEV-tools
 love6_anderlli0053.json    anderlli0053/DEV-tools
 bulk-rename-command_anderlli0053.json    anderlli0053/DEV-tools
+SogouPinyin-Portable_anderlli0053.json    anderlli0053/DEV-tools
 ausweisapp2_anderlli0053.json    anderlli0053/DEV-tools
 csvtosql_anderlli0053.json    anderlli0053/DEV-tools
 xnview-classic-full_anderlli0053.json    anderlli0053/DEV-tools
@@ -12562,6 +12629,7 @@ php5.6.18-nts.json    anderlli0053/DEV-tools
 jitsi-meet_anderlli0053.json    anderlli0053/DEV-tools
 PDFPresenter_anderlli0053.json    anderlli0053/DEV-tools
 mysql-workbench_anderlli0053.json    anderlli0053/DEV-tools
+CompileAHK_anderlli0053.json    anderlli0053/DEV-tools
 outlookattachview_anderlli0053.json    anderlli0053/DEV-tools
 waterfox-classic_anderlli0053.json    anderlli0053/DEV-tools
 odo_anderlli0053.json    anderlli0053/DEV-tools
@@ -12739,6 +12807,7 @@ imgdiff_anderlli0053.json    anderlli0053/DEV-tools
 nvm-windows_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.12.json    anderlli0053/DEV-tools
 rj-texted_anderlli0053.json    anderlli0053/DEV-tools
+HWIDGEN_anderlli0053.json    anderlli0053/DEV-tools
 TheLegendOfEdgarPortable.json    anderlli0053/DEV-tools
 Hermit-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
 gsmartcontrol_anderlli0053.json    anderlli0053/DEV-tools
@@ -12801,6 +12870,7 @@ instant-eyedropper_anderlli0053.json    anderlli0053/DEV-tools
 vidiot_anderlli0053.json    anderlli0053/DEV-tools
 rustup-msvc_anderlli0053.json    anderlli0053/DEV-tools
 StylePix_anderlli0053.json    anderlli0053/DEV-tools
+SecoClient_anderlli0053.json    anderlli0053/DEV-tools
 ffmpeg-shared-nightly_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.27.json    anderlli0053/DEV-tools
 yq_anderlli0053.json    anderlli0053/DEV-tools
@@ -12828,6 +12898,7 @@ mp3directcut_anderlli0053.json    anderlli0053/DEV-tools
 FilesInspector-Portable_anderlli0053.json    anderlli0053/DEV-tools
 RuckZuck-Portable_anderlli0053.json    anderlli0053/DEV-tools
 altdrag_anderlli0053.json    anderlli0053/DEV-tools
+NavicatPremium_anderlli0053.json    anderlli0053/DEV-tools
 apifox_anderlli0053.json    anderlli0053/DEV-tools
 jabref_anderlli0053.json    anderlli0053/DEV-tools
 bart_anderlli0053.json    anderlli0053/DEV-tools
@@ -12846,6 +12917,7 @@ DTaskManagerPortable.json    anderlli0053/DEV-tools
 php5.4.28.json    anderlli0053/DEV-tools
 loft_anderlli0053.json    anderlli0053/DEV-tools
 JetBrainsMono-NF_anderlli0053.json    anderlli0053/DEV-tools
+xftp7p_anderlli0053.json    anderlli0053/DEV-tools
 tinode-mysql_anderlli0053.json    anderlli0053/DEV-tools
 ncftpclient_anderlli0053.json    anderlli0053/DEV-tools
 rav1e_anderlli0053.json    anderlli0053/DEV-tools
@@ -13108,6 +13180,7 @@ twitchtest_anderlli0053.json    anderlli0053/DEV-tools
 shimo.json    anderlli0053/DEV-tools
 GoogleChrome-Install_anderlli0053.json    anderlli0053/DEV-tools
 msedge-stable-shuax.json    anderlli0053/DEV-tools
+HDTunePro_anderlli0053.json    anderlli0053/DEV-tools
 windowsdesktop-runtime-lts_anderlli0053.json    anderlli0053/DEV-tools
 cuetools_anderlli0053.json    anderlli0053/DEV-tools
 fluent-terminal-np_anderlli0053.json    anderlli0053/DEV-tools
@@ -13153,12 +13226,14 @@ Xpdf-tools-all_anderlli0053.json    anderlli0053/DEV-tools
 msedge-stable.json    anderlli0053/DEV-tools
 XPShutdown_anderlli0053.json    anderlli0053/DEV-tools
 virtualbox-with-extension-pack-np_anderlli0053.json    anderlli0053/DEV-tools
+LuDaShi_anderlli0053.json    anderlli0053/DEV-tools
 datagrip_anderlli0053.json    anderlli0053/DEV-tools
 php5.4.34-nts.json    anderlli0053/DEV-tools
 php5.5.30-nts.json    anderlli0053/DEV-tools
 copyplusplus_anderlli0053.json    anderlli0053/DEV-tools
 AssaultCubePortable.json    anderlli0053/DEV-tools
 wxwork_anderlli0053.json    anderlli0053/DEV-tools
+GPUShark_anderlli0053.json    anderlli0053/DEV-tools
 ProFont-NF_anderlli0053.json    anderlli0053/DEV-tools
 adoptopenjdk@11.0+28.json    anderlli0053/DEV-tools
 soar_anderlli0053.json    anderlli0053/DEV-tools
@@ -13169,6 +13244,8 @@ ibmcloud-cli_anderlli0053.json    anderlli0053/DEV-tools
 nattypetester_anderlli0053.json    anderlli0053/DEV-tools
 php5.5.19.json    anderlli0053/DEV-tools
 Brave-UserInstall_anderlli0053.json    anderlli0053/DEV-tools
+ZeroTier_anderlli0053.json    anderlli0053/DEV-tools
+WSA-with-magisk-GApps-pico_anderlli0053.json    anderlli0053/DEV-tools
 php-xdebug_anderlli0053.json    anderlli0053/DEV-tools
 img-convert_anderlli0053.json    anderlli0053/DEV-tools
 meinplatz_anderlli0053.json    anderlli0053/DEV-tools
@@ -13188,6 +13265,7 @@ SrvStart-Portable_anderlli0053.json    anderlli0053/DEV-tools
 aws-nosql-workbench_anderlli0053.json    anderlli0053/DEV-tools
 seqdownload_anderlli0053.json    anderlli0053/DEV-tools
 gcc_anderlli0053.json    anderlli0053/DEV-tools
+AdobePhotoshopCC_anderlli0053.json    anderlli0053/DEV-tools
 tianruoocr-cl.json    anderlli0053/DEV-tools
 php5.6.2.json    anderlli0053/DEV-tools
 php5.4.11.json    anderlli0053/DEV-tools
@@ -13389,6 +13467,7 @@ vscode@1.59.1.json    anderlli0053/DEV-tools
 tilt_anderlli0053.json    anderlli0053/DEV-tools
 Wordster_anderlli0053.json    anderlli0053/DEV-tools
 sftpgo_anderlli0053.json    anderlli0053/DEV-tools
+BitTorrent-Portable_anderlli0053.json    anderlli0053/DEV-tools
 yumi-exfat_anderlli0053.json    anderlli0053/DEV-tools
 pb2.json    anderlli0053/DEV-tools
 manpages-zh_anderlli0053.json    anderlli0053/DEV-tools
@@ -13396,6 +13475,7 @@ freepascal_anderlli0053.json    anderlli0053/DEV-tools
 lsdsk_anderlli0053.json    anderlli0053/DEV-tools
 debugview_anderlli0053.json    anderlli0053/DEV-tools
 SilentCMD-Portable_anderlli0053.json    anderlli0053/DEV-tools
+mailmaster_anderlli0053.json    anderlli0053/DEV-tools
 gif-movie-gear.json    anderlli0053/DEV-tools
 explorer-suite_anderlli0053.json    anderlli0053/DEV-tools
 sort-uniq-wc_anderlli0053.json    anderlli0053/DEV-tools
@@ -13532,6 +13612,7 @@ SUMo-Install_anderlli0053.json    anderlli0053/DEV-tools
 RavenReader_anderlli0053.json    anderlli0053/DEV-tools
 devrantron_anderlli0053.json    anderlli0053/DEV-tools
 livecontactsview_anderlli0053.json    anderlli0053/DEV-tools
+winsnap_anderlli0053.json    anderlli0053/DEV-tools
 actionlint_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.23.json    anderlli0053/DEV-tools
 Boom_anderlli0053.json    anderlli0053/DEV-tools
@@ -13559,6 +13640,7 @@ playnite_anderlli0053.json    anderlli0053/DEV-tools
 phoenix-protector_anderlli0053.json    anderlli0053/DEV-tools
 andika-compact_anderlli0053.json    anderlli0053/DEV-tools
 tidy_anderlli0053.json    anderlli0053/DEV-tools
+ABBYYFineReader_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.21.json    anderlli0053/DEV-tools
 drmemory_anderlli0053.json    anderlli0053/DEV-tools
 pandaocr-pro.json    anderlli0053/DEV-tools
@@ -13569,6 +13651,7 @@ LazPaintPortable.json    anderlli0053/DEV-tools
 srlua_anderlli0053.json    anderlli0053/DEV-tools
 WinfetchNightlyCLI-Portable_anderlli0053.json    anderlli0053/DEV-tools
 X-MotoPortable.json    anderlli0053/DEV-tools
+TwomonUSB_anderlli0053.json    anderlli0053/DEV-tools
 reaper_anderlli0053.json    anderlli0053/DEV-tools
 netron_anderlli0053.json    anderlli0053/DEV-tools
 TyperTaskPortable.json    anderlli0053/DEV-tools
@@ -13584,6 +13667,7 @@ idea-ultimate_anderlli0053.json    anderlli0053/DEV-tools
 smplayer-with-smtube_anderlli0053.json    anderlli0053/DEV-tools
 pdf-xchange-editor_anderlli0053.json    anderlli0053/DEV-tools
 spark_anderlli0053.json    anderlli0053/DEV-tools
+RegConvert_anderlli0053.json    anderlli0053/DEV-tools
 DTSdec_anderlli0053.json    anderlli0053/DEV-tools
 himalaya_anderlli0053.json    anderlli0053/DEV-tools
 Noto-CJK-Mega-OTC_anderlli0053.json    anderlli0053/DEV-tools
@@ -13659,6 +13743,7 @@ xmllint_anderlli0053.json    anderlli0053/DEV-tools
 BrickLinkStudio-Portable_anderlli0053.json    anderlli0053/DEV-tools
 balena-cli_anderlli0053.json    anderlli0053/DEV-tools
 Office-Code-Pro_anderlli0053.json    anderlli0053/DEV-tools
+SetUserFTA_anderlli0053.json    anderlli0053/DEV-tools
 gcc45_anderlli0053.json    anderlli0053/DEV-tools
 webtorrent_anderlli0053.json    anderlli0053/DEV-tools
 programmers-notepad_anderlli0053.json    anderlli0053/DEV-tools
@@ -13814,6 +13899,7 @@ crystaldiskinfo-tuna.json    anderlli0053/DEV-tools
 mongodb-rc_anderlli0053.json    anderlli0053/DEV-tools
 composer1_anderlli0053.json    anderlli0053/DEV-tools
 xampp_anderlli0053.json    anderlli0053/DEV-tools
+FileMenuTools_anderlli0053.json    anderlli0053/DEV-tools
 docker-nightly_anderlli0053.json    anderlli0053/DEV-tools
 tweakstyle_anderlli0053.json    anderlli0053/DEV-tools
 DUMo-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -13834,6 +13920,7 @@ php5.3.3.json    anderlli0053/DEV-tools
 VeyonClient-Install_anderlli0053.json    anderlli0053/DEV-tools
 tabby-portable_anderlli0053.json    anderlli0053/DEV-tools
 kawaii-player_anderlli0053.json    anderlli0053/DEV-tools
+goproxy_anderlli0053.json    anderlli0053/DEV-tools
 php5.2.15.json    anderlli0053/DEV-tools
 php3.0.15.json    anderlli0053/DEV-tools
 neovim-nightly_anderlli0053.json    anderlli0053/DEV-tools
@@ -13915,6 +14002,7 @@ filebrowser_anderlli0053.json    anderlli0053/DEV-tools
 microsoftedge-canary_anderlli0053.json    anderlli0053/DEV-tools
 vale_anderlli0053.json    anderlli0053/DEV-tools
 spleeter-gui_anderlli0053.json    anderlli0053/DEV-tools
+verysync_anderlli0053.json    anderlli0053/DEV-tools
 operacacheview_anderlli0053.json    anderlli0053/DEV-tools
 go-wol_anderlli0053.json    anderlli0053/DEV-tools
 captura_anderlli0053.json    anderlli0053/DEV-tools
@@ -13922,6 +14010,7 @@ grasshopper_anderlli0053.json    anderlli0053/DEV-tools
 direnv_anderlli0053.json    anderlli0053/DEV-tools
 recuva_anderlli0053.json    anderlli0053/DEV-tools
 geth_anderlli0053.json    anderlli0053/DEV-tools
+LetsView_anderlli0053.json    anderlli0053/DEV-tools
 teracopy-np_anderlli0053.json    anderlli0053/DEV-tools
 bitmana_anderlli0053.json    anderlli0053/DEV-tools
 JuicePortable.json    anderlli0053/DEV-tools
@@ -13967,6 +14056,7 @@ kawanime_anderlli0053.json    anderlli0053/DEV-tools
 countrytraceroute_anderlli0053.json    anderlli0053/DEV-tools
 scribus_anderlli0053.json    anderlli0053/DEV-tools
 scummvm_anderlli0053.json    anderlli0053/DEV-tools
+RaiDrive_anderlli0053.json    anderlli0053/DEV-tools
 CintaNotes_anderlli0053.json    anderlli0053/DEV-tools
 exifcleaner_anderlli0053.json    anderlli0053/DEV-tools
 php5.2.12-nts.json    anderlli0053/DEV-tools
@@ -14049,6 +14139,7 @@ nmap-cmd.json    anderlli0053/DEV-tools
 FreeTube-Portable_anderlli0053.json    anderlli0053/DEV-tools
 coursier_anderlli0053.json    anderlli0053/DEV-tools
 Frhed_anderlli0053.json    anderlli0053/DEV-tools
+TuBaTool_anderlli0053.json    anderlli0053/DEV-tools
 StartupManagerCLI-Portable_anderlli0053.json    anderlli0053/DEV-tools
 ScreenToGif-Portable_anderlli0053.json    anderlli0053/DEV-tools
 obsidian_anderlli0053.json    anderlli0053/DEV-tools
@@ -14121,6 +14212,7 @@ rustup-msvc-np_anderlli0053.json    anderlli0053/DEV-tools
 boundary_anderlli0053.json    anderlli0053/DEV-tools
 psscripttools.json    anderlli0053/DEV-tools
 falconx_anderlli0053.json    anderlli0053/DEV-tools
+BingDianWenku_anderlli0053.json    anderlli0053/DEV-tools
 kim_anderlli0053.json    anderlli0053/DEV-tools
 idea_anderlli0053.json    anderlli0053/DEV-tools
 autodarkmode_anderlli0053.json    anderlli0053/DEV-tools
@@ -14167,6 +14259,7 @@ SarasaGothic-CL_anderlli0053.json    anderlli0053/DEV-tools
 Source-Han-Sans-K_anderlli0053.json    anderlli0053/DEV-tools
 altsnap_anderlli0053.json    anderlli0053/DEV-tools
 vifm_anderlli0053.json    anderlli0053/DEV-tools
+Cache-Relocator_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.13.json    anderlli0053/DEV-tools
 icecast_anderlli0053.json    anderlli0053/DEV-tools
 crystaldiskmark-shizuku-tuna.json    anderlli0053/DEV-tools
@@ -14183,6 +14276,7 @@ flacout_anderlli0053.json    anderlli0053/DEV-tools
 vim-nightly_anderlli0053.json    anderlli0053/DEV-tools
 DTaskManager_anderlli0053.json    anderlli0053/DEV-tools
 TexterPortable.json    anderlli0053/DEV-tools
+Whitecloud_anderlli0053.json    anderlli0053/DEV-tools
 ntfsinfo.json    anderlli0053/DEV-tools
 ProcessExplorerPortable.json    anderlli0053/DEV-tools
 RoboIntern-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -14226,6 +14320,7 @@ bandicam-portable_anderlli0053.json    anderlli0053/DEV-tools
 youtube-dl-gui_anderlli0053.json    anderlli0053/DEV-tools
 ExitWindows_anderlli0053.json    anderlli0053/DEV-tools
 questdb_anderlli0053.json    anderlli0053/DEV-tools
+SecureCRT_anderlli0053.json    anderlli0053/DEV-tools
 cormanlisp_anderlli0053.json    anderlli0053/DEV-tools
 rstudio-daily_anderlli0053.json    anderlli0053/DEV-tools
 minio-client_anderlli0053.json    anderlli0053/DEV-tools
@@ -14255,6 +14350,7 @@ oh-my-posh2_anderlli0053.json    anderlli0053/DEV-tools
 hedgewars_anderlli0053.json    anderlli0053/DEV-tools
 Go-Mono-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
 BitstreamVeraSansMono-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
+FlickerList_anderlli0053.json    anderlli0053/DEV-tools
 triangula_anderlli0053.json    anderlli0053/DEV-tools
 php7.0.9-nts.json    anderlli0053/DEV-tools
 KVIrcPortable.json    anderlli0053/DEV-tools
@@ -14287,6 +14383,7 @@ av_data_capture_anderlli0053.json    anderlli0053/DEV-tools
 YUMIPortable.json    anderlli0053/DEV-tools
 GeekUninstallerPortable.json    anderlli0053/DEV-tools
 evans_anderlli0053.json    anderlli0053/DEV-tools
+360NetRepair_anderlli0053.json    anderlli0053/DEV-tools
 miniconda3_anderlli0053.json    anderlli0053/DEV-tools
 powershell-preview_anderlli0053.json    anderlli0053/DEV-tools
 danmaku-factory_anderlli0053.json    anderlli0053/DEV-tools
@@ -14315,6 +14412,7 @@ php74-xdebug_anderlli0053.json    anderlli0053/DEV-tools
 trillian_anderlli0053.json    anderlli0053/DEV-tools
 OracleJRE8-Portable_anderlli0053.json    anderlli0053/DEV-tools
 dmd_anderlli0053.json    anderlli0053/DEV-tools
+Synergy_anderlli0053.json    anderlli0053/DEV-tools
 Audacity-Portable_anderlli0053.json    anderlli0053/DEV-tools
 iverilog_anderlli0053.json    anderlli0053/DEV-tools
 BookXNotePro_anderlli0053.json    anderlli0053/DEV-tools
@@ -14386,6 +14484,7 @@ chart-testing_anderlli0053.json    anderlli0053/DEV-tools
 nunit-extension-nunit-v2-result-writer_anderlli0053.json    anderlli0053/DEV-tools
 SolfegePortable.json    anderlli0053/DEV-tools
 internet-download-manager.json    anderlli0053/DEV-tools
+linux-command_anderlli0053.json    anderlli0053/DEV-tools
 LibreOfficePortable.json    anderlli0053/DEV-tools
 greatdismal.json    anderlli0053/DEV-tools
 neochat-nightly_anderlli0053.json    anderlli0053/DEV-tools
@@ -14408,6 +14507,7 @@ muicacheview_anderlli0053.json    anderlli0053/DEV-tools
 SuperTuxPortable.json    anderlli0053/DEV-tools
 nat-type-tester_anderlli0053.json    anderlli0053/DEV-tools
 hadolint_anderlli0053.json    anderlli0053/DEV-tools
+sdkman_anderlli0053.json    anderlli0053/DEV-tools
 status_anderlli0053.json    anderlli0053/DEV-tools
 vlc-nightly_anderlli0053.json    anderlli0053/DEV-tools
 qview_anderlli0053.json    anderlli0053/DEV-tools
@@ -14449,6 +14549,7 @@ dropbox-np_anderlli0053.json    anderlli0053/DEV-tools
 potplayer_anderlli0053.json    anderlli0053/DEV-tools
 bzip2_anderlli0053.json    anderlli0053/DEV-tools
 gmsh_anderlli0053.json    anderlli0053/DEV-tools
+BlueLifeHostsEditor_anderlli0053.json    anderlli0053/DEV-tools
 Squeak_anderlli0053.json    anderlli0053/DEV-tools
 rclone_anderlli0053.json    anderlli0053/DEV-tools
 kicad-lite-nightly_anderlli0053.json    anderlli0053/DEV-tools
@@ -14528,6 +14629,7 @@ i2pd_anderlli0053.json    anderlli0053/DEV-tools
 MouseInc_anderlli0053.json    anderlli0053/DEV-tools
 grype_anderlli0053.json    anderlli0053/DEV-tools
 cppcryptfs_anderlli0053.json    anderlli0053/DEV-tools
+Xftp_anderlli0053.json    anderlli0053/DEV-tools
 portmon.json    anderlli0053/DEV-tools
 wumgr_anderlli0053.json    anderlli0053/DEV-tools
 GitHubDesktop-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -14608,6 +14710,7 @@ hwp-converter_anderlli0053.json    anderlli0053/DEV-tools
 inlets-pro_anderlli0053.json    anderlli0053/DEV-tools
 aria2-134_anderlli0053.json    anderlli0053/DEV-tools
 Tickeys-Portable_anderlli0053.json    anderlli0053/DEV-tools
+ThunderSpeed_anderlli0053.json    anderlli0053/DEV-tools
 qr_anderlli0053.json    anderlli0053/DEV-tools
 LiberationMono-NF_anderlli0053.json    anderlli0053/DEV-tools
 battery-care_anderlli0053.json    anderlli0053/DEV-tools
@@ -14640,6 +14743,7 @@ juicefs_anderlli0053.json    anderlli0053/DEV-tools
 balcon_anderlli0053.json    anderlli0053/DEV-tools
 rdcman_anderlli0053.json    anderlli0053/DEV-tools
 IrfanView-Install_anderlli0053.json    anderlli0053/DEV-tools
+chrome-with-flash_anderlli0053.json    anderlli0053/DEV-tools
 OpenJFX_anderlli0053.json    anderlli0053/DEV-tools
 dbgate_anderlli0053.json    anderlli0053/DEV-tools
 EpicGamesLauncher-Install_anderlli0053.json    anderlli0053/DEV-tools
@@ -14668,6 +14772,7 @@ azure-functions-core-tools_anderlli0053.json    anderlli0053/DEV-tools
 gtools_anderlli0053.json    anderlli0053/DEV-tools
 freebasic_anderlli0053.json    anderlli0053/DEV-tools
 mongodb-compass_anderlli0053.json    anderlli0053/DEV-tools
+USBSafelyRemove_anderlli0053.json    anderlli0053/DEV-tools
 Srisakdi_anderlli0053.json    anderlli0053/DEV-tools
 Noto-NF_anderlli0053.json    anderlli0053/DEV-tools
 zig@0.8.0.json    anderlli0053/DEV-tools
@@ -14762,13 +14867,16 @@ RustDesk-Portable_anderlli0053.json    anderlli0053/DEV-tools
 MusicLake_anderlli0053.json    anderlli0053/DEV-tools
 cake_anderlli0053.json    anderlli0053/DEV-tools
 exif-pilot_anderlli0053.json    anderlli0053/DEV-tools
+Xmanager_anderlli0053.json    anderlli0053/DEV-tools
 php5.3.16.json    anderlli0053/DEV-tools
 carvel-vendir_anderlli0053.json    anderlli0053/DEV-tools
+SpacedeskViewer_anderlli0053.json    anderlli0053/DEV-tools
 maxto_anderlli0053.json    anderlli0053/DEV-tools
 pester@3.3.11.json    anderlli0053/DEV-tools
 syncback_anderlli0053.json    anderlli0053/DEV-tools
 liteide_anderlli0053.json    anderlli0053/DEV-tools
 bioedit_anderlli0053.json    anderlli0053/DEV-tools
+SIW_anderlli0053.json    anderlli0053/DEV-tools
 qqmusic_anderlli0053.json    anderlli0053/DEV-tools
 XMPlayPortable.json    anderlli0053/DEV-tools
 rstudio_anderlli0053.json    anderlli0053/DEV-tools
@@ -14819,6 +14927,7 @@ gitversion-beta_anderlli0053.json    anderlli0053/DEV-tools
 IcecreamPDFConverter_anderlli0053.json    anderlli0053/DEV-tools
 neovide-dev_anderlli0053.json    anderlli0053/DEV-tools
 autoruns_anderlli0053.json    anderlli0053/DEV-tools
+AutoDeleteFileOnPCWechat_anderlli0053.json    anderlli0053/DEV-tools
 cuda11.1_anderlli0053.json    anderlli0053/DEV-tools
 cuda_anderlli0053.json    anderlli0053/DEV-tools
 4dnat_anderlli0053.json    anderlli0053/DEV-tools
@@ -14833,6 +14942,24 @@ php5.4.19-nts.json    anderlli0053/DEV-tools
 dprint_anderlli0053.json    anderlli0053/DEV-tools
 sox_anderlli0053.json    anderlli0053/DEV-tools
 mzcacheview_anderlli0053.json    anderlli0053/DEV-tools
+lite_ChungZH.json    ChungZH/peach
+translatium.json    ChungZH/peach
+notepanda.json    ChungZH/peach
+kanmail.json    ChungZH/peach
+swifty.json    ChungZH/peach
+drawio_ChungZH.json    ChungZH/peach
+runjs.json    ChungZH/peach
+apkstudio.json    ChungZH/peach
+switch.json    ChungZH/peach
+qownnotes_ChungZH.json    ChungZH/peach
+lemon_ChungZH.json    ChungZH/peach
+toggl_ChungZH.json    ChungZH/peach
+caret_ChungZH.json    ChungZH/peach
+qtpass_ChungZH.json    ChungZH/peach
+tencent-edu_ChungZH.json    ChungZH/peach
+vivetool_ChungZH.json    ChungZH/peach
+parsify.json    ChungZH/peach
+mongood.json    ChungZH/peach
 googlechrome_42wim.json    42wim/scoop-bucket
 googlechrome-canary_42wim.json    42wim/scoop-bucket
 apimonitor.json    42wim/scoop-bucket
