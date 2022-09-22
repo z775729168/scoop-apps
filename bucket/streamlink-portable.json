@@ -1,17 +1,49 @@
 {
+    "version": "3.2.0",
+    "description": "A command-line utility that pipes video streams from various services into a video player.",
     "homepage": "https://streamlink.github.io/",
-    "description": "A command-line utility that pipes video streams from various services into a video player",
-    "version": "1.0.0",
     "license": "BSD-2-Clause",
-    "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v1.0.0/Streamlink_for_Windows_Portable_v1.0.0.zip",
-    "hash": "88c7c4c8bf39f361fde535fc2c3ed0c53d337f20cec3c61da2a10f3877208173",
-    "persist": "streamlinkrc",
-    "bin": "Streamlink.exe",
+    "suggest": {
+        "FFmpeg": [
+            "ffmpeg",
+            "ffmpeg-nightly"
+        ],
+        "VLC Player": "extras/vlc"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/beardypig/streamlink-portable/releases/download/3.2.0/streamlink-portable-3.2.0-py3.6.8-amd64.zip",
+            "hash": "814c1a8290202f144a1ba842a2ac614e6c19dc4b03a9741296a24b84f42a7a90"
+        },
+        "32bit": {
+            "url": "https://github.com/beardypig/streamlink-portable/releases/download/3.2.0/streamlink-portable-3.2.0-py3.6.8-win32.zip",
+            "hash": "059100d950d3f7ebc6f0487eefa217af91129b098e1451b4208d383900d24a82"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config\")) {",
+        "    if (Test-Path \"$env:APPDATA\\streamlink\\config\") {",
+        "        info 'Copying existing ''config'' from ''%APPDATA%\\streamlink\\config'''",
+        "        Copy-Item \"$env:APPDATA\\streamlink\\config\" \"$dir\\config\"",
+        "    } else {",
+        "        Copy-Item \"$dir\\config.template\" \"$dir\\config\"",
+        "    }",
+        "}"
+    ],
+    "extract_dir": "streamlink",
+    "bin": "streamlink.bat",
+    "persist": "config",
     "checkver": {
-        "url": "https://github.com/streamlink/streamlink-portable/releases/latest",
-        "re": "/releases/tag/Stable_v([\\d.]+)"
+        "github": "https://github.com/beardypig/streamlink-portable"
     },
     "autoupdate": {
-        "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v$version/Streamlink_for_Windows_Portable_v$version.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/beardypig/streamlink-portable/releases/download/$version/streamlink-portable-$version-py3.6.8-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/beardypig/streamlink-portable/releases/download/$version/streamlink-portable-$version-py3.6.8-win32.zip"
+            }
+        }
     }
 }
