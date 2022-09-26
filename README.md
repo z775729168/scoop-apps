@@ -46,8 +46,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
 - ScoopInstaller/Java
-- TheRandomLabs/Scoop-Spotify
 - Calinou/scoop-games
+- TheRandomLabs/Scoop-Spotify
 - ivaquero/scoopet
 - borger/scoop-galaxy-integrations
 - TheRandomLabs/scoop-nonportable

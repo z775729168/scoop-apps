@@ -1,11 +1,11 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "sha512:fd41889da28851b6b3e485d2e176a9e10f546b287148415f6f16bf9df36cbeadf1db2086fe01d8aa4190b3a3203b0f3a74b602b5df01cccc8096000c3cc36e51",
+            "hash": "sha512:17b13a2eb6e2f2ed8874bdfbd605327610e0ad37c8d478979beea2a655a4710b4361caf7dd9867fbfc8473e1e21c1fb029c883ba97fb6fbcf47c73f95abf4f2b",
             "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win32.zip"
         },
         "64bit": {
-            "hash": "sha512:349d224adde0219e91286b628c71ece5a5bcd99454fbad147035a2b259da6f4cea8fdd71e2784ab36fa553a0479064ac63290a5f7bb9033c0f4f4188965f0063",
+            "hash": "sha512:779ae959b250d6c00f71b3a2d13172177200fd62c24083538331c970ba9c924442159ee7f8def0f4bd184216989760557fe766b7300dcf992490def28ba629cb",
             "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win64.zip"
         }
     },
@@ -49,5 +49,5 @@
             "-profile \"$dir\\profile\""
         ]
     ],
-    "version": "107.0a1.20220925093059"
+    "version": "107.0a1.20220926093803"
 }
