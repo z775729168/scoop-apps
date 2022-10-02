@@ -1,12 +1,12 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.3",
     "description": "Open-source (FOSS) todo manager based on the todo.txt syntax",
     "homepage": "https://github.com/ransome1/sleek",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ransome1/sleek/releases/download/v1.2.1/sleek-1.2.1-win-Setup.exe#/dl.7z",
-            "hash": "sha512:f25c432e083d35c0e5b1b5c59c78e22bb5afb71778cfa1751abfbdb18ae8f8765d070d13c3b4d612114c0afe64717336a9772342a8c0aabf16b4f9c45ea1c9d1"
+            "url": "https://github.com/ransome1/sleek/releases/download/v1.2.3/sleek-1.2.3-win-Setup.exe#/dl.7z",
+            "hash": "sha512:a4536fbee3657cb126cc29aa9bf7d9d710f6ea40690209a9d028451cc90dcb2a83944112402560785358c89a614079786636e7c3ab69b42d0be6f648b8dd1bc2"
         }
     },
     "pre_install": [
