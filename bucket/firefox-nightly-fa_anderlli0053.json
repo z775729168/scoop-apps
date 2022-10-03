@@ -1,0 +1,53 @@
+{
+    "architecture": {
+        "32bit": {
+            "hash": "sha512:f7a95f28f026fc19906c5c508ce7e0b3dcfa0c2680cf9c91754b5c2c464f06ae7468c65ef47b87e79f75138e0402c637f8cf245c3fcde5d2e7ab0c9c45180812",
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.fa.win32.zip"
+        },
+        "64bit": {
+            "hash": "sha512:d3d576582f7054e46cd63483d92bf60925b4fbceea32561e31c6c409709270f94a001f783494ad8edc5f4c57cfd01bec2415f3e718752b047033b9777ed90568",
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.fa.win64.zip"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa.win32.checksums"
+                },
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.fa.win32.zip"
+            },
+            "64bit": {
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa.win64.checksums"
+                },
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.fa.win64.zip"
+            }
+        }
+    },
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-nightly-fa",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "checkver": {
+        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+        "replace": "${1}.${2}",
+        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml"
+    },
+    "description": "Nightly builds of Firefox: the popular open source web browser.",
+    "extract_dir": "firefox",
+    "homepage": "https://www.mozilla.org/fa-IR/firefox/nightly/",
+    "license": "MPL-2.0",
+    "persist": "profile",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Nightly (fa)",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "version": "107.0a1.20221003094838"
+}

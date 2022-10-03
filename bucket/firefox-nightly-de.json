@@ -1,30 +1,19 @@
 {
+    "version": "107.0a1.20221002093240",
+    "description": "Nightly builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/de-DE/firefox/nightly/",
+    "license": "MPL-2.0",
     "architecture": {
-        "32bit": {
-            "hash": "sha512:ab969009ea2c94000ae0f776a99f38e79f4894b9a5cbfaf085e2a5c10ac46fa717c9fa1c2c302c09cee83bb96c5ebd756c64bad74163f5708a835263e0df301c",
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win32.zip"
-        },
         "64bit": {
-            "hash": "sha512:707e470bb4e70be3c6b3da4fdf035d10b52f740902410365a0ea9307bc9b4d45f09d856b1ab32672e06a79bf3d35fd48e54690ec890cf92f80d76b1478acb60b",
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win64.zip"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win64.zip",
+            "hash": "sha512:725426d52d41fd370c6d408fe082ae55e7a75bf2e83f810830af39854327955c69dabc7929e3c14e1ded8d6aea17de27ab16394ec57dc3fafa39ada8ab9da3aa"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win32.zip",
+            "hash": "sha512:8b52044e8f3d2142aed1f36491e4e94eaa0f913922d9e916ef82482eae22710d8f73c8344ced5aaf335a9468f3275373ecdfb39033a4132d68b337ce17633d71"
         }
     },
-    "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win32.checksums"
-                },
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.zip"
-            },
-            "64bit": {
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win64.checksums"
-                },
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.zip"
-            }
-        }
-    },
+    "extract_dir": "firefox",
     "bin": [
         [
             "firefox.exe",
@@ -32,16 +21,6 @@
             "-profile \"$dir\\profile\""
         ]
     ],
-    "checkver": {
-        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
-        "replace": "${1}.${2}",
-        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml"
-    },
-    "description": "Nightly builds of Firefox: the popular open source web browser.",
-    "extract_dir": "firefox",
-    "homepage": "https://www.mozilla.org/de-DE/firefox/nightly/",
-    "license": "MPL-2.0",
-    "persist": "profile",
     "shortcuts": [
         [
             "firefox.exe",
@@ -49,5 +28,26 @@
             "-profile \"$dir\\profile\""
         ]
     ],
-    "version": "107.0a1.20221001214039"
+    "persist": "profile",
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml",
+        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+        "replace": "${1}.${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.zip",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win64.checksums"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.zip",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win32.checksums"
+                }
+            }
+        }
+    }
 }
