@@ -449,6 +449,7 @@ eclipse-modeling.json    ScoopInstaller/Extras
 museeks.json    ScoopInstaller/Extras
 yacreader.json    ScoopInstaller/Extras
 mpc.json    ScoopInstaller/Extras
+jqp.json    ScoopInstaller/Extras
 pixelorama.json    ScoopInstaller/Extras
 console2.json    ScoopInstaller/Extras
 throttlestop.json    ScoopInstaller/Extras
@@ -2867,7 +2868,6 @@ tooniversal.json    Calinou/scoop-games
 package.json    ivaquero/scoopet
 qq_ivaquero.json    ivaquero/scoopet
 tim_ivaquero.json    ivaquero/scoopet
-copytranslator_ivaquero.json    ivaquero/scoopet
 diskgenius-cn.json    ivaquero/scoopet
 kingdraw.json    ivaquero/scoopet
 magnetw_ivaquero.json    ivaquero/scoopet
@@ -2893,12 +2893,12 @@ lx-music.json    ivaquero/scoopet
 reader.json    ivaquero/scoopet
 vmware-workstation-pro.json    ivaquero/scoopet
 baidunetdisk_ivaquero.json    ivaquero/scoopet
+qttabbar.json    ivaquero/scoopet
 virtualbox-with-extension-pack.json    ivaquero/scoopet
 you-get.json    ivaquero/scoopet
 cnkiexpress.json    ivaquero/scoopet
 dingtalk_ivaquero.json    ivaquero/scoopet
 weasel.json    ivaquero/scoopet
-yuque_ivaquero.json    ivaquero/scoopet
 utools_ivaquero.json    ivaquero/scoopet
 regester.json    ivaquero/scoopet
 wechatwork_ivaquero.json    ivaquero/scoopet
@@ -6392,6 +6392,7 @@ SABnzbd-Portable.json    ACooper81/scoop-apps
 GIMP-Portable.json    ACooper81/scoop-apps
 DriverStoreExplorer-Portable.json    ACooper81/scoop-apps
 KDEConnect-Portable.json    ACooper81/scoop-apps
+KMS_VL_All_AiO-Portable.json    ACooper81/scoop-apps
 RZGetCLI-Portable.json    ACooper81/scoop-apps
 FlowLauncher-Portable.json    ACooper81/scoop-apps
 SordumRebuildShellIconCache-Portable.json    ACooper81/scoop-apps
@@ -6405,6 +6406,7 @@ Vivaldi-Portable.json    ACooper81/scoop-apps
 AcrylicDNSProxy-Portable.json    ACooper81/scoop-apps
 VNCServer-Install.json    ACooper81/scoop-apps
 MuseScore-Portable.json    ACooper81/scoop-apps
+ONLYOFFICE-Portable.json    ACooper81/scoop-apps
 TeraCopy-Install.json    ACooper81/scoop-apps
 Waterfox-Portable.json    ACooper81/scoop-apps
 Speccy-Portable.json    ACooper81/scoop-apps
@@ -6486,6 +6488,7 @@ GoogleChromeBeta-Portable.json    ACooper81/scoop-apps
 LanguageTool-Portable.json    ACooper81/scoop-apps
 WinfetchNightlyCLI-Portable.json    ACooper81/scoop-apps
 Tidal-Portable.json    ACooper81/scoop-apps
+CompactGUI-Portable.json    ACooper81/scoop-apps
 OBSStudio-Portable.json    ACooper81/scoop-apps
 PersonalBackup-Portable.json    ACooper81/scoop-apps
 WhyNotWin11-Portable.json    ACooper81/scoop-apps
@@ -6502,6 +6505,7 @@ RDPWrapper-Portable.json    ACooper81/scoop-apps
 WingetUI-Portable.json    ACooper81/scoop-apps
 Capture2Text-Portable.json    ACooper81/scoop-apps
 NirsoftWirelessNetworkWatcher-Portable.json    ACooper81/scoop-apps
+apkeepCLI-Portable.json    ACooper81/scoop-apps
 StreamlabsDesktop-Portable.json    ACooper81/scoop-apps
 NirsoftRegFromApp-Portable.json    ACooper81/scoop-apps
 Discord-Portable.json    ACooper81/scoop-apps
@@ -6564,6 +6568,7 @@ FirefoxBeta-Portable.json    ACooper81/scoop-apps
 NoMansSkySaveEditor-Portable.json    ACooper81/scoop-apps
 Darker-Portable.json    ACooper81/scoop-apps
 SyncFolders-Portable.json    ACooper81/scoop-apps
+MucisBee-Portable.json    ACooper81/scoop-apps
 VirtualBox-Extension-Pack-Install.json    ACooper81/scoop-apps
 RSSGuard-Portable.json    ACooper81/scoop-apps
 Oasis-Portable.json    ACooper81/scoop-apps
@@ -6702,6 +6707,7 @@ SoftOrganizer-Portable.json    ACooper81/scoop-apps
 Upscayl-Portable.json    ACooper81/scoop-apps
 Zoom-Portable.json    ACooper81/scoop-apps
 PlexMediaPlayer-Portable.json    ACooper81/scoop-apps
+PicoTorrent-Portable.json    ACooper81/scoop-apps
 Defraggler-Portable.json    ACooper81/scoop-apps
 pacaptrCLI-Portable.json    ACooper81/scoop-apps
 CryengineLauncher-UserInstall.json    ACooper81/scoop-apps
@@ -6795,6 +6801,7 @@ OracleJRE8-Portable.json    ACooper81/scoop-apps
 ZMeter-Portable.json    ACooper81/scoop-apps
 BrickLinkStudio-Portable.json    ACooper81/scoop-apps
 StreamlabsChatbot-Portable.json    ACooper81/scoop-apps
+AutoUnlocker-Portable.json    ACooper81/scoop-apps
 SlimPDFReader-Portable.json    ACooper81/scoop-apps
 VirtualBoxWithExtensionPack-Install.json    ACooper81/scoop-apps
 AmazonGames-UserInstall.json    ACooper81/scoop-apps
@@ -6916,6 +6923,7 @@ ProperTree-Portable.json    ACooper81/scoop-apps
 RevoUninstaller-Portable.json    ACooper81/scoop-apps
 RoboIntern-Portable.json    ACooper81/scoop-apps
 PSScoop-PSModule.json    ACooper81/scoop-apps
+PhotoDemon-Portable.json    ACooper81/scoop-apps
 CloneAppUA-Portable.json    ACooper81/scoop-apps
 Audacious-Portable.json    ACooper81/scoop-apps
 Fido-PSScript.json    ACooper81/scoop-apps
@@ -7781,6 +7789,7 @@ Bootice_anderlli0053.json    anderlli0053/DEV-tools
 Boxcryptor_anderlli0053.json    anderlli0053/DEV-tools
 Brave-Portable_anderlli0053.json    anderlli0053/DEV-tools
 Brave-UserInstall_anderlli0053.json    anderlli0053/DEV-tools
+BraveNightly-Portable_anderlli0053.json    anderlli0053/DEV-tools
 BrickLinkStudio-Install_anderlli0053.json    anderlli0053/DEV-tools
 BrickLinkStudio-Portable_anderlli0053.json    anderlli0053/DEV-tools
 BrowserTamer-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -8015,6 +8024,7 @@ FinanceExplorerPortable.json    anderlli0053/DEV-tools
 Firefox-Install_anderlli0053.json    anderlli0053/DEV-tools
 Firefox-Portable_anderlli0053.json    anderlli0053/DEV-tools
 Firefox-developer-zh.json    anderlli0053/DEV-tools
+FirefoxNightly-Portable_anderlli0053.json    anderlli0053/DEV-tools
 FirefoxPortable.json    anderlli0053/DEV-tools
 FirefoxPortable2ndProfile.json    anderlli0053/DEV-tools
 FirefoxPortableDeveloper.json    anderlli0053/DEV-tools
@@ -9493,6 +9503,7 @@ boundary_anderlli0053.json    anderlli0053/DEV-tools
 boxcutter_anderlli0053.json    anderlli0053/DEV-tools
 boxes_anderlli0053.json    anderlli0053/DEV-tools
 brave-browser.json    anderlli0053/DEV-tools
+brave-nightly_anderlli0053.json    anderlli0053/DEV-tools
 brename_anderlli0053.json    anderlli0053/DEV-tools
 briss.json    anderlli0053/DEV-tools
 brogue-tiles.json    anderlli0053/DEV-tools
@@ -9950,7 +9961,6 @@ copy-translator-rust_anderlli0053.json    anderlli0053/DEV-tools
 copy-translator.json    anderlli0053/DEV-tools
 copybookbuilder.json    anderlli0053/DEV-tools
 copyplusplus_anderlli0053.json    anderlli0053/DEV-tools
-copytranslator_anderlli0053.json    anderlli0053/DEV-tools
 coq_anderlli0053.json    anderlli0053/DEV-tools
 coredns_anderlli0053.json    anderlli0053/DEV-tools
 coreinfo.json    anderlli0053/DEV-tools
@@ -10228,6 +10238,7 @@ curlie_anderlli0053.json    anderlli0053/DEV-tools
 cvs_anderlli0053.json    anderlli0053/DEV-tools
 cwrsync_anderlli0053.json    anderlli0053/DEV-tools
 cwtch_anderlli0053.json    anderlli0053/DEV-tools
+cxbx-reloaded_anderlli0053.json    anderlli0053/DEV-tools
 cyberchef.json    anderlli0053/DEV-tools
 cygpath.json    anderlli0053/DEV-tools
 cygwin-aoks.json    anderlli0053/DEV-tools
@@ -10247,6 +10258,7 @@ dart_anderlli0053.json    anderlli0053/DEV-tools
 data-assistant_anderlli0053.json    anderlli0053/DEV-tools
 data-pixels.json    anderlli0053/DEV-tools
 datamash_anderlli0053.json    anderlli0053/DEV-tools
+dataspell-rc-portable_anderlli0053.json    anderlli0053/DEV-tools
 datastation.json    anderlli0053/DEV-tools
 daxstudio.json    anderlli0053/DEV-tools
 dbeaver-sdu.json    anderlli0053/DEV-tools
@@ -10685,6 +10697,7 @@ firefox-nightly-de_anderlli0053.json    anderlli0053/DEV-tools
 firefox-nightly-fa_anderlli0053.json    anderlli0053/DEV-tools
 firefox-nightly-portable_anderlli0053.json    anderlli0053/DEV-tools
 firefox-nightly-zh-cn_anderlli0053.json    anderlli0053/DEV-tools
+firefox-nightly_anderlli0053.json    anderlli0053/DEV-tools
 firefox-portable-de_anderlli0053.json    anderlli0053/DEV-tools
 firefox-portable-fa_anderlli0053.json    anderlli0053/DEV-tools
 firefox-tete009-portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -10706,7 +10719,6 @@ flowlauncher-portable_anderlli0053.json    anderlli0053/DEV-tools
 fluent-bit_anderlli0053.json    anderlli0053/DEV-tools
 flutter-cn_anderlli0053.json    anderlli0053/DEV-tools
 flutter-tuna.json    anderlli0053/DEV-tools
-flutter_anderlli0053.json    anderlli0053/DEV-tools
 flycast-dev.json    anderlli0053/DEV-tools
 flyctl_anderlli0053.json    anderlli0053/DEV-tools
 flyway_anderlli0053.json    anderlli0053/DEV-tools
@@ -10790,6 +10802,8 @@ ganjoor_anderlli0053.json    anderlli0053/DEV-tools
 ganttproject_anderlli0053.json    anderlli0053/DEV-tools
 garbro-mod.json    anderlli0053/DEV-tools
 garden_anderlli0053.json    anderlli0053/DEV-tools
+gateway-eap-portable_anderlli0053.json    anderlli0053/DEV-tools
+gateway-eap_anderlli0053.json    anderlli0053/DEV-tools
 gauche_anderlli0053.json    anderlli0053/DEV-tools
 gauge_anderlli0053.json    anderlli0053/DEV-tools
 gawk_anderlli0053.json    anderlli0053/DEV-tools
@@ -11229,10 +11243,6 @@ installforge.json    anderlli0053/DEV-tools
 integer-scaler_anderlli0053.json    anderlli0053/DEV-tools
 intel-realsense-sdk.json    anderlli0053/DEV-tools
 intellij-idea-ce_anderlli0053.json    anderlli0053/DEV-tools
-intellij-idea-portable_anderlli0053.json    anderlli0053/DEV-tools
-intellij-idea-ultimate-portable_anderlli0053.json    anderlli0053/DEV-tools
-intellij-idea-ultimate_anderlli0053.json    anderlli0053/DEV-tools
-intellij-idea_anderlli0053.json    anderlli0053/DEV-tools
 intermodal_anderlli0053.json    anderlli0053/DEV-tools
 internet-download-manager-portable.json    anderlli0053/DEV-tools
 internet-download-manager.json    anderlli0053/DEV-tools
@@ -12120,6 +12130,7 @@ opencv_anderlli0053.json    anderlli0053/DEV-tools
 openethereum_anderlli0053.json    anderlli0053/DEV-tools
 openiv.json    anderlli0053/DEV-tools
 openjdk-with-jfx_anderlli0053.json    anderlli0053/DEV-tools
+openjdk20_anderlli0053.json    anderlli0053/DEV-tools
 openjdk@1.8.0.121.json    anderlli0053/DEV-tools
 openlens_anderlli0053.json    anderlli0053/DEV-tools
 openlierox.json    anderlli0053/DEV-tools
@@ -13617,6 +13628,7 @@ scons_anderlli0053.json    anderlli0053/DEV-tools
 scoop-backup-knoxdev.json    anderlli0053/DEV-tools
 scoop-backup_anderlli0053.json    anderlli0053/DEV-tools
 scoop-check.json    anderlli0053/DEV-tools
+scoop-completion_anderlli0053.json    anderlli0053/DEV-tools
 scoop-directory.json    anderlli0053/DEV-tools
 scoop-sd.json    anderlli0053/DEV-tools
 scoop-search-aoks.json    anderlli0053/DEV-tools
@@ -13703,6 +13715,7 @@ sigrok_anderlli0053.json    anderlli0053/DEV-tools
 silicon.json    anderlli0053/DEV-tools
 simple-http-server_anderlli0053.json    anderlli0053/DEV-tools
 simple-note.json    anderlli0053/DEV-tools
+simple64_anderlli0053.json    anderlli0053/DEV-tools
 simplecodegenerator_anderlli0053.json    anderlli0053/DEV-tools
 simplejavamail-cli_anderlli0053.json    anderlli0053/DEV-tools
 simpleprogramdebugger_anderlli0053.json    anderlli0053/DEV-tools
@@ -14093,6 +14106,8 @@ tracecli_anderlli0053.json    anderlli0053/DEV-tools
 tracerx-viewer_anderlli0053.json    anderlli0053/DEV-tools
 tradingview_anderlli0053.json    anderlli0053/DEV-tools
 traefik_anderlli0053.json    anderlli0053/DEV-tools
+trafficmonitor-lite_anderlli0053.json    anderlli0053/DEV-tools
+trafficmonitor_anderlli0053.json    anderlli0053/DEV-tools
 transmission-cli_anderlli0053.json    anderlli0053/DEV-tools
 transwiz-aoks.json    anderlli0053/DEV-tools
 trash_anderlli0053.json    anderlli0053/DEV-tools
@@ -15087,7 +15102,7 @@ dotnet-sdk-preview_batkiz.json    batkiz/backit
 dnote_batkiz.json    batkiz/backit
 EnergyStar_batkiz.json    batkiz/backit
 chr_batkiz.json    batkiz/backit
-jqp.json    batkiz/backit
+jqp_batkiz.json    batkiz/backit
 httpie-go_batkiz.json    batkiz/backit
 delta_batkiz.json    batkiz/backit
 fnm_batkiz.json    batkiz/backit
