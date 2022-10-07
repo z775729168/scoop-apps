@@ -1,12 +1,12 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "sha512:81d33b3018541316c017209c969ee919919516aae6a8a5ec1f3df005904eeee6c4a36e005bdc6d4681c5894c1fd5363e003a6080c04e26a5aaabe1c665ee0b8b",
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/10/2022-10-05-21-51-13-mozilla-central-l10n/firefox-107.0a1.zh-CN.win32.installer.exe#/firefox.7z"
+            "hash": "sha512:70d61487ca4580fee2c70717dbbb2b5c835786fb66a747f219db342f8c28d5c48a18cbe4d3451eb01ff9d02bda5fcaa22ccba43b43e3ac8b0323563be37e8db0",
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/10/2022-10-07-09-38-40-mozilla-central-l10n/firefox-107.0a1.zh-CN.win32.installer.exe#/firefox.7z"
         },
         "64bit": {
-            "hash": "sha512:9c31c87152b6b1343d1f30d913f2a5f1a42ee0597ccb27338b22f9ebbbc1320f4619c79ca88ca4b7e4f0fab10a172ca6a07404e89f624b24e9a853949576fe9f",
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/10/2022-10-05-21-51-13-mozilla-central-l10n/firefox-107.0a1.zh-CN.win64.installer.exe#/firefox.7z"
+            "hash": "sha512:b4b62080be388d979c58a652eed20fe1b151e09a03abef99af54e542f67c6ba6d30f13b4bf555cae453d9929ce5629a41343c6b26c061b67fe0afa4c5cbdb3b7",
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/10/2022-10-07-09-38-40-mozilla-central-l10n/firefox-107.0a1.zh-CN.win64.installer.exe#/firefox.7z"
         }
     },
     "autoupdate": {
@@ -48,5 +48,5 @@
             "Firefox Nightly"
         ]
     ],
-    "version": "107.0a1.20221005215113"
+    "version": "107.0a1.20221007093840"
 }
