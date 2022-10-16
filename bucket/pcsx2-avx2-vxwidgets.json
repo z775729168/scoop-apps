@@ -1,15 +1,18 @@
 {
-    "version": "1.7.3428",
+    "version": "1.7.3433",
     "description": "Sony PlayStation 2 emulator (",
     "homepage": "https://pcsx2.net/",
     "license": {
         "url": "https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3",
         "identifier": "GPL-3.0"
     },
+    "suggest": {
+        "Microsoft Visual C++ Runtime 2019": "extras/vcredist2019"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.3428/pcsx2-v1.7.3428-windows-64bit-AVX2-wxWidgets.7z",
-            "hash": "677034303c12ad528096500a47e287085ecad81fd558c27660a87a21b6fcbbe7",
+            "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.3433/pcsx2-v1.7.3433-windows-64bit-AVX2-wxWidgets.7z",
+            "hash": "58a54c45594db631f35f77f5b01cfda53f76327e116e2549209ca0b143ef0301",
             "bin": [
                 [
                     "pcsx2x64-avx2.exe",
@@ -34,9 +37,6 @@
         "   }",
         "}"
     ],
-    "suggest": {
-        "Microsoft Visual C++ Runtime 2019": "extras/vcredist2019"
-    },
     "persist": [
         "bios",
         "cheats_ws",
