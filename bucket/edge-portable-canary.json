@@ -1,12 +1,12 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "42e31a8bfbd614995d559bb5b380a9731592105045b58513ce3319f4f5b7893c",
-            "url": "https://dorado-api.deno.dev/edge?arch=86&channel=canary&dl#/MicrosoftEdge-108.0.1449.0-x86.7z"
+            "hash": "2f875a3fe450ad35a63025b815d629c6f4552d96b5b56958c8dc50075c140d1d",
+            "url": "https://dorado-api.deno.dev/edge?arch=86&channel=canary&dl#/MicrosoftEdge-108.0.1451.0-x86.7z"
         },
         "64bit": {
-            "hash": "474b10cba6569c4d38c0d7aa965f4dce2751c70d8b5076f01116895e2d18fcf0",
-            "url": "https://dorado-api.deno.dev/edge?arch=64&channel=canary&dl#/MicrosoftEdge-108.0.1449.0-x64.7z"
+            "hash": "10a4e9f1c5ddc151db7e508b260eee952a3d7af37ecdd86b8b123b521845ef42",
+            "url": "https://dorado-api.deno.dev/edge?arch=64&channel=canary&dl#/MicrosoftEdge-108.0.1451.0-x64.7z"
         }
     },
     "autoupdate": {
@@ -45,5 +45,5 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "version": "108.0.1449.0"
+    "version": "108.0.1451.0"
 }
