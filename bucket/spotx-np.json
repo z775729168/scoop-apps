@@ -1,10 +1,10 @@
 {
-    "version": "1.5-20221025-b550ab",
+    "version": "1.6-20221026-2fb07f",
     "description": "Modified spotify client. Blocks ads and updates, and more.",
     "homepage": "https://github.com/SpotX-CLI/SpotX-Win/",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/SpotX-CLI/SpotX-Win/main/Install.ps1",
-    "hash": "ddfb7d3e3ea28be89ccdfed9011542635af3d3723382830b94728b01b4d27628",
+    "hash": "325e15fec0f8dd1cdac8395b0ed9101b84355bbb0bcb067a5abccfe4fba395ca",
     "installer": {
         "script": [
             "# older versions of Powershell 5 requires BOM to recognize UTF8 scripts",

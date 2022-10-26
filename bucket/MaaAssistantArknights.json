@@ -1,10 +1,10 @@
 {
-    "version": "4.6.4",
+    "version": "4.6.5-beta.2",
     "description": "An Arknights assistant, supports ZH and EN client",
     "homepage": "https://www.maa.plus/",
     "license": "AGPL-3.0",
-    "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.6.4/MaaBundle-v4.6.4.zip",
-    "hash": "0e4edf13830c996eb599201fb94ebcc6bf4956205968c8f522931cbc71cdff2e",
+    "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.6.5-beta.2/MAA-v4.6.5-beta.2-win-x64.zip",
+    "hash": "8e525a71b995a25e6b384155bb4faaf06afc4f380ad099be307111f2049d6511",
     "pre_install": [
         "if (!(Test-Path -Path \"$dir\\gui.json\" -PathType leaf)) {",
         "   New-Item -ItemType file -Path \"$dir\\gui.json\" | Out-Null",
@@ -26,6 +26,6 @@
         "regex": "/releases/tag/v([\\d.]+(-alpha|-beta)?(\\.\\d+)?)"
     },
     "autoupdate": {
-        "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MaaBundle-v$version.zip"
+        "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MAA-v$version-win-x64.zip"
     }
 }
