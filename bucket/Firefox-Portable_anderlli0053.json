@@ -1,0 +1,48 @@
+{
+    "version": "106.0.2",
+    "description": "Firefox. Popular open source web browser.",
+    "homepage": "https://www.mozilla.org/firefox/",
+    "license": "MPL-2.0",
+    "changelog": "https://www.mozilla.org/en-US/firefox/106.0.2/releasenotes/",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/106.0.2/win64/en-US/Firefox%20Setup%20106.0.2.exe#/dl.7z",
+            "hash": "sha512:57b7f9c3542824796b84bcf27759c9bd1da3b1b6e1cf760d1f6052dcd6e1e0270dd3bcafe191adf9ed761a7dfbb28b2e71f96731b209e87f7ab73219effcfa5b"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/106.0.2/win32/en-US/Firefox%20Setup%20106.0.2.exe#/dl.7z",
+            "hash": "sha512:bb0b0cb0f1d1fbb5e2ddf439fafe70ef657b039da2bc71fc492c7d65998dd8bf22f325bf08a1ac284ee4529186d4126c03667b93d552566cf157a5a5db56d476"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mozilla.org/en-US/firefox/notes/",
+        "regex": "<div class=\"c-release-version\">([\\d.]+)</div>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/en-US/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win32/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/en-US/$basename"
+                }
+            }
+        },
+        "changelog": "https://www.mozilla.org/en-US/firefox/$version/releasenotes/"
+    }
+}
