@@ -1,11 +1,11 @@
 {
-    "version": "0.2022.07.08",
+    "version": "0.2022.11.04",
     "description": "Simple Chromium command-line Updater",
     "homepage": "https://github.com/mkorthof/chrupd",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/mkorthof/chrupd/archive/32f9d6d9c4bae1b021e59461804fda4c84a7ddf6.zip",
-    "hash": "c4549332cbaf523b3ae4755e2ac9ac3d725ffe9aa12f16588114ff802d129ecd",
-    "extract_dir": "chrupd-32f9d6d9c4bae1b021e59461804fda4c84a7ddf6",
+    "url": "https://github.com/mkorthof/chrupd/archive/36500b5bf34bdd4ed77d67b1038cd3ecd9dde89e.zip",
+    "hash": "03ac157b42a0b67420dbbcdd6466873d4f733bd7dc88b7da43eab55c17cf74f7",
+    "extract_dir": "chrupd-36500b5bf34bdd4ed77d67b1038cd3ecd9dde89e",
     "bin": "chrupd.cmd",
     "checkver": {
         "url": "https://github.com/mkorthof/chrupd/commits/master.atom",
