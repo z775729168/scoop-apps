@@ -94,6 +94,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoop_bucket_misty
 - excitoon/scoop-user
 - jfut/scoop-jfut
+- Weidows-projects/scoop-3rd
 - ChinLong/scoop-customize
 - seumsc/scoop-seu
 - akirco/aki-apps
@@ -108,7 +109,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KnotUntied/scoop-knotuntied
 - hu3rror/scoop-muggle
 - starise/Scoop-Confetti
-- Weidows-projects/scoop-3rd
 - jonz94/scoop-sarasa-nerd-fonts
 - ddavness/scoop-roblox
 - nickbudi/scoop-bucket
