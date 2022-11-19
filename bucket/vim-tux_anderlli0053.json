@@ -1,11 +1,11 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "d15eafc7af0ecf85b791147b64b066f5d1515f10d17ca007bf26e19cf1fbb339",
+            "hash": "61ab7f74a911ea616bbff0c1460c8c2f422eb8ba0a53d11e6c43157982d915c5",
             "url": "https://tuxproject.de/projects/vim/complete-x86.7z"
         },
         "64bit": {
-            "hash": "2708e25e6332358d38cf9b6478e42d0603756d4f1fbd786182852fa44af45017",
+            "hash": "2829c03d8fc90366d64a03eef8f71cd7d987e4daf258e52298de619ced707df4",
             "url": "https://tuxproject.de/projects/vim/complete-x64.7z"
         }
     },
@@ -105,5 +105,5 @@
     "suggest": {
         "vimtutor": "vimtutor"
     },
-    "version": "9.0.0901"
+    "version": "9.0.0902"
 }

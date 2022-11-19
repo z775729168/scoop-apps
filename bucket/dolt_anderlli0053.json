@@ -1,8 +1,8 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "f645a545522d80fab507973b804dfe34bdb7cbb2383b8c9ea937f7e70bd49b5e",
-            "url": "https://github.com/dolthub/dolt/releases/download/v0.51.3/dolt-windows-amd64.zip"
+            "hash": "1e321b041cdbac1e24272cb357288221f42f8fe98a4c89fad7fca60206b206c1",
+            "url": "https://github.com/dolthub/dolt/releases/download/v0.51.4/dolt-windows-amd64.zip"
         }
     },
     "autoupdate": {
@@ -18,5 +18,5 @@
     "extract_dir": "dolt-windows-amd64",
     "homepage": "https://github.com/dolthub/dolt",
     "license": "Apache-2.0",
-    "version": "0.51.3"
+    "version": "0.51.4"
 }
