@@ -72,8 +72,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-emulators
 - TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
-- ScoopInstaller/Nonportable
 - dodorz/scoop
+- ScoopInstaller/Nonportable
 - ACooper81/scoop-apps
 - ZvonimirSun/scoop-iszy
 - kiennq/scoop-misc
@@ -88,8 +88,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mogeko/scoop-sysinternals
 - krproject/qi-windows
 - Darkatse/Scoop-Darkatse
-- batkiz/backit
 - littleli/Scoop-littleli
+- batkiz/backit
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
 - excitoon/scoop-user
@@ -103,6 +103,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - Apocalypsor/My-Scoop-Bucket
 - Velgus/Scoop-Portapps
+- yuanying1199/scoopbucket
 - TheLastZombie/scoop-bucket
 - SayCV/scoop-cvp
 - Deide/deide-bucket
