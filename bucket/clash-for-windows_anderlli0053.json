@@ -1,18 +1,37 @@
 {
-    "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
-    "description": "A Windows GUI based on Clash",
-    "version": "0.20.9",
-    "license": "MIT",
     "architecture": {
-        "64bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.9/Clash.for.Windows-0.20.9-win.7z",
-            "hash": "a1a54df371a5295ef16b205f6e88fa06709a2c527374749446321a6fb10cb73f"
-        },
         "32bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.9/Clash.for.Windows-0.20.9-ia32-win.7z",
-            "hash": "c59a418bec75fcefa177dbba12a2717793b67693f38797a2813280bdffb9e829"
+            "hash": "c59a418bec75fcefa177dbba12a2717793b67693f38797a2813280bdffb9e829",
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.9/Clash.for.Windows-0.20.9-ia32-win.7z"
+        },
+        "64bit": {
+            "hash": "a1a54df371a5295ef16b205f6e88fa06709a2c527374749446321a6fb10cb73f",
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.9/Clash.for.Windows-0.20.9-win.7z"
         }
     },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "hash": {
+                    "mode": "extract",
+                    "regex": "^ia32-7z: $sha256",
+                    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/sha256sum"
+                },
+                "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-ia32-win.7z"
+            },
+            "64bit": {
+                "hash": {
+                    "mode": "extract",
+                    "regex": "(?m)^7z: $sha256",
+                    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/sha256sum"
+                },
+                "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z"
+            }
+        }
+    },
+    "checkver": "github",
+    "description": "A Windows GUI based on Clash",
+    "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "installer": {
         "script": [
             "if (!(Test-Path \"$persist_dir\\data\")) {",
@@ -34,6 +53,15 @@
             "}"
         ]
     },
+    "license": "MIT",
+    "notes": "Clash for Windows data are now saved into '$persist_dir' and persisted by Scoop.",
+    "persist": "data",
+    "shortcuts": [
+        [
+            "Clash for Windows.exe",
+            "Clash for Windows"
+        ]
+    ],
     "uninstaller": {
         "script": [
             "$runtimeCache = \"$env:APPDATA\\clash_win\"",
@@ -45,33 +73,5 @@
             "}"
         ]
     },
-    "shortcuts": [
-        [
-            "Clash for Windows.exe",
-            "Clash for Windows"
-        ]
-    ],
-    "persist": "data",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z",
-                "hash": {
-                    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/sha256sum",
-                    "mode": "extract",
-                    "regex": "(?m)^7z: $sha256"
-                }
-            },
-            "32bit": {
-                "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-ia32-win.7z",
-                "hash": {
-                    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/sha256sum",
-                    "mode": "extract",
-                    "regex": "^ia32-7z: $sha256"
-                }
-            }
-        }
-    },
-    "notes": "Clash for Windows data are now saved into '$persist_dir' and persisted by Scoop."
+    "version": "0.20.9"
 }

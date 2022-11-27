@@ -1,0 +1,25 @@
+{
+ "autoupdate": {
+  "hash": {
+   "url": "$baseurl/RELEASES"
+  },
+  "url": "https://github.com/Foundry376/Mailspring/releases/download/$version/Mailspring-$version-full.nupkg"
+ },
+ "bin": "Mailspring.exe",
+ "checkver": {
+  "github": "https://github.com/Foundry376/Mailspring"
+ },
+ "description": "Extensible email app with open tracking, link click tracking, contacts enrichment data and more",
+ "extract_dir": "lib\\net45",
+ "hash": "sha1:b1415b4279e8107c98dfd3ca3f4cfb5fbd754b1b",
+ "homepage": "https://getmailspring.com/",
+ "license": "GPL-3.0-only",
+ "shortcuts": [
+  [
+   "Mailspring.exe",
+   "Mailspring"
+  ]
+ ],
+ "url": "https://github.com/Foundry376/Mailspring/releases/download/1.10.7/Mailspring-1.10.7-full.nupkg",
+ "version": "1.10.7"
+}
