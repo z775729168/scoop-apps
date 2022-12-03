@@ -1,11 +1,11 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "7ee4378d3d85b689d3af03cfcae7408ca86116deb83f6848393c779e06b1b371",
+            "hash": "71d5f92325da0fdbf13f6c6f26fc0bd78da4e35f3d9cce2111be290e0a9701ee",
             "url": "https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip"
         },
         "64bit": {
-            "hash": "0a9b6b0a1563ce9d9e44cbc8bd45c8fc96bf7cd306f7d3f07f7675896b4c6e43",
+            "hash": "cdc63f262c9eb531fc534751668325da3405932970b12f465850defb2755e8c8",
             "url": "https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip"
         }
     },
@@ -27,5 +27,5 @@
     "description": "Graphical process/system monitor",
     "homepage": "https://github.com/ClementTsang/bottom",
     "license": "MIT",
-    "version": "3597711266"
+    "version": "3606911953"
 }
