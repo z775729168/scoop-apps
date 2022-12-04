@@ -1,10 +1,25 @@
 {
-    "#:env_set": "* avoid annoying (bad UI/UX) update checks (added with v1.27+)",
+    "version": "1.28.3",
+    "description": "A secure runtime for JavaScript and TypeScript",
+    "homepage": "https://deno.land",
+    "license": "MIT",
     "architecture": {
         "64bit": {
-            "hash": "948a8dddbd6ed44ff90c4db844f2953a6d27f1f8f129553bef0519666ccd821a",
-            "url": "https://github.com/denoland/deno/releases/download/v1.28.3/deno-x86_64-pc-windows-msvc.zip"
+            "url": "https://github.com/denoland/deno/releases/download/v1.28.3/deno-x86_64-pc-windows-msvc.zip",
+            "hash": "948a8dddbd6ed44ff90c4db844f2953a6d27f1f8f129553bef0519666ccd821a"
         }
+    },
+    "#:env_set": "* avoid annoying (bad UI/UX) update checks (added with v1.27+)",
+    "env_set": {
+        "DENO_NO_UPDATE_CHECK": "1"
+    },
+    "bin": "deno.exe",
+    "post_install": [
+        "# update to latest version",
+        "& $dir\\deno upgrade"
+    ],
+    "checkver": {
+        "github": "https://github.com/denoland/deno"
     },
     "autoupdate": {
         "architecture": {
@@ -12,20 +27,5 @@
                 "url": "https://github.com/denoland/deno/releases/download/v$version/deno-x86_64-pc-windows-msvc.zip"
             }
         }
-    },
-    "bin": "deno.exe",
-    "checkver": {
-        "github": "https://github.com/denoland/deno"
-    },
-    "description": "A secure runtime for JavaScript and TypeScript",
-    "env_set": {
-        "DENO_NO_UPDATE_CHECK": "1"
-    },
-    "homepage": "https://deno.land",
-    "license": "MIT",
-    "post_install": [
-        "# update to latest version",
-        "& $dir\\deno upgrade"
-    ],
-    "version": "1.28.3"
+    }
 }

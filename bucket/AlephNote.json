@@ -1,21 +1,21 @@
 {
-    "autoupdate": {
-        "url": "https://github.com/Mikescher/AlephNote/releases/download/v$version/AlephNote.zip"
-    },
-    "bin": "AlephNote.exe",
-    "checkver": {
-        "github": "https://github.com/Mikescher/AlephNote"
-    },
-    "hash": "5ee7163082e7862ae64df200ce3338d974d0352c1fefd7d08050c023b05eae58",
     "homepage": "https://mikescher.github.io/AlephNote/",
     "license": "MIT",
-    "persist": "noteapp.config",
+    "version": "1.7.13",
+    "url": "https://github.com/Mikescher/AlephNote/releases/download/v1.7.13/AlephNote.zip",
+    "hash": "5ee7163082e7862ae64df200ce3338d974d0352c1fefd7d08050c023b05eae58",
+    "bin": "AlephNote.exe",
     "shortcuts": [
         [
             "AlephNote.exe",
             "AlephNote"
         ]
     ],
-    "url": "https://github.com/Mikescher/AlephNote/releases/download/v1.7.13/AlephNote.zip",
-    "version": "1.7.13"
+    "persist": "noteapp.config",
+    "checkver": {
+        "github": "https://github.com/Mikescher/AlephNote"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Mikescher/AlephNote/releases/download/v$version/AlephNote.zip"
+    }
 }

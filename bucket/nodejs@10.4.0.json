@@ -1,46 +1,28 @@
 {
-    "##": "maint!: [2019-03-17] depend on `yarn` to install and update `npm` and `npx` as the current `npm` upgrade system fails (see <https://stackoverflow.com/questions/18412129/how-can-i-update-npm-on-windows/31520672#31520672>)",
-    "architecture": {
-        "32bit": {
-            "extract_dir": "node-v19.2.0-win-x86",
-            "hash": "10a35e02249fae9cf69122d436c6a895d442cdb277bc1dcefa5d56f784a6a832",
-            "url": "https://nodejs.org/dist/v19.2.0/node-v19.2.0-win-x86.7z"
-        },
-        "64bit": {
-            "extract_dir": "node-v19.2.0-win-x64",
-            "hash": "f0376c07002cf564fb6037897686f9fe079aa2ca3eea7d0a408e66b8299e11ad",
-            "url": "https://nodejs.org/dist/v19.2.0/node-v19.2.0-win-x64.7z"
-        }
-    },
-    "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "extract_dir": "node-v$version-win-x86",
-                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x86.7z"
-            },
-            "64bit": {
-                "extract_dir": "node-v$version-win-x64",
-                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/SHASUMS256.txt.asc"
-        }
-    },
-    "checkver": {
-        "re": "node-v([\\d.]+)-x86.msi",
-        "url": "https://nodejs.org/dist/latest/"
-    },
-    "env_add_path": [
-        ".",
-        "bin"
-    ],
     "homepage": "https://nodejs.org",
+    "version": "19.2.0",
     "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://nodejs.org/dist/v19.2.0/node-v19.2.0-win-x64.7z",
+            "hash": "f0376c07002cf564fb6037897686f9fe079aa2ca3eea7d0a408e66b8299e11ad",
+            "extract_dir": "node-v19.2.0-win-x64"
+        },
+        "32bit": {
+            "url": "https://nodejs.org/dist/v19.2.0/node-v19.2.0-win-x86.7z",
+            "hash": "10a35e02249fae9cf69122d436c6a895d442cdb277bc1dcefa5d56f784a6a832",
+            "extract_dir": "node-v19.2.0-win-x86"
+        }
+    },
     "persist": [
         "bin",
         "cache"
     ],
+    "env_add_path": [
+        ".",
+        "bin"
+    ],
+    "##": "maint!: [2019-03-17] depend on `yarn` to install and update `npm` and `npx` as the current `npm` upgrade system fails (see <https://stackoverflow.com/questions/18412129/how-can-i-update-npm-on-windows/31520672#31520672>)",
     "post_install": [
         "",
         "# install yarn, if needed; doing it here avoids a circular dependency between nodejs and yarn",
@@ -57,5 +39,23 @@
         "$path = \"$dir\\npx.cmd\" ; if (test-path $path) { echo $('removing ' + $path); remove-item $path }",
         "$path = \"$dir\\node_modules\\npm\" ; if (test-path $path) { echo $('removing ' + $path); remove-item $path -recurse }"
     ],
-    "version": "19.2.0"
+    "checkver": {
+        "url": "https://nodejs.org/dist/latest/",
+        "re": "node-v([\\d.]+)-x86.msi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z",
+                "extract_dir": "node-v$version-win-x64"
+            },
+            "32bit": {
+                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x86.7z",
+                "extract_dir": "node-v$version-win-x86"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHASUMS256.txt.asc"
+        }
+    }
 }
