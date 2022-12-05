@@ -1,0 +1,24 @@
+{
+    "version": "2.1.1",
+    "description": "Personal document manager",
+    "homepage": "https://openpaper.work",
+    "license": "GPL-3.0-or-later",
+    "url": "https://download.openpaper.work/windows/installer/paperwork_stable_installer.exe",
+    "hash": "dfef71f2913df7df910a68f142aa6220b43bf2d5d0f363867bb3f428c5cde556",
+    "shortcuts": [
+        [
+            "paperwork.exe",
+            "Paperwork",
+            "",
+            "data\\paperwork_64.ico"
+        ]
+    ],
+    "checkver": {
+        "url": "https://gitlab.gnome.org/api/v4/projects/World%2FOpenPaperwork%2Fpaperwork/repository/tags?order_by=name",
+        "regex": "{[^{}]*\"name\":\"(?<version>[0-9.]+)\"[^{}]*\"commit\":{[^}]*\"short_id\":\"(?<hash>[^\"]+)\"",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "url": "https://download.openpaper.work/windows/x86/paperwork-master-$matchHash.zip"
+    }
+}
