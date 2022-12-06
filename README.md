@@ -64,8 +64,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KNOXDEV/wsl
 - hoilc/scoop-lemon
 - hermanjustnu/scoop-emulators
-- anderlli0053/DEV-tools
 - scoopcn/scoopcn
+- anderlli0053/DEV-tools
 - cderv/r-bucket
 - everyx/scoop-bucket
 - Paxxs/Cluttered-bucket
@@ -85,6 +85,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
+- Darkatse/Scoop-Darkatse
 - batkiz/backit
 - NyaMisty/scoop_bucket_misty
 - mogeko/scoop-sysinternals
@@ -92,11 +93,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ViCrack/scoop-bucket
 - akirco/aki-apps
 - ChinLong/scoop-customize
-- Darkatse/Scoop-Darkatse
 - littleli/Scoop-littleli
 - ygguorun/scoop-bucket
 - excitoon/scoop-user
 - jfut/scoop-jfut
+- amorphobia/siku
 - KnotUntied/scoop-knotuntied
 - hu3rror/scoop-muggle
 - TheLastZombie/scoop-bucket
@@ -112,7 +113,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - WiiDatabase/scoop-bucket
 - ShuguangSun/sgs-scoop-bucket
 - Brawl345/scoop-bucket
-- amorphobia/siku
 - yuanying1199/scoopbucket
 - SayCV/scoop-cvp
 - Deide/deide-bucket
