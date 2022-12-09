@@ -63,8 +63,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - KNOXDEV/wsl
 - hoilc/scoop-lemon
-- hermanjustnu/scoop-emulators
 - anderlli0053/DEV-tools
+- hermanjustnu/scoop-emulators
 - scoopcn/scoopcn
 - cderv/r-bucket
 - everyx/scoop-bucket
@@ -110,6 +110,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - Apocalypsor/My-Scoop-Bucket
 - Velgus/Scoop-Portapps
+- The-Simples/scoop-minecraft
+- niheaven/scoop-sysinternals
 - HUMORCE/nuke
 - WiiDatabase/scoop-bucket
 - ShuguangSun/sgs-scoop-bucket
