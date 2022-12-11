@@ -99,6 +99,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - excitoon/scoop-user
 - jfut/scoop-jfut
+- rivy/scoop-bucket
 - starise/Scoop-Confetti
 - KnotUntied/scoop-knotuntied
 - hu3rror/scoop-muggle
@@ -120,7 +121,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - SayCV/scoop-cvp
 - Deide/deide-bucket
 - KnotUntied/scoop-fonts
-- rivy/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - ddavness/scoop-roblox
 - nickbudi/scoop-bucket
