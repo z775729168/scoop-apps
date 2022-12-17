@@ -1,0 +1,23 @@
+{
+    "version": "2.1.0",
+    "description": "User-friendly and customizable image viewer",
+    "homepage": "https://sourceforge.net/projects/mcomix/",
+    "license": "GPL-2.0-only",
+    "url": "https://downloads.sourceforge.net/project/mcomix/MComix-2.1.0/mcomix-2.1.0.win64.all-in-one.zip",
+    "hash": "017f20e45eb8f83a88c250d3adf8ad0ced797bdeb2f017d0b305f1d7eea756ca",
+    "extract_dir": "MComix",
+    "bin": "mcomix.exe",
+    "shortcuts": [
+        [
+            "mcomix.exe",
+            "MComix"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/mcomix/files/",
+        "regex": "files/MComix-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/mcomix/MComix-$version/mcomix-$version.win64.all-in-one.zip"
+    }
+}

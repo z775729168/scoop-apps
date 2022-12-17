@@ -1,0 +1,30 @@
+{
+    "version": "0.15.2",
+    "description": "Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in",
+    "homepage": "https://rest.sh/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/danielgtaylor/restish/releases/download/v0.15.2/restish-0.15.2-windows-x86_64.zip",
+            "hash": "bfeb0b47991d05d1016827ac01c1e35523cea7f36277d2a5ebab44ab41ae91d4"
+        },
+        "32bit": {
+            "url": "https://github.com/danielgtaylor/restish/releases/download/v0.15.2/restish-0.15.2-windows-i386.zip",
+            "hash": "7c7c2991ae6291c26304f3237884259ae2f81295218b131d723000152585d33f"
+        }
+    },
+    "bin": "restish.exe",
+    "checkver": {
+        "github": "https://github.com/danielgtaylor/restish/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/danielgtaylor/restish/releases/download/v$version/restish-$version-windows-x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/danielgtaylor/restish/releases/download/v$version/restish-$version-windows-i386.zip"
+            }
+        }
+    }
+}
