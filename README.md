@@ -97,8 +97,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - ygguorun/scoop-bucket
 - excitoon/scoop-user
-- amorphobia/siku
 - akirco/aki-apps
+- amorphobia/siku
 - niheaven/scoop-sysinternals
 - rivy/scoop-bucket
 - Weidows-projects/scoop-3rd
