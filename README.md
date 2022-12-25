@@ -70,8 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - everyx/scoop-bucket
 - Paxxs/Cluttered-bucket
 - borger/scoop-emulators
-- TheRandomLabs/Scoop-Bucket
 - ScoopInstaller/Nonportable
+- TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
 - dodorz/scoop
 - ACooper81/scoop-apps
@@ -91,13 +91,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoop_bucket_misty
 - mogeko/scoop-sysinternals
 - krproject/qi-windows
+- akirco/aki-apps
 - ViCrack/scoop-bucket
 - Darkatse/Scoop-Darkatse
 - ChinLong/scoop-customize
 - littleli/Scoop-littleli
 - ygguorun/scoop-bucket
 - excitoon/scoop-user
-- akirco/aki-apps
+- Apocalypsor/My-Scoop-Bucket
 - amorphobia/siku
 - niheaven/scoop-sysinternals
 - rivy/scoop-bucket
@@ -105,7 +106,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - seumsc/scoop-seu
 - alextwothousand/scoop-bucket
 - MCOfficer/scoop-bucket
-- Apocalypsor/My-Scoop-Bucket
 - Velgus/Scoop-Portapps
 - Brawl345/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
