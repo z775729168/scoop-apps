@@ -1,18 +1,18 @@
 {
-    "version": "2022.12.20",
+    "version": "2022.12.26",
     "description": "The Programmers Solid 3D CAD Modeller",
     "homepage": "https://www.openscad.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://files.openscad.org/snapshots/OpenSCAD-2022.12.20.ci13010-x86-64.zip",
-            "hash": "sha512:cf2aee1b39f5971b068bf7cb41da2c5ece03ba0277f91393cc5b28fd85900fd0247b0f77c145828fbf3651cc432542579be8cf14473daa9f7b918f127c68f7ec",
-            "extract_dir": "openscad-2022.12.20.ci13010"
+            "url": "https://files.openscad.org/snapshots/OpenSCAD-2022.12.26.ci13049-x86-64.zip",
+            "hash": "sha512:5e79819ab23fe38f08098388d44bda37688717456487bdc20f92eed94f2e6202b703ca9364ad0929d757699909127e0350f5d0ea4263d8d71d124296e604b9f6",
+            "extract_dir": "openscad-2022.12.26.ci13049"
         },
         "32bit": {
-            "url": "https://files.openscad.org/snapshots/OpenSCAD-2022.12.20.ci13012-x86-32.zip",
-            "hash": "sha512:61217bfdfabbd74503a10627c69eb3647b67976a00e0e74e21dacd71d3a5e50f17e35aba0e8425cf736bc75866543ebf0fc9fa687e7db60d435c1ee2283a65ff",
-            "extract_dir": "openscad-2022.12.20.ci13012"
+            "url": "https://files.openscad.org/snapshots/OpenSCAD-2022.12.26.ci13051-x86-32.zip",
+            "hash": "sha512:0bd6200eb6a794106ea4c226ffb5efd42511f2793510d57a8e6ef62af8f2e7cfae9fd7f3b442e10a64bda377a8b6552f3154b53f7d22a9917a4c876c02668678",
+            "extract_dir": "openscad-2022.12.26.ci13051"
         }
     },
     "shortcuts": [

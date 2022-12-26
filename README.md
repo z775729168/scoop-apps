@@ -82,8 +82,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
-- ChungZH/peach
 - duzyn/scoop-cn
+- ChungZH/peach
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - jfut/scoop-jfut
@@ -110,8 +110,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Brawl345/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - KnotUntied/scoop-knotuntied
-- TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti
+- TheLastZombie/scoop-bucket
 - hu3rror/scoop-muggle
 - yuanying1199/scoopbucket
 - SayCV/scoop-cvp
