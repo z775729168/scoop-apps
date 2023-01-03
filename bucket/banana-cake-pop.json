@@ -1,12 +1,12 @@
 {
-    "version": "2.0.2",
+    "version": "3.0.3",
     "description": "GraphQL IDE",
     "homepage": "https://chillicream.com/docs/bananacakepop",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.chillicream.com/bananacakepop/BananaCakePop-2.0.2-win-x64.exe#/dl.7z",
-            "hash": "sha512:97f4ca1cd8531a3bff10a32dc1f58b47ce3d79ea8116ecf07a0129f12895d14284be1fd38f0198550f24b34c93f30d2a796efa8fb4d7ffad774a1e666e7c20ac",
+            "url": "https://download.chillicream.com/bananacakepop/BananaCakePop-3.0.3-win-x64.exe#/dl.7z",
+            "hash": "sha512:7ece5ab13b06e6b384568e8e2a42618664fd57d31c033c28406c6c10f405bed9e481e80c780ebc6337778c1eaa8a1a13a3f055a01bef6d03fa1168e0323d6020",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Recurse"
