@@ -98,6 +98,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - ygguorun/scoop-bucket
 - excitoon/scoop-user
+- cc713/ownscoop
 - ddavness/scoop-roblox
 - akirco/aki-apps
 - Apocalypsor/My-Scoop-Bucket
@@ -108,12 +109,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - MCOfficer/scoop-bucket
 - Velgus/Scoop-Portapps
-- cc713/ownscoop
 - Brawl345/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
-- KnotUntied/scoop-knotuntied
 - starise/Scoop-Confetti
 - TheLastZombie/scoop-bucket
+- KnotUntied/scoop-knotuntied
 - hu3rror/scoop-muggle
 - yuanying1199/scoopbucket
 - SayCV/scoop-cvp
