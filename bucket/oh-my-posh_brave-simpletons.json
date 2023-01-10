@@ -1,0 +1,76 @@
+{
+    "version": "12.38.0",
+    "description": "A prompt theme engine for any shell",
+    "homepage": "https://ohmyposh.dev",
+    "license": "MIT",
+    "notes": "Refer to 'https://ohmyposh.dev/docs/installation/prompt' for shell specific configurations.",
+    "suggest": {
+        "PowerShell": "pwsh"
+    },
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v12.38.0/themes.zip",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v12.38.0/posh-windows-amd64.exe#/oh-my-posh.exe"
+            ],
+            "hash": [
+                "782a006694fdb04f9487da49e6bf2eda3979d577fee4df489acbeddee51dfb08",
+                "950d88baa92e9a562091ebc144aca5178f5b37ff5897a96d7b4af3938536e714"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v12.38.0/themes.zip",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v12.38.0/posh-windows-386.exe#/oh-my-posh.exe"
+            ],
+            "hash": [
+                "782a006694fdb04f9487da49e6bf2eda3979d577fee4df489acbeddee51dfb08",
+                "7d6ec7739926619c280f13eecf1059d54bda967e4bad4b9a6146390d89b5e36d"
+            ]
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v12.38.0/themes.zip",
+                "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v12.38.0/posh-windows-arm64.exe#/oh-my-posh.exe"
+            ],
+            "hash": [
+                "782a006694fdb04f9487da49e6bf2eda3979d577fee4df489acbeddee51dfb08",
+                "828aa661c096cea7b2505b577fd666dbf26d64a9024311ab95b824b8d8fb74d0"
+            ]
+        }
+    },
+    "extract_to": "themes",
+    "env_set": {
+        "POSH_THEMES_PATH": "$dir\\themes"
+    },
+    "bin": "oh-my-posh.exe",
+    "persist": "themes",
+    "checkver": {
+        "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/themes.zip",
+                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-amd64.exe#/oh-my-posh.exe"
+                ]
+            },
+            "32bit": {
+                "url": [
+                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/themes.zip",
+                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-386.exe#/oh-my-posh.exe"
+                ]
+            },
+            "arm64": {
+                "url": [
+                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/themes.zip",
+                    "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v$version/posh-windows-arm64.exe#/oh-my-posh.exe"
+                ]
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
