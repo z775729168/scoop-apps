@@ -66,9 +66,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hoilc/scoop-lemon
 - hermanjustnu/scoop-emulators
 - scoopcn/scoopcn
+- Paxxs/Cluttered-bucket
 - cderv/r-bucket
 - everyx/scoop-bucket
-- Paxxs/Cluttered-bucket
 - borger/scoop-emulators
 - ScoopInstaller/Nonportable
 - ACooper81/scoop-apps
