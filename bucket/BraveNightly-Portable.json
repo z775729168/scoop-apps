@@ -1,39 +1,39 @@
 {
- "architecture": {
-  "64bit": {
-   "hash": "a90ca99ced0c697da782050bf325bb120e898b38d6c3f08750411948313a04d4",
-   "url": "https://github.com/brave/brave-browser/releases/download/v1.49.19/brave-v1.49.19-win32-x64.zip"
-  }
- },
- "autoupdate": {
-  "architecture": {
-   "64bit": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
-   }
-  }
- },
- "bin": [
-  [
-   "brave.exe",
-   "brave-nightly"
-  ]
- ],
- "changelog": "",
- "checkver": {
-  "regex": "Nightly v([\\d.]+)",
-  "url": "https://github.com/brave/brave-browser/releases"
- },
- "description": "Brave Nightly. Secure, Fast & Private Web Browser with Adblocker (nightly release)",
- "homepage": "https://brave.com/download-nightly/",
- "license": {
-  "identifier": "Freeware,BSD-3-Clause,GPL-3.0-only,...",
-  "url": "https://github.com/brave/brave-browser/blob/master/LICENSE"
- },
- "shortcuts": [
-  [
-   "brave.exe",
-   "Brave Nightly"
-  ]
- ],
- "version": "1.49.19"
+    "architecture": {
+        "64bit": {
+            "hash": "6e1619f6bf5cb9d308ce7107b550f6593e9ac13326e868c069b4e54be15a61de",
+            "url": "https://github.com/brave/brave-browser/releases/download/v1.49.24/brave-v1.49.24-win32-x64.zip"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
+            }
+        }
+    },
+    "bin": [
+        [
+            "brave.exe",
+            "brave-nightly"
+        ]
+    ],
+    "changelog": "",
+    "checkver": {
+        "regex": "Nightly v([\\d.]+)",
+        "url": "https://github.com/brave/brave-browser/releases"
+    },
+    "description": "Brave Nightly. Secure, Fast & Private Web Browser with Adblocker (nightly release)",
+    "homepage": "https://brave.com/download-nightly/",
+    "license": {
+        "identifier": "Freeware,BSD-3-Clause,GPL-3.0-only,...",
+        "url": "https://github.com/brave/brave-browser/blob/master/LICENSE"
+    },
+    "shortcuts": [
+        [
+            "brave.exe",
+            "Brave Nightly"
+        ]
+    ],
+    "version": "1.49.24"
 }
