@@ -1,8 +1,8 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "1fe70a4b5ca959993ce5baab6a07896a386c9ff4ea152d503c80befd1e66636c",
-            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1092862/chrome-win.zip"
+            "hash": "db07d7fc81e046b2a13eba3fd27cc1e271a2266e46fcec63a28883be5e59b994",
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1093050/chrome-win.zip"
         }
     },
     "autoupdate": {
@@ -42,5 +42,5 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "version": "111.0.5541.0-r1092862"
+    "version": "111.0.5543.0-r1093050"
 }

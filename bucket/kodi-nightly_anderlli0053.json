@@ -1,61 +1,61 @@
 {
- "architecture": {
-  "32bit": {
-   "hash": "bbceb43990be93b51ecad22e1ea015b33c20d58e1a443aa5d47a8f6cc0bf0cb7",
-   "url": "https://mirrors.kodi.tv/nightlies/windows/win32/Matrix/KodiSetup-20221219-fd565196-Matrix-x86.exe#/dl.7z"
-  },
-  "64bit": {
-   "hash": "8693ad71432178cc91223967b02eccb2d39ffdfd52d113d82b53914f3def88fb",
-   "url": "https://mirrors.kodi.tv/nightlies/windows/win64/Matrix/KodiSetup-20221219-fd565196-Matrix-x64.exe#/dl.7z"
-  }
- },
- "autoupdate": {
-  "architecture": {
-   "32bit": {
-    "url": "https://mirrors.kodi.tv/nightlies/windows/win32/$matchWin32bit#/dl.7z"
-   },
-   "64bit": {
-    "url": "https://mirrors.kodi.tv/nightlies/windows/win64/$matchWin64bit#/dl.7z"
-   }
-  },
-  "hash": {
-   "regex": "$sha256",
-   "url": "$url?mirrorlist"
-  }
- },
- "checkver": {
-  "regex": "version:\"(?<version>\\d+)\"\\surls:\"(?<win32bit>.+)\\s(?<win64bit>.+)\"",
-  "script": [
-   "$page = Invoke-WebRequest 'https://kodi.tv/download/windows' -UseBasicParsing",
-   "$name = ($page.Content | Select-String -Pattern 'Kodi v[\\d.]+ \\((\\w+)\\)').Matches.Groups[1].Value",
-   "$builds = 'win32', 'win64'",
-   "$script_ver = ''",
-   "$urls =  @()",
-   "foreach ($build in $builds) {",
-   "   $base_url = 'https://mirrors.kodi.tv/nightlies/windows/'+ $build + '/' + $name + '/'",
-   "   $dl_page = Invoke-WebRequest $base_url -UseBasicParsing",
-   "   $full_version = $dl_page.links | Where-Object href -match '\\.exe$' | Select-Object -first 1 -expand href",
-   "   $script_ver = $full_version -split '-' | Select-Object -Skip 1 | Select-Object -First 1",
-   "   $dl = $name + '/' + $full_version",
-   "   $urls += $dl",
-   "}",
-   "Write-Output ('version:\"' + $script_ver + '\"') ('urls:\"' + $urls + '\"')"
-  ]
- },
- "description": "Open source home theater/media center software and entertainment hub for digital media",
- "homepage": "https://kodi.tv/",
- "license": "GPL-2.0-or-later",
- "persist": "portable_data",
- "post_install": "'$PLUGINSDIR', '$TEMP', 'AppxManifest.xml', 'Uninstall.exe' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force }",
- "shortcuts": [
-  [
-   "kodi.exe",
-   "Kodi Nightly",
-   "-p"
-  ]
- ],
- "suggest": {
-  "Visual C++ Redistributable": "extras/vcredist2022"
- },
- "version": "20221219"
+    "architecture": {
+        "32bit": {
+            "hash": "d168a19152657e902ce7c96174e7864532504a78c413ec399a0b801685f94647",
+            "url": "https://mirrors.kodi.tv/nightlies/windows/win32/Nexus/KodiSetup-20230115-052d4afc-Nexus-x86.exe#/dl.7z"
+        },
+        "64bit": {
+            "hash": "61ac814376eab3598b5d69755563bd1c13fc524a445d7c468c662ca34e5b1a16",
+            "url": "https://mirrors.kodi.tv/nightlies/windows/win64/Nexus/KodiSetup-20230115-052d4afc-Nexus-x64.exe#/dl.7z"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://mirrors.kodi.tv/nightlies/windows/win32/$matchWin32bit#/dl.7z"
+            },
+            "64bit": {
+                "url": "https://mirrors.kodi.tv/nightlies/windows/win64/$matchWin64bit#/dl.7z"
+            }
+        },
+        "hash": {
+            "regex": "$sha256",
+            "url": "$url?mirrorlist"
+        }
+    },
+    "checkver": {
+        "regex": "version:\"(?<version>\\d+)\"\\surls:\"(?<win32bit>.+)\\s(?<win64bit>.+)\"",
+        "script": [
+            "$page = Invoke-WebRequest 'https://kodi.tv/download/windows' -UseBasicParsing",
+            "$name = ($page.Content | Select-String -Pattern 'Kodi v[\\d.]+ \\((\\w+)\\)').Matches.Groups[1].Value",
+            "$builds = 'win32', 'win64'",
+            "$script_ver = ''",
+            "$urls =  @()",
+            "foreach ($build in $builds) {",
+            "   $base_url = 'https://mirrors.kodi.tv/nightlies/windows/'+ $build + '/' + $name + '/'",
+            "   $dl_page = Invoke-WebRequest $base_url -UseBasicParsing",
+            "   $full_version = $dl_page.links | Where-Object href -match '\\.exe$' | Select-Object -first 1 -expand href",
+            "   $script_ver = $full_version -split '-' | Select-Object -Skip 1 | Select-Object -First 1",
+            "   $dl = $name + '/' + $full_version",
+            "   $urls += $dl",
+            "}",
+            "Write-Output ('version:\"' + $script_ver + '\"') ('urls:\"' + $urls + '\"')"
+        ]
+    },
+    "description": "Open source home theater/media center software and entertainment hub for digital media",
+    "homepage": "https://kodi.tv/",
+    "license": "GPL-2.0-or-later",
+    "persist": "portable_data",
+    "post_install": "'$PLUGINSDIR', '$TEMP', 'AppxManifest.xml', 'Uninstall.exe' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force }",
+    "shortcuts": [
+        [
+            "kodi.exe",
+            "Kodi Nightly",
+            "-p"
+        ]
+    ],
+    "suggest": {
+        "Visual C++ Redistributable": "extras/vcredist2022"
+    },
+    "version": "20230115"
 }
