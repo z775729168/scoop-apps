@@ -1,12 +1,12 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "d7f4fc6a9ed73229746ac34a8300aa0c4abb38a44fd908a28ea3653e52538733",
-            "url": "https://github.com/nektos/act/releases/download/v0.2.38/act_Windows_i386.zip"
+            "hash": "30524ef934aafb1edac403679a7fb799532496f2a23cea9553761250feb73e4c",
+            "url": "https://github.com/nektos/act/releases/download/v0.2.40/act_Windows_i386.zip"
         },
         "64bit": {
-            "hash": "2ff0524f39b68f4201558f366ce6011dc7b3278598e2160fc72b802b3bb5112e",
-            "url": "https://github.com/nektos/act/releases/download/v0.2.38/act_Windows_x86_64.zip"
+            "hash": "39833df07026d443e5906fff03640162110bb259926e94a1eb83b21f53ea64a7",
+            "url": "https://github.com/nektos/act/releases/download/v0.2.40/act_Windows_x86_64.zip"
         }
     },
     "autoupdate": {
@@ -27,5 +27,5 @@
     "description": "Local Github actions runner.",
     "homepage": "https://github.com/nektos/act/",
     "license": "MIT",
-    "version": "0.2.38"
+    "version": "0.2.40"
 }

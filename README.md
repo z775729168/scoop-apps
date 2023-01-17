@@ -66,12 +66,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hoilc/scoop-lemon
 - hermanjustnu/scoop-emulators
 - scoopcn/scoopcn
-- Paxxs/Cluttered-bucket
 - cderv/r-bucket
+- Paxxs/Cluttered-bucket
 - everyx/scoop-bucket
 - borger/scoop-emulators
-- dodorz/scoop
 - ACooper81/scoop-apps
+- dodorz/scoop
 - ScoopInstaller/Nonportable
 - TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
@@ -99,6 +99,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - ygguorun/scoop-bucket
 - excitoon/scoop-user
+- jonz94/scoop-sarasa-nerd-fonts
 - Darkatse/Scoop-KanColle
 - akirco/aki-apps
 - Apocalypsor/My-Scoop-Bucket
@@ -112,9 +113,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ddavness/scoop-roblox
 - brave-simpletons/scoop-the-business
 - Brawl345/scoop-bucket
-- jonz94/scoop-sarasa-nerd-fonts
-- starise/Scoop-Confetti
 - TheLastZombie/scoop-bucket
+- starise/Scoop-Confetti
 - KnotUntied/scoop-knotuntied
 - hu3rror/scoop-muggle
 - yuanying1199/scoopbucket
