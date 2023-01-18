@@ -1,12 +1,12 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "sha512:dc6779e87faf254cedcee3212c83368901341120f08ad38bb533b36fdbd6d27b13ec96abf1aabe9a423f25b504984c575f71525a1bc1cce4357b000b9e826d2c",
-            "url": "https://artifacts.videolan.org/vlc/nightly-win32/20230116-0427/vlc-4.0.0-dev-win32-2e8f5eb5.7z"
+            "hash": "sha512:16a24d0c58cff8ffb78b896c91c1376c50042207fd6eaae36ba0152ff57d33f99b6396a0bc6206ffcf90cea836e18d743f8865cba648a50107e6dff61f79052c",
+            "url": "https://artifacts.videolan.org/vlc/nightly-win32/20230118-0425/vlc-4.0.0-dev-win32-4d4f0f41.7z"
         },
         "64bit": {
-            "hash": "sha512:c6831967a00246808138066f33ad61dc448f379916062650a5bc7de897b6504ada3ce4e8bd5be9910288de59d7d3b61bf83e5765302b5098381cbca749085900",
-            "url": "https://artifacts.videolan.org/vlc/nightly-win64/20230116-0429/vlc-4.0.0-dev-win64-2e8f5eb5.7z"
+            "hash": "sha512:497355b13fccfb699d85961492026246c32fcf97fea98f363d394648be21e14bf84935f815304e05644782de61a42594dc7baa4ec88e39061ccbe4b9805ff94b",
+            "url": "https://artifacts.videolan.org/vlc/nightly-win64/20230118-0428/vlc-4.0.0-dev-win64-4d4f0f41.7z"
         }
     },
     "autoupdate": {
@@ -64,5 +64,5 @@
             "VLC media player"
         ]
     ],
-    "version": "20230116"
+    "version": "20230118"
 }

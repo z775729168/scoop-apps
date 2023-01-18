@@ -1,9 +1,9 @@
 {
     "architecture": {
         "64bit": {
-            "extract_dir": "zig-windows-x86_64-0.11.0-dev.1314+9856bea34",
-            "hash": "4241302960285a68b4c60697603da098ad5a90e5dd03459cb6b63e174549ab47",
-            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.11.0-dev.1314+9856bea34.zip"
+            "extract_dir": "zig-windows-x86_64-0.11.0-dev.1350+bbab4beda",
+            "hash": "66d7851f636370ed83b9261537315e0f47a9dace36daa4dccc9b49744755cb1e",
+            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.11.0-dev.1350+bbab4beda.zip"
         }
     },
     "autoupdate": {
@@ -30,5 +30,5 @@
     "suggest": {
         "vcredist": "extras/vcredist2022"
     },
-    "version": "0.11.0-dev.1314"
+    "version": "0.11.0-dev.1350"
 }
