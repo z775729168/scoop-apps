@@ -1,31 +1,31 @@
 {
+    "homepage": "https://adguard.com/adguard-home.html",
+    "license": "GPL-3.0-or-later",
+    "version": "0.107.22",
     "architecture": {
-        "32bit": {
-            "hash": "f77657e4e56fa19b786c7a5d0acc55ecd22898382592e3d4369db4bd1982b074",
-            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.22/AdGuardHome_windows_386.zip"
-        },
         "64bit": {
-            "hash": "cd7e982a1cce92e3f050f8a619e0faf234170cea673423ef86ef9e1fcef62324",
-            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.22/AdGuardHome_windows_amd64.zip"
+            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.22/AdGuardHome_windows_amd64.zip",
+            "hash": "cd7e982a1cce92e3f050f8a619e0faf234170cea673423ef86ef9e1fcef62324"
+        },
+        "32bit": {
+            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.22/AdGuardHome_windows_386.zip",
+            "hash": "f77657e4e56fa19b786c7a5d0acc55ecd22898382592e3d4369db4bd1982b074"
         }
     },
-    "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_386.zip"
-            },
-            "64bit": {
-                "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_amd64.zip"
-            }
-        }
-    },
+    "extract_dir": "AdGuardHome",
     "bin": "AdGuardHome.exe",
+    "persist": "data",
     "checkver": {
         "github": "https://github.com/AdguardTeam/AdGuardHome"
     },
-    "extract_dir": "AdGuardHome",
-    "homepage": "https://adguard.com/adguard-home.html",
-    "license": "GPL-3.0-or-later",
-    "persist": "data",
-    "version": "0.107.22"
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_386.zip"
+            }
+        }
+    }
 }
