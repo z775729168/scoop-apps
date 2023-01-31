@@ -76,10 +76,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Nonportable
 - TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
+- duzyn/scoop-cn
 - zhoujin7/tomato
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
-- duzyn/scoop-cn
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
@@ -87,6 +87,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - NyaMisty/scoop_bucket_misty
 - 42wim/scoop-bucket
+- amorphobia/siku
 - ygguorun/scoop-bucket
 - jfut/scoop-jfut
 - batkiz/backit
@@ -95,7 +96,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jonz94/scoop-sarasa-nerd-fonts
 - rivy/scoop-bucket
 - cc713/ownscoop
-- amorphobia/siku
 - ViCrack/scoop-bucket
 - Darkatse/Scoop-Darkatse
 - ChinLong/scoop-customize
