@@ -13,13 +13,13 @@
     },
     "depends": "vswhere",
     "description": "A language for humans and computers.",
-    "hash": "bfc64027577f34baaecf096086076dc9a9891d729fc970f2af3777aee738a7fd",
+    "hash": "d3025b63ba745f577131a0e0b3610553c1906d058b4995d8552a9b9a39018e9f",
     "homepage": "https://crystal-lang.org/",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/crystal-lang/crystal/raw/master/LICENSE"
     },
     "post_install": "If (Test-Path \"$env:LOCALAPPDATA\\crystal\\cache\") { Remove-Item \"$env:LOCALAPPDATA\\crystal\\cache\" -ErrorAction 'SilentlyContinue' -Recurse -Force }",
-    "url": "https://nightly.link/crystal-lang/crystal/actions/runs/4058131668/crystal.zip",
-    "version": "20230131.e561a50"
+    "url": "https://nightly.link/crystal-lang/crystal/actions/runs/4075319093/crystal.zip",
+    "version": "20230202.6d37cc4"
 }
