@@ -1,5 +1,5 @@
 {
-    "version": "1581-2bd4c2f4",
+    "version": "1583-fa7da51c",
     "description": "Nintendo NES and Famicom emulator",
     "homepage": "http://www.fceux.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/0yfdj4up2n4t3u8q/artifacts/fceux-win64.zip",
-            "hash": "ef75add3cac7155f6a6543534e552257e1f47373b82ab553d1b69c702f542871",
+            "url": "https://ci.appveyor.com/api/buildjobs/4enfobff5ni32kco/artifacts/fceux-win64.zip",
+            "hash": "2412e7b442e24c2a7c02005822cd9c9663e1e8d340fa56491fbadddeb11e46f2",
             "bin": [
                 [
                     "fceux64.exe",
@@ -24,8 +24,8 @@
             ]
         },
         "32bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/je96qc6vm8tejrbc/artifacts/fceux-win32.zip",
-            "hash": "ef57d70b39b459f3dcc815874404ee91b72d387cc3002b08bb88e4209be623ed",
+            "url": "https://ci.appveyor.com/api/buildjobs/58xsgfu688qdiipn/artifacts/fceux-win32.zip",
+            "hash": "2d7efb3a1c2ef364487bf722c4c8a3e9767181a51482daa26ac9b171c194f4ee",
             "bin": [
                 [
                     "fceux.exe",
