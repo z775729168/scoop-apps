@@ -1,0 +1,15 @@
+{
+    "version": "0.2.18",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Infisical/infisical/releases/download/v0.2.18/infisical_0.2.18_windows_amd64.zip",
+            "bin": [
+                "infisical.exe"
+            ],
+            "hash": "dcdacfff679895900c97b0eaf8303a2814999d773096e77d834c03c01977306c"
+        }
+    },
+    "homepage": "https://infisical.com",
+    "license": "MIT",
+    "description": "The official Infisical CLI"
+}
