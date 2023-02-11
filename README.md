@@ -69,6 +69,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - everyx/scoop-bucket
 - dodorz/scoop
 - borger/scoop-emulators
+- TheRandomLabs/Scoop-Bucket
 - ACooper81/scoop-apps
 - Qv2ray/mochi
 - duzyn/scoop-cn
@@ -90,8 +91,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - rivy/scoop-bucket
-- TheLastZombie/scoop-bucket
 - okibcn/ScoopMaster
+- TheLastZombie/scoop-bucket
 - starise/Scoop-Gaming
 - starise/Scoop-Confetti
 - Darkatse/Scoop-KanColle
