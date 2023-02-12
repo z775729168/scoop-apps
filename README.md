@@ -87,11 +87,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - akirco/aki-apps
 - NyaMisty/scoop_bucket_misty
 - ygguorun/scoop-bucket
+- okibcn/ScoopMaster
 - cc713/ownscoop
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - rivy/scoop-bucket
-- okibcn/ScoopMaster
 - TheLastZombie/scoop-bucket
 - starise/Scoop-Gaming
 - starise/Scoop-Confetti
