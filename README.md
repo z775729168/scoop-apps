@@ -62,8 +62,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - anderlli0053/DEV-tools
 - KNOXDEV/wsl
 - hoilc/scoop-lemon
-- hermanjustnu/scoop-emulators
 - scoopcn/scoopcn
+- hermanjustnu/scoop-emulators
 - cderv/r-bucket
 - Paxxs/Cluttered-bucket
 - everyx/scoop-bucket
@@ -85,10 +85,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - ViCrack/scoop-bucket
 - iquiw/scoop-bucket
+- okibcn/ScoopMaster
 - akirco/aki-apps
 - NyaMisty/scoop_bucket_misty
 - ygguorun/scoop-bucket
-- okibcn/ScoopMaster
+- Velgus/Scoop-Portapps
 - cc713/ownscoop
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
