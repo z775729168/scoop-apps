@@ -82,10 +82,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - 42wim/scoop-bucket
+- okibcn/ScoopMaster
 - batkiz/backit
 - ViCrack/scoop-bucket
 - iquiw/scoop-bucket
-- okibcn/ScoopMaster
 - akirco/aki-apps
 - NyaMisty/scoop_bucket_misty
 - ygguorun/scoop-bucket
