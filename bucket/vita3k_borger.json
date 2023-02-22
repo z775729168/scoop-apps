@@ -6,7 +6,7 @@
         "identifier": "GPL-2.0",
         "url": "https://github.com/Vita3K/Vita3K/blob/master/COPYING.txt"
     },
-    "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip",
+    "url": "https://ghproxy.com/https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip",
     "hash": "d854455fb6ea221db6f12962433db70a12d3fd719d8c2270e9daf3e4c96be115",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
@@ -30,6 +30,6 @@
         "regex": "commit[/:]\\s?([a-f0-9]{7})"
     },
     "autoupdate": {
-        "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip"
+        "url": "https://ghproxy.com/https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip"
     }
 }
