@@ -1,5 +1,5 @@
 {
-    "version": "0.3",
+    "version": "0.5",
     "homepage": "https://github.com/yzbtdiy/alist_batch",
     "description": "Alist批量添加阿里云盘链接Golang版本",
     "checkver": "github",
@@ -9,8 +9,8 @@
             "alist-batch"
         ]
     ],
-    "url": "https://github.com/yzbtdiy/alist_batch/releases/download/v0.3/alist_batch_win64.exe",
-    "hash": "97ae02ffe3cb605c7a608d3591cc9a4c8926f253b7276caa31379003c9d84298",
+    "url": "https://github.com/yzbtdiy/alist_batch/releases/download/v0.5/alist_batch_win64.exe",
+    "hash": "4971f6c87e57eb1a0891fff1db8117d712bb3e195f1e3cbcca8245fe2f3bf60f",
     "autoupdate": {
         "url": "https://github.com/yzbtdiy/alist_batch/releases/download/v$version/alist_batch_win64.exe"
     }
