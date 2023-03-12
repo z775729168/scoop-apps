@@ -1,16 +1,16 @@
 {
-  "version": "4380044898",
+  "version": "4394856818",
   "description": "Graphical process/system monitor",
   "homepage": "https://github.com/ClementTsang/bottom",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": "https://ghproxy.com/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-pc-windows-msvc.zip",
-      "hash": "09b92b66ad9032df3117a9d217f5063d46101fe528f0352cb0ee0aac663eff8c"
+      "hash": "16acc6ea3ecda8cb3a32de0d73a454a5ff7f0f880fb45c4515db6719a43775c6"
     },
     "32bit": {
       "url": "https://ghproxy.com/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip",
-      "hash": "74e773d35c39c2bd3294f97eec170478dd6bd984270b465f85ec84c518bd0412"
+      "hash": "62d9e1d0a14e0a8b45a864a70daf75f54958f9ec06eb162a3c94590e9e555251"
     }
   },
   "bin": "btm.exe",
@@ -27,6 +27,5 @@
         "url": "https://ghproxy.com/https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_i686-pc-windows-msvc.zip"
       }
     }
-  },
-  "_from": "ScoopInstaller/Versions"
+  }
 }

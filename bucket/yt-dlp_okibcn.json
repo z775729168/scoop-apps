@@ -1,5 +1,5 @@
 {
-    "version": "2023.03.11.151054",
+    "version": "2023.03.12.091732",
     "description": "Daily builds of yt-dlp",
     "homepage": "https://github.com/yt-dlp/yt-dlp-nightly-builds",
     "license": "Unlicense",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2023.03.11.151054/yt-dlp.exe",
-            "hash": "sha512:efc144f4e4fbdb0fadb71c2d3c58f508bee1f1b10208a7fbba7e3940594890c20029327f8eb65e0f6d5934c125b62f932f9379e66d54a8266bd886696b4de52a"
+            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2023.03.12.091732/yt-dlp.exe",
+            "hash": "sha512:962cf3dc69e401968eb53ac7bb3dc1b9399de64364d4956200046ed87e51e503ca17bdfdddeee8de097c3660e3a65b0394836127fb732c76664e1c893c731711"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2023.03.11.151054/yt-dlp_x86.exe#/yt-dlp.exe",
-            "hash": "sha512:f6fc60e83931cbce4d4de66a59ee3cf4586f0fc7abfa64bbf64adeecf6e0499808f13c56b3b6aedf0fbd26aef53a361c1dccfcb8c1b59123f79a229202aa7b1f"
+            "url": "https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2023.03.12.091732/yt-dlp_x86.exe#/yt-dlp.exe",
+            "hash": "sha512:dba389cb91a71f5d3d5e9d715708429126580d55d2266bae48874e58b14a954fe9d134e8fbb808c1fa50306d68724a4a96024b30d7fc37544c402bd16e3a18b5"
         }
     },
     "bin": "yt-dlp.exe",

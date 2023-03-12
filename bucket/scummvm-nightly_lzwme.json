@@ -1,5 +1,5 @@
 {
-  "version": "b5a63947",
+  "version": "48a05943",
   "homepage": "https://www.scummvm.org/",
   "license": {
     "identifier": "GPL-3.0",
@@ -7,14 +7,14 @@
   },
   "architecture": {
     "32bit": {
-      "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-master-b5a63947.zip",
-      "hash": "05f949897b5c8331c64ba0290772518f59bf9be65a13421c1ba4089e939b6f47",
-      "extract_dir": "windows-x86-master-b5a63947"
+      "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-master-48a05943.zip",
+      "hash": "b2e0d45314aeac734afd4cd310ed7d94c782f466c2d08339f8098d74a0bc0ef7",
+      "extract_dir": "windows-x86-master-48a05943"
     },
     "64bit": {
-      "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-64-master-b5a63947.zip",
-      "hash": "0bb4a90c4bd535693fe135dd146c76dcb0527de313ac22ae9bf3e362879e295f",
-      "extract_dir": "windows-x86-64-master-b5a63947"
+      "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-64-master-48a05943.zip",
+      "hash": "824e3f3478cbe679b1881d2e8099d91961cc481da91b5bbfaaf3bc20187bb017",
+      "extract_dir": "windows-x86-64-master-48a05943"
     }
   },
   "bin": "win32dist-mingw/scummvm.exe",
@@ -48,6 +48,5 @@
         "extract_dir": "windows-x86-64-master-$version"
       }
     }
-  },
-  "_from": "borger/scoop-emulators"
+  }
 }

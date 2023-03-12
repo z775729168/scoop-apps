@@ -1,5 +1,5 @@
 {
-  "version": "1.1.651",
+  "version": "1.1.659",
   "description": "A simple, experimental Nintendo Switch emulator",
   "homepage": "https://ryujinx.org/",
   "license": {
@@ -12,8 +12,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghproxy.com/https://github.com/Ryujinx/release-channel-master/releases/download/1.1.651/ryujinx-1.1.651-win_x64.zip",
-      "hash": "cb5cc79fe8a69c30484839310ce3db0a9147a1aef45ad4841d383669fb66e8bb"
+      "url": "https://ghproxy.com/https://github.com/Ryujinx/release-channel-master/releases/download/1.1.659/ryujinx-1.1.659-win_x64.zip",
+      "hash": "4e2dee1f72f566ec7fefffb9a51fc95fc584cf1552934fc003b2820b15b2dced"
     }
   },
   "extract_dir": "publish",
@@ -44,6 +44,5 @@
         "url": "https://ghproxy.com/https://github.com/Ryujinx/release-channel-master/releases/download/$version/ryujinx-$version-win_x64.zip"
       }
     }
-  },
-  "_from": "Calinou/scoop-games"
+  }
 }

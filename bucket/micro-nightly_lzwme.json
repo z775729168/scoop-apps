@@ -1,16 +1,16 @@
 {
-  "version": "2.0.12-dev.45-2023-03-10",
+  "version": "2.0.12-dev.45-2023-03-12",
   "description": "A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.",
   "homepage": "https://micro-editor.github.io/",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": "https://ghproxy.com/https://github.com/zyedidia/micro/releases/download/nightly/micro-2.0.12-dev.45-win64.zip",
-      "hash": "5504420a02a99e2ae0e9ac8390e427ce3dbc7ea8e330b63405d5efcf22aa3461"
+      "hash": "23d9a85178f7b02f93ce9632b0d42ba0d4d14552091742c56dde25ad395f1a22"
     },
     "32bit": {
       "url": "https://ghproxy.com/https://github.com/zyedidia/micro/releases/download/nightly/micro-2.0.12-dev.45-win64.zip",
-      "hash": "5504420a02a99e2ae0e9ac8390e427ce3dbc7ea8e330b63405d5efcf22aa3461"
+      "hash": "23d9a85178f7b02f93ce9632b0d42ba0d4d14552091742c56dde25ad395f1a22"
     }
   },
   "extract_dir": "micro-2.0.12-dev.45",
@@ -30,6 +30,5 @@
       }
     },
     "extract_dir": "micro-$matchMicro"
-  },
-  "_from": "ScoopInstaller/Versions"
+  }
 }

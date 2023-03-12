@@ -86,8 +86,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - ViCrack/scoop-bucket
 - 42wim/scoop-bucket
-- ygguorun/scoop-bucket
 - akirco/aki-apps
+- ygguorun/scoop-bucket
 - batkiz/backit
 - iquiw/scoop-bucket
 - lzwme/scoop-proxy-cn

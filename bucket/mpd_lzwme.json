@@ -10,13 +10,12 @@
     }
   },
   "bin": "mpd.exe",
-  "checkver": "MPD ([\\d.]+) released",
+  "checkver": ">MPD ([\\d.]+) released",
   "autoupdate": {
     "architecture": {
       "64bit": {
         "url": "https://www.musicpd.org/download/win32/$version/mpd.exe"
       }
     }
-  },
-  "_from": "ScoopInstaller/Main"
+  }
 }
