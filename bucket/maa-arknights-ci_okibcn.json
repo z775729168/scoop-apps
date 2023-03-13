@@ -1,0 +1,34 @@
+{
+    "version": "4.12.3-alpha.0.12.gc7372305",
+    "description": "An Arknights game assissant",
+    "homepage": "https://maa.plus/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MaaAssistantArknights/MaaRelease/releases/download/v4.12.3-alpha.0.12.gc7372305/MAA-v4.12.3-alpha.0.12.gc7372305-win-x64.zip",
+            "hash": "d67ecf2d06f2aeb79d8c1c2376eeec48766dc64a31b06ef719758bbd7bb26548"
+        }
+    },
+    "bin": "MAA.exe",
+    "shortcuts": [
+        [
+            "MAA.exe",
+            "MaaAssistantArknights"
+        ]
+    ],
+    "suggest": {
+        "emulators": [
+            "nonportable/bluestacks-np",
+            "nonportable/bluestacks-hyperv-np"
+        ],
+        "adb": "adb"
+    },
+    "persist": "config",
+    "checkver": {
+        "url": "https://api.github.com/repos/MaaAssistantArknights/MaaRelease/releases",
+        "regex": "/releases/tag/(?:v)?([\\d.]+(-(alpha\\.\\d(.\\d+.\\w+)?|(beta|rc)\\.\\d+))?)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/MaaAssistantArknights/MaaRelease/releases/download/v$version/MAA-v$version-win-x64.zip"
+    }
+}
