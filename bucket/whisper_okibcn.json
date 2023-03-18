@@ -1,0 +1,32 @@
+{
+    "version": "1.10.0",
+    "description": "High-performance GPGPU inference of OpenAI's Whisper automatic speech recognition (ASR) model",
+    "homepage": "https://github.com/Const-me/Whisper",
+    "license": {
+        "identifier": "MPL-2.0 license",
+        "url": "https://github.com/Const-me/Whisper/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Const-me/Whisper/releases/download/1.10.0/WhisperDesktop.zip",
+            "hash": "5c406cd2d2374e17f177f48511fcc8e5e341e1589571637cfc8854bccb1bf3b5"
+        }
+    },
+    "shortcuts": [
+        [
+            "WhisperDesktop.exe",
+            "WhisperDesktop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Const-me/Whisper/releases",
+        "regex": "(?sm)WhisperDesktop.*?releases/download/([\\d.]+)/WhisperDesktop\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Const-me/Whisper/releases/download/$version/WhisperDesktop.zip"
+            }
+        }
+    }
+}
