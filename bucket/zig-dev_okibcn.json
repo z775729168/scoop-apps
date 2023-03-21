@@ -1,0 +1,42 @@
+{
+    "version": "0.11.0-dev.2196+bc0f24691",
+    "description": "General-purpose programming language designed for robustness, optimality, and maintainability.",
+    "homepage": "https://ziglang.org/",
+    "license": "MIT",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.11.0-dev.2196+bc0f24691.zip",
+            "hash": "22401cfc01cb1d580867dddcccf5c0594ac23e4b61b2485f1a276d522a785efa",
+            "extract_dir": "zig-windows-x86_64-0.11.0-dev.2196+bc0f24691"
+        }
+    },
+    "bin": [
+        "zig.exe",
+        [
+            "zig.exe",
+            "zig-dev",
+            ""
+        ]
+    ],
+    "checkver": {
+        "url": "https://ziglang.org/download/index.json",
+        "jp": "$.master.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "hash": {
+                    "mode": "json",
+                    "url": "https://ziglang.org/download/index.json",
+                    "jp": "$.master.x86_64-windows.shasum"
+                },
+                "url": "https://ziglang.org/builds/zig-windows-x86_64-$version.zip",
+                "extract_dir": "zig-windows-x86_64-$version"
+            }
+        }
+    },
+    "post_install": "if (Test-Path \"$(appdir zig)\\current\\zig.exe\") { scoop reset zig }"
+}
