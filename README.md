@@ -58,8 +58,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/scoop-clojure
 - kidonng/sushi
 - rasa/scoops
-- ScoopInstaller/Nirsoft
 - anderlli0053/DEV-tools
+- ScoopInstaller/Nirsoft
 - KNOXDEV/wsl
 - echoiron/echo-scoop
 - hoilc/scoop-lemon
@@ -79,14 +79,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - zhoujin7/tomato
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
-- wzv5/ScoopBucket
-- TheRandomLabs/Scoop-Python
 - okibcn/ScoopMaster
+- wzv5/ScoopBucket
 - lzwme/scoop-proxy-cn
+- TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - ChungZH/peach
-- 42wim/scoop-bucket
 - ViCrack/scoop-bucket
+- 42wim/scoop-bucket
 - akirco/aki-apps
 - ygguorun/scoop-bucket
 - batkiz/backit
@@ -102,8 +102,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - yuusakuri/scoop-bucket
 - hu3rror/scoop-muggle
-- starise/Scoop-Gaming
 - Darkatse/Scoop-KanColle
+- starise/Scoop-Gaming
 - Zliced13/MyScoop
 - starise/Scoop-Confetti
 - TheLastZombie/scoop-bucket
