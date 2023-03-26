@@ -1,10 +1,10 @@
 {
     "homepage": "https://ghidra-sre.org/",
     "description": "Ghidra (stable branch)",
-    "version": "stable-10.2.3-DEV-20230324",
+    "version": "stable-10.2.3-DEV-20230326",
     "license": "Apache-2.0",
-    "hash": "66e7286fad05e35f80c534fc30b6fb5d34fe5d7a429846fbe73e94ea3b8131ef",
-    "url": "https://ghproxy.com/https://github.com/NyaMisty/ghidra-builder/releases/download/GhidraNightlyBuild-2023-03-24/Ghidra_stable_windows-latest_ghidra_10.2.3_DEV_20230324_win_x86_64.zip",
+    "hash": "7a17b8bb518042361f89b3618ce22efbbe42d1f1f5c5974d26af3c8910bb61c9",
+    "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/GhidraNightlyBuild-2023-03-26/Ghidra_stable_windows-latest_ghidra_10.2.3_DEV_20230326_win_x86_64.zip",
     "extract_dir": "ghidra_10.2.3_DEV",
     "bin": [
         [
@@ -34,8 +34,7 @@
         "replace": "${branch}-${ver}-${reltype}-${date}"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/https://github.com/NyaMisty/ghidra-builder/releases/download/$matchRelease/Ghidra_$matchBranch_$matchOs_ghidra_$matchVer_$matchReltype_$matchDate_$matchArch.zip",
+        "url": "https://github.com/NyaMisty/ghidra-builder/releases/download/$matchRelease/Ghidra_$matchBranch_$matchOs_ghidra_$matchVer_$matchReltype_$matchDate_$matchArch.zip",
         "extract_dir": "ghidra_$matchVer_$matchReltype"
-    },
-    "_from": "okibcn/ScoopMaster"
+    }
 }
