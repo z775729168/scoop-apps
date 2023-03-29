@@ -1,5 +1,5 @@
 {
-    "version": "6.0-11-20230326",
+    "version": "6.0-11-20230329",
     "description": "FFMpeg builds of latest release branch with patches necessary for smooth integration with yt-dlp",
     "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
     "license": "MIT",
@@ -8,13 +8,13 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2023-03-26-12-49/ffmpeg-n6.0-11-g3980415627-win64-gpl-6.0.zip",
-            "hash": "c56877b10c5f606b3c4cb097c3b4ff60713cc7bf2fd6aeab84740dee088998d2",
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2023-03-29-12-59/ffmpeg-n6.0-11-g3980415627-win64-gpl-6.0.zip",
+            "hash": "ee8efc770bcee6efc491aef471a6538f964d019d90fbdabfbc1e08b3cd64d313",
             "extract_dir": "ffmpeg-n6.0-11-g3980415627-win64-gpl-6.0"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2023-03-26-12-49/ffmpeg-n6.0-11-g3980415627-win32-gpl-6.0.zip",
-            "hash": "d42a7619fe3fc64997c03e135ee54f85d40ac6a715e83832b4e74071a99d7647",
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2023-03-29-12-59/ffmpeg-n6.0-11-g3980415627-win32-gpl-6.0.zip",
+            "hash": "307e1b607cd85f2087b5fff398ccd08eb53e322fcee7c79d5a7606a221ec6019",
             "extract_dir": "ffmpeg-n6.0-11-g3980415627-win32-gpl-6.0"
         }
     },
