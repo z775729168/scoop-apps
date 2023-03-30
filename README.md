@@ -66,14 +66,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hermanjustnu/scoop-emulators
 - Paxxs/Cluttered-bucket
 - cderv/r-bucket
-- everyx/scoop-bucket
 - ACooper81/scoop-apps
+- everyx/scoop-bucket
 - dodorz/scoop
 - borger/scoop-emulators
 - TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
-- ScoopInstaller/Nonportable
 - ZvonimirSun/scoop-iszy
+- ScoopInstaller/Nonportable
 - zhoujin7/tomato
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
