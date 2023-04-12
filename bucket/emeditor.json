@@ -1,16 +1,16 @@
 {
-    "version": "22.2.929",
+    "version": "22.3.0",
     "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
     "homepage": "https://www.emeditor.com/",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed64_22.2.929_portable.zip",
-            "hash": "82ab0e2d0f9d4e089429728372d5e3285eaf449c861b09d5d08d9aceaec980fc"
+            "url": "https://emeditor.blob.core.windows.net/emed64_22.3.0_portable.zip",
+            "hash": "35b95ac9d5c61fd1313dd88b63d2f897793b2621acef837fbdc866d850d3d446"
         },
         "32bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed32_22.2.929_portable.zip",
-            "hash": "9b81fccf038bc6b9fcf6df076166112c9c3c70a412b00e6da994749901ffeb11"
+            "url": "https://emeditor.blob.core.windows.net/emed32_22.3.0_portable.zip",
+            "hash": "8decfd1973771d437741be7d322746ac55f6158651147d1ec4f728a7c400c410"
         }
     },
     "pre_install": [
