@@ -93,10 +93,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - aoisummer/scoop-bucket
 - cc713/ownscoop
-- ChinLong/scoop-customize
 - seumsc/scoop-seu
 - Velgus/Scoop-Portapps
 - rivy/scoop-bucket
+- ChinLong/scoop-customize
 - starise/Scoop-Gaming
 - yuusakuri/scoop-bucket
 - hu3rror/scoop-muggle
