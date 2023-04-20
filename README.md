@@ -81,10 +81,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - akirco/aki-apps
+- ViCrack/scoop-bucket
 - niheaven/scoop-sysinternals
 - ChungZH/peach
 - ygguorun/scoop-bucket
-- ViCrack/scoop-bucket
 - 42wim/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - NyaMisty/scoop_bucket_misty
@@ -101,6 +101,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - yuusakuri/scoop-bucket
 - hu3rror/scoop-muggle
 - Darkatse/Scoop-KanColle
+- HUMORCE/nuke
 - AkinoKaede/maple
 - starise/Scoop-Confetti
 - TheLastZombie/scoop-bucket
