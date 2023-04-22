@@ -1795,6 +1795,7 @@ logexpert.json    ScoopInstaller/Extras
 flashplayer-sa-debug.json    ScoopInstaller/Extras
 tanoshi.json    ScoopInstaller/Extras
 sysinternals.json    ScoopInstaller/Extras
+koboldcpp.json    ScoopInstaller/Extras
 shadowsocks.json    ScoopInstaller/Extras
 notejoy.json    ScoopInstaller/Extras
 dartium.json    ScoopInstaller/Extras
@@ -4618,6 +4619,7 @@ spline-cn.json    hoilc/scoop-lemon
 arsenal-image-mounter.json    hoilc/scoop-lemon
 jjdown.json    hoilc/scoop-lemon
 inlets.json    hoilc/scoop-lemon
+snips.json    hoilc/scoop-lemon
 dockle.json    hoilc/scoop-lemon
 hibernation-recon.json    hoilc/scoop-lemon
 hybrid.json    hoilc/scoop-lemon
@@ -4775,7 +4777,6 @@ glider.json    hoilc/scoop-lemon
 xboxdownload.json    hoilc/scoop-lemon
 winfrgui.json    hoilc/scoop-lemon
 oggdropxpd-libvorbis-aotuv-lancer.json    hoilc/scoop-lemon
-zinc.json    hoilc/scoop-lemon
 checkstyle.json    hoilc/scoop-lemon
 zoro.json    hoilc/scoop-lemon
 remnote.json    hoilc/scoop-lemon
@@ -4886,7 +4887,6 @@ firealpaca.json    hoilc/scoop-lemon
 anime4kcpp-gui.json    hoilc/scoop-lemon
 keepass-plugin-kpenhentryview_hoilc.json    hoilc/scoop-lemon
 bart.json    hoilc/scoop-lemon
-windows-switcher.json    hoilc/scoop-lemon
 phrase-cli.json    hoilc/scoop-lemon
 redis-assistant.json    hoilc/scoop-lemon
 zpaq.json    hoilc/scoop-lemon
@@ -4919,6 +4919,7 @@ lyricify.json    hoilc/scoop-lemon
 pdfarranger_hoilc.json    hoilc/scoop-lemon
 exhale.json    hoilc/scoop-lemon
 yank-note.json    hoilc/scoop-lemon
+deeplx.json    hoilc/scoop-lemon
 ediary_hoilc.json    hoilc/scoop-lemon
 window-sharing-hider.json    hoilc/scoop-lemon
 nip2.json    hoilc/scoop-lemon
@@ -4964,11 +4965,13 @@ shutter_hoilc.json    hoilc/scoop-lemon
 riftshare.json    hoilc/scoop-lemon
 autohidedesktopicons.json    hoilc/scoop-lemon
 oasis.json    hoilc/scoop-lemon
+nexttrace-enhanced.json    hoilc/scoop-lemon
 spleeter-gui.json    hoilc/scoop-lemon
 koyeb-cli.json    hoilc/scoop-lemon
 winfi-lite.json    hoilc/scoop-lemon
 voice.json    hoilc/scoop-lemon
 enigma-virtual-box.json    hoilc/scoop-lemon
+zincsearch.json    hoilc/scoop-lemon
 arp-ping.json    hoilc/scoop-lemon
 tockler.json    hoilc/scoop-lemon
 airpodsdesktop.json    hoilc/scoop-lemon
@@ -4999,6 +5002,7 @@ asfenhance-cn.json    hoilc/scoop-lemon
 snova-asio.json    hoilc/scoop-lemon
 chart-testing.json    hoilc/scoop-lemon
 spring-boot-migrator.json    hoilc/scoop-lemon
+emby-plugin-javscraper.json    hoilc/scoop-lemon
 whisper-model-ggml-small.json    hoilc/scoop-lemon
 cue_hoilc.json    hoilc/scoop-lemon
 esheep.json    hoilc/scoop-lemon
@@ -5010,6 +5014,7 @@ keepass-plugin-hibpofflinecheck.json    hoilc/scoop-lemon
 ehco.json    hoilc/scoop-lemon
 keycastow.json    hoilc/scoop-lemon
 pure-data_hoilc.json    hoilc/scoop-lemon
+window-switcher.json    hoilc/scoop-lemon
 privexec.json    hoilc/scoop-lemon
 skytable.json    hoilc/scoop-lemon
 reg.json    hoilc/scoop-lemon
@@ -5149,7 +5154,7 @@ libportable-floorp.json    hoilc/scoop-lemon
 projclean.json    hoilc/scoop-lemon
 syft_hoilc.json    hoilc/scoop-lemon
 fuso.json    hoilc/scoop-lemon
-vcluster.json    hoilc/scoop-lemon
+vcluster_hoilc.json    hoilc/scoop-lemon
 earthly.json    hoilc/scoop-lemon
 redisfish.json    hoilc/scoop-lemon
 gopeed.json    hoilc/scoop-lemon
@@ -5170,7 +5175,6 @@ wing-personal.json    hoilc/scoop-lemon
 everedit2.json    hoilc/scoop-lemon
 aardio.json    hoilc/scoop-lemon
 bililive-recorder.json    hoilc/scoop-lemon
-snips.json    hoilc/scoop-lemon
 uwpdumper.json    hoilc/scoop-lemon
 tun2brook.json    hoilc/scoop-lemon
 perfview_hoilc.json    hoilc/scoop-lemon
@@ -5757,6 +5761,7 @@ Patchfluent-Portable.json    ACooper81/scoop-apps
 LuxCLI-Portable.json    ACooper81/scoop-apps
 EarTrumpet-Portable.json    ACooper81/scoop-apps
 DYMOConnect-Install.json    ACooper81/scoop-apps
+ZigDevCLI-Portable.json    ACooper81/scoop-apps
 NVUpdater-Portable.json    ACooper81/scoop-apps
 IrfanView-Portable.json    ACooper81/scoop-apps
 SamsungSmartSwitch-ManualInstall.json    ACooper81/scoop-apps
@@ -6109,6 +6114,7 @@ VBoxVmService-Portable.json    ACooper81/scoop-apps
 HDCleaner-Portable.json    ACooper81/scoop-apps
 Audacious-Portable.json    ACooper81/scoop-apps
 FolderMonitor-Portable.json    ACooper81/scoop-apps
+ZigCLI-Portable.json    ACooper81/scoop-apps
 NetSetMan-Portable.json    ACooper81/scoop-apps
 CryengineLauncher-UserInstall.json    ACooper81/scoop-apps
 XToolBox-Portable.json    ACooper81/scoop-apps
@@ -7139,6 +7145,7 @@ file-converter-np.json    ScoopInstaller/Nonportable
 dshidmini-np.json    ScoopInstaller/Nonportable
 winfsp-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 flash-drive-tester-np_ScoopInstaller.json    ScoopInstaller/Nonportable
+k-lite-codec-pack-standard-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 virtualbox-with-extension-pack-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 qttabbar-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 workman-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -7184,6 +7191,7 @@ iddsampledriver-ge9-np.json    ScoopInstaller/Nonportable
 resilio-sync-np.json    ScoopInstaller/Nonportable
 workman-uk-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 freelan-np.json    ScoopInstaller/Nonportable
+k-lite-codec-pack-full-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 sandboxie-classic-np.json    ScoopInstaller/Nonportable
 translucenttb-np.json    ScoopInstaller/Nonportable
 lockhunter-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -7207,7 +7215,9 @@ glasswire-np.json    ScoopInstaller/Nonportable
 burp-suite-pro-np.json    ScoopInstaller/Nonportable
 virtualbox-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 nodejs-np_ScoopInstaller.json    ScoopInstaller/Nonportable
+k-lite-codec-pack-mega-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 voicemeeter-np.json    ScoopInstaller/Nonportable
+k-lite-codec-pack-basic-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 8gadgetpack-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 wireguard-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 textpad8-np.json    ScoopInstaller/Nonportable
@@ -9611,6 +9621,7 @@ bootice_hu3rror.json    hu3rror/scoop-muggle
 vysor_hu3rror.json    hu3rror/scoop-muggle
 sizer_hu3rror.json    hu3rror/scoop-muggle
 musictag_hu3rror.json    hu3rror/scoop-muggle
+pot.json    hu3rror/scoop-muggle
 simpread-sync.json    hu3rror/scoop-muggle
 blacksreen-bat.json    hu3rror/scoop-muggle
 win11-classic-context-menu.json    hu3rror/scoop-muggle
@@ -9674,6 +9685,7 @@ fiddler-classic-addon-galleryview.json    HUMORCE/nuke
 libraw.json    HUMORCE/nuke
 anime4kcpp-vapoursynth-plugin.json    HUMORCE/nuke
 yy_HUMORCE.json    HUMORCE/nuke
+android-clt_HUMORCE.json    HUMORCE/nuke
 appflowy_HUMORCE.json    HUMORCE/nuke
 lavfilters_HUMORCE.json    HUMORCE/nuke
 vlang-weekly.json    HUMORCE/nuke
@@ -9724,6 +9736,7 @@ ffrename-pro_HUMORCE.json    HUMORCE/nuke
 fiddler-classic.json    HUMORCE/nuke
 sdcc-snapshot-i586.json    HUMORCE/nuke
 instaloader.json    HUMORCE/nuke
+flutter_HUMORCE.json    HUMORCE/nuke
 xpdf-tools-LSP-thai.json    HUMORCE/nuke
 anime4kcpp-cli_HUMORCE.json    HUMORCE/nuke
 ntlite.json    HUMORCE/nuke
