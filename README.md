@@ -46,12 +46,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
 - ivaquero/scoopet
-- Calinou/scoop-games
 - ScoopInstaller/Java
+- Calinou/scoop-games
 - TheRandomLabs/Scoop-Spotify
 - borger/scoop-galaxy-integrations
-- ScoopInstaller/Versions
 - TheRandomLabs/scoop-nonportable
+- ScoopInstaller/Versions
 - TheCjw/scoop-retools
 - kodybrown/scoop-nirsoft
 - L-Trump/scoop-raresoft
@@ -102,6 +102,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - yuusakuri/scoop-bucket
 - hu3rror/scoop-muggle
 - Darkatse/Scoop-KanColle
+- aliesbelik/poldi
 - AkariiinMKII/Scoop4kariiin
 - HUMORCE/nuke
 - AkinoKaede/maple
