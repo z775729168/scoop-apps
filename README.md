@@ -80,8 +80,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wangzq/scoop-bucket
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
-- naderi/scoop-bucket
 - akirco/aki-apps
+- naderi/scoop-bucket
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - ViCrack/scoop-bucket
