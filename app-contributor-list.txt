@@ -2626,7 +2626,6 @@ tim_ivaquero.json    ivaquero/scoopet
 autodarkmode_ivaquero.json    ivaquero/scoopet
 cursor.json    ivaquero/scoopet
 vtm.json    ivaquero/scoopet
-feishu_ivaquero.json    ivaquero/scoopet
 baidunetdisk_ivaquero.json    ivaquero/scoopet
 octave-cn.json    ivaquero/scoopet
 downkyi_ivaquero.json    ivaquero/scoopet
@@ -4675,18 +4674,6 @@ wxwork.json    scoopcn/scoopcn
 procexp.json    scoopcn/scoopcn
 ade.json    scoopcn/scoopcn
 kugou.json    scoopcn/scoopcn
-wsl-opensuse.json    KNOXDEV/wsl
-wsl-fedora-arm.json    KNOXDEV/wsl
-wsl-ubuntu1804-arm.json    KNOXDEV/wsl
-wsl-ubuntu1604.json    KNOXDEV/wsl
-wsl-sles.json    KNOXDEV/wsl
-wsl-ubuntu2204.json    KNOXDEV/wsl
-wsl-ubuntu1804.json    KNOXDEV/wsl
-wsl-centos9.json    KNOXDEV/wsl
-wsl-fedora.json    KNOXDEV/wsl
-wsl-kali.json    KNOXDEV/wsl
-wsl-debian.json    KNOXDEV/wsl
-wsl-ubuntu2004.json    KNOXDEV/wsl
 inlets.json    hoilc/scoop-lemon
 comrak.json    hoilc/scoop-lemon
 jjdown.json    hoilc/scoop-lemon
@@ -5420,6 +5407,18 @@ shoutrrr.json    hoilc/scoop-lemon
 harmonyos-sans.json    hoilc/scoop-lemon
 complete-internet-repair.json    hoilc/scoop-lemon
 nico.json    hoilc/scoop-lemon
+wsl-opensuse.json    KNOXDEV/wsl
+wsl-fedora-arm.json    KNOXDEV/wsl
+wsl-ubuntu1804-arm.json    KNOXDEV/wsl
+wsl-ubuntu1604.json    KNOXDEV/wsl
+wsl-sles.json    KNOXDEV/wsl
+wsl-ubuntu2204.json    KNOXDEV/wsl
+wsl-ubuntu1804.json    KNOXDEV/wsl
+wsl-centos9.json    KNOXDEV/wsl
+wsl-fedora.json    KNOXDEV/wsl
+wsl-kali.json    KNOXDEV/wsl
+wsl-debian.json    KNOXDEV/wsl
+wsl-ubuntu2004.json    KNOXDEV/wsl
 MouseInc_echoiron.json    echoiron/echo-scoop
 zhumu.json    echoiron/echo-scoop
 protoc.json    echoiron/echo-scoop
@@ -7208,6 +7207,7 @@ citra-canary_borger.json    borger/scoop-emulators
 mesen_borger.json    borger/scoop-emulators
 snes9x_borger.json    borger/scoop-emulators
 mgba-dev_borger.json    borger/scoop-emulators
+ps3-system-software_borger.json    borger/scoop-emulators
 ppsspp-dev_borger.json    borger/scoop-emulators
 steam-rom-manager_borger.json    borger/scoop-emulators
 pcsx2_borger.json    borger/scoop-emulators
@@ -8737,6 +8737,7 @@ cleanmywechat_amorphobia.json    amorphobia/siku
 wiliwili.json    amorphobia/siku
 aget-rs.json    amorphobia/siku
 jijidown.json    amorphobia/siku
+shakemousetolocate.json    amorphobia/siku
 86box_amorphobia.json    amorphobia/siku
 massigra.json    amorphobia/siku
 tautulli.json    amorphobia/siku
@@ -9797,6 +9798,7 @@ gluttonyPNG_hu3rror.json    hu3rror/scoop-muggle
 wpd_hu3rror.json    hu3rror/scoop-muggle
 kopiaui_hu3rror.json    hu3rror/scoop-muggle
 pixeval_hu3rror.json    hu3rror/scoop-muggle
+wonderpen_hu3rror.json    hu3rror/scoop-muggle
 terminusplayer_hu3rror.json    hu3rror/scoop-muggle
 chromium-np.json    hu3rror/scoop-muggle
 briss.json    hu3rror/scoop-muggle
@@ -9814,7 +9816,6 @@ win11-classic-context-menu.json    hu3rror/scoop-muggle
 jpegview-fork_hu3rror.json    hu3rror/scoop-muggle
 propertree_hu3rror.json    hu3rror/scoop-muggle
 posh-git_hu3rror.json    hu3rror/scoop-muggle
-pot.json    hu3rror/scoop-muggle
 chromium_hu3rror.json    hu3rror/scoop-muggle
 dopamine-preview.json    hu3rror/scoop-muggle
 animation-garden-dev.json    hu3rror/scoop-muggle
@@ -9843,6 +9844,7 @@ totalcmd-mod.json    hu3rror/scoop-muggle
 HardDiskSentinel.json    hu3rror/scoop-muggle
 vysor_hu3rror.json    hu3rror/scoop-muggle
 NatTypeTester_hu3rror.json    hu3rror/scoop-muggle
+pot-desktop.json    hu3rror/scoop-muggle
 mpv-handler.json    hu3rror/scoop-muggle
 imagine_hu3rror.json    hu3rror/scoop-muggle
 mpv-lazy_hu3rror.json    hu3rror/scoop-muggle
