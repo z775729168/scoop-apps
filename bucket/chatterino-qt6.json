@@ -1,0 +1,31 @@
+{
+    "version": "4993825179",
+    "description": "Chat client for https://twitch.tv",
+    "homepage": "https://github.com/Chatterino/chatterino2",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Chatterino/chatterino2/releases/download/nightly-build/EXPERIMENTAL-chatterino-windows-x86-64-Qt-6.5.0.zip",
+            "hash": "d25b6eb871244ec0406f839cdbfdb81515adea73a938451d60acc66685e36bb1",
+            "extract_dir": "Chatterino2"
+        }
+    },
+    "shortcuts": [
+        [
+            "chatterino.exe",
+            "Chatterino"
+        ]
+    ],
+    "bin": "chatterino.exe",
+    "checkver": {
+        "url": "https://api.github.com/repositories/77624593/actions/workflows/build.yml/runs?branch=master&status=success",
+        "jsonpath": "$.workflow_runs[0].id"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Chatterino/chatterino2/releases/download/nightly-build/EXPERIMENTAL-chatterino-windows-x86-64-Qt-6.5.0.zip"
+            }
+        }
+    }
+}
