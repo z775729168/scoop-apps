@@ -2207,6 +2207,7 @@ lemon.json    chawyehsu/dorado
 texlive-full.json    chawyehsu/dorado
 volta_chawyehsu.json    chawyehsu/dorado
 melonds.json    chawyehsu/dorado
+openai-translator_chawyehsu.json    chawyehsu/dorado
 winlibs-mingw-llvm-ucrt.json    chawyehsu/dorado
 bamboo.json    chawyehsu/dorado
 uncia.json    chawyehsu/dorado
@@ -3874,6 +3875,7 @@ tcpconnectproblemview.json    kodybrown/scoop-nirsoft
 controlmymonitor.json    kodybrown/scoop-nirsoft
 winprefetchview.json    kodybrown/scoop-nirsoft
 wirelesskeydump.json    kodybrown/scoop-nirsoft
+batteryhistoryview.json    kodybrown/scoop-nirsoft
 loadeddllsview.json    kodybrown/scoop-nirsoft
 appcrashview.json    kodybrown/scoop-nirsoft
 outlookaccountsview.json    kodybrown/scoop-nirsoft
@@ -3959,6 +3961,7 @@ webvideocap.json    kodybrown/scoop-nirsoft
 gacview.json    kodybrown/scoop-nirsoft
 whosip.json    kodybrown/scoop-nirsoft
 installedappview.json    kodybrown/scoop-nirsoft
+runtimeclassesview.json    kodybrown/scoop-nirsoft
 skypecontactsview.json    kodybrown/scoop-nirsoft
 ntfslinksview.json    kodybrown/scoop-nirsoft
 dotnetresourcesextract.json    kodybrown/scoop-nirsoft
@@ -4038,6 +4041,7 @@ bulletspassview.json    kodybrown/scoop-nirsoft
 networktrafficview.json    kodybrown/scoop-nirsoft
 registrychangesview.json    kodybrown/scoop-nirsoft
 myeventviewer.json    kodybrown/scoop-nirsoft
+ippathtableview.json    kodybrown/scoop-nirsoft
 customexplorertoolbar.json    kodybrown/scoop-nirsoft
 regdllview.json    kodybrown/scoop-nirsoft
 lsasecretsdump.json    kodybrown/scoop-nirsoft
@@ -4064,6 +4068,7 @@ netbscanner.json    kodybrown/scoop-nirsoft
 appcompatibilityview.json    kodybrown/scoop-nirsoft
 countrytraceroute.json    kodybrown/scoop-nirsoft
 webbrowserbookmarksview.json    kodybrown/scoop-nirsoft
+appresourcesusageview.json    kodybrown/scoop-nirsoft
 batteryinfoview.json    kodybrown/scoop-nirsoft
 tcplogview.json    kodybrown/scoop-nirsoft
 chromehistoryview.json    kodybrown/scoop-nirsoft
@@ -4402,7 +4407,7 @@ tcpconnectproblemview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 controlmymonitor_ScoopInstaller.json    ScoopInstaller/Nirsoft
 winprefetchview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 wirelesskeydump_ScoopInstaller.json    ScoopInstaller/Nirsoft
-batteryhistoryview.json    ScoopInstaller/Nirsoft
+batteryhistoryview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 loadeddllsview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 appcrashview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 outlookaccountsview_ScoopInstaller.json    ScoopInstaller/Nirsoft
@@ -4483,7 +4488,7 @@ iconsext.json    ScoopInstaller/Nirsoft
 gacview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 whosip_ScoopInstaller.json    ScoopInstaller/Nirsoft
 installedappview_ScoopInstaller.json    ScoopInstaller/Nirsoft
-runtimeclassesview.json    ScoopInstaller/Nirsoft
+runtimeclassesview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 skypecontactsview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 ntfslinksview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 dotnetresourcesextract_ScoopInstaller.json    ScoopInstaller/Nirsoft
@@ -4567,7 +4572,7 @@ bulletspassview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 networktrafficview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 registrychangesview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 myeventviewer_ScoopInstaller.json    ScoopInstaller/Nirsoft
-ippathtableview.json    ScoopInstaller/Nirsoft
+ippathtableview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 customexplorertoolbar_ScoopInstaller.json    ScoopInstaller/Nirsoft
 regdllview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 lsasecretsdump_ScoopInstaller.json    ScoopInstaller/Nirsoft
@@ -4598,7 +4603,7 @@ pspv.json    ScoopInstaller/Nirsoft
 appcompatibilityview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 countrytraceroute_ScoopInstaller.json    ScoopInstaller/Nirsoft
 webbrowserbookmarksview_ScoopInstaller.json    ScoopInstaller/Nirsoft
-appresourcesusageview.json    ScoopInstaller/Nirsoft
+appresourcesusageview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 batteryinfoview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 wnetwatcher.json    ScoopInstaller/Nirsoft
 faview.json    ScoopInstaller/Nirsoft
@@ -9111,6 +9116,7 @@ Weasel_cc713.json    cc713/ownscoop
 ImDiskToolkit.json    cc713/ownscoop
 dnSpyEx_cc713.json    cc713/ownscoop
 DanmakuFactory.json    cc713/ownscoop
+bbdown_cc713.json    cc713/ownscoop
 rpcs3-dev.json    cc713/ownscoop
 scribus-dev_cc713.json    cc713/ownscoop
 Irfanview-plugins.json    cc713/ownscoop
