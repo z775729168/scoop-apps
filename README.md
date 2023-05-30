@@ -70,8 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - everyx/scoop-bucket
 - dodorz/scoop
-- ScoopInstaller/Nonportable
 - TheRandomLabs/Scoop-Bucket
+- ScoopInstaller/Nonportable
 - borger/scoop-emulators
 - Qv2ray/mochi
 - ZvonimirSun/scoop-iszy
