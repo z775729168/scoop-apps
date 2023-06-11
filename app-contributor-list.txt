@@ -3458,6 +3458,7 @@ cmake-nightly.json    ScoopInstaller/Versions
 teamcity-eap.json    ScoopInstaller/Versions
 nodejs7.json    ScoopInstaller/Versions
 jdownloader.json    ScoopInstaller/Versions
+ffmpeg-shared-4.4.1.json    ScoopInstaller/Versions
 vim-tux.json    ScoopInstaller/Versions
 premake4.json    ScoopInstaller/Versions
 goneovim-nightly.json    ScoopInstaller/Versions
@@ -5473,6 +5474,7 @@ xiaowan.json    echoiron/echo-scoop
 xiaoji.json    echoiron/echo-scoop
 neatreader.json    echoiron/echo-scoop
 ossutil_echoiron.json    echoiron/echo-scoop
+alixby.json    echoiron/echo-scoop
 edge.json    echoiron/echo-scoop
 2345pic.json    echoiron/echo-scoop
 dismpp.json    echoiron/echo-scoop
@@ -6210,6 +6212,7 @@ Upscayl-Portable.json    ACooper81/scoop-apps
 OandORegEditor-Portable.json    ACooper81/scoop-apps
 NirsoftCurrPorts-Portable.json    ACooper81/scoop-apps
 CuteHttpFileServerGUI-Portable.json    ACooper81/scoop-apps
+Mechvibes-Portable.json    ACooper81/scoop-apps
 UELI-Portable.json    ACooper81/scoop-apps
 SysinternalsAutologon-Portable.json    ACooper81/scoop-apps
 Jacket-Portable.json    ACooper81/scoop-apps
@@ -7374,6 +7377,7 @@ citra-canary_borger.json    borger/scoop-emulators
 retroarch_borger.json    borger/scoop-emulators
 mgba-dev_borger.json    borger/scoop-emulators
 simple64_borger.json    borger/scoop-emulators
+ryujinx-ava_borger.json    borger/scoop-emulators
 naiveproxy_Qv2ray.json    Qv2ray/mochi
 qv2ray-plugin-ssr_Qv2ray.json    Qv2ray/mochi
 qv2ray-plugin-command_Qv2ray.json    Qv2ray/mochi
@@ -8493,6 +8497,7 @@ notify.json    ViCrack/scoop-bucket
 xpoc.json    ViCrack/scoop-bucket
 interactsh.json    ViCrack/scoop-bucket
 scan4all.json    ViCrack/scoop-bucket
+java-memshell-generator.json    ViCrack/scoop-bucket
 verycapture_ViCrack.json    ViCrack/scoop-bucket
 igdm_ViCrack.json    ViCrack/scoop-bucket
 PowerRun.json    ViCrack/scoop-bucket
@@ -9436,6 +9441,7 @@ openssh@stable.json    rivy/scoop-bucket
 cmake@3.12.0.json    rivy/scoop-bucket
 ldc_rivy.json    rivy/scoop-bucket
 ninja@1.10.2.json    rivy/scoop-bucket
+ldc@1.32.2-multilib.json    rivy/scoop-bucket
 elixir@1.13.4.json    rivy/scoop-bucket
 vagrant@2.2.9.json    rivy/scoop-bucket
 fnm_rivy.json    rivy/scoop-bucket
@@ -9470,6 +9476,7 @@ concfg@0.2019.03.06.json    rivy/scoop-bucket
 hunspell_rivy.json    rivy/scoop-bucket
 xmake_rivy.json    rivy/scoop-bucket
 openssh@7.1p2.json    rivy/scoop-bucket
+dmd@2.104.0.json    rivy/scoop-bucket
 python@3.7.1.json    rivy/scoop-bucket
 flutter@3.7.12.json    rivy/scoop-bucket
 sapling_rivy.json    rivy/scoop-bucket
@@ -9599,7 +9606,6 @@ make@4.2.json    rivy/scoop-bucket
 coreutils_rivy.json    rivy/scoop-bucket
 nodejs@lts-6.10.3.json    rivy/scoop-bucket
 nim@1.0.4-x32.json    rivy/scoop-bucket
-dmd_rivy.json    rivy/scoop-bucket
 gow@0.8.0.json    rivy/scoop-bucket
 pkg-config@0.26-1.json    rivy/scoop-bucket
 cmake_rivy.json    rivy/scoop-bucket
@@ -9691,6 +9697,7 @@ nodejs@4.0.0.json    rivy/scoop-bucket
 gh@1.2.0.json    rivy/scoop-bucket
 perl@5.20.1.1.json    rivy/scoop-bucket
 perl@5.24.3.1+gcc.json    rivy/scoop-bucket
+dmd@2.100.0.json    rivy/scoop-bucket
 wget@1.21.1.json    rivy/scoop-bucket
 nim@1.0.2-x64.json    rivy/scoop-bucket
 nim@1.0.4.json    rivy/scoop-bucket
@@ -9703,6 +9710,7 @@ openssh@latest.json    rivy/scoop-bucket
 clang@7.0.1.json    rivy/scoop-bucket
 perl@5.20.3.3.json    rivy/scoop-bucket
 hyper@3.0.0-canary.7.json    rivy/scoop-bucket
+ldc@1.32.2.json    rivy/scoop-bucket
 gcc@9.2.0-multilib+x32.json    rivy/scoop-bucket
 fossil@2.12.1.json    rivy/scoop-bucket
 gpg@2.0.30+gui.json    rivy/scoop-bucket
@@ -9839,6 +9847,7 @@ yomikiru.json    hu3rror/scoop-muggle
 watt-toolkit.json    hu3rror/scoop-muggle
 sizer_hu3rror.json    hu3rror/scoop-muggle
 tianruoocr_hu3rror.json    hu3rror/scoop-muggle
+nsudo_hu3rror.json    hu3rror/scoop-muggle
 ACNH-design-pattern-editor.json    hu3rror/scoop-muggle
 nora.json    hu3rror/scoop-muggle
 caesium_hu3rror.json    hu3rror/scoop-muggle
@@ -9894,6 +9903,7 @@ kopiaui_hu3rror.json    hu3rror/scoop-muggle
 defender-control.json    hu3rror/scoop-muggle
 neat-reader_hu3rror.json    hu3rror/scoop-muggle
 logseq-nightly_hu3rror.json    hu3rror/scoop-muggle
+nanarun_hu3rror.json    hu3rror/scoop-muggle
 slk-img2pixel.json    hu3rror/scoop-muggle
 terminusplayer_hu3rror.json    hu3rror/scoop-muggle
 b23downloader_hu3rror.json    hu3rror/scoop-muggle
