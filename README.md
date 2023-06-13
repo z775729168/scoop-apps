@@ -103,6 +103,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - yuusakuri/scoop-bucket
 - hu3rror/scoop-muggle
 - Darkatse/Scoop-KanColle
+- arch3rPro/scoop-bucket
 - brian6932/dank-scoop
 - AkariiinMKII/Scoop4kariiin
 - HUMORCE/nuke
