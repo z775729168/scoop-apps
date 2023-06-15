@@ -53,8 +53,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/scoop-nonportable
 - ScoopInstaller/Versions
 - TheCjw/scoop-retools
-- kodybrown/scoop-nirsoft
 - L-Trump/scoop-raresoft
+- kodybrown/scoop-nirsoft
 - littleli/scoop-clojure
 - kidonng/sushi
 - rasa/scoops
@@ -82,8 +82,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - akirco/aki-apps
 - naderi/scoop-bucket
-- niheaven/scoop-sysinternals
 - ViCrack/scoop-bucket
+- niheaven/scoop-sysinternals
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
@@ -97,13 +97,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - seumsc/scoop-seu
 - Velgus/Scoop-Portapps
 - rivy/scoop-bucket
+- arch3rPro/scoop-bucket
 - littleli/Scoop-littleli
 - ChinLong/scoop-customize
 - starise/Scoop-Gaming
 - yuusakuri/scoop-bucket
 - hu3rror/scoop-muggle
 - Darkatse/Scoop-KanColle
-- arch3rPro/scoop-bucket
 - brian6932/dank-scoop
 - AkariiinMKII/Scoop4kariiin
 - HUMORCE/nuke
