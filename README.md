@@ -84,6 +84,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - ViCrack/scoop-bucket
 - niheaven/scoop-sysinternals
+- iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
@@ -91,7 +92,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - amorphobia/siku
 - batkiz/backit
-- iquiw/scoop-bucket
 - aoisummer/scoop-bucket
 - cc713/ownscoop
 - seumsc/scoop-seu
