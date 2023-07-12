@@ -525,6 +525,7 @@ openwithplusplus.json    ScoopInstaller/Extras
 glazewm.json    ScoopInstaller/Extras
 wincrypt-sshagent.json    ScoopInstaller/Extras
 winsetupfromusb.json    ScoopInstaller/Extras
+winchecksec.json    ScoopInstaller/Extras
 tableplus.json    ScoopInstaller/Extras
 kate.json    ScoopInstaller/Extras
 gopher360.json    ScoopInstaller/Extras
@@ -6682,7 +6683,6 @@ steam-rom-manager_borger.json    borger/scoop-emulators
 redream-dev_borger.json    borger/scoop-emulators
 rpcs3_borger.json    borger/scoop-emulators
 scummvm-nightly_borger.json    borger/scoop-emulators
-ryujinx-ava_borger.json    borger/scoop-emulators
 mgba_borger.json    borger/scoop-emulators
 redream_borger.json    borger/scoop-emulators
 xenia-canary_borger.json    borger/scoop-emulators
@@ -7891,7 +7891,6 @@ nmap-portable.json    akirco/aki-apps
 zola_akirco.json    akirco/aki-apps
 nyagos_akirco.json    akirco/aki-apps
 empty-recycle-bin_akirco.json    akirco/aki-apps
-go-cn_akirco.json    akirco/aki-apps
 pypy2_akirco.json    akirco/aki-apps
 dingtalk_akirco.json    akirco/aki-apps
 dog_akirco.json    akirco/aki-apps
@@ -9515,6 +9514,7 @@ djgpp@3.3-gcc-12.1.0.json    rivy/scoop-bucket
 dmd@2.100.0.json    rivy/scoop-bucket
 openssh@9.1p1.json    rivy/scoop-bucket
 gcc@9.3.0-x64+x32.json    rivy/scoop-bucket
+qalculate@4.7.0.json    rivy/scoop-bucket
 makeme@1.0.3.json    rivy/scoop-bucket
 gcc@9.2.0-x64.json    rivy/scoop-bucket
 coursier_rivy.json    rivy/scoop-bucket
@@ -9823,6 +9823,7 @@ gsudo@2.0.4.json    rivy/scoop-bucket
 gh@2.18.0.json    rivy/scoop-bucket
 perl@5.24+gcc+PDL.json    rivy/scoop-bucket
 colortool_rivy.json    rivy/scoop-bucket
+qalculate@4.6.1.json    rivy/scoop-bucket
 make@4.2.1.json    rivy/scoop-bucket
 msvc.json    rivy/scoop-bucket
 cmake@3.21.3.json    rivy/scoop-bucket
@@ -10329,7 +10330,7 @@ ungoogled-chromium_HUMORCE.json    HUMORCE/nuke
 fiddler-classic-addon-pdfview.json    HUMORCE/nuke
 clash-premium_HUMORCE.json    HUMORCE/nuke
 xpdf-tools-LSP-thai.json    HUMORCE/nuke
-jc.json    HUMORCE/nuke
+jc_HUMORCE.json    HUMORCE/nuke
 qbittorrent-enhanced_HUMORCE.json    HUMORCE/nuke
 autohotkey_HUMORCE.json    HUMORCE/nuke
 msys2_HUMORCE.json    HUMORCE/nuke
