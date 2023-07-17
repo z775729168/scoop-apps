@@ -70,10 +70,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - ScoopInstaller/Nonportable
 - everyx/scoop-bucket
-- ZvonimirSun/scoop-iszy
 - borger/scoop-emulators
 - dodorz/scoop
 - TheRandomLabs/Scoop-Bucket
+- ZvonimirSun/scoop-iszy
 - Qv2ray/mochi
 - kiennq/scoop-misc
 - zhoujin7/tomato
@@ -86,11 +86,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ViCrack/scoop-bucket
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
-- amorphobia/siku
 - batkiz/backit
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
 - jonz94/scoop-sarasa-nerd-fonts
+- amorphobia/siku
 - mogeko/scoop-sysinternals
 - arch3rPro/scoop-bucket
 - ChungZH/peach
