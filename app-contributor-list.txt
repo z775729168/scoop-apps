@@ -6668,7 +6668,6 @@ steam-rom-manager_borger.json    borger/scoop-emulators
 redream-dev_borger.json    borger/scoop-emulators
 rpcs3_borger.json    borger/scoop-emulators
 scummvm-nightly_borger.json    borger/scoop-emulators
-ryujinx-ava_borger.json    borger/scoop-emulators
 mgba_borger.json    borger/scoop-emulators
 redream_borger.json    borger/scoop-emulators
 xenia-canary_borger.json    borger/scoop-emulators
@@ -9143,14 +9142,16 @@ masscan.json    arch3rPro/scoop-bucket
 hackbrowserdata.json    arch3rPro/scoop-bucket
 gda_arch3rPro.json    arch3rPro/scoop-bucket
 ddns-go_arch3rPro.json    arch3rPro/scoop-bucket
+FluentSearch_arch3rPro.json    arch3rPro/scoop-bucket
 cudatext-cn_arch3rPro.json    arch3rPro/scoop-bucket
 emeditor_arch3rPro.json    arch3rPro/scoop-bucket
 crawlergo_arch3rPro.json    arch3rPro/scoop-bucket
 FlowUs_arch3rPro.json    arch3rPro/scoop-bucket
 notepad--_arch3rPro.json    arch3rPro/scoop-bucket
+wub_arch3rPro.json    arch3rPro/scoop-bucket
+windterm_arch3rPro.json    arch3rPro/scoop-bucket
 gitGraber.json    arch3rPro/scoop-bucket
 natpass.json    arch3rPro/scoop-bucket
-FluentSearch_arch3rPro.json    arch3rPro/scoop-bucket
 hetty.json    arch3rPro/scoop-bucket
 rustcat.json    arch3rPro/scoop-bucket
 ysomap.json    arch3rPro/scoop-bucket
@@ -9203,7 +9204,7 @@ yujianportscan.json    arch3rPro/scoop-bucket
 dirbuster.json    arch3rPro/scoop-bucket
 shellfire.json    arch3rPro/scoop-bucket
 nimscan.json    arch3rPro/scoop-bucket
-windterm_arch3rPro.json    arch3rPro/scoop-bucket
+behinder_arch3rPro.json    arch3rPro/scoop-bucket
 webpathbrute.json    arch3rPro/scoop-bucket
 getsploit.json    arch3rPro/scoop-bucket
 pocsuite3.json    arch3rPro/scoop-bucket
@@ -9605,6 +9606,7 @@ cmake@3.2.2+gui.json    rivy/scoop-bucket
 clang@12.0.1.json    rivy/scoop-bucket
 perl@5.28.1.1.json    rivy/scoop-bucket
 llvm@10.0.0.json    rivy/scoop-bucket
+openjdk_rivy.json    rivy/scoop-bucket
 innounp_rivy.json    rivy/scoop-bucket
 gpg@2.3.8.json    rivy/scoop-bucket
 perl@5.14.4.1+gcc.json    rivy/scoop-bucket
