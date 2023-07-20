@@ -105,12 +105,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle
+- DoveBoy/Apps
 - beerpiss/scoop-bucket
 - brian6932/dank-scoop
 - AkariiinMKII/Scoop4kariiin
 - HUMORCE/nuke
 - AkinoKaede/maple
 - starise/Scoop-Confetti
-- TheLastZombie/scoop-bucket
 - hulucc/bucket
 - jingyu9575/scoop-jingyu9575
