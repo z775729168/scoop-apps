@@ -84,11 +84,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
 - ViCrack/scoop-bucket
+- ygguorun/scoop-bucket
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
 - arch3rPro/scoop-bucket
 - batkiz/backit
-- ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
 - jonz94/scoop-sarasa-nerd-fonts
 - amorphobia/siku
