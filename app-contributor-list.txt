@@ -1827,7 +1827,6 @@ scopy.json    ScoopInstaller/Extras
 wonderpen.json    ScoopInstaller/Extras
 spacesniffer.json    ScoopInstaller/Extras
 beaker.json    ScoopInstaller/Extras
-winrar-helper.json    ScoopInstaller/Extras
 simple-assembly-explorer.json    ScoopInstaller/Extras
 easy-context-menu.json    ScoopInstaller/Extras
 spotify.json    ScoopInstaller/Extras
@@ -2070,6 +2069,7 @@ pandownload.json    ScoopInstaller/Extras
 terminus.json    ScoopInstaller/Extras
 chefdk.json    ScoopInstaller/Extras
 kindlegen.json    ScoopInstaller/Extras
+winrar-helper.json    ScoopInstaller/Extras
 oh-my-posh_ScoopInstaller.json    ScoopInstaller/Extras
 p4merge.json    ScoopInstaller/Extras
 ferdi.json    ScoopInstaller/Extras
@@ -2642,6 +2642,7 @@ diskgenius-cn.json    ivaquero/scoopet
 cajviewer.json    ivaquero/scoopet
 subversion.json    ivaquero/scoopet
 neteasemusic_ivaquero.json    ivaquero/scoopet
+bbdown_ivaquero.json    ivaquero/scoopet
 ting-en.json    ivaquero/scoopet
 wpsoffice-cn.json    ivaquero/scoopet
 cursor.json    ivaquero/scoopet
@@ -2655,7 +2656,6 @@ spyder.json    ivaquero/scoopet
 utools_ivaquero.json    ivaquero/scoopet
 downkyi_ivaquero.json    ivaquero/scoopet
 blender-cn.json    ivaquero/scoopet
-vtm.json    ivaquero/scoopet
 clash-for-windows_ivaquero.json    ivaquero/scoopet
 dingtalk_ivaquero.json    ivaquero/scoopet
 veracrypt.json    ivaquero/scoopet
@@ -2669,6 +2669,7 @@ inkscape-cn.json    ivaquero/scoopet
 kingdraw.json    ivaquero/scoopet
 mambaforge-cn.json    ivaquero/scoopet
 file-converter.json    ivaquero/scoopet
+music-dl.json    ivaquero/scoopet
 git-cn.json    ivaquero/scoopet
 texstudio-cn.json    ivaquero/scoopet
 tencent-edu.json    ivaquero/scoopet
@@ -4835,7 +4836,6 @@ tts-vue.json    hoilc/scoop-lemon
 3proxy.json    hoilc/scoop-lemon
 libportable-iceweasel.json    hoilc/scoop-lemon
 k3sup_hoilc.json    hoilc/scoop-lemon
-bbdown_hoilc.json    hoilc/scoop-lemon
 wininfo.json    hoilc/scoop-lemon
 feishin.json    hoilc/scoop-lemon
 cppcryptfs.json    hoilc/scoop-lemon
@@ -6330,6 +6330,7 @@ ScoopSearchCLI-Portable.json    ACooper81/scoop-apps
 AquaSnap-Portable.json    ACooper81/scoop-apps
 SysinternalsAutologon-Portable.json    ACooper81/scoop-apps
 Windows10UpdateAssistant-Portable.json    ACooper81/scoop-apps
+LivelyWallpaper-Portable.json    ACooper81/scoop-apps
 NTLite-Portable.json    ACooper81/scoop-apps
 LogitechUnifyingSoftware-Install.json    ACooper81/scoop-apps
 DNSProxyCLI-Portable.json    ACooper81/scoop-apps
@@ -9399,6 +9400,7 @@ Scilab_cc713.json    cc713/ownscoop
 PicView-noRT.json    cc713/ownscoop
 dnSpyEx_cc713.json    cc713/ownscoop
 picacg-qt.json    cc713/ownscoop
+bililiverecorder_cc713.json    cc713/ownscoop
 Weasel_cc713.json    cc713/ownscoop
 get-sauce.json    cc713/ownscoop
 mpv-lazy.json    cc713/ownscoop
@@ -9780,6 +9782,7 @@ deno@0.31.0.json    rivy/scoop-bucket
 git@2.39.0.2.json    rivy/scoop-bucket
 perl@5.18.4.1+gcc.json    rivy/scoop-bucket
 perl@5.24.3.1+gcc.json    rivy/scoop-bucket
+upx@4.0.2.json    rivy/scoop-bucket
 dosbox_rivy.json    rivy/scoop-bucket
 cmake@3.18.0.json    rivy/scoop-bucket
 sh.json    rivy/scoop-bucket
@@ -9975,6 +9978,7 @@ MiSans.json    hu3rror/scoop-muggle
 md5checker-cn.json    hu3rror/scoop-muggle
 chatall.json    hu3rror/scoop-muggle
 fehviewer_hu3rror.json    hu3rror/scoop-muggle
+opentrace.json    hu3rror/scoop-muggle
 desktopnaotu_hu3rror.json    hu3rror/scoop-muggle
 emby_carnival.json    hu3rror/scoop-muggle
 scoop-backup-KNOXDEV.json    hu3rror/scoop-muggle
@@ -10072,6 +10076,7 @@ mpv.net-cm_hu3rror.json    hu3rror/scoop-muggle
 nhse.json    hu3rror/scoop-muggle
 RyuSAK_hu3rror.json    hu3rror/scoop-muggle
 foobar2000-foobox-en-pack.json    hu3rror/scoop-muggle
+mpv-easy-player_hu3rror.json    hu3rror/scoop-muggle
 zlibrary.json    hu3rror/scoop-muggle
 limitpng.json    hu3rror/scoop-muggle
 imagine_hu3rror.json    hu3rror/scoop-muggle
@@ -10518,7 +10523,6 @@ cmder-full_DoveBoy.json    DoveBoy/Apps
 idm_DoveBoy.json    DoveBoy/Apps
 powerline-go_DoveBoy.json    DoveBoy/Apps
 easy-context-menu_DoveBoy.json    DoveBoy/Apps
-64gram_DoveBoy.json    DoveBoy/Apps
 neovim_DoveBoy.json    DoveBoy/Apps
 qqlive_DoveBoy.json    DoveBoy/Apps
 typioca_DoveBoy.json    DoveBoy/Apps
@@ -10647,6 +10651,7 @@ OpenHashTab_brian6932.json    brian6932/dank-scoop
 pwsh-man-highlighting.json    brian6932/dank-scoop
 KryptorGUI.json    brian6932/dank-scoop
 tidal.json    brian6932/dank-scoop
+vtm.json    brian6932/dank-scoop
 aurorino.json    brian6932/dank-scoop
 technorino-portable.json    brian6932/dank-scoop
 nvidia-inspector.json    brian6932/dank-scoop
