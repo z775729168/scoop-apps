@@ -1,15 +1,19 @@
 {
     "version": "1.1.969",
-    "description": "Nintendo Switch emulator",
+    "description": "A simple, experimental Nintendo Switch emulator (Avalonia UI test build)",
     "homepage": "https://ryujinx.org/",
     "license": {
-        "url": "https://github.com/Ryujinx/Ryujinx/blob/master/LICENSE.txt",
-        "identifier": "MIT"
+        "identifier": "MIT",
+        "url": "https://github.com/Ryujinx/Ryujinx/blob/master/LICENSE.txt"
     },
+    "notes": [
+        "ATTENTION: Ryujinx requires Nintendo Switch firmware and a prod.keys file to function.",
+        "Learn more at https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide"
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.969/ryujinx-1.1.969-win_x64.zip",
-            "hash": "fff7358a4f59ca4525545fb58512ea4360b37384113f0cf3e80ee1d98b711c88"
+            "url": "https://github.com/Ryujinx/release-channel-master/releases/download/1.1.969/test-ava-ryujinx-1.1.969-win_x64.zip",
+            "hash": "8e5ba13a17fb658fd5499f90bc55d7a8e96a6f990414d4adef497a05f201b883"
         }
     },
     "extract_dir": "publish",
@@ -23,10 +27,10 @@
         "   }",
         "}"
     ],
-    "bin": "Ryujinx.exe",
+    "bin": "Ryujinx.Ava.exe",
     "shortcuts": [
         [
-            "Ryujinx.exe",
+            "Ryujinx.Ava.exe",
             "Ryujinx"
         ]
     ],
@@ -37,12 +41,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Ryujinx/release-channel-master/releases/download/$version/ryujinx-$version-win_x64.zip"
+                "url": "https://github.com/Ryujinx/release-channel-master/releases/download/$version/test-ava-ryujinx-$version-win_x64.zip"
             }
         }
-    },
-    "notes": [
-        "ATTENTION: Ryujinx requires Nintendo Switch firmware and a prod.keys file to function.",
-        "Learn more at https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide"
-    ]
+    }
 }
