@@ -1,16 +1,19 @@
 {
-    "version": "2.1.1",
-    "description": "A custom keyboard configuration manager presented by LNE Lab.",
-    "homepage": "https://github.com/lnelab/lne_link",
+    "version": "3.0.0",
+    "description": "Multifunctional integrated, cross platform, highly compatible assistant for your keyboard.",
+    "homepage": "https://github.com/lnelab/link-plus",
     "license": "Unknown",
-    "notes": "This app was deprecated and replaced by link-plus, please install 'Scoop4kariiin/link-plus' instead.",
+    "notes": [
+        "Visit following site for user guide:",
+        "https://www.lnelab.com/docs"
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lnelab/lne_link/releases/download/v2.1.1/LINK.Setup.2.1.1.exe#/dl.7z",
-            "hash": "sha512:4e077b02b8f5ea810670636cf9f71b6f2ef5931f09e4d78efec3c3cd0cffc005f9bc2105b2c949978f3e5e3d7c3c645cc5e8088baa2976aa4f19785b1ddefbc0",
+            "url": "https://github.com/lnelab/link-plus/releases/download/3.0.0/LINK+-Setup-3.0.0.exe#/dl.7z",
+            "hash": "sha512:da3c709fae81056cae057a985f4db2a52bcc93f82e7a533ea93b82f168b5396948ce35dbcc923d160f6d73f383036c28bccf00766caae7f2d6ff74ff22f95fd8",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
             ]
         }
     },
@@ -20,7 +23,7 @@
             "if (Test-Path $S4UtilsPath) {",
             "    Unblock-File $S4UtilsPath",
             "    Import-Module $S4UtilsPath",
-            "    Mount-ExternalRuntimeData -Source \"$persist_dir\\lne_link\" -AppData",
+            "    Mount-ExternalRuntimeData -Source \"$persist_dir\\link-plus\" -AppData",
             "    Remove-Module -Name S4Utils -ErrorAction SilentlyContinue",
             "} else {",
             "    Write-Host 'Missing files, please readd Scoop4kariiin bucket and reinstall this app.' -ForegroundColor Red",
@@ -29,8 +32,8 @@
     },
     "shortcuts": [
         [
-            "LINK.exe",
-            "LINK"
+            "LINK+.exe",
+            "LINK+"
         ]
     ],
     "uninstaller": {
@@ -39,7 +42,7 @@
             "if (Test-Path $S4UtilsPath) {",
             "    Unblock-File $S4UtilsPath",
             "    Import-Module $S4UtilsPath",
-            "    Dismount-ExternalRuntimeData -Target \"lne_link\" -AppData",
+            "    Dismount-ExternalRuntimeData -Target \"link-plus\" -AppData",
             "    Remove-Module -Name S4Utils -ErrorAction SilentlyContinue",
             "}"
         ]
@@ -48,7 +51,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lnelab/lne_link/releases/download/v$version/LINK.Setup.$version.exe#/dl.7z",
+                "url": "https://github.com/lnelab/link-plus/releases/download/$version/LINK+-Setup-$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"
