@@ -1,13 +1,13 @@
 {
-    "version": "e54262b",
+    "version": "2ab2a65",
     "description": "Microsoft Xbox 360 emulator",
     "homepage": "https://xenia.jp",
     "license": {
         "identifier": "BSD-3-Clause",
         "url": "https://github.com/xenia-canary/xenia-canary/blob/canary_pr/LICENSE"
     },
-    "url": "https://github.com/xenia-canary/xenia-canary/releases/download/e54262b/xenia_canary.zip",
-    "hash": "369bf533087c64755e8ec226fb23224ef15ac91d4b04d198faa08604f9c1f2ab",
+    "url": "https://github.com/xenia-canary/xenia-canary/releases/download/2ab2a65/xenia_canary.zip",
+    "hash": "78bc265810b6f3ce9ce1e0ff8fd83351b9c34e1080b5a3380fa0e24b8276c135",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
