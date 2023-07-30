@@ -215,6 +215,7 @@ wechat.json    ScoopInstaller/Extras
 vapoursyntheditor.json    ScoopInstaller/Extras
 harmony.json    ScoopInstaller/Extras
 wincdemu.json    ScoopInstaller/Extras
+archi.json    ScoopInstaller/Extras
 qtranslate.json    ScoopInstaller/Extras
 traymond.json    ScoopInstaller/Extras
 activitywatch.json    ScoopInstaller/Extras
@@ -355,7 +356,6 @@ igdm.json    ScoopInstaller/Extras
 musikcube.json    ScoopInstaller/Extras
 gittyup.json    ScoopInstaller/Extras
 flashplayer-sa.json    ScoopInstaller/Extras
-tssh.json    ScoopInstaller/Extras
 zlocation.json    ScoopInstaller/Extras
 pipp.json    ScoopInstaller/Extras
 dbvis.json    ScoopInstaller/Extras
@@ -1227,7 +1227,6 @@ jabref.json    ScoopInstaller/Extras
 firefox.json    ScoopInstaller/Extras
 aimp.json    ScoopInstaller/Extras
 etcher-cli.json    ScoopInstaller/Extras
-trzsz.json    ScoopInstaller/Extras
 lightbulb.json    ScoopInstaller/Extras
 jellyfin-mpv-shim.json    ScoopInstaller/Extras
 firefoxpwa.json    ScoopInstaller/Extras
@@ -2053,7 +2052,6 @@ emax64-pdumper.json    ScoopInstaller/Extras
 simplenote.json    ScoopInstaller/Extras
 lockhunter_ScoopInstaller.json    ScoopInstaller/Extras
 .markdownlint_ScoopInstaller.json    ScoopInstaller/Extras
-archi.json    ScoopInstaller/Extras
 ibmcloud-cli_ScoopInstaller.json    ScoopInstaller/Extras
 veonim.json    ScoopInstaller/Extras
 haskellx.json    ScoopInstaller/Extras
@@ -2422,6 +2420,7 @@ Meslo-NF-Propo.json    matthewjberger/scoop-nerd-fonts
 JetBrainsMono-NF.json    matthewjberger/scoop-nerd-fonts
 FiraCode-Script.json    matthewjberger/scoop-nerd-fonts
 Agave-NF.json    matthewjberger/scoop-nerd-fonts
+Maple-Mono-autohint.json    matthewjberger/scoop-nerd-fonts
 Terminus-NF-Mono.json    matthewjberger/scoop-nerd-fonts
 BigBlueTerminal-NF-Propo.json    matthewjberger/scoop-nerd-fonts
 Delugia-Mono-Nerd-Font.json    matthewjberger/scoop-nerd-fonts
@@ -6469,6 +6468,7 @@ hoxs64.json    hermanjustnu/scoop-emulators
 xenia_hermanjustnu.json    hermanjustnu/scoop-emulators
 mednafen-dev_hermanjustnu.json    hermanjustnu/scoop-emulators
 fceux.json    hermanjustnu/scoop-emulators
+applewin_hermanjustnu.json    hermanjustnu/scoop-emulators
 pcsx2_hermanjustnu.json    hermanjustnu/scoop-emulators
 ppsspp-dev_hermanjustnu.json    hermanjustnu/scoop-emulators
 sameboy_hermanjustnu.json    hermanjustnu/scoop-emulators
@@ -8629,7 +8629,9 @@ DeimosC2.json    arch3rPro/scoop-bucket
 stowaway.json    arch3rPro/scoop-bucket
 ehole.json    arch3rPro/scoop-bucket
 ffuf_arch3rPro.json    arch3rPro/scoop-bucket
+Covenant.json    arch3rPro/scoop-bucket
 burpsuite-np.json    arch3rPro/scoop-bucket
+C3.json    arch3rPro/scoop-bucket
 rport.json    arch3rPro/scoop-bucket
 gitrob.json    arch3rPro/scoop-bucket
 johnny.json    arch3rPro/scoop-bucket
@@ -10492,6 +10494,7 @@ bili-cli-rs.json    DoveBoy/Apps
 npm-completion_DoveBoy.json    DoveBoy/Apps
 sandboxie-classic_DoveBoy.json    DoveBoy/Apps
 wingetui_DoveBoy.json    DoveBoy/Apps
+windows11-classic-context-menu_DoveBoy.json    DoveBoy/Apps
 cacert_DoveBoy.json    DoveBoy/Apps
 psgithub_DoveBoy.json    DoveBoy/Apps
 b23downloader-win7.json    DoveBoy/Apps
@@ -10605,6 +10608,7 @@ slidershim.json    beerpiss/scoop-bucket
 cider_beerpiss.json    beerpiss/scoop-bucket
 unxwb.json    beerpiss/scoop-bucket
 itunes-np.json    beerpiss/scoop-bucket
+microsoftedge_beerpiss.json    beerpiss/scoop-bucket
 sl.json    beerpiss/scoop-bucket
 adguardhome-beta.json    beerpiss/scoop-bucket
 windowstoolbox-head.json    beerpiss/scoop-bucket
