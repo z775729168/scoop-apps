@@ -317,6 +317,7 @@ xmrig.json    ScoopInstaller/Extras
 kdoc-formatter.json    ScoopInstaller/Extras
 gifcam.json    ScoopInstaller/Extras
 deepl.json    ScoopInstaller/Extras
+buildcache.json    ScoopInstaller/Extras
 skaffold.json    ScoopInstaller/Extras
 trojita.json    ScoopInstaller/Extras
 kryptor.json    ScoopInstaller/Extras
@@ -1524,6 +1525,7 @@ patchcleaner.json    ScoopInstaller/Extras
 driverstoreexplorer.json    ScoopInstaller/Extras
 wurl.json    ScoopInstaller/Extras
 ssd-z.json    ScoopInstaller/Extras
+tracy.json    ScoopInstaller/Extras
 kdiff3.json    ScoopInstaller/Extras
 safebrowser.json    ScoopInstaller/Extras
 openscad.json    ScoopInstaller/Extras
@@ -2638,6 +2640,7 @@ Regular-NF.json    matthewjberger/scoop-nerd-fonts
 yuque_ivaquero.json    ivaquero/scoopet
 lyx-cn.json    ivaquero/scoopet
 aboboo.json    ivaquero/scoopet
+feishu_ivaquero.json    ivaquero/scoopet
 diskgenius-cn.json    ivaquero/scoopet
 cajviewer.json    ivaquero/scoopet
 subversion.json    ivaquero/scoopet
@@ -3411,6 +3414,7 @@ handbrake-snapshot.json    ScoopInstaller/Versions
 rtools35.json    ScoopInstaller/Versions
 cuda11.3.json    ScoopInstaller/Versions
 tomcat9.json    ScoopInstaller/Versions
+edgedriver-dev.json    ScoopInstaller/Versions
 idea-ultimate-rc.json    ScoopInstaller/Versions
 tesseract3-languages.json    ScoopInstaller/Versions
 gopass184.json    ScoopInstaller/Versions
@@ -3523,6 +3527,7 @@ hyper-beta.json    ScoopInstaller/Versions
 idea-rc.json    ScoopInstaller/Versions
 cuda9.2.json    ScoopInstaller/Versions
 python39-beta.json    ScoopInstaller/Versions
+biber-prev.json    ScoopInstaller/Versions
 nodejs14.json    ScoopInstaller/Versions
 go114.json    ScoopInstaller/Versions
 cuda7.0.json    ScoopInstaller/Versions
@@ -3660,6 +3665,7 @@ dotnet-sdk-lts.json    ScoopInstaller/Versions
 composer1.json    ScoopInstaller/Versions
 processhacker-nightly.json    ScoopInstaller/Versions
 firefox-nightly.json    ScoopInstaller/Versions
+chromedriver-canary.json    ScoopInstaller/Versions
 cmake-nightly.json    ScoopInstaller/Versions
 micaforeveryone-dev.json    ScoopInstaller/Versions
 vim-nightly.json    ScoopInstaller/Versions
@@ -3689,6 +3695,7 @@ everything-alpha.json    ScoopInstaller/Versions
 selenium3.json    ScoopInstaller/Versions
 php74.json    ScoopInstaller/Versions
 dolphin-nightly.json    ScoopInstaller/Versions
+chromedriver-dev.json    ScoopInstaller/Versions
 odin.json    ScoopInstaller/Versions
 omnisharp-http-net6.json    ScoopInstaller/Versions
 scala2.json    ScoopInstaller/Versions
@@ -7636,6 +7643,7 @@ roslynator.json    wangzq/scoop-bucket
 fsharp4.json    wangzq/scoop-bucket
 dnspy-wangzq.json    wangzq/scoop-bucket
 gptgen.json    wangzq/scoop-bucket
+sqlce_40_runtime.json    wangzq/scoop-bucket
 pswhich.json    wangzq/scoop-bucket
 wtga_wangzq.json    wangzq/scoop-bucket
 fvim_wangzq.json    wangzq/scoop-bucket
@@ -7646,6 +7654,7 @@ grpcui.json    wangzq/scoop-bucket
 sqlmetal.json    wangzq/scoop-bucket
 yumi_wangzq.json    wangzq/scoop-bucket
 iedriver.json    wangzq/scoop-bucket
+exportsqlce40.json    wangzq/scoop-bucket
 doublecmd_wangzq.json    wangzq/scoop-bucket
 vim8.json    wangzq/scoop-bucket
 cronical.json    wangzq/scoop-bucket
@@ -8192,6 +8201,8 @@ quake_rs.json    ViCrack/scoop-bucket
 suo5.json    ViCrack/scoop-bucket
 cobaltstrike.json    arch3rPro/scoop-bucket
 rakshasa_arch3rPro.json    arch3rPro/scoop-bucket
+LiqunKit.json    arch3rPro/scoop-bucket
+observerward_arch3rPro.json    arch3rPro/scoop-bucket
 AsyncRAT.json    arch3rPro/scoop-bucket
 nps.json    arch3rPro/scoop-bucket
 burpsuite.json    arch3rPro/scoop-bucket
@@ -8202,15 +8213,18 @@ kscan_arch3rPro.json    arch3rPro/scoop-bucket
 portforward.json    arch3rPro/scoop-bucket
 ServerScan.json    arch3rPro/scoop-bucket
 Neo-reGeorg.json    arch3rPro/scoop-bucket
+jar-analyzer_arch3rPro.json    arch3rPro/scoop-bucket
 mimikatz.json    arch3rPro/scoop-bucket
 txportmap.json    arch3rPro/scoop-bucket
 masscan.json    arch3rPro/scoop-bucket
 hackbrowserdata.json    arch3rPro/scoop-bucket
 gda_arch3rPro.json    arch3rPro/scoop-bucket
+uTools_arch3rPro.json    arch3rPro/scoop-bucket
 ddns-go_arch3rPro.json    arch3rPro/scoop-bucket
 FluentSearch_arch3rPro.json    arch3rPro/scoop-bucket
 cudatext-cn_arch3rPro.json    arch3rPro/scoop-bucket
 emeditor_arch3rPro.json    arch3rPro/scoop-bucket
+sublime-text_arch3rPro.json    arch3rPro/scoop-bucket
 crawlergo_arch3rPro.json    arch3rPro/scoop-bucket
 FlowUs_arch3rPro.json    arch3rPro/scoop-bucket
 notepad--_arch3rPro.json    arch3rPro/scoop-bucket
@@ -8230,6 +8244,7 @@ dirmap.json    arch3rPro/scoop-bucket
 svnExploit.json    arch3rPro/scoop-bucket
 oneforall.json    arch3rPro/scoop-bucket
 DeimosC2.json    arch3rPro/scoop-bucket
+websocat_arch3rPro.json    arch3rPro/scoop-bucket
 stowaway.json    arch3rPro/scoop-bucket
 ehole.json    arch3rPro/scoop-bucket
 ffuf_arch3rPro.json    arch3rPro/scoop-bucket
@@ -8244,13 +8259,16 @@ BrowserGhost.json    arch3rPro/scoop-bucket
 govenom.json    arch3rPro/scoop-bucket
 wslpp.json    arch3rPro/scoop-bucket
 sliver_arch3rPro.json    arch3rPro/scoop-bucket
+screentogif_arch3rPro.json    arch3rPro/scoop-bucket
 PwnXSS.json    arch3rPro/scoop-bucket
 layerdomainfinder.json    arch3rPro/scoop-bucket
+katana_arch3rPro.json    arch3rPro/scoop-bucket
 scan4all_arch3rPro.json    arch3rPro/scoop-bucket
 yakit_arch3rPro.json    arch3rPro/scoop-bucket
 girsh.json    arch3rPro/scoop-bucket
 SharpStrike.json    arch3rPro/scoop-bucket
 tidefinger.json    arch3rPro/scoop-bucket
+proguard_arch3rPro.json    arch3rPro/scoop-bucket
 psudohash.json    arch3rPro/scoop-bucket
 sqlmap.json    arch3rPro/scoop-bucket
 phpenv.json    arch3rPro/scoop-bucket
@@ -8260,6 +8278,7 @@ termite.json    arch3rPro/scoop-bucket
 scaninfo.json    arch3rPro/scoop-bucket
 super-xray_arch3rPro.json    arch3rPro/scoop-bucket
 merlin.json    arch3rPro/scoop-bucket
+vscan_arch3rPro.json    arch3rPro/scoop-bucket
 meterpeter.json    arch3rPro/scoop-bucket
 POC-T.json    arch3rPro/scoop-bucket
 githacker.json    arch3rPro/scoop-bucket
@@ -8268,6 +8287,7 @@ npcap.json    arch3rPro/scoop-bucket
 broxy.json    arch3rPro/scoop-bucket
 mdut_arch3rPro.json    arch3rPro/scoop-bucket
 reverse_ssh.json    arch3rPro/scoop-bucket
+nuclei_arch3rPro.json    arch3rPro/scoop-bucket
 SuperSQLInjection.json    arch3rPro/scoop-bucket
 reGeorg.json    arch3rPro/scoop-bucket
 pagodo.json    arch3rPro/scoop-bucket
@@ -8293,18 +8313,24 @@ LFISuite.json    arch3rPro/scoop-bucket
 hydra.json    arch3rPro/scoop-bucket
 NoSQLMap.json    arch3rPro/scoop-bucket
 dirsearch.json    arch3rPro/scoop-bucket
+RegConverter_arch3rPro.json    arch3rPro/scoop-bucket
 myexploit.json    arch3rPro/scoop-bucket
+godzilla_arch3rPro.json    arch3rPro/scoop-bucket
 SiteScan.json    arch3rPro/scoop-bucket
+jndinjector_arch3rPro.json    arch3rPro/scoop-bucket
 XSStrike.json    arch3rPro/scoop-bucket
 LaZagne.json    arch3rPro/scoop-bucket
 LadonGo.json    arch3rPro/scoop-bucket
 AlliN.json    arch3rPro/scoop-bucket
+pyxis_arch3rPro.json    arch3rPro/scoop-bucket
 httpx_arch3rPro.json    arch3rPro/scoop-bucket
 quasar_arch3rPro.json    arch3rPro/scoop-bucket
+xray_arch3rPro.json    arch3rPro/scoop-bucket
 PrintNotifyPotato.json    arch3rPro/scoop-bucket
 revshell.json    arch3rPro/scoop-bucket
 socat_arch3rPro.json    arch3rPro/scoop-bucket
 fuxploider.json    arch3rPro/scoop-bucket
+postman-cn_arch3rPro.json    arch3rPro/scoop-bucket
 PowerRun_arch3rPro.json    arch3rPro/scoop-bucket
 commix.json    arch3rPro/scoop-bucket
 netsparker.json    arch3rPro/scoop-bucket
@@ -8317,6 +8343,8 @@ searchdiggity.json    arch3rPro/scoop-bucket
 kerbrute.json    arch3rPro/scoop-bucket
 pyshell.json    arch3rPro/scoop-bucket
 ksubdomain_arch3rPro.json    arch3rPro/scoop-bucket
+webshell_generate_arch3rPro.json    arch3rPro/scoop-bucket
+naabu_arch3rPro.json    arch3rPro/scoop-bucket
 beroot.json    arch3rPro/scoop-bucket
 HashCalculator.json    arch3rPro/scoop-bucket
 quake_rs_arch3rPro.json    arch3rPro/scoop-bucket
@@ -8326,6 +8354,7 @@ Print-My-Shell.json    arch3rPro/scoop-bucket
 bantam.json    arch3rPro/scoop-bucket
 skyscorpion.json    arch3rPro/scoop-bucket
 gitminer.json    arch3rPro/scoop-bucket
+suo5_arch3rPro.json    arch3rPro/scoop-bucket
 pssuspend.json    niheaven/scoop-sysinternals
 ctrl2cap.json    niheaven/scoop-sysinternals
 disk2vhd.json    niheaven/scoop-sysinternals
@@ -8349,6 +8378,7 @@ movefile.json    niheaven/scoop-sysinternals
 ldmdump.json    niheaven/scoop-sysinternals
 diskext.json    niheaven/scoop-sysinternals
 sigcheck.json    niheaven/scoop-sysinternals
+whois_niheaven.json    niheaven/scoop-sysinternals
 sysmon.json    niheaven/scoop-sysinternals
 testlimit.json    niheaven/scoop-sysinternals
 notmyfault.json    niheaven/scoop-sysinternals
@@ -8619,7 +8649,7 @@ blisk-portable.json    naderi/scoop-bucket
 firefox-nightly-fa.json    naderi/scoop-bucket
 gitnote_naderi.json    naderi/scoop-bucket
 pdf-xchange-viewer_naderi.json    naderi/scoop-bucket
-tracy.json    naderi/scoop-bucket
+tracy_naderi.json    naderi/scoop-bucket
 sonarr.json    naderi/scoop-bucket
 proxsign.json    naderi/scoop-bucket
 cleanmgrplus-de.json    naderi/scoop-bucket
@@ -9702,6 +9732,7 @@ perl@5.26+gcc.json    rivy/scoop-bucket
 iconv@1.14-3.json    rivy/scoop-bucket
 shfmt@3.4.3.json    rivy/scoop-bucket
 glow@1.4.1.json    rivy/scoop-bucket
+python@mini-3.11.5.json    rivy/scoop-bucket
 nim@1.6.12-x64.json    rivy/scoop-bucket
 nodejs@lts-10.15.3.json    rivy/scoop-bucket
 xmake@2.2.1.json    rivy/scoop-bucket
@@ -9804,6 +9835,7 @@ adoptopenjdk@11.0+28.json    rivy/scoop-bucket
 git@2.41.0.1.json    rivy/scoop-bucket
 make@4.2.json    rivy/scoop-bucket
 deno@0.31.0.json    rivy/scoop-bucket
+zig@0.10.1.json    rivy/scoop-bucket
 git@2.39.0.2.json    rivy/scoop-bucket
 perl@5.18.4.1+gcc.json    rivy/scoop-bucket
 perl@5.24.3.1+gcc.json    rivy/scoop-bucket
@@ -9832,6 +9864,7 @@ nim@1.0.2-x64.json    rivy/scoop-bucket
 v@latest.json    rivy/scoop-bucket
 graphviz@5.0.0.json    rivy/scoop-bucket
 file@5.43.json    rivy/scoop-bucket
+odin@dev-2023-08.json    rivy/scoop-bucket
 upx@3.96.json    rivy/scoop-bucket
 busybox@1.37.0.json    rivy/scoop-bucket
 cmake@3.23.2.json    rivy/scoop-bucket
@@ -9977,6 +10010,7 @@ openssh@7.1p2.json    rivy/scoop-bucket
 dosbox-x@0.83.20.json    rivy/scoop-bucket
 task@3.14.0.json    rivy/scoop-bucket
 llvm@14.0.6.json    rivy/scoop-bucket
+python@mini-3.10.5.json    rivy/scoop-bucket
 perl@5.28.json    rivy/scoop-bucket
 embcc.json    rivy/scoop-bucket
 gh@1.2.0.json    rivy/scoop-bucket
@@ -10101,6 +10135,7 @@ mpv.net-cm_hu3rror.json    hu3rror/scoop-muggle
 nhse.json    hu3rror/scoop-muggle
 RyuSAK_hu3rror.json    hu3rror/scoop-muggle
 foobar2000-foobox-en-pack.json    hu3rror/scoop-muggle
+mpv-easy-player_hu3rror.json    hu3rror/scoop-muggle
 zlibrary.json    hu3rror/scoop-muggle
 limitpng.json    hu3rror/scoop-muggle
 imagine_hu3rror.json    hu3rror/scoop-muggle
@@ -10440,6 +10475,7 @@ whisper.json    DoveBoy/Apps
 winfetch_DoveBoy.json    DoveBoy/Apps
 scoop-search-shilangyu.json    DoveBoy/Apps
 umi-ocr_DoveBoy.json    DoveBoy/Apps
+john-the-ripper_DoveBoy.json    DoveBoy/Apps
 onlyoffice-desktopeditors_DoveBoy.json    DoveBoy/Apps
 compactgui_DoveBoy.json    DoveBoy/Apps
 v2ray-rules-dat-git.json    DoveBoy/Apps
@@ -10517,7 +10553,6 @@ pls.json    DoveBoy/Apps
 openoffice_DoveBoy.json    DoveBoy/Apps
 gns3.json    DoveBoy/Apps
 clashy.json    DoveBoy/Apps
-powertoys_DoveBoy.json    DoveBoy/Apps
 pixiv-omina_DoveBoy.json    DoveBoy/Apps
 ss.json    DoveBoy/Apps
 clashwarden_DoveBoy.json    DoveBoy/Apps
