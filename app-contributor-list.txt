@@ -456,6 +456,7 @@ uget.json    ScoopInstaller/Extras
 mqtt-spy.json    ScoopInstaller/Extras
 advancedrenamer.json    ScoopInstaller/Extras
 foxit-pdf-reader.json    ScoopInstaller/Extras
+pulsar.json    ScoopInstaller/Extras
 chromas.json    ScoopInstaller/Extras
 avspmod.json    ScoopInstaller/Extras
 marble.json    ScoopInstaller/Extras
@@ -2246,6 +2247,7 @@ downkyi.json    chawyehsu/dorado
 wechatwork_chawyehsu.json    chawyehsu/dorado
 bypass_chawyehsu.json    chawyehsu/dorado
 winlibs-mingw-ucrt-snapshot.json    chawyehsu/dorado
+openai-translator_chawyehsu.json    chawyehsu/dorado
 duck.json    chawyehsu/dorado
 microsoftedge-beta.json    chawyehsu/dorado
 melonds.json    chawyehsu/dorado
@@ -6510,7 +6512,6 @@ lockhunter-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 sandboxie-classic-np.json    ScoopInstaller/Nonportable
 nsis-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 textpad8-np.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-mega-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 wireguard-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 devtoys-np.json    ScoopInstaller/Nonportable
 goodsync-np.json    ScoopInstaller/Nonportable
@@ -6522,7 +6523,6 @@ virtualbox-with-extension-pack-np_ScoopInstaller.json    ScoopInstaller/Nonporta
 protonvpn-np.json    ScoopInstaller/Nonportable
 lantern-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 calibre-np_ScoopInstaller.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-full-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 powertoys-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 bluestacks-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 qttabbar-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -6587,7 +6587,6 @@ burp-suite-community-np.json    ScoopInstaller/Nonportable
 voicemeeter-np.json    ScoopInstaller/Nonportable
 burp-suite-pro-np.json    ScoopInstaller/Nonportable
 files-np.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-standard-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 workman-p-uk-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 workman-p-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 parsec-np.json    ScoopInstaller/Nonportable
@@ -6605,7 +6604,6 @@ voicemeeter-potato-np.json    ScoopInstaller/Nonportable
 asio4all-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 sandboxie-plus-np.json    ScoopInstaller/Nonportable
 winbtrfs-np_ScoopInstaller.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-basic-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 openhashtab-np.json    ScoopInstaller/Nonportable
 dshidmini-np.json    ScoopInstaller/Nonportable
 mactype-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -7811,7 +7809,6 @@ notion_akirco.json    akirco/aki-apps
 say_akirco.json    akirco/aki-apps
 wget_akirco.json    akirco/aki-apps
 typora_akirco.json    akirco/aki-apps
-crow-translate_akirco.json    akirco/aki-apps
 vcredist2015_akirco.json    akirco/aki-apps
 gsudo_akirco.json    akirco/aki-apps
 ftnn_akirco.json    akirco/aki-apps
@@ -8071,7 +8068,6 @@ WechatWork_akirco.json    akirco/aki-apps
 lf_akirco.json    akirco/aki-apps
 png2jpeg_akirco.json    akirco/aki-apps
 Thunder_akirco.json    akirco/aki-apps
-electron-fiddle_akirco.json    akirco/aki-apps
 xidel_akirco.json    akirco/aki-apps
 zola_akirco.json    akirco/aki-apps
 postman_akirco.json    akirco/aki-apps
@@ -8236,6 +8232,7 @@ vscan_arch3rPro.json    arch3rPro/scoop-bucket
 masscan.json    arch3rPro/scoop-bucket
 FluentSearch_arch3rPro.json    arch3rPro/scoop-bucket
 emeditor_arch3rPro.json    arch3rPro/scoop-bucket
+mobaxterm_arch3rPro.json    arch3rPro/scoop-bucket
 notepad--_arch3rPro.json    arch3rPro/scoop-bucket
 gda_arch3rPro.json    arch3rPro/scoop-bucket
 wub_arch3rPro.json    arch3rPro/scoop-bucket
@@ -8266,6 +8263,7 @@ shellfire.json    arch3rPro/scoop-bucket
 burpsuite-np.json    arch3rPro/scoop-bucket
 postman-cn_arch3rPro.json    arch3rPro/scoop-bucket
 xray_arch3rPro.json    arch3rPro/scoop-bucket
+easysrv.json    arch3rPro/scoop-bucket
 BrowserGhost.json    arch3rPro/scoop-bucket
 httpx_arch3rPro.json    arch3rPro/scoop-bucket
 cobaltstrike.json    arch3rPro/scoop-bucket
@@ -8491,7 +8489,7 @@ alwaysmousewheel.json    naderi/scoop-bucket
 icofx.json    naderi/scoop-bucket
 bloatynosy.json    naderi/scoop-bucket
 edge-portable-dev.json    naderi/scoop-bucket
-pulsar.json    naderi/scoop-bucket
+pulsar_naderi.json    naderi/scoop-bucket
 firefox-esr-portable.json    naderi/scoop-bucket
 clink-portable.json    naderi/scoop-bucket
 firefox-portable-fa.json    naderi/scoop-bucket
@@ -9287,6 +9285,7 @@ parallels-client.json    amorphobia/siku
 todesk_amorphobia.json    amorphobia/siku
 cargo-binstall.json    amorphobia/siku
 posh-cd.json    amorphobia/siku
+clash-for-windows_amorphobia.json    amorphobia/siku
 fido.json    amorphobia/siku
 radarr_amorphobia.json    amorphobia/siku
 xmcl.json    amorphobia/siku
@@ -10521,7 +10520,6 @@ sox_DoveBoy.json    DoveBoy/Apps
 pansy.json    DoveBoy/Apps
 naiveproxy_DoveBoy.json    DoveBoy/Apps
 telegram_DoveBoy.json    DoveBoy/Apps
-chatgpt_DoveBoy.json    DoveBoy/Apps
 neteaseuu_DoveBoy.json    DoveBoy/Apps
 typioca_DoveBoy.json    DoveBoy/Apps
 grep_DoveBoy.json    DoveBoy/Apps
