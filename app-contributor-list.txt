@@ -2247,7 +2247,6 @@ downkyi.json    chawyehsu/dorado
 wechatwork_chawyehsu.json    chawyehsu/dorado
 bypass_chawyehsu.json    chawyehsu/dorado
 winlibs-mingw-ucrt-snapshot.json    chawyehsu/dorado
-openai-translator_chawyehsu.json    chawyehsu/dorado
 duck.json    chawyehsu/dorado
 microsoftedge-beta.json    chawyehsu/dorado
 melonds.json    chawyehsu/dorado
@@ -2263,6 +2262,7 @@ gnupg-np.json    chawyehsu/dorado
 neteaseuuvoice.json    chawyehsu/dorado
 subtitles-database.json    chawyehsu/dorado
 clash-verge_chawyehsu.json    chawyehsu/dorado
+lxmusic.json    chawyehsu/dorado
 bilibili-livehime.json    chawyehsu/dorado
 obs-classic.json    chawyehsu/dorado
 powershell-preview.json    chawyehsu/dorado
@@ -3951,7 +3951,7 @@ DriverTalent_L-Trump.json    L-Trump/scoop-raresoft
 LanzouGUI.json    L-Trump/scoop-raresoft
 FormatFactory.json    L-Trump/scoop-raresoft
 MrOtter.json    L-Trump/scoop-raresoft
-LxMusic.json    L-Trump/scoop-raresoft
+LxMusic_L-Trump.json    L-Trump/scoop-raresoft
 TencentEDU.json    L-Trump/scoop-raresoft
 WondershareRecoverit.json    L-Trump/scoop-raresoft
 WinSnap_L-Trump.json    L-Trump/scoop-raresoft
@@ -4732,18 +4732,6 @@ ynote.json    scoopcn/scoopcn
 we-meet.json    scoopcn/scoopcn
 wechat-beta.json    scoopcn/scoopcn
 cloudmusic.json    scoopcn/scoopcn
-wsl-opensuse.json    KNOXDEV/wsl
-wsl-ubuntu2204.json    KNOXDEV/wsl
-wsl-kali.json    KNOXDEV/wsl
-wsl-sles.json    KNOXDEV/wsl
-wsl-fedora.json    KNOXDEV/wsl
-wsl-ubuntu1804-arm.json    KNOXDEV/wsl
-wsl-ubuntu1604.json    KNOXDEV/wsl
-wsl-ubuntu2004.json    KNOXDEV/wsl
-wsl-ubuntu1804.json    KNOXDEV/wsl
-wsl-fedora-arm.json    KNOXDEV/wsl
-wsl-centos9.json    KNOXDEV/wsl
-wsl-debian.json    KNOXDEV/wsl
 biyi.json    hoilc/scoop-lemon
 cloudquery.json    hoilc/scoop-lemon
 facebook-delete.json    hoilc/scoop-lemon
@@ -5489,6 +5477,18 @@ hibernation-recon.json    hoilc/scoop-lemon
 comrak.json    hoilc/scoop-lemon
 zonenetclient.json    hoilc/scoop-lemon
 edgedb-cli-nightly.json    hoilc/scoop-lemon
+wsl-opensuse.json    KNOXDEV/wsl
+wsl-ubuntu2204.json    KNOXDEV/wsl
+wsl-kali.json    KNOXDEV/wsl
+wsl-sles.json    KNOXDEV/wsl
+wsl-fedora.json    KNOXDEV/wsl
+wsl-ubuntu1804-arm.json    KNOXDEV/wsl
+wsl-ubuntu1604.json    KNOXDEV/wsl
+wsl-ubuntu2004.json    KNOXDEV/wsl
+wsl-ubuntu1804.json    KNOXDEV/wsl
+wsl-fedora-arm.json    KNOXDEV/wsl
+wsl-centos9.json    KNOXDEV/wsl
+wsl-debian.json    KNOXDEV/wsl
 qqlive_echoiron.json    echoiron/echo-scoop
 qshell_echoiron.json    echoiron/echo-scoop
 notepad2-mod_echoiron.json    echoiron/echo-scoop
@@ -8247,6 +8247,7 @@ svnExploit.json    arch3rPro/scoop-bucket
 nuclei_arch3rPro.json    arch3rPro/scoop-bucket
 ksubdomain_arch3rPro.json    arch3rPro/scoop-bucket
 PrintNotifyPotato.json    arch3rPro/scoop-bucket
+SecLists.json    arch3rPro/scoop-bucket
 xssor2.json    arch3rPro/scoop-bucket
 jndinjector_arch3rPro.json    arch3rPro/scoop-bucket
 stowaway.json    arch3rPro/scoop-bucket
@@ -8670,7 +8671,6 @@ securefs_naderi.json    naderi/scoop-bucket
 vlc-portable_naderi.json    naderi/scoop-bucket
 extraterm_naderi.json    naderi/scoop-bucket
 caret-beta_naderi.json    naderi/scoop-bucket
-duck_naderi.json    naderi/scoop-bucket
 bat-to-exe-converter.json    naderi/scoop-bucket
 birdfont.json    naderi/scoop-bucket
 texts_naderi.json    naderi/scoop-bucket
@@ -10610,6 +10610,7 @@ hysteria_DoveBoy.json    DoveBoy/Apps
 vhs_DoveBoy.json    DoveBoy/Apps
 obs-studio-pre_DoveBoy.json    DoveBoy/Apps
 video-subtitle-extractor-cpu.json    DoveBoy/Apps
+crystaldiskmark-shizuku-edition_DoveBoy.json    DoveBoy/Apps
 sendto-menu-editor_DoveBoy.json    DoveBoy/Apps
 ntrace-core.json    DoveBoy/Apps
 wtv.json    DoveBoy/Apps
