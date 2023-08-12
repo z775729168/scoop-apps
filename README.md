@@ -82,7 +82,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - akirco/aki-apps
 - ViCrack/scoop-bucket
-- arch3rPro/scoop-bucket
+- arch3rPro/PST-Bucket
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
 - ygguorun/scoop-bucket
@@ -90,6 +90,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - NyaMisty/scoop_bucket_misty
 - jonz94/scoop-sarasa-nerd-fonts
+- jfut/scoop-jfut
 - batkiz/backit
 - Velgus/Scoop-Portapps
 - amorphobia/siku
