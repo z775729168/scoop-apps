@@ -1,27 +1,27 @@
 {
     "version": "20230813",
-    "description": "mpv. Video player based on MPlayer/mplayer2 (builds by shinchiro)",
+    "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
     "notes": [
-        "To set up file type associations and AutoPlay handlers run '$dir\\installer\\mpv-install.bat' as administrator.",
-        "This doesn't need to be done everytime you update mpv however, do keep in mind that if you want to uninstall mpv you'll need to run '$dir\\installer\\mpv-uninstall.bat' beforehand since this action will not be performed automatically.",
-        "You can use Icaros (https://www.majorgeeks.com/files/details/icaros.html) to enable thumbnails for all media types."
+        "To set and unset file type associations and AutoPlay handlers, run '$dir\\installer\\mpv-install.bat' and '$dir\\installer\\mpv-uninstall.bat' as administrator, respectively.",
+        "You can use Icaros ('nonportable/icaros-np') to enable thumbnails for all media types."
     ],
     "suggest": {
-        "youtube-dl": "youtube-dl"
+        "yt-dlp": "yt-dlp"
     },
     "architecture": {
         "64bit": {
             "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20230813-git-598e301.7z",
-            "hash": "bbda2dcaa7b1d8571de2821382823699bbc1e5864246a8d8e182cdcdeb4a3585"
+            "hash": "sha1:47e478fe9304d723e964b85f22693648d6aa9c3d"
         },
         "32bit": {
             "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20230813-git-598e301.7z",
-            "hash": "1e8f4e0e891b86784cc4c1c94ae175b458332a62028345ec5848aa0339fb98a0"
+            "hash": "sha1:f91457983234ad82df86f456c8ef20188c3adaf1"
         }
     },
-    "bin": "mpv.com",
+    "pre_install": "Remove-Item \"$dir\\updater.bat\"",
+    "env_add_path": ".",
     "shortcuts": [
         [
             "mpv.exe",
@@ -30,7 +30,7 @@
     ],
     "persist": "portable_config",
     "checkver": {
-        "url": "https://sourceforge.net/projects/mpv-player-windows/rss?path=/64bit",
+        "sourceforge": "mpv-player-windows/64bit",
         "regex": "mpv-x86_64-(\\d+)-git-(?<commit>[\\da-f]+)\\.7z"
     },
     "autoupdate": {
