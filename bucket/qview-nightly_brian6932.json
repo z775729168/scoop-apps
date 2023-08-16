@@ -1,28 +1,21 @@
 {
-    "version": "5842646676",
+    "version": "5874773875",
     "description": "Practical and minimal image viewer",
     "homepage": "https://github.com/jurplel/qView",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/jurplel/qView/workflows/build/master/qView-nightly-Windows_64-2023-08-12.1.zip",
-            "hash": "211006c06d7f4bef2c1e04802d26c46c073b250815602820beb5411f44002edb"
+            "url": "https://nightly.link/jurplel/qView/workflows/build/master/qView-nightly-Windows_64-2023-08-16.1.zip",
+            "hash": "661eca74e885092a1b2a22a8aa02718b73d6573c2563e0c566e548c11b4097cb"
         },
         "32bit": {
-            "url": "https://nightly.link/jurplel/qView/workflows/build/master/qView-nightly-Windows_32-2023-08-12.1.zip",
-            "hash": "8f2937d7519d6eda63ef2bda5b66e1ca5f0ba16ed9a78864a9fe24212575801f"
+            "url": "https://nightly.link/jurplel/qView/workflows/build/master/qView-nightly-Windows_32-2023-08-16.1.zip",
+            "hash": "20188b1e233d929cda11a5de1c507edd293014f396979b95bb2dc63eb00713cc"
         }
     },
     "pre_install": [
         "Get-ChildItem \"$dir\\qView-nightly-*.exe\" | Rename-Item -NewName { $_.name -Replace '-nightly.+', '.exe' }",
-        "Remove-Item \"$dir\\qView-*.*-win*.exe\"",
-        "'apng', 'apngd', 'avif', 'jpegxl' | ForEach-Object { $_ = \"imageformats\\q$_.dll\"; if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null } }"
-    ],
-    "persist": [
-        "imageformats\\qapng.dll",
-        "imageformats\\qapngd.dll",
-        "imageformats\\qavif.dll",
-        "imageformats\\qjpegxl.dll"
+        "Remove-Item \"$dir\\qView-*.*-win*.exe\""
     ],
     "bin": "qView.exe",
     "shortcuts": [
