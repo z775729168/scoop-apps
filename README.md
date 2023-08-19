@@ -88,8 +88,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
-- NyaMisty/scoop_bucket_misty
 - jonz94/scoop-sarasa-nerd-fonts
+- NyaMisty/scoop_bucket_misty
 - jfut/scoop-jfut
 - batkiz/backit
 - Velgus/Scoop-Portapps

@@ -6660,6 +6660,7 @@ xenia-canary_borger.json    borger/scoop-emulators
 project64-dev_borger.json    borger/scoop-emulators
 vita3k_borger.json    borger/scoop-emulators
 steam-rom-manager_borger.json    borger/scoop-emulators
+ryujinx-ava_borger.json    borger/scoop-emulators
 flycast_borger.json    borger/scoop-emulators
 mednafen-dev_borger.json    borger/scoop-emulators
 dolphin-dev_borger.json    borger/scoop-emulators
@@ -6718,6 +6719,7 @@ mpg123-dynamic.json    dodorz/scoop
 LightAlloy.json    dodorz/scoop
 odiff.json    dodorz/scoop
 Iridium.json    dodorz/scoop
+MediaCoder.json    dodorz/scoop
 Story-writer.json    dodorz/scoop
 FocusNote.json    dodorz/scoop
 ConsoleZ_dodorz.json    dodorz/scoop
@@ -7733,6 +7735,7 @@ OracleJDK17.json    zhoujin7/tomato
 MDict_zhoujin7.json    zhoujin7/tomato
 wnr_zhoujin7.json    zhoujin7/tomato
 FSCapture_zhoujin7.json    zhoujin7/tomato
+PhotoFiltre11.json    zhoujin7/tomato
 PartAssist_zhoujin7.json    zhoujin7/tomato
 CCleaner540.json    zhoujin7/tomato
 PixBuilder.json    zhoujin7/tomato
@@ -7985,7 +7988,6 @@ python_akirco.json    akirco/aki-apps
 wx_qq_revokeMsgPatcher.json    akirco/aki-apps
 upscaler.json    akirco/aki-apps
 fat32format_akirco.json    akirco/aki-apps
-youtubedownloader_akirco.json    akirco/aki-apps
 redis5_akirco.json    akirco/aki-apps
 speedtest-cli_akirco.json    akirco/aki-apps
 directoryPredictor.json    akirco/aki-apps
@@ -8342,10 +8344,12 @@ scaninfo.json    arch3rPro/PST-Bucket
 sqlmap.json    arch3rPro/PST-Bucket
 LadonGo.json    arch3rPro/PST-Bucket
 goproxy_arch3rPro.json    arch3rPro/PST-Bucket
+GoFuzz.json    arch3rPro/PST-Bucket
 npcap.json    arch3rPro/PST-Bucket
 hydra.json    arch3rPro/PST-Bucket
 naabu_arch3rPro.json    arch3rPro/PST-Bucket
 LFISuite.json    arch3rPro/PST-Bucket
+whatweb.json    arch3rPro/PST-Bucket
 venom.json    arch3rPro/PST-Bucket
 webshell_generate_arch3rPro.json    arch3rPro/PST-Bucket
 dirbuster.json    arch3rPro/PST-Bucket
@@ -8941,20 +8945,6 @@ yj.json    iquiw/scoop-bucket
 cinc-auditor.json    iquiw/scoop-bucket
 buildkit.json    iquiw/scoop-bucket
 ct_iquiw.json    iquiw/scoop-bucket
-ghidramod.json    NyaMisty/scoop_bucket_misty
-libimobiledevice-nightly.json    NyaMisty/scoop_bucket_misty
-carnac-misty.json    NyaMisty/scoop_bucket_misty
-wireshark-nightly.json    NyaMisty/scoop_bucket_misty
-trays.json    NyaMisty/scoop_bucket_misty
-rizin_NyaMisty.json    NyaMisty/scoop_bucket_misty
-fermion.json    NyaMisty/scoop_bucket_misty
-dnSpyEx_NyaMisty.json    NyaMisty/scoop_bucket_misty
-ghidra-nightly.json    NyaMisty/scoop_bucket_misty
-metasploit-framework_NyaMisty.json    NyaMisty/scoop_bucket_misty
-fclone.json    NyaMisty/scoop_bucket_misty
-dnSpyEx-nightly.json    NyaMisty/scoop_bucket_misty
-ghidra-beta.json    NyaMisty/scoop_bucket_misty
-gostv3.json    NyaMisty/scoop_bucket_misty
 sarasa-mono-hc-nerd-font.json    jonz94/scoop-sarasa-nerd-fonts
 sarasa-fixed-sc-nerd-font.json    jonz94/scoop-sarasa-nerd-fonts
 sarasa-fixed-slab-k-nerd-font.json    jonz94/scoop-sarasa-nerd-fonts
@@ -9004,6 +8994,20 @@ sarasa-term-j-nerd-font.json    jonz94/scoop-sarasa-nerd-fonts
 sarasa-mono-sc-nerd-font.json    jonz94/scoop-sarasa-nerd-fonts
 sarasa-ui-hc-nerd-font.json    jonz94/scoop-sarasa-nerd-fonts
 sarasa-fixed-slab-j-nerd-font.json    jonz94/scoop-sarasa-nerd-fonts
+ghidramod.json    NyaMisty/scoop_bucket_misty
+libimobiledevice-nightly.json    NyaMisty/scoop_bucket_misty
+carnac-misty.json    NyaMisty/scoop_bucket_misty
+wireshark-nightly.json    NyaMisty/scoop_bucket_misty
+trays.json    NyaMisty/scoop_bucket_misty
+rizin_NyaMisty.json    NyaMisty/scoop_bucket_misty
+fermion.json    NyaMisty/scoop_bucket_misty
+dnSpyEx_NyaMisty.json    NyaMisty/scoop_bucket_misty
+ghidra-nightly.json    NyaMisty/scoop_bucket_misty
+metasploit-framework_NyaMisty.json    NyaMisty/scoop_bucket_misty
+fclone.json    NyaMisty/scoop_bucket_misty
+dnSpyEx-nightly.json    NyaMisty/scoop_bucket_misty
+ghidra-beta.json    NyaMisty/scoop_bucket_misty
+gostv3.json    NyaMisty/scoop_bucket_misty
 emeditor_jfut.json    jfut/scoop-jfut
 lyricsmaster.json    jfut/scoop-jfut
 clnch.json    jfut/scoop-jfut
@@ -9340,7 +9344,6 @@ parallels-client.json    amorphobia/siku
 todesk_amorphobia.json    amorphobia/siku
 cargo-binstall.json    amorphobia/siku
 posh-cd.json    amorphobia/siku
-clash-for-windows_amorphobia.json    amorphobia/siku
 fido.json    amorphobia/siku
 radarr_amorphobia.json    amorphobia/siku
 xmcl.json    amorphobia/siku
@@ -9506,6 +9509,7 @@ rstudio_cc713.json    cc713/ownscoop
 PicView.json    cc713/ownscoop
 python-docs-zh-cn.json    cc713/ownscoop
 PureCodec.json    cc713/ownscoop
+bililiverecorder_cc713.json    cc713/ownscoop
 JMComic-qt.json    cc713/ownscoop
 keepass-plugin-KPSimpleBackup.json    cc713/ownscoop
 qimgv_cc713.json    cc713/ownscoop
@@ -10389,6 +10393,7 @@ v2rayn_DoveBoy.json    DoveBoy/Apps
 sandboxie-classic_DoveBoy.json    DoveBoy/Apps
 yt-dlp_DoveBoy.json    DoveBoy/Apps
 ffmpeg-shared_DoveBoy.json    DoveBoy/Apps
+openbbterminal.json    DoveBoy/Apps
 clash.meta-alpha.json    DoveBoy/Apps
 64gram-release.json    DoveBoy/Apps
 network-profile-name-changer_DoveBoy.json    DoveBoy/Apps
@@ -10563,6 +10568,7 @@ waifu2x-extension-gui-beta.json    DoveBoy/Apps
 gimp_DoveBoy.json    DoveBoy/Apps
 clink-flex-prompt_DoveBoy.json    DoveBoy/Apps
 remove-ms-edge.json    DoveBoy/Apps
+spleetergui-portable_DoveBoy.json    DoveBoy/Apps
 gotop_DoveBoy.json    DoveBoy/Apps
 alist_DoveBoy.json    DoveBoy/Apps
 network-proxy-flutter.json    DoveBoy/Apps
@@ -10608,7 +10614,6 @@ typora-dev.json    DoveBoy/Apps
 lanzouyun-disk.json    DoveBoy/Apps
 7zip_DoveBoy.json    DoveBoy/Apps
 mediacreationtool-bat.json    DoveBoy/Apps
-saber_DoveBoy.json    DoveBoy/Apps
 idm_DoveBoy.json    DoveBoy/Apps
 pwsh-beta_DoveBoy.json    DoveBoy/Apps
 sandboxie-plus-np_DoveBoy.json    DoveBoy/Apps
@@ -11258,6 +11263,7 @@ spotify-tui_HUMORCE.json    HUMORCE/nuke
 anime4k-glsl_HUMORCE.json    HUMORCE/nuke
 anime4kcpp-avisynthplus-plugin.json    HUMORCE/nuke
 xpdf-tools-LSP-hebrew.json    HUMORCE/nuke
+godot-lts.json    HUMORCE/nuke
 officetool-plus.json    HUMORCE/nuke
 ntlite_HUMORCE.json    HUMORCE/nuke
 localsend_HUMORCE.json    HUMORCE/nuke
