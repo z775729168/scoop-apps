@@ -85,10 +85,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ViCrack/scoop-bucket
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
+- jonz94/scoop-sarasa-nerd-fonts
 - ygguorun/scoop-bucket
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
-- jonz94/scoop-sarasa-nerd-fonts
 - NyaMisty/scoop_bucket_misty
 - jfut/scoop-jfut
 - batkiz/backit
