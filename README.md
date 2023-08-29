@@ -89,11 +89,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
+- amorphobia/siku
 - NyaMisty/scoop_bucket_misty
 - jfut/scoop-jfut
 - batkiz/backit
 - Velgus/Scoop-Portapps
-- amorphobia/siku
 - mogeko/scoop-sysinternals
 - ChungZH/peach
 - DoveBoy/Apps
