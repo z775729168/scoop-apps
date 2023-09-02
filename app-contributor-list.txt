@@ -4805,7 +4805,7 @@ libportable-iceweasel.json    hoilc/scoop-lemon
 garden.json    hoilc/scoop-lemon
 sclient.json    hoilc/scoop-lemon
 hyplayer.json    hoilc/scoop-lemon
-mongodb-atlas-cli.json    hoilc/scoop-lemon
+mongodb-atlas-cli_hoilc.json    hoilc/scoop-lemon
 whisper-ps.json    hoilc/scoop-lemon
 pdgcnteditor.json    hoilc/scoop-lemon
 tencent-transmart.json    hoilc/scoop-lemon
@@ -5238,7 +5238,7 @@ pinniped-cli.json    hoilc/scoop-lemon
 redis-rdb-cli.json    hoilc/scoop-lemon
 terraformer_hoilc.json    hoilc/scoop-lemon
 mongodb-compass-isolated.json    hoilc/scoop-lemon
-sing-box.json    hoilc/scoop-lemon
+sing-box_hoilc.json    hoilc/scoop-lemon
 arthas_hoilc.json    hoilc/scoop-lemon
 trdsql.json    hoilc/scoop-lemon
 terrascan.json    hoilc/scoop-lemon
@@ -6711,6 +6711,19 @@ SourceHanSansKR.json    everyx/scoop-bucket
 CascadiaCode.json    everyx/scoop-bucket
 exiftoolgui.json    everyx/scoop-bucket
 hellofont_everyx.json    everyx/scoop-bucket
+ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
+neovim-dev.json    TheRandomLabs/Scoop-Bucket
+raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+custom-resolution-utility_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
+windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
+rfxgen.json    TheRandomLabs/Scoop-Bucket
+aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
+luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
+shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+corsair-icue.json    TheRandomLabs/Scoop-Bucket
 .markdownlint_borger.json    borger/scoop-emulators
 pcsx2_borger.json    borger/scoop-emulators
 snes9x-dev_borger.json    borger/scoop-emulators
@@ -6749,7 +6762,6 @@ redream_borger.json    borger/scoop-emulators
 dolphin_borger.json    borger/scoop-emulators
 mesen_borger.json    borger/scoop-emulators
 snes9x_borger.json    borger/scoop-emulators
-ryujinx-ava_borger.json    borger/scoop-emulators
 mgba_borger.json    borger/scoop-emulators
 yuzu-dev.json    borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json    borger/scoop-emulators
@@ -7475,19 +7487,6 @@ Random_dodorz.json    dodorz/scoop
 TorchBrowser.json    dodorz/scoop
 Sizer.json    dodorz/scoop
 Skylark_dodorz.json    dodorz/scoop
-ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
-neovim-dev.json    TheRandomLabs/Scoop-Bucket
-raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-custom-resolution-utility_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
-windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
-rfxgen.json    TheRandomLabs/Scoop-Bucket
-aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
-luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
-shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-corsair-icue.json    TheRandomLabs/Scoop-Bucket
 qq-dreamcast.json    ZvonimirSun/scoop-iszy
 picgo_ZvonimirSun.json    ZvonimirSun/scoop-iszy
 oraclejdk8-8u151.json    ZvonimirSun/scoop-iszy
@@ -7988,7 +7987,6 @@ gdu_akirco.json    akirco/aki-apps
 helix_akirco.json    akirco/aki-apps
 ysyy.json    akirco/aki-apps
 x265_akirco.json    akirco/aki-apps
-youtubedownloader_akirco.json    akirco/aki-apps
 DefenderControl.json    akirco/aki-apps
 nu_akirco.json    akirco/aki-apps
 gof_akirco.json    akirco/aki-apps
@@ -9088,7 +9086,6 @@ bcdown.json    amorphobia/siku
 ls-interactive.json    amorphobia/siku
 scoop-find.json    amorphobia/siku
 clash-verge_amorphobia.json    amorphobia/siku
-clash-for-windows_amorphobia.json    amorphobia/siku
 todesk_amorphobia.json    amorphobia/siku
 hfsexplorer.json    amorphobia/siku
 wiliwili_amorphobia.json    amorphobia/siku
@@ -9554,6 +9551,7 @@ zoomit_DoveBoy.json    DoveBoy/Apps
 scoop-shim_DoveBoy.json    DoveBoy/Apps
 tim_DoveBoy.json    DoveBoy/Apps
 purewriter_DoveBoy.json    DoveBoy/Apps
+min-portable.json    DoveBoy/Apps
 umi-ocr_DoveBoy.json    DoveBoy/Apps
 v2ray-rules-dat-git.json    DoveBoy/Apps
 shadowsocksr-hmbsbige-full.json    DoveBoy/Apps
@@ -9583,6 +9581,7 @@ auto-unlocker.json    DoveBoy/Apps
 runastool_DoveBoy.json    DoveBoy/Apps
 diskgeniuslite-zh.json    DoveBoy/Apps
 firewallappblocker_DoveBoy.json    DoveBoy/Apps
+min_DoveBoy.json    DoveBoy/Apps
 alist_DoveBoy.json    DoveBoy/Apps
 crystaldiskinfo-shizuku-edition_DoveBoy.json    DoveBoy/Apps
 betterncm_DoveBoy.json    DoveBoy/Apps
@@ -9795,6 +9794,7 @@ scoop-backup-knoxdev.json    DoveBoy/Apps
 pixivutil2.json    DoveBoy/Apps
 folder-painter_DoveBoy.json    DoveBoy/Apps
 v2raya-unstable.json    DoveBoy/Apps
+wechat-backup.json    DoveBoy/Apps
 cntv.json    DoveBoy/Apps
 imageglass_DoveBoy.json    DoveBoy/Apps
 volta-tab-completion.json    DoveBoy/Apps
@@ -10001,6 +10001,7 @@ bbdown_cc713.json    cc713/ownscoop
 xdm-dev.json    cc713/ownscoop
 rstudio_cc713.json    cc713/ownscoop
 JMComic-qt.json    cc713/ownscoop
+bililiverecorder_cc713.json    cc713/ownscoop
 PicView-noRT.json    cc713/ownscoop
 Irfanview-plugins.json    cc713/ownscoop
 KeymouseGo_cc713.json    cc713/ownscoop
@@ -11151,7 +11152,6 @@ gif2apng-cli.json    brian6932/dank-scoop
 OpenHardwareMonitorReport.json    brian6932/dank-scoop
 7zTC.json    brian6932/dank-scoop
 chatterino7_brian6932.json    brian6932/dank-scoop
-gimagereader.json    brian6932/dank-scoop
 vtm.json    brian6932/dank-scoop
 memory-checker.json    brian6932/dank-scoop
 technorino-portable.json    brian6932/dank-scoop
@@ -11193,7 +11193,6 @@ misc.json    brian6932/dank-scoop
 apngopt-cli.json    brian6932/dank-scoop
 dankerino-qt6.json    brian6932/dank-scoop
 gameboosthd_brian6932.json    brian6932/dank-scoop
-wget2_brian6932.json    brian6932/dank-scoop
 cache-monkey.json    brian6932/dank-scoop
 revoker.json    brian6932/dank-scoop
 sysdvr-client.json    brian6932/dank-scoop
@@ -11257,6 +11256,8 @@ mpv-persist-properties.json    brian6932/dank-scoop
 mozlz4.json    brian6932/dank-scoop
 clima.json    brian6932/dank-scoop
 OpenHashTab_brian6932.json    brian6932/dank-scoop
+gimagereader.json    brian6932/dank-scoop
+wget2_brian6932.json    brian6932/dank-scoop
 z.lua_HUMORCE.json    HUMORCE/nuke
 gminer.json    HUMORCE/nuke
 hitomi-downloader_HUMORCE.json    HUMORCE/nuke
