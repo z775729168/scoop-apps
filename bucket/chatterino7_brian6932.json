@@ -1,0 +1,32 @@
+{
+    "version": "5986594085",
+    "description": "Chat client for https://twitch.tv",
+    "homepage": "https://github.com/SevenTV/chatterino7",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-5.15.2.zip",
+            "hash": "aedbf7d8a225a950fdec06b22ea3fcee6d0ace46fc3ad339ddf768db822c7fc3",
+            "extract_dir": "Chatterino2",
+            "pre_install": "Get-ChildItem \"$dir\\chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o7') }"
+        }
+    },
+    "shortcuts": [
+        [
+            "chatterino7.exe",
+            "Chatterino7"
+        ]
+    ],
+    "bin": "chatterino7.exe",
+    "checkver": {
+        "url": "https://api.github.com/repositories/342454835/actions/workflows/build.yml/runs?branch=chatterino7&status=success",
+        "jsonpath": "$.workflow_runs[0].id"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-5.15.2.zip"
+            }
+        }
+    }
+}

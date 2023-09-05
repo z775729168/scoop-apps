@@ -1,0 +1,70 @@
+{
+    "version": "118.0b4",
+    "description": "Firefox Beta: open source web browser. Custom policies.json file. Italian Language Pack.",
+    "homepage": "https://www.mozilla.org/it/firefox/beta/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://archive.mozilla.org/pub/firefox/releases/118.0b4/win64/it/Firefox%20Setup%20118.0b4.exe#/dl.7z",
+                "https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+            ],
+            "hash": [
+                "sha512:246579c0fede836b34e25f8d861ff582c1f620aae6b33e38a630ade8300693cc27da1d2205ab377c48d014b1a54732e05016d087ea937f620d340afae1c88441",
+                "cb75fbc7489904edf08041213b70c67c8dad3f54fdecdadd623fdb0f44cbaef6"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://archive.mozilla.org/pub/firefox/releases/118.0b4/win32/it/Firefox%20Setup%20118.0b4.exe#/dl.7z",
+                "https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+            ],
+            "hash": [
+                "sha512:82323f7b92efbb24993d153a1ac8b9dd665253033603da8e6f8d2053ec938ba8740173ada87574298041b1c40eac9ca80bbe1c31bb9db1660f754f309db2fd34",
+                "cb75fbc7489904edf08041213b70c67c8dad3f54fdecdadd623fdb0f44cbaef6"
+            ]
+        }
+    },
+    "extract_dir": "core",
+    "pre_install": [
+        "if(!(Test-Path \"$persist_dir\\distribution\")) {",
+        "  New-Item \"$persist_dir\\distribution\" -Type Directory -Force | Out-Null",
+        "  Move-Item \"$dir\\policies.json\" \"$persist_dir\\distribution\\policies.json\"",
+        "}"
+    ],
+    "persist": "distribution",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-beta"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Beta"
+        ]
+    ],
+    "checkver": {
+        "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+        "jsonpath": "$.LATEST_FIREFOX_RELEASED_DEVEL_VERSION"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/it/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/it/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win32/it/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/it/$basename"
+                }
+            }
+        }
+    }
+}

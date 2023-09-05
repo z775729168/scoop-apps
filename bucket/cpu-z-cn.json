@@ -1,0 +1,31 @@
+{
+    "version": "2.07",
+    "description": "System information software.",
+    "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
+    "license": "Unknown",
+    "url": "http://download.cpuid.com/cpu-z/cpu-z_2.07-cn.zip",
+    "hash": "1a912cbe3ad37512062234c837694301d4d40c5431f11198b5ee9c8ca85c8786",
+    "architecture": {
+        "32bit": {
+            "shortcuts": [
+                [
+                    "cpuz_x32.exe",
+                    "CPU-Z Chinese Edition"
+                ]
+            ]
+        },
+        "64bit": {
+            "shortcuts": [
+                [
+                    "cpuz_x64.exe",
+                    "CPU-Z Chinese Edition"
+                ]
+            ]
+        }
+    },
+    "persist": "cpuz.ini",
+    "checkver": "Version ([\\d.]+) for windows",
+    "autoupdate": {
+        "url": "http://download.cpuid.com/cpu-z/cpu-z_$version-cn.zip"
+    }
+}

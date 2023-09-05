@@ -1,0 +1,63 @@
+{
+    "version": "1.11.1.1403",
+    "description": "Modern, dynamic a functional dialect of the LISP programming language for JVM",
+    "homepage": "https://clojure.org",
+    "license": "EPL-1.0",
+    "notes": "Please fully exit and restart any active terminal sessions.",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk"
+        ]
+    },
+    "depends": "extras/vcredist2022",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/borkdude/deps.clj/releases/download/v1.11.1.1403/deps.clj-1.11.1.1403-windows-amd64.zip",
+                "https://github.com/clojure/brew-install/releases/download/1.11.1.1403/clojure-tools.zip"
+            ],
+            "hash": [
+                "278f3020884155b92e255ee41cb2930445719d1ef1fa0457e7868d26610d4735",
+                "e40a5a330b7ed7ab9874ed4f6cd3062a97e20b7973e24f9c4772b2945b1ca68d"
+            ]
+        }
+    },
+    "pre_install": [
+        "Move-Item \"$dir\\ClojureTools\\*\" \"$dir\\\"",
+        "Remove-Item -Path \"$dir\\ClojureTools\",\"$dir\\ClojureTools.psd1\",\"$dir\\ClojureTools.psm1\" -Force -Recurse"
+    ],
+    "env_set": {
+        "DEPS_CLJ_TOOLS_DIR": "$dir"
+    },
+    "bin": [
+        [
+            "deps.exe",
+            "deps"
+        ],
+        [
+            "deps.exe",
+            "clojure"
+        ],
+        [
+            "deps.exe",
+            "clj"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/borkdude/deps.clj/releases",
+        "regex": "tag/v([\\d.]+)(-[\\d]+)?",
+        "replace": "${1}${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/borkdude/deps.clj/releases/download/v$version/deps.clj-$version-windows-amd64.zip",
+                    "https://github.com/clojure/brew-install/releases/download/$matchHead$matchTail/clojure-tools.zip"
+                ]
+            }
+        }
+    }
+}

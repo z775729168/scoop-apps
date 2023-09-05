@@ -1,0 +1,35 @@
+{
+    "version": "3.5.1",
+    "description": "Opens required browser based on configuration",
+    "homepage": "https://www.aloneguid.uk/projects/bt/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aloneguid/bt/releases/download/3.5.1/bt-3.5.1.zip",
+            "hash": "6b9431175f7d09dfd439cac113fdc47c40e2812e1df5874edcf8cbacc7c53ed6"
+        }
+    },
+    "pre_install": [
+        "# Portable",
+        "New-Item \"$dir\\.portable\" -ItemType File | Out-Null",
+        "if (!(Test-Path \"$persist_dir\\config.ini\")) { New-Item \"$dir\\config.ini\" -ItemType File | Out-Null }"
+    ],
+    "bin": "bt.exe",
+    "shortcuts": [
+        [
+            "bt.exe",
+            "Browser Tamer"
+        ]
+    ],
+    "persist": "bt.ini",
+    "checkver": {
+        "github": "https://github.com/aloneguid/bt"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aloneguid/bt/releases/download/$version/bt-$version.zip"
+            }
+        }
+    }
+}

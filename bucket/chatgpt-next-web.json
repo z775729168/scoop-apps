@@ -1,0 +1,26 @@
+{
+    "version": "2.9.5",
+    "description": "A well-designed cross-platform ChatGPT UI",
+    "homepage": "https://github.com/Yidadaa/ChatGPT-Next-Web",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/Yidadaa/ChatGPT-Next-Web/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases/download/v2.9.5/ChatGPT.Next.Web_2.9.5_x64_en-US.msi",
+            "hash": "1531f908c7680ecf8af9949666d6464ecba84d2fbc6e2b756188efc25b356eb8"
+        }
+    },
+    "extract_dir": "PFiles\\ChatGPT Next Web",
+    "shortcuts": [
+        [
+            "ChatGPT Next Web.exe",
+            "ChatGPT Next Web"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases/download/v$version/ChatGPT.Next.Web_$version_x64_en-US.msi"
+    }
+}

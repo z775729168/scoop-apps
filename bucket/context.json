@@ -1,0 +1,57 @@
+{
+    "version": "2023-09-03",
+    "description": "CONTEXT LMTX is a self contained installation of the CONTEXT macro package. It is the follow up on MKII and MKIV and uses the LUAMETATEX engine.",
+    "homepage": "https://www.pragma-ade.nl/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-win64.zip",
+            "hash": "1c53c45b7585c9919009467c1bd520282eafe18d3bdcec0945883da9521baac3"
+        },
+        "32bit": {
+            "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-mswin.zip",
+            "hash": "c6f8bfbe76f5b90740f6364cf9e66bc13962b6204736f655c59eea97fd49b2a7"
+        },
+        "arm64": {
+            "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-windows-arm64.zip",
+            "hash": "caab9d4f9d677ae638e7e607b1518a85ea4b9d9ba2a4831cf5d2bb0bd6c7debc"
+        }
+    },
+    "pre_install": [
+        "$Env:SELFAUTOLOC = \"$dir/bin\"",
+        "$parent = Split-Path $dir -parent",
+        "$Env:SELFAUTODIR = \"$dir\"",
+        "$Env:SELFAUTOPARENT = \"$parent\"",
+        "$curr_dir = pwd",
+        "cd $dir",
+        "cmd.exe /c install.bat",
+        "cmd.exe /c setpath.bat",
+        "cd $curr_dir"
+    ],
+    "bin": [
+        "bin/mtxrun.exe",
+        "tex/texmf-win64/bin/context.exe",
+        "tex/texmf-win64/bin/luatex.exe"
+    ],
+    "post_install": [
+        "context.exe --luatex --generate",
+        "context.exe --make"
+    ],
+    "checkver": {
+        "url": "https://www.pragma-ade.nl/download-1.htm",
+        "regex": "\"more-room\">([\\d-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-win64.zip"
+            },
+            "32bit": {
+                "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-mswin.zip"
+            },
+            "arm64": {
+                "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-windows-arm64.zip"
+            }
+        }
+    }
+}

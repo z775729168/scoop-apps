@@ -1,0 +1,53 @@
+{
+    "version": "119.0a1.20230903210251",
+    "description": "Nightly builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/fa-IR/firefox/nightly/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-119.0a1.fa.win64.zip",
+            "hash": "sha512:6080753a571f7892208229393bce2680b293eed7cbc405a3d360f2ea4f1addad47b0e294a97e3028fa1b233e68f9d4040aea450fa6eb2a95bc40ef0e737f0e4c"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-119.0a1.fa.win32.zip",
+            "hash": "sha512:4e9dd744ac1e1ae49222686404fb2812158a3de6dfefef7b9a87f7bcf7a3d437e8bc2864ac46aa4fdcdfd1aa0e7fc7bf273aaa5c29db996db4b69d71623fd482"
+        }
+    },
+    "extract_dir": "firefox",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-nightly-fa",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Nightly (fa)",
+            "-profile \"$dir\\profile\""
+        ]
+    ],
+    "persist": "profile",
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml",
+        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+        "replace": "${1}.${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.fa.win64.zip",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa.win64.checksums"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.fa.win32.zip",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa.win32.checksums"
+                }
+            }
+        }
+    }
+}

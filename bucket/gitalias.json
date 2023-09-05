@@ -1,0 +1,23 @@
+{
+    "version": "0.2023.08.24.3c9d21d",
+    "description": "Git alias commands for faster easier version control.",
+    "homepage": "https://github.com/GitAlias/gitalias",
+    "license": {
+        "identifier": "GPL-2.0-only"
+    },
+    "notes": [
+        "Use gitalias by running: 'git config --global include.path $dir\\.gitalias'",
+        "custom usage: <https://github.com/GitAlias/gitalias/blob/main/doc/install/index.md#install-with-custom-usage>"
+    ],
+    "url": "https://github.com/GitAlias/gitalias/raw/main/gitalias.txt",
+    "hash": "449336a9320a25af8a1bc77f5d1670cd823839714a2cafc7322099a9a69d7c2a",
+    "pre_install": "Rename-Item -Path \"$dir\\gitalias.txt\" -NewName \".gitalias\" -Force | Out-Null",
+    "checkver": {
+        "url": "https://github.com/GitAlias/gitalias/commits/main.atom",
+        "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>(?<short>[0-9a-f]{7})[0-9a-f]{33})",
+        "replace": "0.${1}.${2}.${3}.${short}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/GitAlias/gitalias/raw/main/gitalias.txt"
+    }
+}

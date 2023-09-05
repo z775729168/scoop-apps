@@ -1,0 +1,18 @@
+{
+    "version": "4.1.1",
+    "description": "Control audio by scrolling in taskbar area.",
+    "homepage": "https://github.com/dvingerh/tb-vol-scroll",
+    "license": "MIT",
+    "url": "https://github.com/dvingerh/tb-vol-scroll/releases/download/4.1.1/tb-vol-scroll.exe",
+    "hash": "078bf52082ae5bf0a75e30298c804e7bbd8e9effa562ad5c39a3913b9b18ca36",
+    "shortcuts": [
+        [
+            "tb-vol-scroll.exe",
+            "tb-vol-scroll"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/dvingerh/tb-vol-scroll/releases/download/$version/tb-vol-scroll.exe"
+    }
+}

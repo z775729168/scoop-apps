@@ -1,0 +1,41 @@
+{
+    "version": "7.0.0-beta.39",
+    "description": "Open-source reference management software to manage bibliographic data and related research materials.",
+    "homepage": "https://www.zotero.org/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.zotero.org/client/beta/7.0.0-beta.39%2Becba25be0/Zotero-7.0.0-beta.39%2Becba25be0_x64_setup.exe#/dl.7z",
+            "hash": "84d0ebc77c3a5779863c3f7114c297abbe995d13d498a2175cdcdb4a45af36c4"
+        },
+        "32bit": {
+            "url": "https://download.zotero.org/client/beta/7.0.0-beta.39%2Becba25be0/Zotero-7.0.0-beta.39%2Becba25be0_win32_setup.exe#/dl.7z",
+            "hash": "890b3f9932e06b69cb056692b5bb37941287b26e3c7105028dabe3b6805cb8d8"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "zotero.exe",
+    "shortcuts": [
+        [
+            "zotero.exe",
+            "Zotero"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest 'https://www.zotero.org/download/client/dl?platform=win-x64-zip&channel=beta' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "return $detail.Headers.Location"
+        ],
+        "regex": "Zotero-([\\d.]+-beta[\\d.]+)%2B(?<commit>[\\da-f]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.zotero.org/client/beta/$version%2B$matchCommit/Zotero-$version%2B$matchCommit_x64_setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://download.zotero.org/client/beta/$version%2B$matchCommit/Zotero-$version%2B$matchCommit_win32_setup.exe#/dl.7z"
+            }
+        }
+    }
+}

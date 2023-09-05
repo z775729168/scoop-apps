@@ -1,0 +1,36 @@
+{
+    "version": "2.6.0",
+    "description": "A TCP proxy to simulate network and system conditions for chaos and resiliency testing.",
+    "homepage": "https://github.com/Shopify/toxiproxy",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/Shopify/toxiproxy/releases/download/v2.6.0/toxiproxy-server-windows-amd64.exe#/toxiproxy-server.exe",
+                "https://github.com/Shopify/toxiproxy/releases/download/v2.6.0/toxiproxy-cli-windows-amd64.exe#/toxiproxy-cli.exe"
+            ],
+            "hash": [
+                "af9844b86a00aaa92635d8298e2530823e9caa66c1bd0d6d450a147c61d0ce4c",
+                "eccbfae4908e1c9a3bbbdcc0882bfc2c2fb8f2ce4c6ebafe670653624040e583"
+            ]
+        }
+    },
+    "bin": [
+        "toxiproxy-server.exe",
+        "toxiproxy-cli.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/Shopify/toxiproxy/releases/download/v$version/toxiproxy-server-windows-amd64.exe#/toxiproxy-server.exe",
+                    "https://github.com/Shopify/toxiproxy/releases/download/v$version/toxiproxy-cli-windows-amd64.exe#/toxiproxy-cli.exe"
+                ]
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

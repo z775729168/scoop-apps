@@ -1,0 +1,43 @@
+{
+    "version": "0.7.0-r1364",
+    "description": "A manga reader compatible with Tachiyomi extensions and backups",
+    "homepage": "https://github.com/Suwayomi/Tachidesk-Server",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://github.com/Suwayomi/Tachidesk-Server/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Suwayomi/Tachidesk-Server-preview/releases/download/v0.7.0-r1364/Tachidesk-Server-v0.7.0-r1364-windows-x64.zip",
+            "hash": "58b3b916e36321eb0e4b65d0489c40b91046dd8e7dc8b4ca7a7d2e2e625134a1",
+            "extract_dir": "Tachidesk-Server-v0.7.0-r1364-windows-x64"
+        },
+        "32bit": {
+            "url": "https://github.com/Suwayomi/Tachidesk-Server-preview/releases/download/v0.7.0-r1364/Tachidesk-Server-v0.7.0-r1364-windows-x86.zip",
+            "hash": "f0bedc82833e656780b6520ce5d8b817a21f7dade42e57e99925dca33829dbdb",
+            "extract_dir": "Tachidesk-Server-v0.7.0-r1364-windows-x86"
+        }
+    },
+    "pre_install": "Copy-Item \"$bucketsdir\\versions\\scripts\\tachidesk-server-preview\\tachidesk*.ps1\" -Destination \"$dir\"",
+    "bin": [
+        "tachidesk.ps1",
+        "tachidesk-electron.ps1",
+        "tachidesk-debug.ps1"
+    ],
+    "checkver": {
+        "github": "https://github.com/Suwayomi/Tachidesk-Server-preview",
+        "regex": "v([\\d.]+-r[\\d]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Suwayomi/Tachidesk-Server-preview/releases/download/v$version/Tachidesk-Server-v$version-windows-x64.zip",
+                "extract_dir": "Tachidesk-Server-v$version-windows-x64"
+            },
+            "32bit": {
+                "url": "https://github.com/Suwayomi/Tachidesk-Server-preview/releases/download/v$version/Tachidesk-Server-v$version-windows-x86.zip",
+                "extract_dir": "Tachidesk-Server-v$version-windows-x86"
+            }
+        }
+    }
+}

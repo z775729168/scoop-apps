@@ -1,0 +1,34 @@
+{
+    "homepage": "https://github.com/mienaiyami/yomikiru",
+    "description": "Desktop app to read manga",
+    "license": "Unlicense",
+    "version": "2.17.8",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mienaiyami/yomikiru/releases/download/v2.17.8/Yomikiru-win32-v2.17.8-Portable-x64.zip",
+            "hash": "6a5f1636837d1980f052929b19dc6bbca4dbad6fd07d55ad9a62a46b539827c4"
+        },
+        "32bit": {
+            "url": "https://github.com/mienaiyami/yomikiru/releases/download/v2.17.8/Yomikiru-win32-v2.17.8-Portable.zip",
+            "hash": "73f3fd4e253966fb129b00b4a6b6d4ecf85841b993666c5003c52a6928492641"
+        }
+    },
+    "shortcuts": [
+        [
+            "Yomikiru.exe",
+            "Yomikiru Manga Reader"
+        ]
+    ],
+    "persist": "userdata",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mienaiyami/yomikiru/releases/download/v$version/Yomikiru-win32-v$version-Portable-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/mienaiyami/yomikiru/releases/download/v$version/Yomikiru-win32-v$version-Portable.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "##": "The shortcut will be created when adding the Appx package",
+    "version": "4.6.13",
+    "description": "第三方哔哩哔哩UWP客户端",
+    "homepage": "https://github.com/ywmoyue/biliuwp-lite",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.13/BiliLite.Packages_4.6.13.0_x64.zip",
+            "hash": "df5a7ac8ef576218bd487da4f3b72f53accfd1ba57184a8064c5eec68662178a",
+            "extract_dir": "BiliLite.Packages_4.6.13.0_x64_Test"
+        },
+        "32bit": {
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.13/BiliLite.Packages_4.6.13.0_x86.zip",
+            "hash": "ee6af0fd95ceab1ff7ac15a30c25ba9ba31dbce2bcb9a1945f1f95382fac7f88",
+            "extract_dir": "BiliLite.Packages_4.6.13.0_x86_Test"
+        },
+        "arm64": {
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.13/BiliLite.Packages_4.6.13.0_ARM64.zip",
+            "hash": "157296a5de976211a1c289368a6bdb2ba778174b17b6962ebceb54974261a3ef",
+            "extract_dir": "BiliLite.Packages_4.6.13.0_ARM64_Test"
+        }
+    },
+    "pre_install": [
+        "if ($env:CI -eq \"true\") { Exit }",
+        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+        "Get-ChildItem \"$dir\\*.msix\" | Add-AppxPackage -ForceTargetApplicationShutdown -AllowUnsigned"
+    ],
+    "pre_uninstall": [
+        "if ($env:CI -eq \"true\") { Exit }",
+        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+        "$package = Get-AppxPackage '5422.502643927C6AD'",
+        "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
+        "if ($purge) {",
+        "    Remove-AppxPackage $package",
+        "} else {",
+        "    Remove-AppxPackage $package -PreserveRoamableApplicationData",
+        "}"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v$version/BiliLite.Packages_$version.0_x64.zip",
+                "extract_dir": "BiliLite.Packages_$version.0_x64_Test"
+            },
+            "32bit": {
+                "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v$version/BiliLite.Packages_$version.0_x86.zip",
+                "extract_dir": "BiliLite.Packages_$version.0_x86_Test"
+            },
+            "arm64": {
+                "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v$version/BiliLite.Packages_$version.0_ARM64.zip",
+                "extract_dir": "BiliLite.Packages_$version.0_ARM64_Test"
+            }
+        }
+    }
+}

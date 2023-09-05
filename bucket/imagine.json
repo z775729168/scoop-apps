@@ -1,0 +1,56 @@
+{
+    "version": "1.1.7",
+    "description": "(1MB) Freeware Image & Animation Viewer for Windows",
+    "homepage": "https://www.nyam.pe.kr/dev/imagine/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.nyam.pe.kr/dev/imagine/"
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Imagine.ini\")) { New-Item \"$dir\\Imagine.ini\" | Out-Null }",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_1.1.7_x64_Unicode.zip",
+            "hash": "3f709ac5001631f0350a914940db598984715c84b75c2c453d14ac496f19b35d",
+            "bin": [
+                "Imagine64.exe",
+                [
+                    "Imagine64.exe",
+                    "Imagine"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Imagine64.exe",
+                    "Imagine"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.nyam.pe.kr/dev/imagine/download/unicode/Imagine_1.1.7_Unicode.zip",
+            "hash": "2ad078d1a0469f2321e6a1724002148c87909cc08e3c8b6b33cf7844385a207c",
+            "bin": "Imagine.exe",
+            "shortcuts": [
+                [
+                    "Imagine.exe",
+                    "Imagine"
+                ]
+            ]
+        }
+    },
+    "persist": [
+        "Imagine.ini",
+        "PlugInst.inf",
+        "Plugin"
+    ],
+    "checkver": "v(\\d[\\d.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_$version_x64_Unicode.zip"
+            },
+            "32bit": {
+                "url": "https://www.nyam.pe.kr/dev/imagine/download/unicode/Imagine_$version_Unicode.zip"
+            }
+        }
+    }
+}

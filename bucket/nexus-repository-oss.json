@@ -1,0 +1,35 @@
+{
+    "version": "3.59.0-01",
+    "description": "The free artifact repository with universal format support",
+    "homepage": "https://www.sonatype.com/products/repository-oss",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sonatype.com/terms-of-service"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.sonatype.com/nexus/3/nexus-3.59.0-01-win64.zip",
+            "hash": "sha1:fae6b175a9e5681b0a6056afb5aba4b7fb32cd99"
+        }
+    },
+    "pre_install": "Get-Item \"$dir\\nexus-*\" | Rename-Item -NewName 'nexus'",
+    "bin": "nexus\\bin\\nexus.exe",
+    "persist": [
+        "sonatype-work",
+        "nexus\\bin\\nexus.vmoptions"
+    ],
+    "checkver": {
+        "github": "https://github.com/sonatype/nexus-public",
+        "regex": "\\/releases\\/tag\\/release-[vV]?([-\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.sonatype.com/nexus/$majorVersion/nexus-$version-win64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha1"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "version": "11.34",
+    "description": "A quad window file manager based on Windows File Explorer",
+    "homepage": "https://www.softwareok.com/?seite=Freeware/Q-Dir",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.softwareok.com/?seite=Freeware/Q-Dir/Eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
+            "hash": "48e49a7a62814e3dffe0022eebb9bfc8b9a58edaaf4ba82575b65fbaf30ea88b",
+            "bin": [
+                [
+                    "Q-Dir_x64.exe",
+                    "Q-Dir"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Q-Dir_x64.exe",
+                    "Q-Dir"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip",
+            "hash": "b298a429f222e1d313175b15d51ade158914409c5b101d9e43bd4f7fafeb5d56",
+            "bin": "Q-Dir.exe",
+            "shortcuts": [
+                [
+                    "Q-Dir.exe",
+                    "Q-Dir"
+                ]
+            ]
+        }
+    },
+    "extract_dir": "Q-Dir",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\start.qdr\")) { New-Item \"$dir\\start.qdr\" | Out-Null }",
+    "persist": [
+        "Favoriten",
+        "start.qdr",
+        "Q-Dir.ini"
+    ],
+    "checkver": {
+        "url": "https://www.softwareok.com/?seite=Microsoft/Q-Dir/History",
+        "regex": "version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip"
+            }
+        },
+        "hash": {
+            "url": "https://www.softwareok.com/?Download=Q-Dir",
+            "regex": "$basename.*?$sha256<"
+        }
+    }
+}
