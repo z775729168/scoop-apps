@@ -73,8 +73,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - TheRandomLabs/Scoop-Bucket
 - borger/scoop-emulators
-- ZvonimirSun/scoop-iszy
 - Qv2ray/mochi
+- ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
 - zhoujin7/tomato
@@ -93,9 +93,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoop_bucket_misty
 - jfut/scoop-jfut
 - batkiz/backit
-- Velgus/Scoop-Portapps
 - mogeko/scoop-sysinternals
 - ChungZH/peach
+- Velgus/Scoop-Portapps
 - hu3rror/scoop-muggle
 - cc713/ownscoop
 - aoisummer/scoop-bucket
@@ -108,6 +108,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle
+- MCOfficer/scoop-bucket
 - KnotUntied/scoop-fonts
 - mo-san/scoop-bucket
 - beerpiss/scoop-bucket
