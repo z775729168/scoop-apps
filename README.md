@@ -101,6 +101,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - rivy/scoop-bucket
+- brian6932/dank-scoop
 - DoveBoy/Apps
 - AkariiinMKII/Scoop4kariiin
 - littleli/Scoop-littleli
@@ -112,7 +113,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KnotUntied/scoop-fonts
 - mo-san/scoop-bucket
 - beerpiss/scoop-bucket
-- brian6932/dank-scoop
 - HUMORCE/nuke
 - AkinoKaede/maple
 - starise/Scoop-Confetti
