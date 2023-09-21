@@ -69,6 +69,6 @@
         "regex": "snapshot_([\\d-_]+)"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_$version.zip"
+        "url": "https://github.com/x64dbg/x64dbg/releases/download/snapshot/snapshot_$version.zip"
     }
 }
