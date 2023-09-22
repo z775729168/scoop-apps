@@ -1,12 +1,12 @@
 {
-    "version": "0.37.4",
+    "version": "0.38.0",
     "description": "Store application configuration files in Docker/OCI registries.",
     "homepage": "https://carvel.dev/imgpkg/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/carvel-imgpkg/releases/download/v0.37.4/imgpkg-windows-amd64.exe#/imgpkg.exe",
-            "hash": "88a2b43d102286f6909a86db01114a0e6ec990c1bf75f4a964871761079460b7"
+            "url": "https://github.com/vmware-tanzu/carvel-imgpkg/releases/download/v0.38.0/imgpkg-windows-amd64.exe#/imgpkg.exe",
+            "hash": "ed641678c778844c42a5b0bfc0d66b43b92fd4c4bd7e2cd9e440e1cf2129d18e"
         }
     },
     "bin": "imgpkg.exe",
