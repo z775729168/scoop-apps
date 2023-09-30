@@ -111,6 +111,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChinLong/scoop-customize
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle
+- The-Simples/scoop-minecraft
 - aliesbelik/poldi
 - MCOfficer/scoop-bucket
 - KnotUntied/scoop-fonts
