@@ -1,5 +1,5 @@
 {
-    "version": "EA-3907",
+    "version": "EA-3909",
     "description": "Nintendo Switch emulator",
     "homepage": "https://github.com/pineappleEA/pineapple-src",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-3907/Windows-Yuzu-EA-3907.zip",
-            "hash": "fabadbd226db81ebeb2321dfeeba49f5726b1f13e75b36bbd197fcd807129b5a"
+            "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-3909/Windows-Yuzu-EA-3909.zip",
+            "hash": "e82ff51132979caccd014b9dbe6c4383618ca64bc9cadf1f3254a7476e91ea3b"
         }
     },
     "extract_dir": "yuzu-windows-msvc-early-access",
