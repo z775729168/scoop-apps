@@ -69,9 +69,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - hermanjustnu/scoop-emulators
 - couleur-tweak-tips/utils
+- arch3rPro/PST-Bucket
 - everyx/scoop-bucket
 - dodorz/scoop
-- arch3rPro/PST-Bucket
 - Qv2ray/mochi
 - TheRandomLabs/Scoop-Bucket
 - borger/scoop-emulators
