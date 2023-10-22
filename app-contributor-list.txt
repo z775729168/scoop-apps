@@ -2355,6 +2355,7 @@ orwell-dev-cpp.json    chawyehsu/dorado
 archive.is.json    chawyehsu/dorado
 imagine_chawyehsu.json    chawyehsu/dorado
 hok.json    chawyehsu/dorado
+redpanda-cpp.json    chawyehsu/dorado
 jmc2obj.json    chawyehsu/dorado
 trash.json    chawyehsu/dorado
 mixin-messenger.json    chawyehsu/dorado
@@ -2726,6 +2727,7 @@ vlc-cn.json    ivaquero/scoopet
 weasel.json    ivaquero/scoopet
 mambaforge-cn.json    ivaquero/scoopet
 lyx-cn.json    ivaquero/scoopet
+umi-ocr-all-lang.json    ivaquero/scoopet
 downkyi_ivaquero.json    ivaquero/scoopet
 regester.json    ivaquero/scoopet
 cnkiexpress.json    ivaquero/scoopet
@@ -7037,6 +7039,7 @@ xemu_borger.json    borger/scoop-emulators
 dolphin_borger.json    borger/scoop-emulators
 mednafen-dev_borger.json    borger/scoop-emulators
 redream_borger.json    borger/scoop-emulators
+ryujinx-ava_borger.json    borger/scoop-emulators
 snes9x-dev_borger.json    borger/scoop-emulators
 mame_borger.json    borger/scoop-emulators
 dolphin-dev_borger.json    borger/scoop-emulators
@@ -9606,6 +9609,7 @@ clash.meta-cgo-alpha.json    DoveBoy/Apps
 typoracracker-code.json    DoveBoy/Apps
 clashn-core.json    DoveBoy/Apps
 bilibilitoolpro.json    DoveBoy/Apps
+clip-share-server.json    DoveBoy/Apps
 spleetergui-portable_DoveBoy.json    DoveBoy/Apps
 posh-git_DoveBoy.json    DoveBoy/Apps
 opensearcher.json    DoveBoy/Apps
@@ -9617,6 +9621,7 @@ monit.json    DoveBoy/Apps
 shadowsocks-rust_DoveBoy.json    DoveBoy/Apps
 mpv.net-beta_DoveBoy.json    DoveBoy/Apps
 snappy-driver-installer-origin_DoveBoy.json    DoveBoy/Apps
+wechatvideodownloader.json    DoveBoy/Apps
 nanazip_DoveBoy.json    DoveBoy/Apps
 video-srt-windows.json    DoveBoy/Apps
 idcard-generator.json    DoveBoy/Apps
@@ -9683,6 +9688,7 @@ bulk-crap-uninstaller_DoveBoy.json    DoveBoy/Apps
 clink-completions_DoveBoy.json    DoveBoy/Apps
 waifu2x-extension-gui-beta.json    DoveBoy/Apps
 wtv.json    DoveBoy/Apps
+book-searcher-desktop.json    DoveBoy/Apps
 crystaldiskmark-shizuku-edition_DoveBoy.json    DoveBoy/Apps
 ghostscript_DoveBoy.json    DoveBoy/Apps
 pwsh-beta_DoveBoy.json    DoveBoy/Apps
@@ -9715,6 +9721,7 @@ psscripttools.json    DoveBoy/Apps
 regjump_DoveBoy.json    DoveBoy/Apps
 min-portable.json    DoveBoy/Apps
 autodarkmode_DoveBoy.json    DoveBoy/Apps
+delapp.json    DoveBoy/Apps
 waifu2x-snowshell_DoveBoy.json    DoveBoy/Apps
 clashy.json    DoveBoy/Apps
 droppoint_DoveBoy.json    DoveBoy/Apps
@@ -9734,6 +9741,7 @@ nano_DoveBoy.json    DoveBoy/Apps
 lx-music-desktop-win7.json    DoveBoy/Apps
 64gram-beta.json    DoveBoy/Apps
 translumo.json    DoveBoy/Apps
+book-searcher.json    DoveBoy/Apps
 gimp_DoveBoy.json    DoveBoy/Apps
 cntv.json    DoveBoy/Apps
 lux_DoveBoy.json    DoveBoy/Apps
@@ -9865,8 +9873,10 @@ imageglass_DoveBoy.json    DoveBoy/Apps
 umi-ocr_DoveBoy.json    DoveBoy/Apps
 b23downloader_DoveBoy.json    DoveBoy/Apps
 7zip-beta_DoveBoy.json    DoveBoy/Apps
+r3nzskin.json    DoveBoy/Apps
 helix_DoveBoy.json    DoveBoy/Apps
 psreadlineviextension.json    DoveBoy/Apps
+audio-share-gui.json    DoveBoy/Apps
 64gram_DoveBoy.json    DoveBoy/Apps
 final2x-portable.json    DoveBoy/Apps
 joinersplitter.json    DoveBoy/Apps
@@ -9907,6 +9917,7 @@ vim_DoveBoy.json    DoveBoy/Apps
 sandboxie-plus-np_DoveBoy.json    DoveBoy/Apps
 whisper-cpp-blas.json    DoveBoy/Apps
 kotatsu-dl.json    DoveBoy/Apps
+audio-share.json    DoveBoy/Apps
 tcping_DoveBoy.json    DoveBoy/Apps
 clash_DoveBoy.json    DoveBoy/Apps
 energystarx.json    DoveBoy/Apps
@@ -9989,6 +10000,7 @@ n_m3u8dl-cli_DoveBoy.json    DoveBoy/Apps
 dreamscene2.json    DoveBoy/Apps
 clashrauto_DoveBoy.json    DoveBoy/Apps
 betterncm_DoveBoy.json    DoveBoy/Apps
+walk_DoveBoy.json    DoveBoy/Apps
 pdfpatcher_DoveBoy.json    DoveBoy/Apps
 reduce-memory_DoveBoy.json    DoveBoy/Apps
 lanzou-gui.json    DoveBoy/Apps
@@ -10799,6 +10811,7 @@ gpg@2.4.0.json    rivy/scoop-bucket
 pester@3.3.11.json    rivy/scoop-bucket
 xmake@2.2.1.json    rivy/scoop-bucket
 clang@16.0.6.json    rivy/scoop-bucket
+watchman_rivy.json    rivy/scoop-bucket
 nodejs@10.4.0.json    rivy/scoop-bucket
 gsudo@2.4.0.json    rivy/scoop-bucket
 make@4.3.json    rivy/scoop-bucket
@@ -10997,7 +11010,6 @@ jo_aliesbelik.json    aliesbelik/poldi
 jc_aliesbelik.json    aliesbelik/poldi
 ov_aliesbelik.json    aliesbelik/poldi
 hopp-cli_aliesbelik.json    aliesbelik/poldi
-walk_aliesbelik.json    aliesbelik/poldi
 xmanager_SayCV.json    SayCV/scoop-cvp
 webview2.json    SayCV/scoop-cvp
 qqmusic-cvp.json    SayCV/scoop-cvp
