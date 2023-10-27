@@ -3651,7 +3651,6 @@ scribus-dev.json    ScoopInstaller/Versions
 cosmosdbexplorer-beta.json    ScoopInstaller/Versions
 chromedriver-dev.json    ScoopInstaller/Versions
 ant19.json    ScoopInstaller/Versions
-prismlauncher-qt5-git.json    ScoopInstaller/Versions
 tinymediamanager3.json    ScoopInstaller/Versions
 cuda11.5.json    ScoopInstaller/Versions
 goland-rc.json    ScoopInstaller/Versions
@@ -4954,6 +4953,7 @@ gcping.json    hoilc/scoop-lemon
 pazera-free-audio-extractor.json    hoilc/scoop-lemon
 whisper-model-ggml-tiny.json    hoilc/scoop-lemon
 radius.json    hoilc/scoop-lemon
+windows-update-blocker.json    hoilc/scoop-lemon
 bedford.json    hoilc/scoop-lemon
 oplus-sans.json    hoilc/scoop-lemon
 quick-change-resolution.json    hoilc/scoop-lemon
@@ -4973,6 +4973,7 @@ ediary_hoilc.json    hoilc/scoop-lemon
 spring-boot-migrator.json    hoilc/scoop-lemon
 guid-generator.json    hoilc/scoop-lemon
 pint.json    hoilc/scoop-lemon
+ferret.json    hoilc/scoop-lemon
 victoria-metrics.json    hoilc/scoop-lemon
 bililive-recorder-cli.json    hoilc/scoop-lemon
 httpx.json    hoilc/scoop-lemon
@@ -5017,12 +5018,13 @@ skytable.json    hoilc/scoop-lemon
 crane.json    hoilc/scoop-lemon
 spleeter-gui.json    hoilc/scoop-lemon
 chfs-gui_hoilc.json    hoilc/scoop-lemon
+simple-vhd-manager.json    hoilc/scoop-lemon
 juicefs_hoilc.json    hoilc/scoop-lemon
 quick-access-popup.json    hoilc/scoop-lemon
 fdkaac.json    hoilc/scoop-lemon
 drmemory_hoilc.json    hoilc/scoop-lemon
 fslac.json    hoilc/scoop-lemon
-jpegoptim.json    hoilc/scoop-lemon
+jpegoptim_hoilc.json    hoilc/scoop-lemon
 mqtt-cli.json    hoilc/scoop-lemon
 metabase-ee.json    hoilc/scoop-lemon
 sirikali_hoilc.json    hoilc/scoop-lemon
@@ -5089,6 +5091,7 @@ arthas_hoilc.json    hoilc/scoop-lemon
 nagstamon.json    hoilc/scoop-lemon
 monochrome.json    hoilc/scoop-lemon
 signalbackup-tools.json    hoilc/scoop-lemon
+dns-jumper.json    hoilc/scoop-lemon
 parkdale.json    hoilc/scoop-lemon
 credhub-cli.json    hoilc/scoop-lemon
 x2goclient.json    hoilc/scoop-lemon
@@ -5100,6 +5103,7 @@ speex.json    hoilc/scoop-lemon
 avidemux_hoilc.json    hoilc/scoop-lemon
 nohttp-cli.json    hoilc/scoop-lemon
 sftpgo_hoilc.json    hoilc/scoop-lemon
+custommenu.json    hoilc/scoop-lemon
 lite_hoilc.json    hoilc/scoop-lemon
 ossutil_hoilc.json    hoilc/scoop-lemon
 jmol.json    hoilc/scoop-lemon
@@ -5258,6 +5262,7 @@ steam-cloud-file-manager.json    hoilc/scoop-lemon
 tanka.json    hoilc/scoop-lemon
 fanctrl.json    hoilc/scoop-lemon
 kubectl-debug.json    hoilc/scoop-lemon
+task-manager-deluxe.json    hoilc/scoop-lemon
 abstreet.json    hoilc/scoop-lemon
 pinniped-cli.json    hoilc/scoop-lemon
 berglas.json    hoilc/scoop-lemon
@@ -5276,6 +5281,7 @@ hostess.json    hoilc/scoop-lemon
 duf_hoilc.json    hoilc/scoop-lemon
 whisper-model-ggml-medium.json    hoilc/scoop-lemon
 balabolka_hoilc.json    hoilc/scoop-lemon
+bluelife-hosts-editor.json    hoilc/scoop-lemon
 glooctl-beta.json    hoilc/scoop-lemon
 rmaa.json    hoilc/scoop-lemon
 cpix-cn.json    hoilc/scoop-lemon
@@ -5290,6 +5296,7 @@ httpdownloader.json    hoilc/scoop-lemon
 editrename.json    hoilc/scoop-lemon
 nexusfile.json    hoilc/scoop-lemon
 archisteamfarm_hoilc.json    hoilc/scoop-lemon
+wifi-filter-tool.json    hoilc/scoop-lemon
 fenrirfs.json    hoilc/scoop-lemon
 nexttrace-enhanced.json    hoilc/scoop-lemon
 waifu2x-snowshell_hoilc.json    hoilc/scoop-lemon
@@ -9319,11 +9326,14 @@ scoop-shim_DoveBoy.json    DoveBoy/Apps
 pnpm_DoveBoy.json    DoveBoy/Apps
 mpv-lazy.json    DoveBoy/Apps
 pscalendar.json    DoveBoy/Apps
+mapdownload.json    DoveBoy/Apps
 audio-share-gui.json    DoveBoy/Apps
 douyu_DoveBoy.json    DoveBoy/Apps
+dust_DoveBoy.json    DoveBoy/Apps
 malware-patch_DoveBoy.json    DoveBoy/Apps
 ffmpeg-shared_DoveBoy.json    DoveBoy/Apps
 ntrace-core.json    DoveBoy/Apps
+sharex-dev_DoveBoy.json    DoveBoy/Apps
 nekoray_DoveBoy.json    DoveBoy/Apps
 godmode.json    DoveBoy/Apps
 pnpm-tab-completion.json    DoveBoy/Apps
@@ -9366,6 +9376,7 @@ optimizer_DoveBoy.json    DoveBoy/Apps
 shadowsocks-rust_DoveBoy.json    DoveBoy/Apps
 ipinfo_DoveBoy.json    DoveBoy/Apps
 whisper-cpp_DoveBoy.json    DoveBoy/Apps
+scoop-completion_DoveBoy.json    DoveBoy/Apps
 lessmsi_DoveBoy.json    DoveBoy/Apps
 alisthelper-portable.json    DoveBoy/Apps
 qq-nt_DoveBoy.json    DoveBoy/Apps
@@ -9416,8 +9427,10 @@ waifu2x-extension-gui-beta.json    DoveBoy/Apps
 stable-diffusion-webui.json    DoveBoy/Apps
 pdfarranger_DoveBoy.json    DoveBoy/Apps
 joplin_DoveBoy.json    DoveBoy/Apps
+bottom_DoveBoy.json    DoveBoy/Apps
 reduce-memory_DoveBoy.json    DoveBoy/Apps
 etcher_DoveBoy.json    DoveBoy/Apps
+procs_DoveBoy.json    DoveBoy/Apps
 curl_DoveBoy.json    DoveBoy/Apps
 psreadlineviextension.json    DoveBoy/Apps
 quasar_DoveBoy.json    DoveBoy/Apps
@@ -9429,11 +9442,13 @@ reicon_DoveBoy.json    DoveBoy/Apps
 gnupg1_DoveBoy.json    DoveBoy/Apps
 gimp_DoveBoy.json    DoveBoy/Apps
 daisy.json    DoveBoy/Apps
+saber_DoveBoy.json    DoveBoy/Apps
 psreadline_DoveBoy.json    DoveBoy/Apps
 psgithub_DoveBoy.json    DoveBoy/Apps
 min_DoveBoy.json    DoveBoy/Apps
 eartrumpet_DoveBoy.json    DoveBoy/Apps
 easy-context-menu_DoveBoy.json    DoveBoy/Apps
+gitextensions_DoveBoy.json    DoveBoy/Apps
 xiaochao.json    DoveBoy/Apps
 littletips_DoveBoy.json    DoveBoy/Apps
 binggpt-portable.json    DoveBoy/Apps
@@ -9467,6 +9482,7 @@ whisper.json    DoveBoy/Apps
 hysteria_DoveBoy.json    DoveBoy/Apps
 calctus.json    DoveBoy/Apps
 zyplayer_DoveBoy.json    DoveBoy/Apps
+cloc_DoveBoy.json    DoveBoy/Apps
 xray_DoveBoy.json    DoveBoy/Apps
 clink-completions_DoveBoy.json    DoveBoy/Apps
 powerping_DoveBoy.json    DoveBoy/Apps
@@ -9495,6 +9511,7 @@ gitalias.json    DoveBoy/Apps
 v2ray-rules-dat-git.json    DoveBoy/Apps
 v2raya.json    DoveBoy/Apps
 officetoolplus-with-runtime.json    DoveBoy/Apps
+mpv.net_DoveBoy.json    DoveBoy/Apps
 rustdesk_DoveBoy.json    DoveBoy/Apps
 ugrep_DoveBoy.json    DoveBoy/Apps
 ali.json    DoveBoy/Apps
@@ -9544,6 +9561,7 @@ scoop-search_DoveBoy.json    DoveBoy/Apps
 ttime-portable.json    DoveBoy/Apps
 jq_DoveBoy.json    DoveBoy/Apps
 ffmpeg-shared-nightly_DoveBoy.json    DoveBoy/Apps
+fd_DoveBoy.json    DoveBoy/Apps
 unblockneteasemusic.json    DoveBoy/Apps
 etcher-portable.json    DoveBoy/Apps
 refreshenv_DoveBoy.json    DoveBoy/Apps
@@ -9650,6 +9668,7 @@ sumatrapdf-installer_DoveBoy.json    DoveBoy/Apps
 obs-studio-pre_DoveBoy.json    DoveBoy/Apps
 folder-painter_DoveBoy.json    DoveBoy/Apps
 ttime.json    DoveBoy/Apps
+github_DoveBoy.json    DoveBoy/Apps
 mpvconfigurator.json    DoveBoy/Apps
 b0pass.json    DoveBoy/Apps
 clash_DoveBoy.json    DoveBoy/Apps
@@ -9657,6 +9676,7 @@ trafficmonitor_DoveBoy.json    DoveBoy/Apps
 qr_DoveBoy.json    DoveBoy/Apps
 superrdp.json    DoveBoy/Apps
 ipcalc_DoveBoy.json    DoveBoy/Apps
+youtube-dl-gui_DoveBoy.json    DoveBoy/Apps
 starship_DoveBoy.json    DoveBoy/Apps
 pdfpatcher_DoveBoy.json    DoveBoy/Apps
 gnirehtet_DoveBoy.json    DoveBoy/Apps
@@ -11661,7 +11681,7 @@ ediary_ChinLong.json    ChinLong/scoop-customize
 robomongo.json    ChinLong/scoop-customize
 utools_ChinLong.json    ChinLong/scoop-customize
 wsl-terminal_ChinLong.json    ChinLong/scoop-customize
-dns-jumper.json    ChinLong/scoop-customize
+dns-jumper_ChinLong.json    ChinLong/scoop-customize
 translucent-tb.json    ChinLong/scoop-customize
 lx-music_ChinLong.json    ChinLong/scoop-customize
 wnmp.json    ChinLong/scoop-customize
@@ -11739,6 +11759,7 @@ xmedia-recode_fixed.json    Zliced13/MyScoop
 duplicati-canary_fixed.json    Zliced13/MyScoop
 flaresolverr_Zliced13.json    Zliced13/MyScoop
 hp-support-assistant-np_Zliced13.json    Zliced13/MyScoop
+avogadro2_Zliced13.json    Zliced13/MyScoop
 sharex-dev_Zliced13.json    Zliced13/MyScoop
 komf_Zliced13.json    Zliced13/MyScoop
 sift_Zliced13.json    Zliced13/MyScoop
@@ -11853,6 +11874,7 @@ lua-language-server_Zliced13.json    Zliced13/MyScoop
 lively_Zliced13.json    Zliced13/MyScoop
 ttyd_Zliced13.json    Zliced13/MyScoop
 vhs_Zliced13.json    Zliced13/MyScoop
+subsync_Zliced13.json    Zliced13/MyScoop
 electronmail_Zliced13.json    Zliced13/MyScoop
 raven-reader_Zliced13.json    Zliced13/MyScoop
 bytecode-viewer_Zliced13.json    Zliced13/MyScoop
