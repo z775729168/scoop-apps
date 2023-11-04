@@ -64,8 +64,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KNOXDEV/wsl
 - Paxxs/Cluttered-bucket
 - echoiron/echo-scoop
-- ACooper81/scoop-apps
 - arch3rPro/PST-Bucket
+- ACooper81/scoop-apps
 - ScoopInstaller/Nonportable
 - hermanjustnu/scoop-emulators
 - cderv/r-bucket
@@ -100,6 +100,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - Velgus/Scoop-Portapps
 - hu3rror/scoop-muggle
+- Weidows-projects/scoop-3rd
 - cc713/ownscoop
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
