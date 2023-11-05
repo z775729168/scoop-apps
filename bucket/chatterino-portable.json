@@ -1,16 +1,16 @@
 {
-    "version": "6755187847",
+    "version": "6762204483",
     "description": "Chat client for https://twitch.tv",
     "homepage": "https://github.com/Chatterino/chatterino2",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Chatterino/chatterino2/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.5.0.zip",
-            "hash": "73aa7ef8d998fce7ffd3704558335aeff3966ca1e22e9b806d7ba2e9e827017a",
+            "hash": "b49b18201542a8ac0f640eacd1222e3281ca1e40d77616fdbac25e33ee4a7851",
             "extract_dir": "Chatterino2",
             "pre_install": [
-                "Get-ChildItem \"$dir\\chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o-portable') }",
-                "$modes = \"$dir\\modes\"",
+                "Get-ChildItem \"$dir/chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o-portable') }",
+                "$modes = \"$dir/modes\"",
                 "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
                 "Invoke-Expression \"'portable' >$(if (Test-Path $modes) { '>' }) `$modes\""
             ]
