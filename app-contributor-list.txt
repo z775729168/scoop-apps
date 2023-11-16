@@ -2683,6 +2683,7 @@ scihubeva.json    ivaquero/scoopet
 tencent-edu.json    ivaquero/scoopet
 libreoffice-cn.json    ivaquero/scoopet
 vscodium-cn.json    ivaquero/scoopet
+feishu_ivaquero.json    ivaquero/scoopet
 lky-officetools.json    ivaquero/scoopet
 weasel.json    ivaquero/scoopet
 texlive_ivaquero.json    ivaquero/scoopet
@@ -3188,6 +3189,7 @@ sapmachine12-jdk.json    ScoopInstaller/Java
 liberica8-full-jdk.json    ScoopInstaller/Java
 gluon-openjfx-sdk-ea.json    ScoopInstaller/Java
 liberica12-jdk.json    ScoopInstaller/Java
+semeru20-jre.json    ScoopInstaller/Java
 liberica15-full-jdk.json    ScoopInstaller/Java
 graalvm22.json    ScoopInstaller/Java
 graalvm-nightly.json    ScoopInstaller/Java
@@ -3264,6 +3266,8 @@ ojdkbuild9-full.json    ScoopInstaller/Java
 openjdk20.json    ScoopInstaller/Java
 semeru-jre.json    ScoopInstaller/Java
 liberica-full-jre.json    ScoopInstaller/Java
+semeru20-jdk.json    ScoopInstaller/Java
+semeru19-jdk.json    ScoopInstaller/Java
 liberica13-jdk.json    ScoopInstaller/Java
 corretto-lts-jdk.json    ScoopInstaller/Java
 liberica-full-lts-jre.json    ScoopInstaller/Java
@@ -3283,6 +3287,7 @@ intellij-jbr11.json    ScoopInstaller/Java
 liberica14-lite-jdk.json    ScoopInstaller/Java
 ojdkbuild13-full.json    ScoopInstaller/Java
 microsoft-lts-jdk.json    ScoopInstaller/Java
+temurin20-jre.json    ScoopInstaller/Java
 semeru18-jre.json    ScoopInstaller/Java
 zulufx15-jre.json    ScoopInstaller/Java
 microsoft17-jdk.json    ScoopInstaller/Java
@@ -3291,6 +3296,7 @@ semeru11-jdk.json    ScoopInstaller/Java
 zulu8-jre.json    ScoopInstaller/Java
 zulufx15-jdk.json    ScoopInstaller/Java
 liberica16-jdk.json    ScoopInstaller/Java
+temurin20-jdk.json    ScoopInstaller/Java
 liberica16-jre.json    ScoopInstaller/Java
 sapmachine16-jdk.json    ScoopInstaller/Java
 openjdk21.json    ScoopInstaller/Java
@@ -3302,6 +3308,7 @@ zulu15-jre.json    ScoopInstaller/Java
 liberica13-full-jdk.json    ScoopInstaller/Java
 zulufx17-jre.json    ScoopInstaller/Java
 ojdkbuild11.json    ScoopInstaller/Java
+semeru19-jre.json    ScoopInstaller/Java
 zulufx14-jdk.json    ScoopInstaller/Java
 sapmachine-lts-jdk.json    ScoopInstaller/Java
 graalvm-jdk11.json    ScoopInstaller/Java
@@ -4905,6 +4912,7 @@ whalebird.json    hoilc/scoop-lemon
 uupmediacreator.json    hoilc/scoop-lemon
 mstream.json    hoilc/scoop-lemon
 whisper-model-ggml-base-en.json    hoilc/scoop-lemon
+fontmod.json    hoilc/scoop-lemon
 cmix.json    hoilc/scoop-lemon
 yuzu-ea.json    hoilc/scoop-lemon
 imgdrivecmd.json    hoilc/scoop-lemon
@@ -8577,6 +8585,7 @@ woodpecker.json    ViCrack/scoop-bucket
 katana_ViCrack.json    ViCrack/scoop-bucket
 PowerRun_ViCrack.json    ViCrack/scoop-bucket
 webshell_generate_ViCrack.json    ViCrack/scoop-bucket
+ztasker.json    ViCrack/scoop-bucket
 fvuln.json    ViCrack/scoop-bucket
 sliver_ViCrack.json    ViCrack/scoop-bucket
 rakshasa_ViCrack.json    ViCrack/scoop-bucket
@@ -9246,7 +9255,7 @@ aliyunpan-xiaobaiyang.json    ygguorun/scoop-bucket
 BaiduNetdisk_ygguorun.json    ygguorun/scoop-bucket
 winscppwd.json    ygguorun/scoop-bucket
 go-cqhttp.json    ygguorun/scoop-bucket
-FontMod.json    ygguorun/scoop-bucket
+FontMod_ygguorun.json    ygguorun/scoop-bucket
 CloudCompare_ygguorun.json    ygguorun/scoop-bucket
 Reso.json    ygguorun/scoop-bucket
 bookhunter.json    ygguorun/scoop-bucket
@@ -9478,7 +9487,6 @@ blockthespot_DoveBoy.json    DoveBoy/Apps
 zyplayer_DoveBoy.json    DoveBoy/Apps
 vim_DoveBoy.json    DoveBoy/Apps
 ama.json    DoveBoy/Apps
-chromedriver-canary_DoveBoy.json    DoveBoy/Apps
 heu-kms-activator.json    DoveBoy/Apps
 npm-tab-completion.json    DoveBoy/Apps
 lanzouyun-disk.json    DoveBoy/Apps
@@ -9688,10 +9696,12 @@ downkyi_DoveBoy.json    DoveBoy/Apps
 ssrr-windows.json    DoveBoy/Apps
 audio-share-gui.json    DoveBoy/Apps
 lx-music-desktop-win7.json    DoveBoy/Apps
+clash-rev.json    DoveBoy/Apps
 pscompletions.json    DoveBoy/Apps
 brackets_DoveBoy.json    DoveBoy/Apps
 perl_DoveBoy.json    DoveBoy/Apps
 tai.json    DoveBoy/Apps
+clash-rev-compatible-go120.json    DoveBoy/Apps
 monit-portable.json    DoveBoy/Apps
 bililive-go_DoveBoy.json    DoveBoy/Apps
 czkawka_DoveBoy.json    DoveBoy/Apps
@@ -9702,6 +9712,7 @@ droppoint-portable_DoveBoy.json    DoveBoy/Apps
 xray_DoveBoy.json    DoveBoy/Apps
 everything-lite_DoveBoy.json    DoveBoy/Apps
 reicon_DoveBoy.json    DoveBoy/Apps
+clash-rev-cgo.json    DoveBoy/Apps
 neteasemusic_DoveBoy.json    DoveBoy/Apps
 binggpt.json    DoveBoy/Apps
 pwsh-beta_DoveBoy.json    DoveBoy/Apps
@@ -9724,6 +9735,7 @@ littletips_DoveBoy.json    DoveBoy/Apps
 stable-diffusion-webui.json    DoveBoy/Apps
 whynotwin11_DoveBoy.json    DoveBoy/Apps
 yank-note_DoveBoy.json    DoveBoy/Apps
+clash-rev-go120.json    DoveBoy/Apps
 lemonpush.json    DoveBoy/Apps
 curl_DoveBoy.json    DoveBoy/Apps
 bulk-crap-uninstaller_DoveBoy.json    DoveBoy/Apps
@@ -9825,6 +9837,7 @@ lanzou-gui.json    DoveBoy/Apps
 vcpkg_DoveBoy.json    DoveBoy/Apps
 psreadlineviextension.json    DoveBoy/Apps
 cacert_DoveBoy.json    DoveBoy/Apps
+clash-rev-compatible.json    DoveBoy/Apps
 picotorrent_DoveBoy.json    DoveBoy/Apps
 ipinfo_DoveBoy.json    DoveBoy/Apps
 psgithub_DoveBoy.json    DoveBoy/Apps
@@ -11248,6 +11261,7 @@ OpenHashTab_brian6932.json    brian6932/dank-scoop
 gif2apng-gui.json    brian6932/dank-scoop
 gonk.json    brian6932/dank-scoop
 tidy-viewer.json    brian6932/dank-scoop
+comicrack.json    brian6932/dank-scoop
 mercury.json    brian6932/dank-scoop
 dmde.json    brian6932/dank-scoop
 winfsp-np-beta.json    brian6932/dank-scoop
@@ -11848,6 +11862,7 @@ font-hackgen35-console-nf-j.json    mo-san/scoop-bucket
 PsTools_AkariiinMKII.json    AkariiinMKII/Scoop4kariiin
 Windows-screenFetch-alt.json    AkariiinMKII/Scoop4kariiin
 LNE-LINK.json    AkariiinMKII/Scoop4kariiin
+sleep-on-lan.json    AkariiinMKII/Scoop4kariiin
 Cinebench-R23.json    AkariiinMKII/Scoop4kariiin
 Windows-screenFetch.json    AkariiinMKII/Scoop4kariiin
 youtube-dl-gui_AkariiinMKII.json    AkariiinMKII/Scoop4kariiin
@@ -12349,6 +12364,7 @@ stacher.io.json    Zliced13/MyScoop
 kotatogram_fixed.json    Zliced13/MyScoop
 droidcam-np.json    Zliced13/MyScoop
 regcool_Zliced13.json    Zliced13/MyScoop
+viber_Zliced13.json    Zliced13/MyScoop
 deemix-gui.json    Zliced13/MyScoop
 rvgl-launcher_Zliced13.json    Zliced13/MyScoop
 copytrans-drivers.json    Zliced13/MyScoop
