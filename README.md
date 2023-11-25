@@ -57,8 +57,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - littleli/scoop-clojure
 - rasa/scoops
-- kidonng/sushi
 - ScoopInstaller/Nirsoft
+- kidonng/sushi
 - scoopcn/scoopcn
 - arch3rPro/PST-Bucket
 - hoilc/scoop-lemon
@@ -89,11 +89,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jonz94/scoop-sarasa-nerd-fonts
 - amorphobia/siku
 - iquiw/scoop-bucket
+- DoveBoy/Apps
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
 - 42wim/scoop-bucket
 - hu3rror/scoop-muggle
-- DoveBoy/Apps
 - jfut/scoop-jfut
 - batkiz/backit
 - mogeko/scoop-sysinternals
