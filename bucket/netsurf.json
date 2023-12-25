@@ -1,10 +1,10 @@
 {
-    "version": "6624",
+    "version": "6627",
     "description": "NetSurf is a free, open source web browser",
     "homepage": "https://www.netsurf-browser.org",
     "license": "GPL-2.0",
-    "url": "https://ci.netsurf-browser.org/builds/windows/NetSurf-gcc-6624.exe#/dl.7z",
-    "hash": "b7f91e1f6fa0d52b0431ecb77ac1415068d0ed9b3ca2ab05406f821b53d40fc4",
+    "url": "https://ci.netsurf-browser.org/builds/windows/NetSurf-gcc-6627.exe#/dl.7z",
+    "hash": "bba2e00ef05f0fc1d84cc5dc8968ab18ba3d0a1f73b30b12f65f5978250f5136",
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Recurse -Force",
     "bin": "NetSurf.exe",
     "shortcuts": [
