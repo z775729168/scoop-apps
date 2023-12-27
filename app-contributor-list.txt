@@ -887,6 +887,7 @@ wsl-ssh-pageant.json    ScoopInstaller/Extras
 duplicati.json    ScoopInstaller/Extras
 keepass-plugin-keepassnatmsg.json    ScoopInstaller/Extras
 photoflare.json    ScoopInstaller/Extras
+insomnium.json    ScoopInstaller/Extras
 defraggler.json    ScoopInstaller/Extras
 ao.json    ScoopInstaller/Extras
 sdl2-image.json    ScoopInstaller/Extras
@@ -2719,7 +2720,6 @@ subversion.json    ivaquero/scoopet
 m3u8-downloader.json    ivaquero/scoopet
 cursor.json    ivaquero/scoopet
 winrar_ivaquero.json    ivaquero/scoopet
-clash-verge-rev_ivaquero.json    ivaquero/scoopet
 edgeless.json    ivaquero/scoopet
 adrive.json    ivaquero/scoopet
 lx-music.json    ivaquero/scoopet
@@ -2784,6 +2784,7 @@ cnkiexpress.json    ivaquero/scoopet
 umi-ocr-all-lang.json    ivaquero/scoopet
 lyx-cn.json    ivaquero/scoopet
 freecad-cn.json    ivaquero/scoopet
+feishu_ivaquero.json    ivaquero/scoopet
 kega-fusion.json    Calinou/scoop-games
 iortcw.json    Calinou/scoop-games
 advanced-combat-tracker.json    Calinou/scoop-games
@@ -3617,6 +3618,7 @@ ffmpeg-gyan-nightly.json    ScoopInstaller/Versions
 googlechrome-canary.json    ScoopInstaller/Versions
 godot4.json    ScoopInstaller/Versions
 gradle4.json    ScoopInstaller/Versions
+bun-canary.json    ScoopInstaller/Versions
 tdm-gcc.json    ScoopInstaller/Versions
 helm2.json    ScoopInstaller/Versions
 keepassxc2.6.6.json    ScoopInstaller/Versions
@@ -3873,6 +3875,7 @@ teamcity-rc.json    ScoopInstaller/Versions
 dartium-content-shell-dev.json    ScoopInstaller/Versions
 elasticsearch5.json    ScoopInstaller/Versions
 php81-xdebug.json    ScoopInstaller/Versions
+postgresql15.json    ScoopInstaller/Versions
 python-rc.json    ScoopInstaller/Versions
 spark-without-hadoop.json    ScoopInstaller/Versions
 phpstorm-rc.json    ScoopInstaller/Versions
@@ -5417,7 +5420,7 @@ zally.json    hoilc/scoop-lemon
 metabase-ee.json    hoilc/scoop-lemon
 spline.json    hoilc/scoop-lemon
 kubeshark_hoilc.json    hoilc/scoop-lemon
-insomnium.json    hoilc/scoop-lemon
+insomnium_hoilc.json    hoilc/scoop-lemon
 autohidedesktopicons.json    hoilc/scoop-lemon
 xelitan-pdf-reader.json    hoilc/scoop-lemon
 x2goclient.json    hoilc/scoop-lemon
@@ -7302,7 +7305,6 @@ DTaskManager.json    dodorz/scoop
 RRShare.json    dodorz/scoop
 CoColor.json    dodorz/scoop
 AnyTXTSearcher.json    dodorz/scoop
-Tak_dodorz.json    dodorz/scoop
 WildReplace.json    dodorz/scoop
 libav.json    dodorz/scoop
 EmptyRecycleBin.json    dodorz/scoop
@@ -7346,7 +7348,6 @@ iTunesEncode.json    dodorz/scoop
 Yudit.json    dodorz/scoop
 ProxyeeDown.json    dodorz/scoop
 BaiduNetdisk_dodorz.json    dodorz/scoop
-StrokesPlus.net_dodorz.json    dodorz/scoop
 Xion.json    dodorz/scoop
 UnrealCommander.json    dodorz/scoop
 CSVed.json    dodorz/scoop
@@ -7372,7 +7373,6 @@ SourceNavigator-NG.json    dodorz/scoop
 Everything_dodorz.json    dodorz/scoop
 Xpdf-tools_dodorz.json    dodorz/scoop
 GetWindowText.json    dodorz/scoop
-XMLNotepad_dodorz.json    dodorz/scoop
 HashCodes.json    dodorz/scoop
 PngOptimizerCL.json    dodorz/scoop
 BookXNotePro.json    dodorz/scoop
@@ -7419,7 +7419,6 @@ SpleeterCLI.json    dodorz/scoop
 WFPQuery.json    dodorz/scoop
 UnstoppableCopier.json    dodorz/scoop
 CleanUp.json    dodorz/scoop
-WinDjView_dodorz.json    dodorz/scoop
 SoftMakerFreeOffice.json    dodorz/scoop
 cheat_dodorz.json    dodorz/scoop
 SwiftSearch.json    dodorz/scoop
@@ -7925,7 +7924,6 @@ GeoGebra_dodorz.json    dodorz/scoop
 KNot.json    dodorz/scoop
 CobianBackup.json    dodorz/scoop
 PartAssistCmd.json    dodorz/scoop
-XMPlay_dodorz.json    dodorz/scoop
 Wing101.json    dodorz/scoop
 Pinta_dodorz.json    dodorz/scoop
 Noto-Mono-Font_dodorz.json    dodorz/scoop
@@ -8468,6 +8466,7 @@ monolith_akirco.json    akirco/aki-apps
 lwc_akirco.json    akirco/aki-apps
 fl980.json    akirco/aki-apps
 listen1desktop_akirco.json    akirco/aki-apps
+youtubedownloader_akirco.json    akirco/aki-apps
 gradle4_akirco.json    akirco/aki-apps
 youtube-dl_akirco.json    akirco/aki-apps
 tesseract-languages_akirco.json    akirco/aki-apps
@@ -8784,6 +8783,7 @@ screentogif_ViCrack.json    ViCrack/scoop-bucket
 pidkey.json    ViCrack/scoop-bucket
 pot_ViCrack.json    ViCrack/scoop-bucket
 fvuln.json    ViCrack/scoop-bucket
+xterminal.json    ViCrack/scoop-bucket
 naabu_ViCrack.json    ViCrack/scoop-bucket
 w3cschool_ViCrack.json    ViCrack/scoop-bucket
 rubick_ViCrack.json    ViCrack/scoop-bucket
@@ -9988,7 +9988,6 @@ MajsoulPlus.json    ygguorun/scoop-bucket
 Macast_ygguorun.json    ygguorun/scoop-bucket
 LyricTools.json    ygguorun/scoop-bucket
 VideoManager.json    ygguorun/scoop-bucket
-aDrive_ygguorun.json    ygguorun/scoop-bucket
 TextLocator_ygguorun.json    ygguorun/scoop-bucket
 Legendary_ygguorun.json    ygguorun/scoop-bucket
 wodeabc.json    ygguorun/scoop-bucket
@@ -11689,6 +11688,7 @@ ghz.json    aliesbelik/poldi
 tcping-go_aliesbelik.json    aliesbelik/poldi
 speedbump.json    aliesbelik/poldi
 kafkactl.json    aliesbelik/poldi
+gickup_aliesbelik.json    aliesbelik/poldi
 gobench.json    aliesbelik/poldi
 httpx_aliesbelik.json    aliesbelik/poldi
 wombat.json    aliesbelik/poldi
@@ -12306,6 +12306,7 @@ xmeters-np.json    FlawlessCasual17/MyScoop
 mysql-shell.json    FlawlessCasual17/MyScoop
 kdevelop-nightly.json    FlawlessCasual17/MyScoop
 logitech-fup.json    FlawlessCasual17/MyScoop
+user-profile-wizard.json    FlawlessCasual17/MyScoop
 clear-terminal.json    FlawlessCasual17/MyScoop
 virtualdub2.json    FlawlessCasual17/MyScoop
 eset-sysinspector.json    FlawlessCasual17/MyScoop
@@ -12321,6 +12322,7 @@ megui_fixed.json    FlawlessCasual17/MyScoop
 patchmypc.json    FlawlessCasual17/MyScoop
 yacy.json    FlawlessCasual17/MyScoop
 imdisk.json    FlawlessCasual17/MyScoop
+transwiz.json    FlawlessCasual17/MyScoop
 eiffelstudio.json    FlawlessCasual17/MyScoop
 tidal_FlawlessCasual17.json    FlawlessCasual17/MyScoop
 mp3tag_fixed.json    FlawlessCasual17/MyScoop
