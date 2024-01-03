@@ -4148,6 +4148,7 @@ controlmymonitor.json    kodybrown/scoop-nirsoft
 safarihistoryview.json    kodybrown/scoop-nirsoft
 simplecodegenerator.json    kodybrown/scoop-nirsoft
 appcrashview.json    kodybrown/scoop-nirsoft
+browserautofillview.json    kodybrown/scoop-nirsoft
 simplewmiview.json    kodybrown/scoop-nirsoft
 wincrashreport.json    kodybrown/scoop-nirsoft
 devmanview.json    kodybrown/scoop-nirsoft
@@ -4590,7 +4591,7 @@ controlmymonitor_ScoopInstaller.json    ScoopInstaller/Nirsoft
 safarihistoryview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 simplecodegenerator_ScoopInstaller.json    ScoopInstaller/Nirsoft
 appcrashview_ScoopInstaller.json    ScoopInstaller/Nirsoft
-browserautofillview.json    ScoopInstaller/Nirsoft
+browserautofillview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 simplewmiview_ScoopInstaller.json    ScoopInstaller/Nirsoft
 wincrashreport_ScoopInstaller.json    ScoopInstaller/Nirsoft
 videoaudiotools.json    ScoopInstaller/Nirsoft
@@ -8516,6 +8517,7 @@ regexp_akirco.json    akirco/aki-apps
 flutter_akirco.json    akirco/aki-apps
 yq_akirco.json    akirco/aki-apps
 gof_akirco.json    akirco/aki-apps
+ydl-ui_akirco.json    akirco/aki-apps
 gdrive_akirco.json    akirco/aki-apps
 vcredist2013_akirco.json    akirco/aki-apps
 xmind_akirco.json    akirco/aki-apps
@@ -9620,7 +9622,6 @@ powerping_DoveBoy.json    DoveBoy/Apps
 winget_DoveBoy.json    DoveBoy/Apps
 sandboxie-classic-np_DoveBoy.json    DoveBoy/Apps
 draw.io_DoveBoy.json    DoveBoy/Apps
-waifu2x-extension-gui_DoveBoy.json    DoveBoy/Apps
 ruffle.json    DoveBoy/Apps
 pnpm_DoveBoy.json    DoveBoy/Apps
 rickrack_DoveBoy.json    DoveBoy/Apps
@@ -9745,6 +9746,7 @@ clink-completions_DoveBoy.json    DoveBoy/Apps
 gopeed_DoveBoy.json    DoveBoy/Apps
 croc_DoveBoy.json    DoveBoy/Apps
 neteaseuu_DoveBoy.json    DoveBoy/Apps
+upx_DoveBoy.json    DoveBoy/Apps
 ipcalc_DoveBoy.json    DoveBoy/Apps
 obs-studio_DoveBoy.json    DoveBoy/Apps
 regjump_DoveBoy.json    DoveBoy/Apps
@@ -9808,7 +9810,6 @@ etcher-portable.json    DoveBoy/Apps
 everything-beta_DoveBoy.json    DoveBoy/Apps
 network-profile-name-changer_DoveBoy.json    DoveBoy/Apps
 freecontrol.json    DoveBoy/Apps
-forkgram_DoveBoy.json    DoveBoy/Apps
 clash-nyanpasu_DoveBoy.json    DoveBoy/Apps
 typora-dev.json    DoveBoy/Apps
 windterm_DoveBoy.json    DoveBoy/Apps
@@ -9828,7 +9829,6 @@ chatbox_DoveBoy.json    DoveBoy/Apps
 curl_DoveBoy.json    DoveBoy/Apps
 scoop-backup-knoxdev.json    DoveBoy/Apps
 easy-context-menu_DoveBoy.json    DoveBoy/Apps
-wechatvideodownloader.json    DoveBoy/Apps
 b0pass.json    DoveBoy/Apps
 neovim_DoveBoy.json    DoveBoy/Apps
 clash-rev-compatible-go120.json    DoveBoy/Apps
@@ -9872,6 +9872,7 @@ reqable-beta.json    DoveBoy/Apps
 study-xxqg-beta.json    DoveBoy/Apps
 clash-chinese-patch.json    DoveBoy/Apps
 clashy.json    DoveBoy/Apps
+wechatvideodownloader.json    DoveBoy/Apps
 typoracracker-code.json    DoveBoy/Apps
 hackgennerd.json    iquiw/scoop-bucket
 helmsman_iquiw.json    iquiw/scoop-bucket
@@ -10707,6 +10708,7 @@ ghz.json    aliesbelik/poldi
 tcping-go_aliesbelik.json    aliesbelik/poldi
 speedbump.json    aliesbelik/poldi
 kafkactl.json    aliesbelik/poldi
+gickup_aliesbelik.json    aliesbelik/poldi
 gobench.json    aliesbelik/poldi
 httpx_aliesbelik.json    aliesbelik/poldi
 wombat.json    aliesbelik/poldi
