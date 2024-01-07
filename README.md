@@ -90,14 +90,15 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jonz94/scoop-sarasa-nerd-fonts
 - DoveBoy/Apps
 - iquiw/scoop-bucket
+- hu3rror/scoop-muggle
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
 - 42wim/scoop-bucket
-- hu3rror/scoop-muggle
 - jfut/scoop-jfut
 - batkiz/backit
 - mogeko/scoop-sysinternals
 - ChungZH/peach
+- aoisummer/scoop-bucket
 - AStupidBear/scoop-bear
 - starise/Scoop-Gaming
 - Velgus/Scoop-Portapps
@@ -106,7 +107,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Confetti
 - Weidows-projects/scoop-3rd
 - cc713/ownscoop
-- aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - rivy/scoop-bucket
 - SayCV/scoop-cvp
