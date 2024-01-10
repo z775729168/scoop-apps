@@ -13,13 +13,16 @@
         "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
         "Start-Process \"$dir\\fxsound_setup.exe\" -Wait -Verb 'RunAs' -Args @('/exenoui', '/qn')",
         "Start-Process \"$dir\\fxsound_setup.exe\" -Wait -Verb 'RunAs' -Args @('/extract', \"$dir\")",
-        "Remove-Item \"$dir\\fxsound_setup.exe\""
+        "Remove-Item \"$dir\\fxsound_setup.exe\"; Start-Sleep -Seconds 10; taskkill /f /im 'FxSound.exe' | Out-Null"
     ],
     "pre_uninstall": [
         "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
-        "foreach ($f in (Get-ChildItem \"$dir\\*.msi\")) {",
+        "$msg = \"Please make sure the application, '$app' isn't running in the background before uninstalling!\"",
+        "if ($cmd -eq 'uninstall') {",
+        "    if (Get-Process -Name 'FxSound' -ErrorAction 'SilentlyContinue') { error $msg; break }",
+        "",
         "    Start-Process 'msiexec' -Wait -Verb 'RunAs' `",
-        "      -Args @('/x', \"$dir\\$f\", '/qn')",
+        "      -Args @('/x', \"$dir\\fxsound.x64.msi\", '/qn', 'REBOOT=ReallySuppress', '/norestart')",
         "}"
     ],
     "checkver": {

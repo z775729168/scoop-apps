@@ -1,12 +1,12 @@
 {
-    "version": "1704720718",
+    "version": "1704821100",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip",
-            "hash": "444a8603c93b73449152ec5ac5403d8abf94691c04326f850c1110567f904530",
+            "hash": "42fb9e489c8879d4e77f4e5107b0a451d6bfbbd4eb50219209731d40b87f0831",
             "extract_dir": "ffmpeg-master-latest-win64-gpl"
         }
     },
