@@ -55,8 +55,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/scoop-nonportable
 - kodybrown/scoop-nirsoft
 - littleli/scoop-clojure
-- rasa/scoops
 - arch3rPro/PST-Bucket
+- rasa/scoops
 - ScoopInstaller/Nirsoft
 - kidonng/sushi
 - hoilc/scoop-lemon
@@ -65,6 +65,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Paxxs/Cluttered-bucket
 - echoiron/echo-scoop
 - ScoopInstaller/Nonportable
+- cderv/r-bucket
 - hermanjustnu/scoop-emulators
 - couleur-tweak-tips/utils
 - dodorz/scoop
