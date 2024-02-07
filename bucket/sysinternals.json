@@ -1,5 +1,5 @@
 {
-    "version": "2024.1.24",
+    "version": "2024.2.6",
     "description": "A set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment.",
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
     "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
-    "hash": "f5ce59b70dfed1846a1fa145dd34acc9f6635e6d80a24cae39b911ebe9b33140",
+    "hash": "c9a3b8aaeb55b8538d3d15991e4f430225c35b50a653184e325ae72ecd1c3860",
     "checkver": {
         "script": [
             "$resp = Invoke-WebRequest 'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?board=Sysinternals-Blog'",
