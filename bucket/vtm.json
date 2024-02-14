@@ -1,20 +1,20 @@
 {
-    "version": "0.9.65",
+    "version": "0.9.67",
     "description": "Terminal multiplexer with window manager and session sharing",
     "homepage": "https://github.com/netxs-group/vtm",
     "license": "MIT",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/netxs-group/vtm/releases/download/v0.9.65/vtm_windows_arm64.zip",
-            "hash": "c42266b1d5da0e3d4edb32fbe9f10e56a3207e7b032fdb983bdd86e08e09be00"
+            "url": "https://github.com/netxs-group/vtm/releases/download/v0.9.67/vtm_windows_arm64.zip",
+            "hash": "8ce06e387f6772d817d6217752b48035487654d062f129bd970e8bba1247d6cc"
         },
         "64bit": {
-            "url": "https://github.com/netxs-group/vtm/releases/download/v0.9.65/vtm_windows_x86_64.zip",
-            "hash": "4b2bc9f9d3806c2326ad39bbe3511bb7926040f457c9e8c10079691816097399"
+            "url": "https://github.com/netxs-group/vtm/releases/download/v0.9.67/vtm_windows_x86_64.zip",
+            "hash": "886b661643589fb686d23cacb1ceb290979332dc5ce57a80c3b96c3fdf0c7e6b"
         },
         "32bit": {
-            "url": "https://github.com/netxs-group/vtm/releases/download/v0.9.65/vtm_windows_x86.zip",
-            "hash": "0cd146dd8f367c3ccf85e3df8e1db2e3362f2f3214ca6bb3933097c390f84c8f"
+            "url": "https://github.com/netxs-group/vtm/releases/download/v0.9.67/vtm_windows_x86.zip",
+            "hash": "9c8682980cf2fafddae91c18ced2ef3c00d0be519d428e97f36189cae591308b"
         }
     },
     "bin": "vtm.exe",
