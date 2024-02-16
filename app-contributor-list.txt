@@ -969,6 +969,7 @@ googlechrome_ScoopInstaller.json    ScoopInstaller/Extras
 autoactions.json    ScoopInstaller/Extras
 patheditor.json    ScoopInstaller/Extras
 mobalivecd.json    ScoopInstaller/Extras
+openutau.json    ScoopInstaller/Extras
 blink1control2.json    ScoopInstaller/Extras
 mayo.json    ScoopInstaller/Extras
 xnviewmp.json    ScoopInstaller/Extras
@@ -1369,6 +1370,7 @@ kodi.json    ScoopInstaller/Extras
 puttie.json    ScoopInstaller/Extras
 elisa.json    ScoopInstaller/Extras
 mediainfo-gui.json    ScoopInstaller/Extras
+spyder-lite.json    ScoopInstaller/Extras
 symphytum.json    ScoopInstaller/Extras
 pentaho-data-integration.json    ScoopInstaller/Extras
 multipar.json    ScoopInstaller/Extras
@@ -1952,6 +1954,7 @@ rawtherapee.json    ScoopInstaller/Extras
 rbtray.json    ScoopInstaller/Extras
 tortoisehg.json    ScoopInstaller/Extras
 lunacy.json    ScoopInstaller/Extras
+spyder.json    ScoopInstaller/Extras
 shadered.json    ScoopInstaller/Extras
 optimizer.json    ScoopInstaller/Extras
 whipinto.json    ScoopInstaller/Extras
@@ -2872,7 +2875,6 @@ vscode-win7.json    ivaquero/scoopet
 subversion.json    ivaquero/scoopet
 eudic.json    ivaquero/scoopet
 dingtalk_ivaquero.json    ivaquero/scoopet
-spyder.json    ivaquero/scoopet
 clash-nyanpasu.json    ivaquero/scoopet
 reader.json    ivaquero/scoopet
 baidunetdisk_ivaquero.json    ivaquero/scoopet
@@ -6396,12 +6398,10 @@ lavfilters-np.json    ScoopInstaller/Nonportable
 winbtrfs-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 vokoscreenng-np.json    ScoopInstaller/Nonportable
 auto-dark-mode-np_ScoopInstaller.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-full-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 flash-drive-tester-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 dshidmini-np.json    ScoopInstaller/Nonportable
 ditto-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 bluestacks-np_ScoopInstaller.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-mega-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 musicbee-np.json    ScoopInstaller/Nonportable
 innosetup-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 workman-p-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -6413,10 +6413,8 @@ nsis-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 icaros-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 xysubfilter-libass-np.json    ScoopInstaller/Nonportable
 notepadplusplus-np_ScoopInstaller.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-standard-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 winrar-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 omnidb-np_ScoopInstaller.json    ScoopInstaller/Nonportable
-k-lite-codec-pack-basic-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 resilio-sync-np.json    ScoopInstaller/Nonportable
 mactype-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 nvidia-display-driver-dch-with-3d-vision-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -8027,6 +8025,7 @@ mpvconfigurator.json    DoveBoy/Apps
 esearch_DoveBoy.json    DoveBoy/Apps
 libreoffice_DoveBoy.json    DoveBoy/Apps
 clink-completions_DoveBoy.json    DoveBoy/Apps
+crystaldiskinfo-aoi-edition_DoveBoy.json    DoveBoy/Apps
 alist_DoveBoy.json    DoveBoy/Apps
 draw.io_DoveBoy.json    DoveBoy/Apps
 gpg_DoveBoy.json    DoveBoy/Apps
@@ -8319,6 +8318,7 @@ spacedrive.json    DoveBoy/Apps
 backup-start-menu-layout_DoveBoy.json    DoveBoy/Apps
 gotop_DoveBoy.json    DoveBoy/Apps
 bookget_DoveBoy.json    DoveBoy/Apps
+krita_DoveBoy.json    DoveBoy/Apps
 chatall_DoveBoy.json    DoveBoy/Apps
 text-grab_DoveBoy.json    DoveBoy/Apps
 betterncm.json    DoveBoy/Apps
@@ -8383,6 +8383,7 @@ gnirehtet_DoveBoy.json    DoveBoy/Apps
 croc_DoveBoy.json    DoveBoy/Apps
 lanzou-cmd.json    DoveBoy/Apps
 xmusicdownloader.json    DoveBoy/Apps
+chromedriver-dev_DoveBoy.json    DoveBoy/Apps
 memreduct_DoveBoy.json    DoveBoy/Apps
 scoop-completion_DoveBoy.json    DoveBoy/Apps
 v2rayn-core-with-runtime.json    DoveBoy/Apps
