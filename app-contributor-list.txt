@@ -1520,6 +1520,7 @@ everything.json    ScoopInstaller/Extras
 yubioath.json    ScoopInstaller/Extras
 avogadro.json    ScoopInstaller/Extras
 copytranslator.json    ScoopInstaller/Extras
+bzip3.json    ScoopInstaller/Extras
 appflowy.json    ScoopInstaller/Extras
 safebrowser.json    ScoopInstaller/Extras
 wizmouse.json    ScoopInstaller/Extras
@@ -6838,6 +6839,7 @@ PyScripter.json    dodorz/scoop
 RainlendarLite.json    dodorz/scoop
 WinZsh.json    dodorz/scoop
 MPlayer-sherpya.json    dodorz/scoop
+Wox_dodorz.json    dodorz/scoop
 FreeVD.json    dodorz/scoop
 UltraCopier.json    dodorz/scoop
 WildReplace.json    dodorz/scoop
@@ -7408,6 +7410,7 @@ PowerOFF_dodorz.json    dodorz/scoop
 SoX_dodorz.json    dodorz/scoop
 XnViewClassic.json    dodorz/scoop
 ClashWarden.json    dodorz/scoop
+LMStudio.json    dodorz/scoop
 CloverPdf.json    dodorz/scoop
 base64_dodorz.json    dodorz/scoop
 KingDraw_dodorz.json    dodorz/scoop
@@ -8311,6 +8314,7 @@ cmder_DoveBoy.json    DoveBoy/Apps
 clash-rev-go120.json    DoveBoy/Apps
 audio-share.json    DoveBoy/Apps
 dart-simple-live.json    DoveBoy/Apps
+qtscrcpy_DoveBoy.json    DoveBoy/Apps
 clash-mini.json    DoveBoy/Apps
 pikapika.json    DoveBoy/Apps
 v2raya-unstable.json    DoveBoy/Apps
@@ -8427,6 +8431,7 @@ tiny11builder.json    DoveBoy/Apps
 saber_DoveBoy.json    DoveBoy/Apps
 fd_DoveBoy.json    DoveBoy/Apps
 v2rayn_DoveBoy.json    DoveBoy/Apps
+openai-translator_DoveBoy.json    DoveBoy/Apps
 whisper.json    DoveBoy/Apps
 sandboxie-classic_DoveBoy.json    DoveBoy/Apps
 sing-box_DoveBoy.json    DoveBoy/Apps
@@ -8601,13 +8606,11 @@ yarr.json    batkiz/backit
 hurl_batkiz.json    batkiz/backit
 hgrep_batkiz.json    batkiz/backit
 dog_batkiz.json    batkiz/backit
-notepad2e.json    batkiz/backit
 pdm.json    batkiz/backit
 racket_batkiz.json    batkiz/backit
 dev-toys-cli.json    batkiz/backit
 micro_batkiz.json    batkiz/backit
 filebrowser_batkiz.json    batkiz/backit
-listen1-desktop-fluent.json    batkiz/backit
 kotatogram_batkiz.json    batkiz/backit
 soul.json    batkiz/backit
 gitty.json    batkiz/backit
@@ -8629,13 +8632,10 @@ csvq.json    batkiz/backit
 beekeeper-studio_batkiz.json    batkiz/backit
 fscan_batkiz.json    batkiz/backit
 dnote_batkiz.json    batkiz/backit
-gitoxide.json    batkiz/backit
 miniserve_batkiz.json    batkiz/backit
 lite_batkiz.json    batkiz/backit
 dotnet-core-uninstall.json    batkiz/backit
 murphysec.json    batkiz/backit
-miktex_batkiz.json    batkiz/backit
-Iosevka.json    batkiz/backit
 coreutils-rs.json    batkiz/backit
 latexindent_batkiz.json    batkiz/backit
 EnergyStar_batkiz.json    batkiz/backit
@@ -8656,8 +8656,6 @@ git-branch-stash.json    batkiz/backit
 dino-rss.json    batkiz/backit
 irust.json    batkiz/backit
 embarcadero-dev-cpp.json    batkiz/backit
-es_batkiz.json    batkiz/backit
-got.json    batkiz/backit
 kreya.json    batkiz/backit
 cpufetch_batkiz.json    batkiz/backit
 racket-cs.json    batkiz/backit
@@ -8706,7 +8704,6 @@ buildkit.json    batkiz/backit
 teal.json    batkiz/backit
 pueue_batkiz.json    batkiz/backit
 autocorrect.json    batkiz/backit
-deta_batkiz.json    batkiz/backit
 g.json    batkiz/backit
 dolt_batkiz.json    batkiz/backit
 ibmcloud-cli_batkiz.json    batkiz/backit
@@ -8726,7 +8723,6 @@ glow_batkiz.json    batkiz/backit
 eza_batkiz.json    batkiz/backit
 python38_batkiz.json    batkiz/backit
 jqp_batkiz.json    batkiz/backit
-fstar.json    batkiz/backit
 capslock-plus.json    batkiz/backit
 onefetch_batkiz.json    batkiz/backit
 motrix_batkiz.json    batkiz/backit
@@ -8758,10 +8754,8 @@ youtube-dl-wpf_batkiz.json    batkiz/backit
 delete-self-poc.json    batkiz/backit
 muffet.json    batkiz/backit
 gotip.json    batkiz/backit
-fraidycat.json    batkiz/backit
 vivaldi-snapshot_batkiz.json    batkiz/backit
 termshark_batkiz.json    batkiz/backit
-wsltty_batkiz.json    batkiz/backit
 g-np.json    batkiz/backit
 schema.json    batkiz/backit
 wiznotelite_batkiz.json    batkiz/backit
@@ -8797,7 +8791,7 @@ aspell_iquiw.json    iquiw/scoop-bucket
 yj.json    iquiw/scoop-bucket
 logcli_iquiw.json    iquiw/scoop-bucket
 tbls.json    iquiw/scoop-bucket
-iosevka_iquiw.json    iquiw/scoop-bucket
+iosevka.json    iquiw/scoop-bucket
 anaconda3_AStupidBear.json    AStupidBear/scoop-bear
 libav_AStupidBear.json    AStupidBear/scoop-bear
 reset-permission.json    AStupidBear/scoop-bear
