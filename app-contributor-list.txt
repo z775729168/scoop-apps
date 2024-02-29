@@ -3124,7 +3124,6 @@ n-m3u8dl-re.json    ivaquero/scoopet
 freecad-cn.json    ivaquero/scoopet
 partition-assistant.json    ivaquero/scoopet
 diskgenius-cn.json    ivaquero/scoopet
-feishu_ivaquero.json    ivaquero/scoopet
 umi-ocr-all-lang.json    ivaquero/scoopet
 miniconda-cn.json    ivaquero/scoopet
 lyx-cn.json    ivaquero/scoopet
@@ -5259,6 +5258,7 @@ sclient.json    hoilc/scoop-lemon
 system-tray-menu.json    hoilc/scoop-lemon
 chanify.json    hoilc/scoop-lemon
 xplorer_hoilc.json    hoilc/scoop-lemon
+watchcat.json    hoilc/scoop-lemon
 abstreet.json    hoilc/scoop-lemon
 dorion.json    hoilc/scoop-lemon
 tts-vue.json    hoilc/scoop-lemon
@@ -5751,6 +5751,7 @@ maple-mono_hoilc.json    hoilc/scoop-lemon
 terminal.icu.json    hoilc/scoop-lemon
 terminus-player.json    hoilc/scoop-lemon
 liii.json    hoilc/scoop-lemon
+vfox.json    hoilc/scoop-lemon
 tclkitsh.json    hoilc/scoop-lemon
 ediary3.json    hoilc/scoop-lemon
 toxiproxy.json    hoilc/scoop-lemon
@@ -5836,6 +5837,7 @@ tuic.json    hoilc/scoop-lemon
 myqrcodescanner.json    hoilc/scoop-lemon
 insomnium_hoilc.json    hoilc/scoop-lemon
 tunnelto.json    hoilc/scoop-lemon
+1key.run.json    hoilc/scoop-lemon
 nps-server.json    hoilc/scoop-lemon
 shutter_hoilc.json    hoilc/scoop-lemon
 memcached_exporter.json    hoilc/scoop-lemon
@@ -5862,6 +5864,7 @@ libportable-iceweasel.json    hoilc/scoop-lemon
 timevertor.json    hoilc/scoop-lemon
 webmesh.json    hoilc/scoop-lemon
 ibeverythingext.json    hoilc/scoop-lemon
+ovftool.json    hoilc/scoop-lemon
 tdengine-client.json    hoilc/scoop-lemon
 am-notebook.json    hoilc/scoop-lemon
 filefriend-cn.json    hoilc/scoop-lemon
@@ -6239,18 +6242,6 @@ dingtalk_scoopcn.json    scoopcn/scoopcn
 xt800.json    scoopcn/scoopcn
 kwmusic.json    scoopcn/scoopcn
 xt800agent.json    scoopcn/scoopcn
-wsl-opensuse.json    KNOXDEV/wsl
-wsl-centos9.json    KNOXDEV/wsl
-wsl-ubuntu1804.json    KNOXDEV/wsl
-wsl-ubuntu1804-arm.json    KNOXDEV/wsl
-wsl-debian.json    KNOXDEV/wsl
-wsl-ubuntu2004.json    KNOXDEV/wsl
-wsl-fedora.json    KNOXDEV/wsl
-wsl-fedora-arm.json    KNOXDEV/wsl
-wsl-kali.json    KNOXDEV/wsl
-wsl-ubuntu1604.json    KNOXDEV/wsl
-wsl-ubuntu2204.json    KNOXDEV/wsl
-wsl-sles.json    KNOXDEV/wsl
 PanDownloadServer.json    Paxxs/Cluttered-bucket
 Aida64-Ex.json    Paxxs/Cluttered-bucket
 AliWangWang.json    Paxxs/Cluttered-bucket
@@ -6316,6 +6307,18 @@ ScreenRuler.json    Paxxs/Cluttered-bucket
 360DrvMgr.json    Paxxs/Cluttered-bucket
 Windows.Auto.Night.Mode.json    Paxxs/Cluttered-bucket
 KeybMap64.json    Paxxs/Cluttered-bucket
+wsl-opensuse.json    KNOXDEV/wsl
+wsl-centos9.json    KNOXDEV/wsl
+wsl-ubuntu1804.json    KNOXDEV/wsl
+wsl-ubuntu1804-arm.json    KNOXDEV/wsl
+wsl-debian.json    KNOXDEV/wsl
+wsl-ubuntu2004.json    KNOXDEV/wsl
+wsl-fedora.json    KNOXDEV/wsl
+wsl-fedora-arm.json    KNOXDEV/wsl
+wsl-kali.json    KNOXDEV/wsl
+wsl-ubuntu1604.json    KNOXDEV/wsl
+wsl-ubuntu2204.json    KNOXDEV/wsl
+wsl-sles.json    KNOXDEV/wsl
 zerotier-np.json    ScoopInstaller/Nonportable
 vpnc-front-end-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 goodsync-np.json    ScoopInstaller/Nonportable
@@ -7533,6 +7536,7 @@ XDM.json    dodorz/scoop
 RegistryWorkshop-zh-cn.json    dodorz/scoop
 AdvanceCOMP.json    dodorz/scoop
 WizNoteLite.json    dodorz/scoop
+Raptor.json    dodorz/scoop
 EmACT.json    dodorz/scoop
 KaTrain_dodorz.json    dodorz/scoop
 Win32Spy.json    dodorz/scoop
@@ -7584,6 +7588,7 @@ XnViewClassic-Full.json    dodorz/scoop
 BitComet_dodorz.json    dodorz/scoop
 Noto-Sans-Font_dodorz.json    dodorz/scoop
 CleanUp.json    dodorz/scoop
+Effie.json    dodorz/scoop
 CCAssit.json    dodorz/scoop
 Baulk_dodorz.json    dodorz/scoop
 ClipX.json    dodorz/scoop
@@ -8174,6 +8179,7 @@ NPowerTray.json    dodorz/scoop
 justmd.json    dodorz/scoop
 Notepad--_dodorz.json    dodorz/scoop
 DiagramDesigner.json    dodorz/scoop
+Anytype.json    dodorz/scoop
 CCleaner_dodorz.json    dodorz/scoop
 TarTool.json    dodorz/scoop
 adobe-source-han-sans-tw-fonts.json    dodorz/scoop
@@ -8697,12 +8703,13 @@ awscurl-py.json    TheRandomLabs/Scoop-Python
 pytest-py.json    TheRandomLabs/Scoop-Python
 httpie-py.json    TheRandomLabs/Scoop-Python
 pop.json    charmbracelet/scoop-bucket
-gum_charmbracelet.json    charmbracelet/scoop-bucket
 melt.json    charmbracelet/scoop-bucket
 wishlist.json    charmbracelet/scoop-bucket
+skate.json    charmbracelet/scoop-bucket
 mods_charmbracelet.json    charmbracelet/scoop-bucket
 charm_charmbracelet.json    charmbracelet/scoop-bucket
 vhs_charmbracelet.json    charmbracelet/scoop-bucket
+charm-gum_charmbracelet.json    charmbracelet/scoop-bucket
 glow_charmbracelet.json    charmbracelet/scoop-bucket
 soft-serve.json    charmbracelet/scoop-bucket
 confettysh.json    charmbracelet/scoop-bucket
@@ -8793,6 +8800,7 @@ monit-portable.json    DoveBoy/Apps
 esearch-portable.json    DoveBoy/Apps
 showkeyboard.json    DoveBoy/Apps
 nssm_DoveBoy.json    DoveBoy/Apps
+k-lite-codec-pack-full-np_DoveBoy.json    DoveBoy/Apps
 firewallappblocker_DoveBoy.json    DoveBoy/Apps
 retrieval-based-voice-conversion-webui.json    DoveBoy/Apps
 imagemagick_DoveBoy.json    DoveBoy/Apps
@@ -10198,6 +10206,7 @@ sumatrapdf_ShuguangSun.json    ShuguangSun/sgs-scoop-bucket
 openjdk13_ShuguangSun.json    ShuguangSun/sgs-scoop-bucket
 umi-ocr_rapid.json    ShuguangSun/sgs-scoop-bucket
 Victor-Mono_ShuguangSun.json    ShuguangSun/sgs-scoop-bucket
+unrar_ShuguangSun.json    ShuguangSun/sgs-scoop-bucket
 vscode-portable.json    ShuguangSun/sgs-scoop-bucket
 r-4.2.1.json    ShuguangSun/sgs-scoop-bucket
 busybox_ShuguangSun.json    ShuguangSun/sgs-scoop-bucket
