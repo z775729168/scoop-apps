@@ -358,6 +358,7 @@ jexiftoolgui.json    ScoopInstaller/Extras
 nordpass.json    ScoopInstaller/Extras
 inbucket.json    ScoopInstaller/Extras
 scrawler.json    ScoopInstaller/Extras
+bforartists.json    ScoopInstaller/Extras
 dopamine.json    ScoopInstaller/Extras
 grepwin.json    ScoopInstaller/Extras
 fwup.json    ScoopInstaller/Extras
@@ -5589,7 +5590,7 @@ wintun-libs.json    hoilc/scoop-lemon
 nps-server.json    hoilc/scoop-lemon
 uplink.json    hoilc/scoop-lemon
 picard_hoilc.json    hoilc/scoop-lemon
-uv.json    hoilc/scoop-lemon
+uv_hoilc.json    hoilc/scoop-lemon
 pointerstick.json    hoilc/scoop-lemon
 jib-cli.json    hoilc/scoop-lemon
 oplus-sans.json    hoilc/scoop-lemon
@@ -5672,7 +5673,7 @@ bookget.json    hoilc/scoop-lemon
 mongodb-atlas-cli_hoilc.json    hoilc/scoop-lemon
 logcli.json    hoilc/scoop-lemon
 amass_hoilc.json    hoilc/scoop-lemon
-earthly.json    hoilc/scoop-lemon
+earthly_hoilc.json    hoilc/scoop-lemon
 gitlab-release-cli_hoilc.json    hoilc/scoop-lemon
 kubestr.json    hoilc/scoop-lemon
 stduviewer.json    hoilc/scoop-lemon
@@ -5680,7 +5681,7 @@ consul_exporter.json    hoilc/scoop-lemon
 terrascan.json    hoilc/scoop-lemon
 oppo-sans.json    hoilc/scoop-lemon
 mahou.json    hoilc/scoop-lemon
-realm.json    hoilc/scoop-lemon
+realm_hoilc.json    hoilc/scoop-lemon
 lyricify.json    hoilc/scoop-lemon
 usbeam-hosts-editor.json    hoilc/scoop-lemon
 dmpro.json    hoilc/scoop-lemon
@@ -5967,7 +5968,7 @@ alexandria.json    hoilc/scoop-lemon
 snova-asio.json    hoilc/scoop-lemon
 dug.json    hoilc/scoop-lemon
 biniware-run.json    hoilc/scoop-lemon
-autocorrect.json    hoilc/scoop-lemon
+autocorrect_hoilc.json    hoilc/scoop-lemon
 interactsh_hoilc.json    hoilc/scoop-lemon
 pode.json    hoilc/scoop-lemon
 ts-dns.json    hoilc/scoop-lemon
@@ -6202,7 +6203,7 @@ skywalking-cli_hoilc.json    hoilc/scoop-lemon
 img-convert.json    hoilc/scoop-lemon
 fork-cleaner.json    hoilc/scoop-lemon
 fvm_hoilc.json    hoilc/scoop-lemon
-bflat.json    hoilc/scoop-lemon
+bflat_hoilc.json    hoilc/scoop-lemon
 bitrock-unpacker.json    hoilc/scoop-lemon
 dtlspipe.json    hoilc/scoop-lemon
 i4tools.json    hoilc/scoop-lemon
@@ -7096,6 +7097,7 @@ IMMagicPartitionResizerPro-Portable.json    ACooper81/scoop-apps
 PueuedCLI-Portable.json    ACooper81/scoop-apps
 SteelSeriesEngine-Install.json    ACooper81/scoop-apps
 balenaEtcher-Portable.json    ACooper81/scoop-apps
+RDPWrapperMod-Portable.json    ACooper81/scoop-apps
 NirsoftInstalledAppView-Portable.json    ACooper81/scoop-apps
 MSEdgeRedirect-Portable.json    ACooper81/scoop-apps
 EdgeDeflector-Portable.json    ACooper81/scoop-apps
@@ -7383,7 +7385,7 @@ rstudio-pro-release.json    cderv/r-bucket
 tinytex-min.json    cderv/r-bucket
 rstudio-release.json    cderv/r-bucket
 rstudio-pro-preview.json    cderv/r-bucket
-ollama.json    cderv/r-bucket
+ollama_cderv.json    cderv/r-bucket
 rstudio-2022.02.json    cderv/r-bucket
 r-release.json    cderv/r-bucket
 tinytex-extra.json    cderv/r-bucket
@@ -7408,7 +7410,6 @@ usbtreeview_couleur-tweak-tips.json    couleur-tweak-tips/utils
 smoothie.json    couleur-tweak-tips/utils
 ezshare.json    couleur-tweak-tips/utils
 qualitymuncher.json    couleur-tweak-tips/utils
-bflat_couleur-tweak-tips.json    couleur-tweak-tips/utils
 ffprogress.json    couleur-tweak-tips/utils
 .markdownlint_borger.json    borger/scoop-emulators
 mesen_borger.json    borger/scoop-emulators
@@ -7452,6 +7453,7 @@ xenia-canary_borger.json    borger/scoop-emulators
 sameboy_borger.json    borger/scoop-emulators
 scummvm-nightly_borger.json    borger/scoop-emulators
 cemu_borger.json    borger/scoop-emulators
+ps3-system-software_borger.json    borger/scoop-emulators
 ares_borger.json    borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json    borger/scoop-emulators
 snes9x-dev_borger.json    borger/scoop-emulators
@@ -7574,6 +7576,7 @@ eSearch_dodorz.json    dodorz/scoop
 Jed.json    dodorz/scoop
 Noto-Serif-Font_dodorz.json    dodorz/scoop
 png2ico.json    dodorz/scoop
+JaneReader_dodorz.json    dodorz/scoop
 5KPlayer.json    dodorz/scoop
 CreaWriter.json    dodorz/scoop
 NormCap-cn.json    dodorz/scoop
@@ -8819,7 +8822,6 @@ api-monitor_naderi.json    naderi/scoop-bucket
 winpaletter.json    naderi/scoop-bucket
 uplay_naderi.json    naderi/scoop-bucket
 windows-update-viewer.json    naderi/scoop-bucket
-duck_naderi.json    naderi/scoop-bucket
 wavebox-portable.json    naderi/scoop-bucket
 ucalendar-portable.json    naderi/scoop-bucket
 aegisub_naderi.json    naderi/scoop-bucket
@@ -8986,7 +8988,6 @@ windedit.json    naderi/scoop-bucket
 multidoge.json    naderi/scoop-bucket
 nanaget.json    naderi/scoop-bucket
 firefox-beta-de.json    naderi/scoop-bucket
-uninstalr_naderi.json    naderi/scoop-bucket
 youtube-local.json    naderi/scoop-bucket
 ydl-ui-portable.json    naderi/scoop-bucket
 firefox-portable-de.json    naderi/scoop-bucket
@@ -9595,7 +9596,6 @@ neovim-nightly_DoveBoy.json    DoveBoy/Apps
 sed_DoveBoy.json    DoveBoy/Apps
 scoop-backup-knoxdev.json    DoveBoy/Apps
 scoop-search_DoveBoy.json    DoveBoy/Apps
-mkvtoolnix_DoveBoy.json    DoveBoy/Apps
 clash-rev-cgo.json    DoveBoy/Apps
 pdfarranger_DoveBoy.json    DoveBoy/Apps
 explorerpatcher.json    DoveBoy/Apps
@@ -10150,7 +10150,7 @@ netch_aoisummer.json    aoisummer/scoop-bucket
 autologon_aoisummer.json    aoisummer/scoop-bucket
 cinebench20.json    aoisummer/scoop-bucket
 bbdown_aoisummer.json    aoisummer/scoop-bucket
-wget2.json    brian6932/dank-scoop
+wget2_brian6932.json    brian6932/dank-scoop
 revoker.json    brian6932/dank-scoop
 gimagereader.json    brian6932/dank-scoop
 OpenHashTab_brian6932.json    brian6932/dank-scoop
@@ -10284,7 +10284,6 @@ auto-mode.json    brian6932/dank-scoop
 c2-logs.json    brian6932/dank-scoop
 svg_to_ico.json    brian6932/dank-scoop
 dandere2x.json    brian6932/dank-scoop
-boost.json    brian6932/dank-scoop
 comicrack.json    brian6932/dank-scoop
 pixel-clipper.json    brian6932/dank-scoop
 chatterino7-portable-qt5.json    brian6932/dank-scoop
@@ -10702,6 +10701,7 @@ dorion_Small-Ku.json    Small-Ku/turbo-bucket
 source-han-serif-vf-ttc.json    Small-Ku/turbo-bucket
 coqui-stt.json    Small-Ku/turbo-bucket
 yae-achievement.json    Small-Ku/turbo-bucket
+zluda.json    Small-Ku/turbo-bucket
 dmm-fast-launcher.json    Small-Ku/turbo-bucket
 rome.json    Small-Ku/turbo-bucket
 reshade-addon.json    Small-Ku/turbo-bucket
@@ -10717,6 +10717,7 @@ star-rail-tool.json    Small-Ku/turbo-bucket
 reshade-addon-dll.json    Small-Ku/turbo-bucket
 packwiz.json    Small-Ku/turbo-bucket
 fleet_Small-Ku.json    Small-Ku/turbo-bucket
+yap.json    Small-Ku/turbo-bucket
 hoyo-gacha.json    Small-Ku/turbo-bucket
 pso2-tweaker_Small-Ku.json    Small-Ku/turbo-bucket
 source-han-sans-vf-ttc.json    Small-Ku/turbo-bucket
