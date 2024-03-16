@@ -90,6 +90,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - brian6932/dank-scoop
 - KnotUntied/scoop-fonts
 - Darkatse/Scoop-Darkatse
+- TianXiaTech/scoop-txt
 - littleli/Scoop-littleli
 - beerpiss/scoop-bucket
 - ShuguangSun/sgs-scoop-bucket

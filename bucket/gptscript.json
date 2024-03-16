@@ -1,12 +1,12 @@
 {
-    "version": "0.1.5",
+    "version": "0.2.1",
     "description": "GPTScript is a new scripting language to automate your interaction with a Large Language Model (LLM), namely OpenAI",
     "homepage": "https://github.com/gptscript-ai/gptscript",
     "license": "Apache 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-windows-amd64.zip",
-            "hash": "87c637f4e9cb01147425f17263b42270a5aa9d31383f20e7bd8e047f7b7eacb6"
+            "url": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-windows-amd64.zip",
+            "hash": "30127d3791164a19f0e66cee0481275c73a82304f5275b2c3564bf57c958887c"
         }
     },
     "bin": "gptscript.exe",
