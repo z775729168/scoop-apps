@@ -48,8 +48,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Calinou/scoop-games
 - ivaquero/scoopet
 - ScoopInstaller/Java
-- TheRandomLabs/Scoop-Spotify
 - ScoopInstaller/Versions
+- TheRandomLabs/Scoop-Spotify
 - L-Trump/scoop-raresoft
 - TheCjw/scoop-retools
 - TheRandomLabs/scoop-nonportable
