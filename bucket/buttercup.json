@@ -1,12 +1,12 @@
 {
-    "version": "2.26.4",
+    "version": "2.27.0",
     "description": "Cross-Platform passwords & secrets vault",
     "homepage": "https://buttercup.pw/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/buttercup/buttercup-desktop/releases/download/v2.26.4/Buttercup-win-x64-2.26.4.7z",
-            "hash": "85ef53d9101f0c6209ace4011a1a8844d910e9d94f4edf9317482146c0e9cf80"
+            "url": "https://github.com/buttercup/buttercup-desktop/releases/download/v2.27.0/Buttercup-win-x64-2.27.0.7z",
+            "hash": "2ff708973e1bd53eb111d43f89772d53f7bc26087a5cf5c6e76028ad9fca3192"
         }
     },
     "pre_uninstall": "Stop-Process -Name 'Buttercup' -ErrorAction SilentlyContinue",
