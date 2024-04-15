@@ -95,12 +95,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aliesbelik/poldi
 - brian6932/dank-scoop
 - aoisummer/scoop-bucket
+- AkariiinMKII/Scoop4kariiin
 - beerpiss/scoop-bucket
 - KnotUntied/scoop-fonts
 - Darkatse/Scoop-Darkatse
 - littleli/Scoop-littleli
 - ShuguangSun/sgs-scoop-bucket
 - Small-Ku/turbo-bucket
-- AkariiinMKII/Scoop4kariiin
 - mo-san/scoop-bucket
 - babo4d/scoop-xrtools
