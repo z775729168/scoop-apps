@@ -50,7 +50,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Java
 - TheRandomLabs/Scoop-Spotify
 - ScoopInstaller/Versions
-- L-Trump/scoop-raresoft
 - TheCjw/scoop-retools
 - TheRandomLabs/scoop-nonportable
 - kodybrown/scoop-nirsoft
@@ -95,12 +94,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aliesbelik/poldi
 - brian6932/dank-scoop
 - aoisummer/scoop-bucket
+- littleli/Scoop-littleli
 - AkariiinMKII/Scoop4kariiin
 - beerpiss/scoop-bucket
 - KnotUntied/scoop-fonts
 - Darkatse/Scoop-Darkatse
 - Deide/deide-bucket
-- littleli/Scoop-littleli
 - ShuguangSun/sgs-scoop-bucket
 - Small-Ku/turbo-bucket
 - mo-san/scoop-bucket
