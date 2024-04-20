@@ -1,0 +1,55 @@
+{
+    "version": "125.0.2518.0",
+    "description": "Microsoft Edge Dev. The chromium based Microsoft Edge browser (Dev Channel)",
+    "homepage": "https://www.microsoftedgeinsider.com/en-us/welcome?channel=dev",
+    "license": "Freeware",
+    "changelog": "",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=125.0.2518.0&dl#/dl.7z",
+                "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/Icons/msedgedev.ico"
+            ],
+            "hash": [
+                "c372f4557d3ece1662c47db4c7d88f39ac97f10e418e6c7cf87b805e83944cc3",
+                "221ae96d9f961f615fcdd941000a83b55bb3d93435d13b3b51c1d2574f78c1f5"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=125.0.2518.0&dl#/dl.7z",
+                "https://raw.githubusercontent.com/ACooper81/SharedFiles/master/Icons/msedgedev.ico"
+            ],
+            "hash": [
+                "026c33f8b5bae6082d277e888521631881640a19566d85a6f44ed8a27d6e2461",
+                "221ae96d9f961f615fcdd941000a83b55bb3d93435d13b3b51c1d2574f78c1f5"
+            ]
+        }
+    },
+    "installer": {
+        "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+    },
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge Dev",
+            "--user-data-dir=\"$dir\\User Data\"",
+            "msedgedev.ico"
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "script": "Write-Output $([System.Text.Encoding]::Unicode.GetString((Invoke-WebRequest -URI https://msedgedriver.azureedge.net/LATEST_DEV).Content))",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=$version&dl#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=$version&dl#/dl.7z"
+            }
+        }
+    }
+}
