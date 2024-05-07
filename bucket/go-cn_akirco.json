@@ -1,0 +1,55 @@
+{
+    "version": "1.22.3",
+    "description": "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "homepage": "https://golang.org",
+    "license": "BSD-3-Clause",
+    "notes": [
+        "Your GOROOT has been set to: $dir",
+        "Your GOPATH has been set to: $dir\\global_path",
+        "Your GOPROXY has been set to: \"https://goproxy.io,direct\"",
+        "You can run 'go env GOROOT' to view this at any time.",
+        "\"$dir\\global_path\\bin\" has been added to your PATH, and been persisted."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://golang.google.cn/dl/go1.22.3.windows-amd64.zip",
+            "hash": "cab2af6951a6e2115824263f6df13ff069c47270f5788714fa1d776f7f60cb39"
+        },
+        "32bit": {
+            "url": "https://golang.google.cn/dl/go1.22.3.windows-386.zip",
+            "hash": "f60f63b8a0885e0d924f39fd284aee5438fe87d8c3d8545a312adf43e0d9edac"
+        }
+    },
+    "extract_dir": "go",
+    "env_add_path": "global_path\\bin",
+    "bin": [
+        "bin\\go.exe",
+        "bin\\gofmt.exe"
+    ],
+    "env_set": {
+        "GOROOT": "$dir",
+        "GOPATH": "$dir\\global_path",
+        "GOPROXY": "https://goproxy.io,direct"
+    },
+    "persist": "global_path",
+    "checkver": {
+        "url": "https://golang.google.cn/dl/",
+        "regex": "go([\\d.]+)\\.windows-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://golang.google.cn/dl/go$version.windows-amd64.zip",
+                "hash": {
+                    "url": "https://dl.google.com/go/go$version.windows-amd64.zip.sha256"
+                }
+            },
+            "32bit": {
+                "url": "https://golang.google.cn/dl/go$version.windows-386.zip",
+                "hash": {
+                    "url": "https://dl.google.com/go/go$version.windows-386.zip.sha256"
+                }
+            }
+        }
+    }
+}
