@@ -89,10 +89,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - charmbracelet/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoop_bucket_misty
-- iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - batkiz/backit
 - hu3rror/scoop-muggle
+- iquiw/scoop-bucket
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - AStupidBear/scoop-bear
@@ -109,12 +109,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - KnotUntied/scoop-fonts
 - beerpiss/scoop-bucket
+- Small-Ku/turbo-bucket
 - HUMORCE/nuke
 - ShuguangSun/sgs-scoop-bucket
 - FlawlessCasual17/MyScoop
 - TianXiaTech/scoop-txt
 - babo4d/scoop-xrtools
-- Small-Ku/turbo-bucket
 - mo-san/scoop-bucket
 - yuanying1199/scoopbucket
 - Deide/deide-bucket
