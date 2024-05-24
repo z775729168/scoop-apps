@@ -58,8 +58,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - arch3rPro/PST-Bucket
 - hoilc/scoop-lemon
 - ScoopInstaller/Nirsoft
-- scoopcn/scoopcn
 - rasa/scoops
+- scoopcn/scoopcn
 - kidonng/sushi
 - Paxxs/Cluttered-bucket
 - KNOXDEV/wsl
@@ -90,9 +90,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - hu3rror/scoop-muggle
 - NyaMisty/scoop_bucket_misty
+- iquiw/scoop-bucket
 - batkiz/backit
 - 42wim/scoop-bucket
-- iquiw/scoop-bucket
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - AStupidBear/scoop-bear
@@ -101,10 +101,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - Velgus/Scoop-Portapps
 - cc713/ownscoop
-- Darkatse/Scoop-Darkatse
 - noql-net/scoop
 - seumsc/scoop-seu
 - Weidows-projects/scoop-3rd
+- Darkatse/Scoop-Darkatse
 - starise/Scoop-Confetti
 - AkariiinMKII/Scoop4kariiin
 - TianXiaTech/scoop-txt
