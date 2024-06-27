@@ -1,23 +1,15 @@
 {
-    "version": "0.1.0-2024.06.25",
+    "version": "0.1.0-2024.06.27",
     "description": "MoonBit is an end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
     "homepage": "https://www.moonbitlang.com/",
     "license": "Unknown",
     "url": [
-        "https://cli.moonbitlang.com/windows/moon.exe",
-        "https://cli.moonbitlang.com/windows/moonc.exe",
-        "https://cli.moonbitlang.com/windows/moondoc.exe",
-        "https://cli.moonbitlang.com/windows/moonfmt.exe",
-        "https://cli.moonbitlang.com/windows/moonrun.exe",
-        "https://cli.moonbitlang.com/core.zip"
+        "https://cli.moonbitlang.com/binaries/latest/moonbit-windows-x86_64.zip",
+        "https://cli.moonbitlang.com/cores/core-latest.zip"
     ],
     "hash": [
-        "40e106facf7e16c922964c2f9c9ca0f6d93f477e36477cf49e2645470c8603c5",
-        "8f5119705c27a4a2bcf2e1d63e085b1b0e6c7f33f85e85e84a9bcb6aa4a63b0e",
-        "37d83d395eb1821b0b403292b8258e0ab6afb5af7db568f976a9413c863085e9",
-        "5af4ca56b03fc312bb609ccd0434c2b4afcfc1c51ed633cfeb73bbdb041cf246",
-        "2a0bf9b07101794a4da1a1f4d308bce3dca82d2452c7c42512528b2ec88ef754",
-        "a7e2e73a57a32ff70c2a24dfd915846bc248386be6747e89ff18ec9a111918d1"
+        "5adfa281bc0d7625b684eab5292fec92e8a3d72a174dabc7e2f5f78c50366914",
+        "f896ecd2765ddd7a079e396b3031a823e6091b7ee46aaffe2e8cad788fe9fc6f"
     ],
     "pre_install": "New-Item -ItemType Directory -Force -Path \"$dir\\lib\" | Out-Null",
     "post_install": [
@@ -35,9 +27,12 @@
     "bin": [
         "moon.exe",
         "moonc.exe",
+        "mooncake.exe",
         "moondoc.exe",
         "moonfmt.exe",
-        "moonrun.exe"
+        "mooninfo.exe",
+        "moonrun.exe",
+        "moon_cove_report.exe"
     ],
     "env_set": {
         "MOON_HOME": "$dir"
@@ -47,18 +42,14 @@
         "credentials.json"
     ],
     "checkver": {
-        "script": "return Get-Date \"$((iwr -Method HEAD https://cli.moonbitlang.com/windows/moon.exe).Headers.'Last-Modified')\" -Format 'yyyy.MM.dd'",
+        "script": "return Get-Date \"$((iwr -Method HEAD https://cli.moonbitlang.com/binaries/latest/moonbit-windows-x86_64.zip).Headers.'Last-Modified')\" -Format 'yyyy.MM.dd'",
         "regex": "(?<date>[\\d.]+)",
         "replace": "0.1.0-${date}"
     },
     "autoupdate": {
         "url": [
-            "https://cli.moonbitlang.com/windows/moon.exe",
-            "https://cli.moonbitlang.com/windows/moonc.exe",
-            "https://cli.moonbitlang.com/windows/moondoc.exe",
-            "https://cli.moonbitlang.com/windows/moonfmt.exe",
-            "https://cli.moonbitlang.com/windows/moonrun.exe",
-            "https://cli.moonbitlang.com/core.zip"
+            "https://cli.moonbitlang.com/binaries/latest/moonbit-windows-x86_64.zip",
+            "https://cli.moonbitlang.com/cores/core-latest.zip"
         ]
     }
 }
