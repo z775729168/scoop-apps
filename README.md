@@ -77,8 +77,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
 - ViCrack/scoop-bucket
-- wzv5/ScoopBucket
 - akirco/aki-apps
+- wzv5/ScoopBucket
 - niheaven/scoop-sysinternals
 - zhoujin7/tomato
 - TheRandomLabs/Scoop-Python
@@ -87,8 +87,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - naderi/scoop-bucket
 - charmbracelet/scoop-bucket
-- NyaMisty/scoop_bucket_misty
 - ygguorun/scoop-bucket
+- NyaMisty/scoop_bucket_misty
 - batkiz/backit
 - hu3rror/scoop-muggle
 - iquiw/scoop-bucket
@@ -103,12 +103,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - aoisummer/scoop-bucket
 - Velgus/Scoop-Portapps
-- Darkatse/Scoop-Darkatse
 - starise/Scoop-Confetti
-- seumsc/scoop-seu
-- Weidows-projects/scoop-3rd
 - TianXiaTech/scoop-txt
 - rivy/scoop-bucket
+- Weidows-projects/scoop-3rd
+- Darkatse/Scoop-Darkatse
+- seumsc/scoop-seu
 - noql-net/scoop
 - AkariiinMKII/Scoop4kariiin
 - alextwothousand/scoop-bucket
@@ -117,10 +117,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - HUMORCE/nuke
 - littleli/Scoop-littleli
 - Small-Ku/turbo-bucket
+- babo4d/scoop-xrtools
 - ShuguangSun/sgs-scoop-bucket
 - FlawlessCasual17/MyScoop
 - The-Simples/scoop-minecraft
-- babo4d/scoop-xrtools
 - KnotUntied/scoop-fonts
 - yuanying1199/scoopbucket
 - Deide/deide-bucket
