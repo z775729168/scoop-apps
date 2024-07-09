@@ -1,12 +1,12 @@
 {
-    "version": "619",
+    "version": "633",
     "description": "A simple markdown note-taking app developed by KDE",
     "homepage": "https://apps.kde.org/marknote/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/office/marknote/master/windows/marknote-master-619-windows-cl-msvc2022-x86_64.7z",
-            "hash": "cdeb8460065b55a6da2d8fa50a2fe3d35325f875d4aed7c5b62c83fcf0ab3c7c"
+            "url": "https://cdn.kde.org/ci-builds/office/marknote/master/windows/marknote-master-633-windows-cl-msvc2022-x86_64.7z",
+            "hash": "513dd8ac7131533dea80a22cf9c9899ad0d8847f7414169c049b27c87e6586ef"
         }
     },
     "bin": "bin\\marknote.exe",
