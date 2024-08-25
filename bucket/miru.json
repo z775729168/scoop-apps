@@ -1,12 +1,12 @@
 {
-    "version": "5.4.0",
+    "version": "5.5.0",
     "description": "Stream anime torrents, real-time with no waiting for downloads",
     "homepage": "https://github.com/ThaUnknown/miru",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ThaUnknown/miru/releases/download/v5.4.0/win-Miru-5.4.0-installer.exe#/dl.7z",
-            "hash": "sha512:6ddc2ed588497ea23bdf9c91b7e91d518cc98802e5bef0d299a671dcc30ed2e1a73f6a0549208e20a6555b3a6f36ded89e9f0db5151c6ebe1d7dc560f0ac446c"
+            "url": "https://github.com/ThaUnknown/miru/releases/download/v5.5.0/win-Miru-5.5.0-installer.exe#/dl.7z",
+            "hash": "sha512:c5d1f102144b408f12076accb1455304ca3346f25de0a5a512ae08b9cb02829faa525cec13ac243221a8b242f3ed97990e150bb7555e63a2bd99ea1cb0e6c91f"
         }
     },
     "pre_install": [
