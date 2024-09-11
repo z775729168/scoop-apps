@@ -1,20 +1,20 @@
 {
-    "version": "0.0.3",
+    "version": "0.1.1",
     "description": "基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎。Small & Fast Vulnerability Scanner Engine based on XRAY YAML Rule.(Scoop bucket for Cybersecurity by whoopscs)",
     "homepage": "https://github.com/4ra1n/poc-runner",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/4ra1n/poc-runner/releases/download/0.0.3/poc-runner-0.0.3-windows-amd64.exe",
-            "hash": "91f07edb5937ac7ecabcb52088a325eceb36dac85c24c06321e961f6dcd018aa"
+            "url": "https://github.com/4ra1n/poc-runner/releases/download/0.1.1/poc-runner-0.1.1-windows-amd64.exe",
+            "hash": "22f85fa33eed3c4a3d486b97563ae5af05506965b0f25eac2d3a076ec553b053"
         },
         "32bit": {
-            "url": "https://github.com/4ra1n/poc-runner/releases/download/0.0.3/poc-runner-0.0.3-windows-386.exe",
-            "hash": "83a3cd8deea2c7d4c57a381a02c5e3fa099f9c5757fe270f42a3341365ef825a"
+            "url": "https://github.com/4ra1n/poc-runner/releases/download/0.1.1/poc-runner-0.1.1-windows-386.exe",
+            "hash": "4664eef449698baf8f32043bbac38bb598dc0448e6cd483df00ce652dc6a8660"
         },
         "arm64": {
-            "url": "https://github.com/4ra1n/poc-runner/releases/download/0.0.3/poc-runner-0.0.3-windows-arm64.exe",
-            "hash": "2175e88d6fcf3bcebf3b8dedeca5047727eeadea712324d7fcf418d0a1a7b0db"
+            "url": "https://github.com/4ra1n/poc-runner/releases/download/0.1.1/poc-runner-0.1.1-windows-arm64.exe",
+            "hash": "9260e4e2454564e198f79bb6aaca553ed1797b0d03a1c5ffa7be3d9419321776"
         }
     },
     "bin": "poc-runner.exe",
