@@ -1,11 +1,38 @@
 {
-    "version": "latest",
-    "description": "[Mods] - A command line tool for editing and distributing Minecraft modpacks, using a git-friendly TOML format. Supports CurseForge and Modrinth mods with automated updates! ",
-    "homepage": "https://packwiz.infra.link/",
-    "license": "MIT",
+    "version": "0.0.206+811dbc6.11022739838",
+    "description": "A command line tool for editing and distributing Minecraft modpacks, using a git-friendly TOML format. Supports CurseForge and Modrinth mods with automated updates!",
+    "homepage": "https://github.com/comp500/packwiz/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/comp500/packwiz/blob/master/LICENSE"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ahdg6/packwiz/releases/download/latest/packwiz.exe"
+            "url": "https://nightly.link/packwiz/packwiz/actions/runs/11022739838/Windows%2064-bit.zip",
+            "hash": "b6351202af2ca351c129a0bb3e242aea6d715ce11195001af6940f3cfc80f2d8"
+        },
+        "arm64": {
+            "url": "https://nightly.link/packwiz/packwiz/actions/runs/11022739838/Windows%2064-bit%20ARM.zip",
+            "hash": "88e491e509473c8316a7440607e63b2e9ba90b19b71054ec5a42c92d37575e8d"
+        }
+    },
+    "checkver": {
+        "script": [
+            "$actions = Invoke-RestMethod -Uri 'https://api.github.com/repos/packwiz/packwiz/actions/workflows/go.yml/runs'",
+            "$latest_develop = $actions.workflow_runs.PSObject.Properties.Value | Where-Object { $_.head_branch -eq 'main' } | Where-Object { $_.conclusion -eq 'success' } | Select-Object -first 1",
+            "$version = '0.0.' + $latest_develop.run_number + '+' + $latest_develop.head_sha.substring(0,7) + '.' + $latest_develop.id",
+            "Write-Output $version $latest_develop.id"
+        ],
+        "regex": "(?<version>[^\\s]+)\\s(?<id>\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/packwiz/packwiz/actions/runs/$matchId/Windows%2064-bit.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/packwiz/packwiz/actions/runs/$matchId/Windows%2064-bit%20ARM.zip"
+            }
         }
     },
     "bin": "packwiz.exe"
