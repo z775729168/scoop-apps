@@ -1,12 +1,12 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "Super simple bash history replacement",
     "homepage": "https://github.com/iquiw/rireq",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iquiw/rireq/releases/download/v0.1.1/rireq-v0.1.1-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "2197ebb46efddcd49b75efea01e8fe0575d6fe496b4a579243d4a3c83d4c95d7"
+            "url": "https://github.com/iquiw/rireq/releases/download/v0.1.3/rireq-v0.1.3-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "7033bcbe7121ddd9839763e85237009ca1a0fd23ca78ea004c336fd9dfba13f4"
         }
     },
     "bin": "rireq.exe",
