@@ -1,0 +1,21 @@
+{
+    "version": "2024.42",
+    "description": "The V Programming Language. Simple, fast, safe, compiled.",
+    "homepage": "https://vlang.io",
+    "license": "MIT",
+    "notes": "Vlang contains self-hosted TCC. For making optimized builds of your software you have to install GNU/GCC or LLVM/Clang",
+    "suggest": {
+        "An LLVM/Clang/LLD based mingw-w64 toolchain": "Scoop-littleli/llvm-mingw"
+    },
+    "url": "https://github.com/vlang/v/releases/download/weekly.2024.42/v_windows.zip",
+    "hash": "584266b28c8e7ecb414efb018b957274e403e7e3d572ab56b85e56fdad77e3d2",
+    "extract_dir": "v",
+    "bin": "v.exe",
+    "checkver": {
+        "regex": "/releases/tag/weekly\\.([\\d.]+)",
+        "url": "https://github.com/vlang/v/releases/latest"
+    },
+    "autoupdate": {
+        "url": "https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
+    }
+}
