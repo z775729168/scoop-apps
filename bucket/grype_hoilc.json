@@ -1,24 +1,24 @@
 {
-    "version": "0.84.0",
-    "description": "A vulnerability scanner for container images and filesystems.",
-    "homepage": "https://github.com/anchore/grype",
-    "license": "Apache-2.0",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/anchore/grype/releases/download/v0.84.0/grype_0.84.0_windows_amd64.zip",
-            "hash": "b8670faedcb3c993f09c31db184ebda5eadd4120891419c420dbe7527507307c"
-        }
-    },
-    "bin": "grype.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/anchore/grype/releases/download/v$version/grype_$version_windows_amd64.zip"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/grype_$version_checksums.txt"
-        }
+  "version": "0.64.2",
+  "description": "A vulnerability scanner for container images and filesystems.",
+  "homepage": "https://github.com/anchore/grype",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/anchore/grype/releases/download/v0.64.2/grype_0.64.2_windows_amd64.zip",
+      "hash": "93653df47e6483223f17b5c4b4111de1963979795ab5b5dbc0374cfe382b658a"
     }
+  },
+  "bin": "grype.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/anchore/grype/releases/download/v$version/grype_$version_windows_amd64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/grype_$version_checksums.txt"
+    }
+  }
 }
