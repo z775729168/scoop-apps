@@ -1,0 +1,48 @@
+{
+    "version": "24.3.0-2024-11-23",
+    "description": "Database tool for developers, SQL programmers, database administrators and analysts. (Early Access)",
+    "homepage": "https://dbeaver.io",
+    "license": "Apache-2.0",
+    "suggest": {
+        "java": [
+            "java/oraclejdk",
+            "java/oraclejre8",
+            "java/openjdk11"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dbeaver.io/files/ea/dbeaver-ce-24.3.0-win32.win32.x86_64.zip",
+            "hash": "eec5e1fba05244ca9ef32e6d3fd3261ea06b83cc0472eab83eb49e7955e1af89"
+        }
+    },
+    "extract_dir": "dbeaver",
+    "bin": [
+        [
+            "dbeaver.exe",
+            "dbeaver-cli.exe"
+        ],
+        [
+            "dbeaver-ea.exe",
+            "dbeaver-cli.exe"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "dbeaver.exe",
+            "DBeaver EA"
+        ]
+    ],
+    "checkver": {
+        "url": "https://dbeaver.io/files/ea/",
+        "regex": "href=\"dbeaver-ce-(?<ver>[\\d.]+)-win32.win32.x86_64.zip\".*</td><td>(?<date>\\d{4}-\\d{2}-\\d{2}) \\d{2}:\\d{2}:\\d{2}</td>",
+        "replace": "${ver}-${date}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dbeaver.io/files/ea/dbeaver-ce-$matchVer-win32.win32.x86_64.zip"
+            }
+        }
+    }
+}
