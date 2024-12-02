@@ -71,11 +71,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - couleur-tweak-tips/utils
 - dodorz/scoop
 - borger/scoop-emulators
+- whoopscs/scoop-security
 - ViCrack/scoop-bucket
 - everyx/scoop-bucket
 - niheaven/scoop-sysinternals
 - Qv2ray/mochi
-- whoopscs/scoop-security
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
 - TheRandomLabs/Scoop-Bucket
@@ -102,9 +102,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - 42wim/scoop-bucket
 - brian6932/dank-scoop
+- kengwang/scoop-ctftools-bucket
 - abgox/abgo_bucket
 - jfut/scoop-jfut
-- kengwang/scoop-ctftools-bucket
 - SayCV/scoop-cvp
 - cc713/ownscoop
 - starise/Scoop-Confetti
@@ -124,11 +124,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - BenjaminMichaelis/Config
 - Toddli468/Pentest-Scoop-Bucket
 - Small-Ku/turbo-bucket
-- babo4d/scoop-xrtools
+- natecohen/scoop-av
 - ShuguangSun/sgs-scoop-bucket
 - WinApps-share/WinApps-bucket
 - FlawlessCasual17/MyScoop
-- natecohen/scoop-av
+- babo4d/scoop-xrtools
 - Deide/deide-bucket
 - The-Simples/scoop-minecraft
 - KnotUntied/scoop-fonts
