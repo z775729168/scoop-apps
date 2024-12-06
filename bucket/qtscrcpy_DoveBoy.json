@@ -1,0 +1,38 @@
+{
+    "version": "3.0.0",
+    "description": "Display and control Android device via TCP/IP or USB.",
+    "homepage": "https://github.com/barry-ran/QtScrcpy",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v3.0.0/QtScrcpy-win-x64-v3.0.0.zip",
+            "hash": "859138390d396afee08d7374a170620da81f8299f6cfea00c551a8a9f1d16a9b",
+            "extract_dir": "QtScrcpy-win-x64-v3.0.0"
+        },
+        "32bit": {
+            "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v3.0.0/QtScrcpy-win-x86-v3.0.0.zip",
+            "hash": "1ca58462ba050ef8a701cf34fcc9c1cc9ead7a3a5f4a0c04525fa2b135ffc237",
+            "extract_dir": "QtScrcpy-win-x86-v3.0.0"
+        }
+    },
+    "shortcuts": [
+        [
+            "QtScrcpy.exe",
+            "QtScrcpy"
+        ]
+    ],
+    "persist": "config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v$version/QtScrcpy-win-x64-v$version.zip",
+                "extract_dir": "QtScrcpy-win-x64-v$version"
+            },
+            "32bit": {
+                "url": "https://github.com/barry-ran/QtScrcpy/releases/download/v$version/QtScrcpy-win-x86-v$version.zip",
+                "extract_dir": "QtScrcpy-win-x86-v$version"
+            }
+        }
+    }
+}
