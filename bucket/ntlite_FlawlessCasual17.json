@@ -1,5 +1,5 @@
 {
-    "version": "2024.12.10204",
+    "version": "2024.12.10208",
     "description": "Local control for updating and editing Windows images and deployments.",
     "homepage": "https://www.ntlite.com/",
     "license": {
@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe",
-            "hash": "eca19963631037092eedee1c353dccff604d9133985c7d76525caec2b0b007d3"
+            "hash": "c3a5fd66da6beed4e7db5c0ab439d99d925bf15fbada334115ebc40fd32a9a99"
         },
         "32bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x86.exe",
-            "hash": "9a03c543e778f36239e3d610bb5d0372c419bf6d6093043f8efd4e5da56f9500"
+            "hash": "298caba854295df375af89fa7768ae86629fd5c51e7462e7b732c7099b5b1216"
         }
     },
     "innosetup": true,
