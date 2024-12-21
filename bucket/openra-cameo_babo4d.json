@@ -1,16 +1,16 @@
 {
-    "version": "20241219",
+    "version": "122101",
     "description": "OpenRA mod bringing together many factions from different universes",
     "homepage": "https://www.moddb.com/mods/cameo",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20241219/CameoMod-playtest-20241219-x86-winportable.zip",
-            "hash": "d2f6a5cdc4ba98ebe9ff96621395328be90c1791afaf0faf8203fe1940ee84a7"
+            "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/buildtest-122101/CameoMod-buildtest-122101-x86-winportable.zip",
+            "hash": "3e105c457fcb78af5e163b1eaf8e1d09c4e2c8c08f6490b276f412d7a76970a5"
         },
         "64bit": {
-            "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20241219/CameoMod-playtest-20241219-x64-winportable.zip",
-            "hash": "233c6a20fb2db6968e2f72a78ee0cf126efe13375d2ce95d9f56aa907f032ac5"
+            "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/buildtest-122101/CameoMod-buildtest-122101-x64-winportable.zip",
+            "hash": "d30dc659369e76cd1adbd38eb1546dbc410dbc917976990d5b7615504bb545b4"
         }
     },
     "shortcuts": [
