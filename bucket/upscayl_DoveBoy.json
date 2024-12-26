@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-win.exe#/dl.7z",
-            "hash": "sha512:1305ca540b83fe83c61432ce73eff163bf43e6e5781a541149a58500ff6e96dba5b655b8d078dd6353b2e11403685059bb1eb99dddd6153b8ef5a1673444ab73",
+            "hash": "sha512:6c3c54b5a3e1a17e6cfb8fec6f736b0d0f91875a64ac50950874aecffffb706dc9b6efb56b63556241850fe8b5bb83f4a17cd677c94eefc76eaff44639a95cac",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal"
         }
     },
