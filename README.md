@@ -46,8 +46,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
 - Calinou/scoop-games
-- ScoopInstaller/Java
 - ivaquero/scoopet
+- ScoopInstaller/Java
 - ScoopInstaller/Versions
 - TheRandomLabs/Scoop-Spotify
 - borger/scoop-galaxy-integrations
@@ -94,8 +94,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cmontage/scoopbucket-third
 - ygguorun/scoop-bucket
 - aliesbelik/poldi
-- abgox/abgo_bucket
 - kengwang/scoop-ctftools-bucket
+- abgox/abgo_bucket
 - Velgus/Scoop-Portapps
 - iquiw/scoop-bucket
 - liaoya/scoop-bucket
@@ -112,9 +112,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - starise/Scoop-Gaming
 - Weidows-projects/scoop-3rd
+- Darkatse/Scoop-Darkatse
 - AkariiinMKII/Scoop4kariiin
 - TianXiaTech/scoop-txt
-- Darkatse/Scoop-Darkatse
 - rivy/scoop-bucket
 - Darkatse/Scoop-KanColle
 - alextwothousand/scoop-bucket
@@ -127,9 +127,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - beer-psi/scoop-bucket
 - Toddli468/Pentest-Scoop-Bucket
 - BenjaminMichaelis/Config
-- natecohen/scoop-av
 - ShuguangSun/sgs-scoop-bucket
 - FlawlessCasual17/MyScoop
+- natecohen/scoop-av
 - The-Simples/scoop-minecraft
 - Deide/deide-bucket
 - KnotUntied/scoop-fonts
