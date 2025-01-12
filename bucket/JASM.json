@@ -1,0 +1,41 @@
+{
+    "version": "2.19.0",
+    "description": "Just Another Skin Manager",
+    "homepage": "https://github.com/Jorixon/JASM",
+    "license": {
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/Jorixon/JASM/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Jorixon/JASM/releases/download/v2.19.0/SelfContained_JASM_v2.19.0.7z",
+            "hash": "3456cec4d33172dccb7801405605a80e0326ec377038ec328a4d64528b77d6f7",
+            "extract_dir": "JASM"
+        }
+    },
+    "shortcuts": [
+        [
+            "JASM - Just Another Skin Manager.exe",
+            "Just Another Skin Manager"
+        ]
+    ],
+    "pre_install": [
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "New-PersistDirectory \"$env:LOCALAPPDATA\\JASM\" \"$persist_dir\\APPDATA\\JASM\" -Migrate"
+    ],
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:LOCALAPPDATA\\JASM\""
+    ],
+    "checkver": {
+        "github": "https://github.com/Jorixon/JASM"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Jorixon/JASM/releases/download/v$version/SelfContained_JASM_v$version.7z",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
