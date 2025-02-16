@@ -1,10 +1,10 @@
 {
-    "version": "25.2.7.2",
+    "version": "25.2.16.2",
     "homepage": "https://www.special-k.info/",
     "description": "Lovingly referred to as the Swiss Army Knife of PC gaming, Special K does a bit of everything.",
     "license": "GPL-3.0",
-    "url": "https://sk-data.special-k.info/repository/SpecialK_25.2.7.2.exe",
-    "hash": "d922be58d0cc10e440f17d61e16a72da8ca203ea88154502c0f98797d565228c",
+    "url": "https://sk-data.special-k.info/repository/SpecialK_25.2.16.2.exe",
+    "hash": "3faead36ed6180ea1bd42181f3866c627b727a110c1d25024417c44ff0ef03cf",
     "pre_install": [
         "$special_k_dir = \"$env:LOCALAPPDATA\\Programs\\Special K\"",
         "if (Test-Path \"$persist_dir\\Profiles\") {",
