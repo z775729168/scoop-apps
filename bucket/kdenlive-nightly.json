@@ -1,12 +1,12 @@
 {
-    "version": "9752",
+    "version": "9761",
     "description": "Video editing software based on the MLT Framework, KDE and Qt",
     "homepage": "https://kdenlive.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/windows/kdenlive-master-9752-windows-gcc-x86_64.7z",
-            "hash": "1f962495a61dd511ed0055ff9b3d1cabd7612c52c502e024566431630c11c8fe"
+            "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/windows/kdenlive-master-9761-windows-gcc-x86_64.7z",
+            "hash": "b0ecb209878bd7daded139f237a041bc9dcb68857730b7e775991a522a224f8a"
         }
     },
     "bin": "bin\\kdenlive.exe",
