@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stark81/VutronMusic/releases/download/v1.7.5/VutronMusic.1.7.5_x64.exe#/dl.7z",
+            "url": "https://github.com/stark81/VutronMusic/releases/download/v1.7.5/VutronMusic-1.7.5_x64.exe#/dl.7z",
             "hash": "sha512:5d986c4c22a22f3f04d4133d30aeab3c3397fb30c520ff2bb36de752fd8c9544e7014ac326ee4e231026bc98b4132566ffc99f7788ebf04ce4174b2c17f204fd",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -46,7 +46,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stark81/VutronMusic/releases/download/v$version/VutronMusic.$version_x64.exe#/dl.7z",
+                "url": "https://github.com/stark81/VutronMusic/releases/download/v$version/VutronMusic-$version_x64.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"
