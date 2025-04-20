@@ -1,20 +1,20 @@
 {
-    "version": "0.15.0-dev.53+2d563137",
+    "version": "0.15.0-dev.60+ea6c0528",
     "description": "Zig language LSP server",
     "homepage": "https://github.com/zigtools/zls",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.zigtools.org/zls-windows-x86_64-0.15.0-dev.53+2d563137.zip",
-            "hash": "e99bcb3c0daa793dc85b77837962caa1ae77e1883c7f9b3adcba6a9a89790962"
+            "url": "https://builds.zigtools.org/zls-windows-x86_64-0.15.0-dev.60+ea6c0528.zip",
+            "hash": "450951f2608f453c9b849680d68bc7e34e92d1932836799b06bca3be0f58cd13"
         },
         "32bit": {
-            "url": "https://builds.zigtools.org/zls-windows-x86-0.15.0-dev.53+2d563137.zip",
-            "hash": "6cf49ff54175240506019cf4a7185bee68f94463c6474aec2a40c8582fe5fe2f"
+            "url": "https://builds.zigtools.org/zls-windows-x86-0.15.0-dev.60+ea6c0528.zip",
+            "hash": "c6607dacf474abc1c5bcc06895bc07e4140180f7f10b6304dec020b0c2dd9e8b"
         },
         "arm64": {
-            "url": "https://builds.zigtools.org/zls-windows-aarch64-0.15.0-dev.53+2d563137.zip",
-            "hash": "5bd0788f1c42f508bd3969ec330e7ce44748da96ebcac12aa8fdcaaef7fa934f"
+            "url": "https://builds.zigtools.org/zls-windows-aarch64-0.15.0-dev.60+ea6c0528.zip",
+            "hash": "b83d1517bf0ae83f4f829bb34186c06490d060176de13c79ea5867f440d9b048"
         }
     },
     "bin": "zls.exe",
