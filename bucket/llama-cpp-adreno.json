@@ -1,17 +1,17 @@
 {
     "##": "The 64-bit version is just a placeholder to pass CI checks.",
-    "version": "b5198",
-    "description": "(OpenCL Backend for Qualcomm Adreno GPU) LLM inference in C/C++.",
+    "version": "b5207",
+    "description": "(OpenCL Backend for Qualcomm Adreno GPU) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5198/llama-b5198-bin-win-avx2-x64.zip",
-            "hash": "984c1f8c4c257fb0738b893c64169a738c4a74971c054076bb7875014e60e3e1"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5207/llama-b5207-bin-win-avx2-x64.zip",
+            "hash": "9bb098d427915303e09a3a5bc2fc363718cb286d99aa77228b780111a3443830"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5198/llama-b5198-bin-win-llvm-arm64-opencl-adreno.zip",
-            "hash": "efb257c468d47f9e27e003afa1a8d4eca6320d57ae93f736ae1c84938acd1ce2"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5207/llama-b5207-bin-win-llvm-arm64-opencl-adreno.zip",
+            "hash": "c88e64e18faa53706a1ade7ad3a526b34b8667473af4271e6d4b93c07c1d2672"
         }
     },
     "bin": [
@@ -28,13 +28,10 @@
         "llama-gguf-hash.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
-        "llama-llava-cli.exe",
-        "llama-llava-clip-quantize-cli.exe",
-        "llama-minicpmv-cli.exe",
-        "llama-qwen2vl-cli.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
-        "llama-tts.exe"
+        "llama-tts.exe",
+        "llama-mtmd-cli.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",

@@ -1,12 +1,12 @@
 {
-    "version": "b5198",
-    "description": "(SYCL Backend) LLM inference in C/C++.",
+    "version": "b5207",
+    "description": "(SYCL Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5198/llama-b5198-bin-win-sycl-x64.zip",
-            "hash": "63998473846a6b87d9e5696aff3a07ef7a0f51934472eaa8e87518da9079a5b1"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5207/llama-b5207-bin-win-sycl-x64.zip",
+            "hash": "da1128d0a51cb39bb3ceb1465cd1e2a579926c08dcfca8a8dcba28ab68a033cf"
         }
     },
     "bin": [
@@ -23,13 +23,10 @@
         "llama-gguf-hash.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
-        "llama-llava-cli.exe",
-        "llama-llava-clip-quantize-cli.exe",
-        "llama-minicpmv-cli.exe",
-        "llama-qwen2vl-cli.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
-        "llama-tts.exe"
+        "llama-tts.exe",
+        "llama-mtmd-cli.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
