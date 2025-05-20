@@ -1,12 +1,12 @@
 {
-    "version": "b5423",
+    "version": "b5432",
     "description": "Inference of LLaMA model in pure C/C++ (HIP version for AMD gfx1030)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5423/llama-b5423-bin-win-hip-x64-gfx1030.zip",
-            "hash": "68aeaedbb956cbb2316c74b728bd9b80a331e36a715b203ecc0af60d9964d446"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5432/llama-b5432-bin-win-hip-x64-gfx1030.zip",
+            "hash": "d8f66571a02978ec1e878589717fc42dff53c729dd180bb850b0441c7a6781ab"
         }
     },
     "bin": [
