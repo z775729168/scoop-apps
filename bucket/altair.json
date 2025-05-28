@@ -1,12 +1,12 @@
 {
-    "version": "8.2.2",
+    "version": "8.2.4",
     "description": "Feature-rich GraphQL Client",
     "homepage": "https://altair.sirmuel.design",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/altair-graphql/altair/releases/download/v8.2.2/altair_8.2.2_x64_win.exe#/dl.7z",
-            "hash": "sha512:17d5e50694b18778e2f533e2378dee60724692fe977ad9bbb9c340f490261bf52ea6cf3dc0b254d31126d824bdb99bd4fff713140dd83f30a45239bcc15c74a0",
+            "url": "https://github.com/altair-graphql/altair/releases/download/v8.2.4/altair_8.2.4_x64_win.exe#/dl.7z",
+            "hash": "sha512:1867eb89fa8bc6cce6e40f322d98b09bae002f6289ab300e268f1339ac0d26a49e7f962608d31d1b845a0c61c045539d2c12467ad8e92201b6d475990c245bb6",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
