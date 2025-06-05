@@ -15,7 +15,8 @@
     },
     "depends": "winfsp-np-beta",
     "pre_install": [
-        "$null = Invoke-ExternalCommand msiexec.exe -ArgumentList @('/i', \"$dir\\setup.msi_\", \"/qn /norestart INSTALLLEVEL=1000 INSTALLDIR=$dir\") -RunAs",
+        "if (!(is_admin)) { throw 'Admin privledges are required.' }",
+        "msiexec.exe /i' \"$dir\\setup.msi_\" /qn /norestart INSTALLLEVEL=1000 INSTALLDIR=\"$dir\"",
         "$null = if (!(Test-Path \"$persist_dir$($cfg = '/etc/ssh_config')\")) { New-Item \"$dir$cfg\" }"
     ],
     "post_install": [
@@ -35,7 +36,10 @@
         "'sshfs*', 'ssh' | ForEach-Object { Stop-Process -Force -Name $_ -ErrorAction SilentlyContinue }"
     ],
     "uninstaller": {
-        "script": "$null = Invoke-ExternalCommand msiexec.exe -ArgumentList @('/x', \"$dir\\setup.msi_\", '/qn /norestart') -RunAs"
+        "script": [
+            "if (!(is_admin)) { throw 'Admin privledges are required.' }",
+            "msiexec.exe /x \"$dir\\setup.msi_\" /qn /norestart"
+        ]
     },
     "checkver": {
         "url": "https://api.github.com/repositories/61451917/releases",
