@@ -1,16 +1,16 @@
 {
-    "version": "2025.04.23",
+    "version": "2025.06.13",
     "description": "A XUL-based web-browser demonstrating the Unified XUL Platform (UXP). This browser is a close twin to pre-Servo Firefox in how it operates.",
     "homepage": "https://basilisk-browser.org/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.basilisk-browser.org/2025.04.23/windows/x86_64/basilisk-20250422154345.win64.7z",
-            "hash": "7fddd2544cedd170f02abac0bd1be8f7985652aea7936ebc5c113e4d063888c2"
+            "url": "https://archive.basilisk-browser.org/2025.06.13/windows/x86_64/basilisk-20250613175044.win64.7z",
+            "hash": "a149bd819e0f3b14d7fcbe996c19325c4f31ee96d2c09c94a28d71064ff5a93f"
         },
         "32bit": {
-            "url": "https://archive.basilisk-browser.org/2025.04.23/windows/x86_32/basilisk-20250422154345.win32.7z",
-            "hash": "5e40b73d863c348f883ee252d25d7ea554f3aade17756d1c1d5298bc0812ff1a"
+            "url": "https://archive.basilisk-browser.org/2025.06.13/windows/x86_32/basilisk-20250613175206.win32.7z",
+            "hash": "a149bd819e0f3b14d7fcbe996c19325c4f31ee96d2c09c94a28d71064ff5a93f"
         }
     },
     "extract_dir": "basilisk",
