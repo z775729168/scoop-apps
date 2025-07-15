@@ -100,12 +100,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - kengwang/scoop-ctftools-bucket
 - SayCV/scoop-cvp
+- TianXiaTech/scoop-txt
 - iquiw/scoop-bucket
 - Darkatse/Scoop-Darkatse
-- TianXiaTech/scoop-txt
 - AStupidBear/scoop-bear
-- jfut/scoop-jfut
 - Small-Ku/turbo-bucket
+- jfut/scoop-jfut
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - starise/Scoop-Confetti
