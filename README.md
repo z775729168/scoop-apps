@@ -67,8 +67,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KNOXDEV/wsl
 - echoiron/echo-scoop
 - cderv/r-bucket
-- hermanjustnu/scoop-emulators
 - whoopscs/scoop-security
+- hermanjustnu/scoop-emulators
 - ScoopInstaller/PHP
 - dodorz/scoop
 - couleur-tweak-tips/utils
@@ -108,9 +108,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
 - seumsc/scoop-seu
+- aoisummer/scoop-bucket
 - babo4d/scoop-xrtools
 - starise/Scoop-Confetti
-- aoisummer/scoop-bucket
 - jfut/scoop-jfut
 - cc713/ownscoop
 - mo-san/scoop-bucket
