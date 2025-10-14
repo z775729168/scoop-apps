@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-    "version": "2.9.2.2",
+    "version": "3.0.1.0",
     "description": "Bloxstrap fork aiming to enhance some features",
     "homepage": "https://www.fishstrap.app/",
     "license": "MIT",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fishstrap/fishstrap/releases/download/v2.9.2.2/Fishstrap-v2.9.2.2.exe#/Fishstrap.exe",
-            "hash": "d336249e74b4fd449016548ccb6ce4a0065c6c429cafec121389c452c99a25b3"
+            "url": "https://github.com/fishstrap/fishstrap/releases/download/v3.0.1.0/Fishstrap-v3.0.1.0.exe#/Fishstrap.exe",
+            "hash": "285353b592221bdeefd13280a100a46b0ba30c728a9c1a019efbd171f2c73116"
         }
     },
     "installer": {
