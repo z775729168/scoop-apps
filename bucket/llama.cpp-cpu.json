@@ -1,16 +1,16 @@
 {
-    "version": "b6763",
+    "version": "b6770",
     "description": "Inference of LLaMA model in pure C/C++ (CPU version)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6763/llama-b6763-bin-win-cpu-x64.zip",
-            "hash": "2f151841903a9fc07afb07103fd6be23bf0a269c9acc9155a06a2dfc136bea39"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6770/llama-b6770-bin-win-cpu-x64.zip",
+            "hash": "b915ad930e5ff264accd83950d9a5f84c67f2377677d36e990755183db6eb828"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6763/llama-b6763-bin-win-cpu-arm64.zip",
-            "hash": "5a2df3cfd7684f953b755048853ed40d68eb31e79e1f2dacb9cd322f4e3d2d23"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6770/llama-b6770-bin-win-cpu-arm64.zip",
+            "hash": "4ac7b6b5201d8c487df2f2315f166188b563d17ea59ab51724efff5b0e91fd05"
         }
     },
     "bin": [
