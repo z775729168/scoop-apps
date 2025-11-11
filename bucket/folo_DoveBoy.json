@@ -1,13 +1,13 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.3",
     "description": "🧡 Follow everything in one place",
     "homepage": "https://follow.is/",
     "license": {
         "identifier": "GPL-3.0 license",
         "url": "https://github.com/RSSNext/Folo#GPL-3.0-1-ov-file"
     },
-    "url": "https://github.com/RSSNext/Folo/releases/download/desktop/v1.1.0/Folo-1.1.0-windows-x64.exe#/dl.7z",
-    "hash": "sha512:86f04b021e256fc4ccba977642deedc54e604b94ace3a4a2be049e23182cb5b2f7ddc27f7dea3bf25337267bd25677b758e5a34a62cec0a0197c50239f332fa1",
+    "url": "https://github.com/RSSNext/Folo/releases/download/desktop/v1.1.3/Folo-1.1.3-windows-x64.exe#/dl.7z",
+    "hash": "sha512:71782b92fa140e7abc754ff6658bc956351bb7cc37ab318594f62f40dacd0f00539af5404e5140ddea71c07d3509367b20e44e8d9ed4dea7dfb017e92e3ac5d0",
     "pre_install": [
         "Get-Item \"$dir\\Folo*.nupkg\" | Rename-Item -NewName 'Folo.nupkg'",
         "Expand-7zipArchive \"$dir\\Folo.nupkg\" \"$dir\" -ExtractDir 'lib\\net45'",
