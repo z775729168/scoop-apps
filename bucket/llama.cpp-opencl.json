@@ -1,12 +1,12 @@
 {
-    "version": "b7176",
+    "version": "b7188",
     "description": "Inference of LLaMA model in pure C/C++ (OpenCL for Adreno GPUs)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7176/llama-b7176-bin-win-opencl-adreno-arm64.zip",
-            "hash": "3ff705984b2f3b41f7f9f3174f80507c25094a08657dbea7f79c7b76980b6bb7"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7188/llama-b7188-bin-win-opencl-adreno-arm64.zip",
+            "hash": "4b09f2047c8a1f50c591f4d4389000539b81d352a6f58f22506b8a15c1c67531"
         }
     },
     "bin": [
