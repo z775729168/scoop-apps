@@ -1,5 +1,5 @@
 {
-    "version": "3.1.15",
+    "version": "3.1.17",
     "description": "Deskreen turns any device with a web browser into a secondary screen for your computer. ⭐️ Star to support our work!",
     "homepage": "https://deskreen.com/",
     "license": {
@@ -8,24 +8,24 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pavlobu/deskreen/releases/download/v3.1.15/deskreen-ce-3.1.15-x64.exe#/dl.7z",
-            "hash": "d3679932fb38e6a5a078826d228f925187dfbb1970d4d2b2de36b062d9cee524",
+            "url": "https://github.com/pavlobu/deskreen/releases/download/v3.1.17/deskreen-ce-3.1.17-x64.exe#/dl.7z",
+            "hash": "f99dff96dc2bf3d71059fa5cabe0c0bc7e771fe96d244918f91406d34705b67a",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
             ]
         },
         "32bit": {
-            "url": "https://github.com/pavlobu/deskreen/releases/download/v3.1.15/deskreen-ce-3.1.15-ia32.exe#/dl.7z",
-            "hash": "935063b058a94966826860eeb9a42b2faa90cdb8373d8caad81496548c583199",
+            "url": "https://github.com/pavlobu/deskreen/releases/download/v3.1.17/deskreen-ce-3.1.17-ia32.exe#/dl.7z",
+            "hash": "b05340796366dd172727a0e6295fbd7a34415e554b2a09709c6b882d7729b466",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
             ]
         },
         "arm64": {
-            "url": "https://github.com/pavlobu/deskreen/releases/download/v3.1.15/deskreen-ce-3.1.15-arm64.exe#/dl.7z",
-            "hash": "39cceaa55f198a2ce41683a347e0e406b3839c6056fc3fa59a534f16c872d07a",
+            "url": "https://github.com/pavlobu/deskreen/releases/download/v3.1.17/deskreen-ce-3.1.17-arm64.exe#/dl.7z",
+            "hash": "374ae5516a5b21237552419d35cd07177c016eb1bf51b5fa5d717825517d401b",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
