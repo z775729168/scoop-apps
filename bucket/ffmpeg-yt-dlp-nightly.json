@@ -1,5 +1,5 @@
 {
-    "version": "20260102-122322-gee5d6e7ee1",
+    "version": "20260104-122346-g840183d823",
     "description": "FFmpeg nightly build for yt-dlp.",
     "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
     "license": "MIT",
@@ -8,19 +8,19 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-02-14-16/ffmpeg-N-122322-gee5d6e7ee1-win64-gpl.zip",
-            "hash": "0471ffc94372c983e92885bc623563dee2bf9847c26b96006c319dc8c2c8cd36",
-            "extract_dir": "ffmpeg-N-122322-gee5d6e7ee1-win64-gpl"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-04-14-16/ffmpeg-N-122346-g840183d823-win64-gpl.zip",
+            "hash": "fe1661bbc7b01b5cd8ec23bf8fd32588e51b4558749fe7d25997580cd030c098",
+            "extract_dir": "ffmpeg-N-122346-g840183d823-win64-gpl"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-02-14-16/ffmpeg-N-122322-gee5d6e7ee1-win32-gpl.zip",
-            "hash": "5fe4fad4b61ca73344e400695009155a71fdb70753229fdd981213d5afc0d558",
-            "extract_dir": "ffmpeg-N-122322-gee5d6e7ee1-win32-gpl"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-04-14-16/ffmpeg-N-122346-g840183d823-win32-gpl.zip",
+            "hash": "efe3e11ebee4694a42261b0f9c5991e51e6070e0d92a77834f162f3b5db601b1",
+            "extract_dir": "ffmpeg-N-122346-g840183d823-win32-gpl"
         },
         "arm64": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-02-14-16/ffmpeg-N-122322-gee5d6e7ee1-winarm64-gpl.zip",
-            "hash": "68cc9edfdc2767a4216d41062a1b7b1a08a6b50962cff8efd893c77b5eccfd8b",
-            "extract_dir": "ffmpeg-N-122322-gee5d6e7ee1-winarm64-gpl"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-04-14-16/ffmpeg-N-122346-g840183d823-winarm64-gpl.zip",
+            "hash": "69789103dd9c8019d1ab76eeb86f3246c1f310c048b548fcf15bbf79d28315f0",
+            "extract_dir": "ffmpeg-N-122346-g840183d823-winarm64-gpl"
         }
     },
     "bin": [
