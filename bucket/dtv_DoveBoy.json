@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/chen-zeong/DTV/releases/download/v2.4.4/DTV_2.4.4_x64-setup.exe#/dl.7z",
-            "hash": "ee05b8c4c5f0c7252142af1407c26a951285d5c949e21d440b5ee899c2fdba04"
+            "hash": "14c14fcc53df1a1cf0d97bc45a30f033344b348a178eca22943186b0ee2fa614"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse",
