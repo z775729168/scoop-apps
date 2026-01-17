@@ -1,18 +1,20 @@
 {
-    "version": "b7757",
+    "version": "b7762",
     "description": "Inference of LLaMA model in pure C/C++ (OpenCL for Adreno GPUs)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7757/llama-b7757-bin-win-opencl-adreno-arm64.zip",
-            "hash": "06b223d1303f0d281aad2a832cc6d71ef13ee2cc83071858a0b70957632c60e5"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7762/llama-b7762-bin-win-opencl-adreno-arm64.zip",
+            "hash": "7fc066bd586a9b5c669ec047cfdba1f4290df09106f92762d5076e136cba800a"
         }
     },
     "bin": [
         "llama-batched-bench.exe",
         "llama-bench.exe",
         "llama-cli.exe",
+        "llama-completion.exe",
+        "llama-fit-params.exe",
         "llama-gemma3-cli.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
@@ -22,7 +24,6 @@
         "llama-perplexity.exe",
         "llama-quantize.exe",
         "llama-qwen2vl-cli.exe",
-        "llama-run.exe",
         "llama-server.exe",
         "llama-tokenize.exe",
         "llama-tts.exe"
