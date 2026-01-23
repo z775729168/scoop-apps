@@ -1,0 +1,36 @@
+{
+    "version": "8.0.0.4",
+    "description": "A simple and fast software for differential file synchronization.",
+    "homepage": "https://www.luminescence-software.org/en/echosync/about/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.luminescence-software.org/en/echosync/license"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://drive.luminescence-software.org/echosync/Echosync-Portable-8004.zip",
+            "hash": "05a0a48ad95f1c74412a52679389b09b429f8faa40dd1bea08cbea3681a66cd7"
+        }
+    },
+    "extract_dir": "Echosync80",
+    "bin": "Echocli.exe",
+    "shortcuts": [
+        [
+            "Echosync.exe",
+            "Echosync"
+        ]
+    ],
+    "persist": "Profiles",
+    "checkver": {
+        "url": "https://api.luminescence-software.org/get_latest_version.php?software=echosync",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://drive.luminescence-software.org/echosync/Echosync-Portable-$cleanVersion.zip"
+            }
+        },
+        "extract_dir": "Echosync$majorVersion$minorVersion"
+    }
+}

@@ -1,0 +1,58 @@
+{
+  "homepage": "https://www.microsoft.com/en-us/edge",
+  "description": "The chromium based Microsoft Edge browser (Canary Channel)",
+  "version": "146.0.3815.0",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://dorado-api.deno.dev/edge?arch=64&channel=canary&version=146.0.3815.0&dl#/MicrosoftEdge-146.0.3815.0-x64.7z",
+      "hash": "c11b9c81361934b9bd351e591f69f9372757e08a859ebccf7111ed3652b704a9"
+    },
+    "32bit": {
+      "url": "https://dorado-api.deno.dev/edge?arch=86&channel=canary&version=146.0.3815.0&dl#/MicrosoftEdge-146.0.3815.0-x86.7z",
+      "hash": "7289f2d968bd36c1be88f58f6b8de0a91432cb82ce19296d17ac72460357d2dc"
+    },
+    "arm64": {
+      "url": "https://dorado-api.deno.dev/edge?arch=arm64&channel=canary&version=146.0.3815.0&dl#/MicrosoftEdge-146.0.3815.0-arm64.7z",
+      "hash": "37eee8b37a6d3833dc29bd08a96751c4697a13bf0c38e76bf6826c764aae7f76"
+    }
+  },
+  "installer": {
+    "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+  },
+  "shortcuts": [
+    [
+      "msedge.exe",
+      "Microsoft Edge Canary"
+    ]
+  ],
+  "checkver": {
+    "url": "https://dorado-api.deno.dev/edge?arch=64&channel=canary",
+    "jsonpath": "$.Version"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dorado-api.deno.dev/edge?arch=64&channel=canary&version=$version&dl#/MicrosoftEdge-$version-x64.7z",
+        "hash": {
+          "url": "https://dorado-api.deno.dev/edge?arch=64&channel=canary&version=$version",
+          "jsonpath": "$.Hashes.Sha256"
+        }
+      },
+      "32bit": {
+        "url": "https://dorado-api.deno.dev/edge?arch=86&channel=canary&version=$version&dl#/MicrosoftEdge-$version-x86.7z",
+        "hash": {
+          "url": "https://dorado-api.deno.dev/edge?arch=86&channel=canary&version=$version",
+          "jsonpath": "$.Hashes.Sha256"
+        }
+      },
+      "arm64": {
+        "url": "https://dorado-api.deno.dev/edge?arch=arm64&channel=canary&version=$version&dl#/MicrosoftEdge-$version-arm64.7z",
+        "hash": {
+          "url": "https://dorado-api.deno.dev/edge?arch=arm64&channel=canary&version=$version",
+          "jsonpath": "$.Hashes.Sha256"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "version": "1.58.1",
+    "description": "Metabase Enterprise Edition is the easy way for everyone in your company to ask questions and learn from data.",
+    "homepage": "https://www.metabase.com/enterprise/",
+    "license": {
+        "identifier": "Metabase Commercial License",
+        "url": "https://www.metabase.com/license/commercial/"
+    },
+    "url": "https://downloads.metabase.com/enterprise/v1.58.1/metabase.jar",
+    "hash": "d12020fb942f66aa1366472844e64f83977d67d9ae2aabfb4bd91247b8469e1e",
+    "bin": "metabase.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/adoptopenjdk-hotspot",
+            "java/zulu"
+        ]
+    },
+    "env_set": {
+        "MB_PLUGINS_DIR": "$dir\\plugins",
+        "MB_DB_FILE": "$dir\\data\\metabase.db"
+    },
+    "persist": [
+        "data",
+        "plugins"
+    ],
+    "checkver": {
+        "url": "http://static.metabase.com/version-info-ee.json",
+        "jsonpath": "$.latest.version",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://downloads.metabase.com/enterprise/v$version/metabase.jar",
+        "hash": {
+            "url": "https://github.com/metabase/metabase/releases/tag/v$version",
+            "regex": "<code>$sha256"
+        }
+    }
+}

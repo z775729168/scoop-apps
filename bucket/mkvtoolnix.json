@@ -1,0 +1,62 @@
+{
+    "version": "97.0",
+    "description": "A set of tools to create, alter and inspect Matroska files.",
+    "homepage": "https://mkvtoolnix.download",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://mkvtoolnix.download/windows/releases/97.0/mkvtoolnix-64-bit-97.0.7z",
+            "hash": "sha512:6f62483ca91d70b9a41f13bda375a7a717555b3de048092cda97921fb6eedc40c0474849cd6efd189b8eb859d472518f8446cc73dcbb521a9c76ccec7a37acaa"
+        },
+        "32bit": {
+            "url": "https://mkvtoolnix.download/windows/releases/97.0/mkvtoolnix-32-bit-97.0.7z",
+            "hash": "sha512:1718fc92b073bb409c52fc46fd58b095baac02d0a062d2aba3e7b6e90f7105d02a3992dd0cc049ed897bf6c8bdb293c5b6d6d03d71f30a6fb93e7f3319fca788"
+        }
+    },
+    "extract_dir": "mkvtoolnix",
+    "pre_install": [
+        "if (Test-Path \"$persist_dir\\mkvtoolnix-gui.ini\") {",
+        "    # Persist mkvtoolnix-gui.ini manully because symlink doesn't work.",
+        "    Copy-Item \"$persist_dir\\mkvtoolnix-gui.ini\" \"$dir\"",
+        "} else {",
+        "    Set-Content \"$dir\\mkvtoolnix-gui.ini\" @('[settings]', 'updates\\checkForUpdates=false') -Encoding Ascii",
+        "}"
+    ],
+    "uninstaller": {
+        "script": "Copy-Item \"$dir\\mkvtoolnix-gui.ini\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force"
+    },
+    "bin": [
+        "mkvextract.exe",
+        "mkvinfo.exe",
+        "mkvmerge.exe",
+        "mkvpropedit.exe",
+        "mkvtoolnix-gui.exe"
+    ],
+    "shortcuts": [
+        [
+            "mkvtoolnix-gui.exe",
+            "MKVToolNix GUI"
+        ]
+    ],
+    "persist": [
+        "cache",
+        "jobQueue"
+    ],
+    "checkver": {
+        "url": "https://mkvtoolnix.download/doc/NEWS.md",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mkvtoolnix.download/windows/releases/$version/mkvtoolnix-64-bit-$version.7z"
+            },
+            "32bit": {
+                "url": "https://mkvtoolnix.download/windows/releases/$version/mkvtoolnix-32-bit-$version.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha512sums.txt"
+        }
+    }
+}

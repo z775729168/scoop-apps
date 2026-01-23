@@ -1,0 +1,69 @@
+{
+    "version": "147.0.1",
+    "description": "Firefox 浏览器的无 EME 版本，默认禁用 DRM 支持",
+    "homepage": "https://www.mozilla.org/zh-CN/firefox/",
+    "license": "MPL-2.0",
+    "notes": [
+        "To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:",
+        "  - Run 'Firefox Profile Manager', choose 'Scoop' then click 'Start Firefox'.",
+        "  - Visit 'about:profiles' page in Firefox to check *DEFAULT* profile.",
+        "For details: https://support.mozilla.org/zh-CN/kb/profile-manager-create-remove-switch-firefox-profiles"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/147.0.1/win64-EME-free/zh-CN/Firefox%20Setup%20147.0.1.exe#/dl.7z",
+            "hash": "sha512:63689e05796de7f9e2e67f6cd7cedd1cd5dd923a37430a58b1991b07ccd75b8db1319a9296e846edf9d88083c87ff5f764b863661c1048cfb4ae5f64356ba54f"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/147.0.1/win32-EME-free/zh-CN/Firefox%20Setup%20147.0.1.exe#/dl.7z",
+            "hash": "sha512:f064aea292751f1dd3a20fbe46bd0b7d85ca34f438338879a934871bb7266730abed22d93162e8d63a775fd6039b881edbf1ada69d486914a9f1b6eb70f7de14"
+        }
+    },
+    "extract_dir": "core",
+    "post_install": [
+        "firefox -CreateProfile \"Scoop $persist_dir\\profile\"",
+        "$Addition = \"$persist_dir\\addition\"",
+        "if (Test-Path $Addition) {",
+        "  info 'Copying additional items...'",
+        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
+        "}"
+    ],
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox"
+        ],
+        [
+            "firefox.exe",
+            "Firefox Profile Manager",
+            "-P"
+        ]
+    ],
+    "persist": [
+        "distribution",
+        "profile"
+    ],
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/99.0/_/WINNT_x86_64-msvc-x64/zh-CN/release/_/_/_/_/update.xml",
+        "xpath": "/updates/update/@appVersion"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64-EME-free/zh-CN/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64-EME-free/zh-CN/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win32-EME-free/zh-CN/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32-EME-free/zh-CN/$basename"
+                }
+            }
+        }
+    }
+}

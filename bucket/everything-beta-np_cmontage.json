@@ -1,0 +1,51 @@
+{
+  "version": "1.4.1.1031",
+  "description": "Locate files and folders by name instantly.",
+  "homepage": "https://www.voidtools.com",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "http://www.voidtools.com/Everything-1.4.1.1031.x64-Setup.exe",
+      "hash": "9189eca994f78c32b4ea39a4b78e016056c3939761b18800446068b6a06c5162"
+    },
+    "32bit": {
+      "url": "http://www.voidtools.com/Everything-1.4.1.1031.x86-Setup.exe",
+      "hash": "d88e1fe1b221662caa15ca8261039f68fa54a2bd7533194228e5c2443b50d26f"
+    }
+  },
+  "installer": {
+    "args": [
+      "/S",
+      "/D=$dir"
+    ]
+  },
+  "post_install": "Remove-Item -Recurse \"$([Environment]::GetFolderPath('startmenu'))\\Programs\\Everything\"",
+  "uninstaller": {
+    "file": "Uninstall.exe",
+    "args": "/S"
+  },
+  "bin": "Everything.exe",
+  "shortcuts": [
+    [
+      "Everything.exe",
+      "Everything"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.voidtools.com/forum/viewtopic.php?f=2&t=5718",
+    "regex": "Everything-([\\d.]+)\\.x86"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "http://www.voidtools.com/Everything-$version.x64-Setup.exe"
+      },
+      "32bit": {
+        "url": "http://www.voidtools.com/Everything-$version.x86-Setup.exe"
+      }
+    },
+    "hash": {
+      "url": "https://www.voidtools.com/Everything-$version.sha256"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": "2026.1.17.0",
+  "homepage": "https://github.com/AAndyProgram/SCrawler",
+  "description": "A program to download photos and videos from any site (e.g. Reddit, Twitter, Instagram, TikTok, RedGifs, PornHub, XHamster, XVIDEOS, LPSG).",
+  "license": "GPL-3.0",
+  "notes": ".NET Framework 4.6.1 or higher is required.",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/AAndyProgram/SCrawler/releases/download/2026.1.17.0/SCrawler_2026.1.17.0_x64.zip",
+      "hash": "625b4d9e4c3c9955407ced91ceada2197deb209924c56985790508d963eee8cf"
+    },
+    "32bit": {
+      "url": "https://github.com/AAndyProgram/SCrawler/releases/download/2026.1.17.0/SCrawler_2026.1.17.0_x86.zip",
+      "hash": "b471c336f21c927dc230536ce624320c25d7c9c476f4542f2fd96e805a141f4b"
+    }
+  },
+  "shortcuts": [
+    [
+      "SCrawler.exe",
+      "SCrawler"
+    ]
+  ],
+  "persist": [
+    "Data",
+    "Settings",
+    "Plugins"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/AAndyProgram/SCrawler/releases/download/$version/SCrawler_$version_x64.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/AAndyProgram/SCrawler/releases/download/$version/SCrawler_$version_x86.zip"
+      }
+    }
+  }
+}
