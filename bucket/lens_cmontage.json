@@ -1,0 +1,42 @@
+{
+  "version": "2026.1.161237-latest",
+  "description": "IDE for Kubernetes clusters",
+  "homepage": "https://k8slens.dev",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://k8slens.dev/licenses/eula"
+  },
+  "url": "https://api.k8slens.dev/binaries/Lens%20Setup%202026.1.161237-latest.exe#/dl.7z",
+  "hash": "2b5ad85d56038b08721eff81999355cd6c8bd3ddaf07c315a8c52c1126d264f9",
+  "architecture": {
+    "64bit": {
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+      ]
+    },
+    "32bit": {
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+      ]
+    }
+  },
+  "shortcuts": [
+    [
+      "Lens.exe",
+      "Lens"
+    ]
+  ],
+  "checkver": {
+    "url": "https://api.k8slens.dev/binaries/latest.yml",
+    "regex": "version:\\s*([\\w.-]+)"
+  },
+  "autoupdate": {
+    "url": "https://api.k8slens.dev/binaries/Lens%20Setup%20$version.exe#/dl.7z",
+    "hash": {
+      "url": "$baseurl/latest.yml",
+      "regex": "sha512:\\s+$base64"
+    }
+  }
+}

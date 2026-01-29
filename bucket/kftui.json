@@ -1,0 +1,30 @@
+{
+    "version": "0.27.11",
+    "description": "A terminal-based user interface application that manages and synchronizes kubectl port-forward configurations with ease.",
+    "homepage": "https://kftray.app/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.27.11/kftui_windows_x86_64.exe#/kftui.exe",
+            "hash": "7d3c9b9a8e96fa4b3ac2cbc2e602136b24f8d1ed97f9f10c881fcdd80494078e"
+        },
+        "32bit": {
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.27.11/kftui_windows_x86.exe#/kftui.exe",
+            "hash": "88b6253a87f22d0074e30776a2423848b88418062211a1998946b3f63e3a1d38"
+        }
+    },
+    "bin": "kftui.exe",
+    "checkver": {
+        "github": "https://github.com/hcavarsan/kftray"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hcavarsan/kftray/releases/download/v$version/kftui_windows_x86_64.exe#/kftui.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/hcavarsan/kftray/releases/download/v$version/kftui_windows_x86.exe#/kftui.exe"
+            }
+        }
+    }
+}

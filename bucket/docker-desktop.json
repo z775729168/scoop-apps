@@ -1,0 +1,83 @@
+{
+    "version": "4.58.1",
+    "description": "(sudo) Docker Desktop. Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
+    "homepage": "https://www.docker.com/products/docker-desktop/",
+    "license": "Proprietary",
+    "architecture": {
+        "arm64": {
+            "url": "https://alist.xrgzs.top/d/pxy/Software/Docker/Desktop/win/main/arm64/Docker%20Desktop%20Installer.exe#/installer.exe",
+            "hash": "1d84f125db791c129de98ab9bd072f297899584daed865fe7c8fd5beb059bcc3"
+        },
+        "64bit": {
+            "url": "https://alist.xrgzs.top/d/pxy/Software/Docker/Desktop/win/main/amd64/Docker%20Desktop%20Installer.exe#/installer.exe",
+            "hash": "d7bb7b27f5db94c7658caa5b1faf53d9b6479968fb6e642cc64c6124913e2f2c"
+        }
+    },
+    "shortcuts": [
+        [
+            "docker\\Docker Desktop.exe",
+            "Docker Desktop"
+        ]
+    ],
+    "suggest": {
+        "Windows Subsystem for Linux 2": "sdoog/wsl2"
+    },
+    "bin": "docker\\DockerCli.exe",
+    "installer": {
+        "args": [
+            "install",
+            "--quiet",
+            "--accept-license",
+            "--backend=wsl-2",
+            "--installation-dir=$dir\\docker"
+        ]
+    },
+    "pre_install": [
+        "if (!(is_admin)) {",
+        "    error \"Administrator rights are required to install $app.\"",
+        "    scoop uninstall $app",
+        "    exit 1",
+        "}",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "New-PersistDirectory \"$env:USERPROFILE\\.docker\" \"$persist_dir\\USERPROFILE\\.docker\" -Migrate",
+        "New-PersistDirectory \"$env:LOCALAPPDATA\\Docker\" \"$persist_dir\\LOCALAPPDATA\\Docker\" -Migrate",
+        "New-PersistDirectory \"$env:APPDATA\\Docker\" \"$persist_dir\\APPDATA\\Docker\" -Migrate"
+    ],
+    "post_install": [
+        "Remove-Item \"$env:USERPROFILE\\Desktop\\Docker Desktop.lnk\" -Force",
+        "Remove-Item \"$env:PROGRAMDATA\\Microsoft\\Windows\\Start Menu\\Docker Desktop.lnk\" -Force"
+    ],
+    "pre_uninstall": [
+        "if (!(is_admin)) {",
+        "    error \"Administrator rights are required to uninstall $app.\"",
+        "    exit 1",
+        "}",
+        "info 'Shutting down Docker Desktop...'",
+        ". \"$dir\\docker\\DockerCli.exe\" -Shutdown",
+        "info 'Uninstalling Docker Desktop...'",
+        "Start-Process -FilePath \"$dir\\docker\\Docker Desktop Installer.exe\" -ArgumentList @('uninstall', '--quiet', \"--installation-dir=$dir\\docker\") -Wait -Verb RunAs",
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:USERPROFILE\\.docker\"",
+        "Remove-Junction \"$env:LOCALAPPDATA\\Docker\"",
+        "Remove-Junction \"$env:APPDATA\\Docker\""
+    ],
+    "checkver": {
+        "url": "https://alist.xrgzs.top/d/pxy/Software/Docker/Desktop/Version.txt",
+        "regex": "(\\d+\\.[\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "arm64": {
+                "url": "https://alist.xrgzs.top/d/pxy/Software/Docker/Desktop/win/main/arm64/Docker%20Desktop%20Installer.exe#/installer.exe"
+            },
+            "64bit": {
+                "url": "https://alist.xrgzs.top/d/pxy/Software/Docker/Desktop/win/main/amd64/Docker%20Desktop%20Installer.exe#/installer.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

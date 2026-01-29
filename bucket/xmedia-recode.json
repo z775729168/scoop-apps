@@ -1,0 +1,46 @@
+{
+    "version": "3.6.2.1",
+    "description": "An All-In-One video converter and audio converter tool.",
+    "homepage": "https://www.xmedia-recode.de/en/",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.xmedia-recode.de/download/XMediaRecode3621_x64_setup.exe",
+            "hash": "a5841d3bde74365d249db074d6d914daf6488b9990cd1aee3439ede49faa6cc3"
+        },
+        "32bit": {
+            "url": "https://www.xmedia-recode.de/download/XMediaRecode3621_setup.exe",
+            "hash": "f4aeaa39b54f8883f4b441688b23839397e560b5092fa7f5585ba2559e69b121"
+        }
+    },
+    "innosetup": true,
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Fav.ini\")) { New-Item \"$dir\\Fav.ini\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\XMediaRecode.json\")) { Set-Content \"$dir\\XMediaRecode.json\" -Value '{}' -Encoding 'utf8' -Force }"
+    ],
+    "shortcuts": [
+        [
+            "XMedia Recode.exe",
+            "XMedia Recode"
+        ]
+    ],
+    "persist": [
+        "XMediaRecode.json",
+        "Fav.ini",
+        "XMedia Recode"
+    ],
+    "checkver": {
+        "url": "https://www.xmedia-recode.de/update/version.txt",
+        "regex": "Version=([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.xmedia-recode.de/download/XMediaRecode$cleanVersion_x64_setup.exe"
+            },
+            "32bit": {
+                "url": "https://www.xmedia-recode.de/download/XMediaRecode$cleanVersion_setup.exe"
+            }
+        }
+    }
+}

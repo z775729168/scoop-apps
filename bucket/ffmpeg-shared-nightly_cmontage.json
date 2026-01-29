@@ -1,0 +1,44 @@
+{
+  "version": "20260127-122564-ga97632827d",
+  "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
+  "homepage": "https://ffmpeg.org",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-01-27-12-58/ffmpeg-N-122564-ga97632827d-win64-gpl-shared.zip",
+      "hash": "f8a038b105fdbf4c892aa4ed0ea7e40a63729824856ece9d932cfb40f06119ed",
+      "extract_dir": "ffmpeg-N-122564-ga97632827d-win64-gpl-shared"
+    },
+    "arm64": {
+      "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-01-27-12-58/ffmpeg-N-122564-ga97632827d-winarm64-gpl-shared.zip",
+      "hash": "0424a4b1d21e56b48f27061405d4e97c18e4b0a4ac4129ec3fc1333bc4f01ebd",
+      "extract_dir": "ffmpeg-N-122564-ga97632827d-winarm64-gpl-shared"
+    }
+  },
+  "bin": [
+    "bin\\ffmpeg.exe",
+    "bin\\ffplay.exe",
+    "bin\\ffprobe.exe"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repositories/292087234/releases",
+    "jsonpath": "$..assets[?(@.browser_download_url =~ /ffmpeg-N-\\d+-g[0-9a-f]+-win64-gpl-shared\\.zip/i)].browser_download_url",
+    "regex": "autobuild-(?<buildtime>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})[\\d-]+)/ffmpeg-N-(?<commitnum>\\d+)-g(?<commithash>[0-9a-f]+)-win64-gpl-shared\\.zip",
+    "replace": "${year}${month}${day}-${commitnum}-g${commithash}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-win64-gpl-shared.zip",
+        "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-win64-gpl-shared"
+      },
+      "arm64": {
+        "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-winarm64-gpl-shared.zip",
+        "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-winarm64-gpl-shared"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.sha256"
+    }
+  }
+}

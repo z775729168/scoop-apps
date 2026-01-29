@@ -1,0 +1,71 @@
+{
+    "version": "1.4.0",
+    "description": "一款免费、本地化、开源的图形用户界面应用，适用于 Gemini CLI、Claude Code、Codex、Qwen Code 等 | Free, local, open-source GUI app for Gemini CLI, Claude Code, Codex, Qwen Code, and more.",
+    "homepage": "https://github.com/iOfficeAI/AionUi",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/iOfficeAI/AionUi/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/iOfficeAI/AionUi/releases/download/v1.4.0/AionUi-1.4.0-win-x64.exe",
+            "hash": "d84ec5554789c0a5a431d9f13acf4815f01353c20992ca5a581d1737ba14e2c2"
+        },
+        "arm64": {
+            "url": "https://github.com/iOfficeAI/AionUi/releases/download/v1.4.0/AionUi-1.4.0-win-arm64.exe",
+            "hash": "a3f110bdd64ac0a12edf2d7c35b2404841cc841ecf03a5405ba2bb330caae539"
+        }
+    },
+    "shortcuts": [
+        [
+            "app\\AionUi.exe",
+            "AionUi"
+        ]
+    ],
+    "pre_install": [
+        "$bucket = if ($bucket) { $bucket } else { (scoop config).'abgox-abyss-bucket-name' }",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "A-Start-Install",
+        "A-New-LinkDirectory \"$env:AppData\\AionUi\"",
+        "A-Install-Exe -Uninstaller 'app\\Uninstall AionUi.exe'"
+    ],
+    "post_install": [
+        "$bucket = if ($bucket) { $bucket } else { (scoop config).'abgox-abyss-bucket-name' }",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "A-Complete-Install"
+    ],
+    "pre_uninstall": [
+        "$bucket = if ($bucket) { $bucket } else { (scoop config).'abgox-abyss-bucket-name' }",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "A-Start-Uninstall",
+        "A-Stop-Process",
+        "A-Remove-Link",
+        "A-Uninstall-Exe",
+        "A-Remove-TempData \"$env:LocalAppData\\aionui-updater\""
+    ],
+    "post_uninstall": [
+        "$bucket = if ($bucket) { $bucket } else { (scoop config).'abgox-abyss-bucket-name' }",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "A-Complete-Uninstall"
+    ],
+    "checkver": {
+        "script": [
+            ". \"$pwd\\bin\\utils.ps1\"",
+            "A-Get-VersionFromGithubAPI"
+        ],
+        "regex": "(.+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/iOfficeAI/AionUi/releases/download/v$version/AionUi-$version-win-x64.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/iOfficeAI/AionUi/releases/download/v$version/AionUi-$version-win-arm64.exe"
+            }
+        },
+        "hash": {
+            "mode": "github"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "version": "26.0.0-nightly20260127720fefff6a",
+  "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications. (nightly verison)",
+  "homepage": "https://nodejs.org",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://nodejs.org/download/nightly/v26.0.0-nightly20260127720fefff6a/node-v26.0.0-nightly20260127720fefff6a-win-x64.7z",
+      "hash": "f754b3138516ba4b935282217ed5050ed97054b64ef93a0aa4a9c3c9e21ed5da",
+      "extract_dir": "node-v26.0.0-nightly20260127720fefff6a-win-x64"
+    },
+    "arm64": {
+      "url": "https://nodejs.org/download/nightly/v26.0.0-nightly20260127720fefff6a/node-v26.0.0-nightly20260127720fefff6a-win-arm64.7z",
+      "hash": "9755542d58b3feeeb36e4d90fc762b34150cf1dbfb66454bb5b6f32a4a1ff8a2",
+      "extract_dir": "node-v26.0.0-nightly20260127720fefff6a-win-arm64"
+    }
+  },
+  "persist": [
+    "bin",
+    "cache"
+  ],
+  "env_add_path": [
+    "bin",
+    "."
+  ],
+  "post_install": [
+    "# Set npm prefix to install modules inside bin and npm cache so they persist",
+    "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
+  ],
+  "checkver": {
+    "url": "https://nodejs.org/download/nightly/index.json",
+    "jsonpath": "$[0].version",
+    "regex": "v([\\d.]+-nightly(?<date>[\\d]{8})(?<commit>[\\w]+))"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://nodejs.org/download/nightly/v$version/node-v$version-win-x64.7z",
+        "extract_dir": "node-v$version-win-x64"
+      },
+      "arm64": {
+        "url": "https://nodejs.org/download/nightly/v$version/node-v$version-win-arm64.7z",
+        "extract_dir": "node-v$version-win-arm64"
+      }
+    },
+    "hash": {
+      "url": "https://nodejs.org/download/nightly/v$version/SHASUMS256.txt"
+    }
+  }
+}

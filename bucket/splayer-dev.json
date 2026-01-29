@@ -1,0 +1,48 @@
+{
+    "version": "b262",
+    "description": "（开发版）一个简约的音乐播放器 / A minimalist music player",
+    "homepage": "https://github.com/imsyy/SPlayer",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/21480597508/SPlayer-Windows-setup-x64.zip",
+            "hash": "b17dc5215c6ec9077b5c7452e9363f5f627c548a93b0f0b18384ff2b2516d9f8",
+            "pre_install": [
+                "Get-ChildItem \"$dir\" 'SPlayer-*-x64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            ]
+        },
+        "arm64": {
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/21480597508/SPlayer-Windows-setup-arm64.zip",
+            "hash": "d1908f2e7216a91d8486cd61d3366a3c130061c768e7959e2e71fa89c1268f41",
+            "pre_install": [
+                "Get-ChildItem \"$dir\" 'SPlayer-*-arm64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
+            ]
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\SPlayer?*.exe\", \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "SPlayer.exe",
+            "SPlayer Dev",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://github.com/imsyy/SPlayer/actions?query=branch%3Adev+is%3Asuccess+event%3Apush",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
+        "replace": "b${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-Windows-setup-x64.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-Windows-setup-arm64.zip"
+            }
+        }
+    }
+}

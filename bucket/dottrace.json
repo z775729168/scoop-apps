@@ -1,0 +1,42 @@
+{
+    "version": "2025.3.2",
+    "description": "DotTrace. .NET Performace Profiler by JetBrains.",
+    "homepage": "https://www.jetbrains.com/profiler/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.jetbrains.com/store/license.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.2025.3.2/dotTrace64.2025.3.2.exe#/dotTrace.exe",
+            "hash": "08a873b77b2e099aab3967bf3d51acca43beef1b5b079d48850ec9b21ff1031f"
+        },
+        "32bit": {
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.2025.3.2/dotTrace32.2025.3.2.exe#/dotTrace.exe",
+            "hash": "b7c7ab3822c4c62baa700059df94bdbdb71b011c16bc2d21d18af88fc53e5dc8"
+        }
+    },
+    "shortcuts": [
+        [
+            "dotTrace.exe",
+            "dotTrace"
+        ]
+    ],
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=DP&latest=true&platform=zip&type=release",
+        "jsonpath": "$..version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.jetbrains.com/resharper/dotUltimate.$version/dotTrace64.$version.exe#/dotTrace.exe"
+            },
+            "32bit": {
+                "url": "https://download.jetbrains.com/resharper/dotUltimate.$version/dotTrace32.$version.exe#/dotTrace.exe"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

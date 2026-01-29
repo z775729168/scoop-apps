@@ -1,0 +1,63 @@
+{
+    "version": "N-122571-g4ad20a2c09",
+    "description": "A complete, cross-platform solution to record, convert and stream audio and video build with SVT-AV1-HDR.",
+    "homepage": "https://github.com/QuickFatHedgehog/FFmpeg-Builds-SVT-AV1-HDR",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/QuickFatHedgehog/FFmpeg-Builds-SVT-AV1-HDR/releases/download/autobuild-2026-01-28-22-55/ffmpeg-N-122571-g4ad20a2c09-win64-gpl-shared.zip",
+            "hash": "9de328217a3a5d9e465557097ef37410a8cb2d4621e7b4c1ea5414c36ac18e01",
+            "extract_dir": "ffmpeg-N-122571-g4ad20a2c09-win64-gpl-shared"
+        },
+        "arm64": {
+            "url": "https://github.com/QuickFatHedgehog/FFmpeg-Builds-SVT-AV1-HDR/releases/download/autobuild-2026-01-28-22-55/ffmpeg-N-122571-g4ad20a2c09-winarm64-gpl-shared.zip",
+            "hash": "c2c418281861254a7a7bc2fd303aa8116aabaf876d264b0418e584a70a2fc210",
+            "extract_dir": "ffmpeg-N-122571-g4ad20a2c09-winarm64-gpl-shared"
+        }
+    },
+    "post_install": [
+        "# Workaround for https://github.com/ScoopInstaller/Main/issues/2611",
+        "Remove-Item \"$scoopdir\\shims\\ffmpeg.ps1\", \"$scoopdir\\shims\\ffplay.ps1\", \"$scoopdir\\shims\\ffprobe.ps1\" -ErrorAction SilentlyContinue"
+    ],
+    "persist": "fonts",
+    "bin": [
+        [
+            "bin\\ffmpeg.exe",
+            "ffmpeg-svt-av1-hdr"
+        ],
+        [
+            "bin\\ffplay.exe",
+            "ffplay-svt-av1-hdr"
+        ],
+        [
+            "bin\\ffprobe.exe",
+            "ffprobe-svt-av1-hdr"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$rel_info = Invoke-RestMethod -Uri 'https://api.github.com/repos/QuickFatHedgehog/FFmpeg-Builds-SVT-AV1-HDR/releases'",
+            "$latest = $rel_info | Where-Object {$_.tag_name -ne 'latest'} | Sort-Object {$_.published_at} | Select-Object -last 1",
+            "$latest_assets = $latest.assets | Where-Object {$_.name.StartsWith('ffmpeg-N-')}",
+            "$latest_x64 = $latest_assets | Where-Object {$_.name.EndsWith('-win64-gpl-shared.zip')} | Select-Object -first 1",
+            "$latest_arm64 = $latest_assets | Where-Object {$_.name.EndsWith('-winarm64-gpl-shared.zip ')} | Select-Object -first 1",
+            "$version = 'unknown'; if ($latest_x64.name -match 'ffmpeg-(.+?)-win64') {$version = $Matches[1]}",
+            "Write-Output $version $latest.tag_name $latest_x64.digest $latest_arm64.digest"
+        ],
+        "regex": "(?<version>N-\\d+-g[\\d\\w]+)\\s(?<tag>autobuild-[\\d-]+)\\s(?<x64hash>[^\\s]+)?\\s(?<armhash>[^\\s]+)?"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/QuickFatHedgehog/FFmpeg-Builds-SVT-AV1-HDR/releases/download/$matchTag/ffmpeg-$version-win64-gpl-shared.zip",
+                "hash": "$matchX64hash",
+                "extract_dir": "ffmpeg-$version-win64-gpl-shared"
+            },
+            "arm64": {
+                "url": "https://github.com/QuickFatHedgehog/FFmpeg-Builds-SVT-AV1-HDR/releases/download/$matchTag/ffmpeg-$version-winarm64-gpl-shared.zip",
+                "hash": "$matchArmhash",
+                "extract_dir": "ffmpeg-$version-winarm64-gpl-shared"
+            }
+        }
+    }
+}

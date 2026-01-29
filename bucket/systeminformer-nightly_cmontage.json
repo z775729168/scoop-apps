@@ -1,0 +1,67 @@
+{
+  "version": "3.4.26017.1750",
+  "description": "A powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.",
+  "homepage": "https://systeminformer.sourceforge.io",
+  "license": "MIT",
+  "architecture": {
+    "32bit": {
+      "url": "https://github.com/winsiderss/si-builds/releases/download/3.4.26017.1750/systeminformer-build-win32-bin.zip",
+      "hash": "24d96abcf2a4043ce210e44a3c5c581949e48be47eba23a11c39623f8cf6531c"
+    },
+    "64bit": {
+      "url": "https://github.com/winsiderss/si-builds/releases/download/3.4.26017.1750/systeminformer-build-win64-bin.zip",
+      "hash": "43d1f4ef2f48a2e005d35481cbe4a51b5f43e3232cbb89be16cb630d7c4f2c13"
+    },
+    "arm64": {
+      "url": "https://github.com/winsiderss/si-builds/releases/download/3.4.26017.1750/systeminformer-build-arm64-bin.zip",
+      "hash": "8967540077a36a88ff6fec82022e826c5475218bd0c3cd535463c2d223b22517"
+    }
+  },
+  "pre_install": [
+    "# Hardlink cannot be used here, as System Informer would create a new file instead of writing directly.",
+    "'SystemInformer.exe.settings.xml', 'usernotesdb.xml' | ForEach-Object {",
+    "    if (-not (Test-Path \"$persist_dir\\$_\")) {",
+    "        New-Item \"$dir\\$_\" -ItemType File | Out-Null",
+    "    } else {",
+    "        Copy-Item \"$persist_dir\\$_\" \"$dir\\$_\" -ErrorAction 'SilentlyContinue'",
+    "    }",
+    "}"
+  ],
+  "post_install": [
+    "# Clear icon GUIDs",
+    "$settings = Get-ChildItem \"$dir\\SystemInformer.exe.settings.xml\"",
+    "$settingsXml = [xml](Get-Content $settings)",
+    "if ($settingsXml.settings -eq $null) { return }",
+    "($settingsXml.settings.ChildNodes | Where-Object { $_.name.Contains(\"IconGuids\") }) | ForEach-Object { [void]$_.ParentNode.RemoveChild($_) }",
+    "$settingsXml.Save($settings)"
+  ],
+  "shortcuts": [
+    [
+      "SystemInformer.exe",
+      "System Informer"
+    ]
+  ],
+  "pre_uninstall": [
+    "# Hardlink cannot be used here, as System Informer would create a new file instead of writing directly.",
+    "ensure $persist_dir",
+    "'SystemInformer.exe.settings.xml', 'usernotesdb.xml' | ForEach-Object {",
+    "    Copy-Item \"$dir\\$_\" \"$persist_dir\\$_\" -ErrorAction 'SilentlyContinue'",
+    "}"
+  ],
+  "checkver": {
+    "github": "https://github.com/winsiderss/si-builds"
+  },
+  "autoupdate": {
+    "architecture": {
+      "32bit": {
+        "url": "https://github.com/winsiderss/si-builds/releases/download/$version/systeminformer-build-win32-bin.zip"
+      },
+      "64bit": {
+        "url": "https://github.com/winsiderss/si-builds/releases/download/$version/systeminformer-build-win64-bin.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/winsiderss/si-builds/releases/download/$version/systeminformer-build-arm64-bin.zip"
+      }
+    }
+  }
+}

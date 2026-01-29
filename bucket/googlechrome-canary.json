@@ -1,0 +1,83 @@
+{
+    "version": "146.0.7657.0",
+    "description": "Fast, secure, and free web browser, built for the modern web.",
+    "homepage": "https://www.google.com/chrome/canary",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.google.com/chrome/privacy/eula_text.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/release2/chrome/cies24cxj6xvocwwuhty3uf2xu_146.0.7657.0/146.0.7657.0_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "1fe76d67b9ec646fbec528b2100f7a742d60c935700d9700d6825cd5bccb5a03"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/release2/chrome/pbbtsg34tbbz55shfrj6lrmbza_146.0.7657.0/146.0.7657.0_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "e699238b1d96b4fa77aa9d38acdd3b611e9b5825e314f304ce6154fadb6c3ac0"
+        },
+        "arm64": {
+            "url": "https://dl.google.com/release2/chrome/acm3uxhxw3nbv74oelshxwyv2h5a_146.0.7657.0/146.0.7657.0_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "31854c045a51710c20fc52fa63f434a150413ec11914be77ac4234c08df0aa6a"
+        }
+    },
+    "extract_dir": "Chrome-bin",
+    "bin": [
+        [
+            "chrome.exe",
+            "chrome-canary"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Google Chrome (Canary)"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$AppID = '{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}'",
+            "$ArchParams  = @{",
+            "    'x64'   ='x64-statsdef_1'",
+            "    'x86'   ='x86-canary'",
+            "    'arm64' ='arm64-canary'",
+            "}",
+            "$BodyTemplate = @(",
+            "    '<?xml version=\"1.0\" encoding=\"UTF-8\"?>',",
+            "    '<request protocol=\"3.0\">',",
+            "    '  <os platform=\"win\" version=\"10.0.22000.0\" arch=\"{0}\"/>',",
+            "    '  <app appid=\"{1}\" ap=\"{2}\" version=\"\">',",
+            "    '    <updatecheck/>',",
+            "    '  </app>',",
+            "    '</request>'",
+            ") -join \"`n\"",
+            "$ArchURLs = @{}",
+            "$Version = $null",
+            "forEach ($Arch in $ArchParams.Keys) {",
+            "    $Body = $BodyTemplate -f $Arch, $AppID, $ArchParams[$Arch]",
+            "    $Response = Invoke-RestMethod -Uri 'https://update.googleapis.com/service/update2' -Method Post -Body $Body",
+            "    if ($Arch -eq 'x64') {",
+            "        $Version = $Response.response.app.updatecheck.manifest.version",
+            "    }",
+            "    $BaseURL = $Response.SelectSingleNode(\"//url[starts-with(@codebase, 'https://dl.google.com/release2/chrome/')]\")",
+            "    $BaseURL.GetAttribute('codebase') -match '^https://dl\\.google\\.com/release2/chrome/(?<URL>[^/]+)/'",
+            "    $FileName = $Response.SelectSingleNode('//package').GetAttribute('name')",
+            "    $ArchURLs[$Arch] = \"$($Matches['URL'])/$FileName\"",
+            "}",
+            "Write-Output \"$Version,$($ArchURLs['x64']),$($ArchURLs['x86']),$($ArchURLs['arm64'])\""
+        ],
+        "regex": "(?<version>[\\d.]+),(?<archx64>[^,]+),(?<archx86>[^,]+),(?<archarm64>[^,]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/release2/chrome/$matchArchx64#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://dl.google.com/release2/chrome/$matchArchx86#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://dl.google.com/release2/chrome/$matchArcharm64#/dl.7z"
+            }
+        }
+    }
+}

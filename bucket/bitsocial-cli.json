@@ -1,0 +1,33 @@
+{
+    "version": "0.19.3",
+    "description": "An interface to Bitsocial / Plebbit API through command line.",
+    "homepage": "https://github.com/bitsocialhq/bitsocial-cli",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bitsocialhq/bitsocial-cli/releases/download/v0.19.3/bitsocial_installer_win32_x64.exe#/dl.7z",
+            "hash": "5db84dc43089f47b161b882135a37a43a06b729c94af2ee897223cd144b5b672"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "bin": [
+        [
+            "client\\bin\\node.exe",
+            "bitsocial",
+            "$dir\\client\\bin\\run"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\bitsocial\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "bitsocial-cli is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\bitsocial', and can be purged using 'scoop uninstall --purge bitsocial-cli'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bitsocialhq/bitsocial-cli/releases/download/v$version/bitsocial_installer_win32_x64.exe#/dl.7z"
+            }
+        }
+    }
+}
