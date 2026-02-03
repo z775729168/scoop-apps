@@ -1,5 +1,5 @@
 {
-  "version": "20260130-122604-gde3f99d74b",
+  "version": "20260201-122609-g364d5dda91",
   "description": "FFmpeg nightly build for yt-dlp.",
   "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
   "license": "MIT",
@@ -8,19 +8,19 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-30-14-42/ffmpeg-N-122604-gde3f99d74b-win64-gpl.zip",
-      "hash": "b059a140175b035a4eda322b9e02db6d59b874e422c6a5993046399f3c8dc415",
-      "extract_dir": "ffmpeg-N-122604-gde3f99d74b-win64-gpl"
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-02-01-14-25/ffmpeg-N-122609-g364d5dda91-win64-gpl.zip",
+      "hash": "5868273669aa35bdf0688a449653183c96a345d093c4bee3799945d7ab8bf055",
+      "extract_dir": "ffmpeg-N-122609-g364d5dda91-win64-gpl"
     },
     "32bit": {
-      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-30-14-42/ffmpeg-N-122604-gde3f99d74b-win32-gpl.zip",
-      "hash": "ad0942fcad6f950fd0a3bd8bac12d3537d7c6f54a5abb37bb0adf995c7050504",
-      "extract_dir": "ffmpeg-N-122604-gde3f99d74b-win32-gpl"
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-02-01-14-25/ffmpeg-N-122609-g364d5dda91-win32-gpl.zip",
+      "hash": "153b1f19bf9a5436c6c80476bf8eb768126de71b4867fa549a94b20ff54f1d73",
+      "extract_dir": "ffmpeg-N-122609-g364d5dda91-win32-gpl"
     },
     "arm64": {
-      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-01-30-14-42/ffmpeg-N-122604-gde3f99d74b-winarm64-gpl.zip",
-      "hash": "ae739ae42b3737ccf764ccbc772676f4e461e1685a521767f3d3d38b8b6dd863",
-      "extract_dir": "ffmpeg-N-122604-gde3f99d74b-winarm64-gpl"
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-02-01-14-25/ffmpeg-N-122609-g364d5dda91-winarm64-gpl.zip",
+      "hash": "bcea26abcc81e91cf3ae8dab3fdaffabfb86aa04de30ea6906b1843949676041",
+      "extract_dir": "ffmpeg-N-122609-g364d5dda91-winarm64-gpl"
     }
   },
   "bin": [
