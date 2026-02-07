@@ -1,20 +1,20 @@
 {
-    "version": "0.8.1",
+    "version": "0.9.0",
     "description": "A git diff pager based on delta but with a file tree.",
     "homepage": "https://github.com/dlvhdr/diffnav",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.8.1/diffnav_Windows_x86_64.zip",
-            "hash": "aa23710ebeb0cef08e1a2e72cf18f5a98e6719a4dd52495210970931432c82e6"
+            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.9.0/diffnav_Windows_x86_64.zip",
+            "hash": "77e495c57ceed823724c9fa053cb220c79c46d4a4aa1e1e9d784f6cbfdf83be0"
         },
         "32bit": {
-            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.8.1/diffnav_Windows_i386.zip",
-            "hash": "42ef8b38d41c6458956a807594fa51290a82aad20a87f28b8c5c45983909bd1b"
+            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.9.0/diffnav_Windows_i386.zip",
+            "hash": "86bcde35ae311b5c5ebe598ce9354453f1eec386469d67a4ca068cdc61ac1477"
         },
         "arm64": {
-            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.8.1/diffnav_Windows_arm64.zip",
-            "hash": "dc77d9bd0711021ae50bf60fbdb4c367eeaecb61871608ed503e0ae8bdd3fa8f"
+            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.9.0/diffnav_Windows_arm64.zip",
+            "hash": "162372a7ccc1d2a23aa44c3937a8a3c08154cb4171bbbbabef4bd28bdd57bc9a"
         }
     },
     "bin": "diffnav.exe",
