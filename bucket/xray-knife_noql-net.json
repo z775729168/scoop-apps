@@ -1,17 +1,17 @@
 {
-    "version": "9.0.0",
+    "version": "9.9.9",
     "description": "A swiss army knife for xray-core to do task such as parsing xray config links, network testing, switch outboud automatically etc.",
     "homepage": "https://github.com/lilendian0x00/xray-knife",
     "license": "MIT",
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lilendian0x00/xray-knife/releases/download/v9.0.0/Xray-knife-windows-64.zip",
-            "hash": "ee0d6997be4d97e7a512457b28b005dbfb920debeadfbf23e06f12b5bb24a924"
+            "url": "https://github.com/lilendian0x00/xray-knife/releases/download/v9.9.9/Xray-knife-windows-64.zip",
+            "hash": "159db38a78898d6523ea5fa00f686a9d71e42e60b672fc7d562f5b4bf0887acb"
         },
         "arm64": {
-            "url": "https://github.com/lilendian0x00/xray-knife/releases/download/v9.0.0/Xray-knife-windows-arm64-v8a.zip",
-            "hash": "993b8400c74946ceb4902ed0156cc27d7591385f4b016ae003bd120fca6c9770"
+            "url": "https://github.com/lilendian0x00/xray-knife/releases/download/v9.9.9/Xray-knife-windows-arm64-v8a.zip",
+            "hash": "54698560abd3155c6b19407b67e2feac0454f1952fddd1af950bdc32a4e777e0"
         }
     },
     "checkver": "github",
