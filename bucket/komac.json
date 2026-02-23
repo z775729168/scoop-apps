@@ -1,0 +1,34 @@
+{
+    "version": "2.15.0",
+    "description": "The Community Manifest Creator for WinGet",
+    "homepage": "https://github.com/russellbanks/Komac",
+    "license": "GPL-3.0-only",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/russellbanks/Komac/releases/download/v2.15.0/komac-2.15.0-x86_64-pc-windows-msvc.exe#/Komac.exe",
+            "hash": "a55eced85161c08e7bf9ef38f713854bea398301e723fa674573e3f2b998caa6"
+        },
+        "arm64": {
+            "url": "https://github.com/russellbanks/Komac/releases/download/v2.15.0/komac-2.15.0-aarch64-pc-windows-msvc.exe#/Komac.exe",
+            "hash": "fd91c7ad565ea2ab8d42b0e138c56202f38326913b047ba1ac853f194b2f2f30"
+        }
+    },
+    "bin": "Komac.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/russellbanks/Komac/releases/download/v$version/komac-$version-x86_64-pc-windows-msvc.exe#/Komac.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/russellbanks/Komac/releases/download/v$version/komac-$version-aarch64-pc-windows-msvc.exe#/Komac.exe"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

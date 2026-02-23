@@ -1,0 +1,40 @@
+{
+    "version": "1.445.214.0",
+    "description": "A scan tool designed to find and remove malware from Windows computers.",
+    "homepage": "https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=1.445.214.0&arch=amd64",
+            "hash": "46eeff4bbbe63a78a1bdf7aba92b277af7224e2add4da39b03313c3d5941bc4b"
+        },
+        "32bit": {
+            "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=1.445.214.0&arch=x86",
+            "hash": "9042e31a2de4c0300d8a79b3fd7d159d62e96cb7624517dba20e9bd366bbbd59"
+        }
+    },
+    "bin": "msert.exe",
+    "shortcuts": [
+        [
+            "msert.exe",
+            "Microsoft Safety Scanner"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest -Method HEAD 'https://definitionupdates.microsoft.com/packages?package=scanner&arch=x64' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "if ($detail.StatusCode -eq 200) { return $detail.Headers.Location } else { return '' }"
+        ],
+        "regex": "packageVersion=([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=$version&arch=amd64"
+            },
+            "32bit": {
+                "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=$version&arch=x86"
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "version": "2.2.9",
+    "homepage": "https://www.koodoreader.com",
+    "description": "All-in-one ebook reader.",
+    "license": "AGPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.koodoreader.com/v2.2.9/Koodo-Reader-2.2.9-x64.exe#/dl.7z",
+            "hash": "sha512:19051b072ac166306ba8450da62e0b40a735d4542f080041616d6a9ad2b27f84e7a6b36d95cdc50cd3ffe938a6c831c45c5065b905d247ad6993d56a4adfa41f"
+        },
+        "32bit": {
+            "url": "https://dl.koodoreader.com/v2.2.9/Koodo-Reader-2.2.9-ia32.exe#/dl.7z",
+            "hash": "sha512:495105ce52d958bda32706f6c623e00b35a109d0063047054af3e61623c30928c0c023610ae12ff259d9d484bbc6cf843c101af1bd6df5158e336c8316875330"
+        },
+        "arm64": {
+            "url": "https://dl.koodoreader.com/v2.2.9/Koodo-Reader-2.2.9-arm64.exe#/dl.7z",
+            "hash": "sha512:c838121e3a28c6176e2271435d82bef8917b37592ff69dea40322dd5aa7673ce69cd95f3c64065661ed9e4e314c67bc36031d77deff96b11021e824d1705e313"
+        }
+    },
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\resources\" -Recurse -Force -ErrorAction SilentlyContinue",
+            "Get-Item \"$dir\\`$PLUGINSDIR\\app*.7z\" | Expand-7zipArchive -DestinationPath \"$dir\"",
+            "Remove-Item \"$dir\\`$*\" -Force -Recurse"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Koodo Reader.exe",
+            "Koodo Reader"
+        ]
+    ],
+    "checkver": {
+        "url": "https://koodoreader.com/en/download",
+        "regex": "Stable Version.*?(?<version>[\\d.]+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.koodoreader.com/v$version/Koodo-Reader-$version-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://dl.koodoreader.com/v$version/Koodo-Reader-$version-ia32.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://dl.koodoreader.com/v$version/Koodo-Reader-$version-arm64.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "(?sm)$basename.*?sha512:\\s+$base64"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "version": "11.85.1",
+    "description": "Complete API development environment.",
+    "homepage": "https://www.getpostman.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.getpostman.com/licenses/postman_eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.pstmn.io/download/11.85.1/Postman%20v11.85.1%20(x64).exe#/dl.7z",
+            "hash": "sha1:3b8f7e1cd7d6f9f02c87b172458c3b98dfe74560"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\Postman-$version-full.nupkg\" \"$dir\\app\" -ExtractDir 'lib\\net45' -Removal",
+            "'background.gif', 'RELEASES', 'setupIcon.ico' | ForEach-Object { Remove-Item \"$dir\\$_\" }"
+        ]
+    },
+    "shortcuts": [
+        [
+            "app/Postman.exe",
+            "Postman"
+        ]
+    ],
+    "checkver": {
+        "url": "https://dl.pstmn.io/changelog?channel=stable&platform=win64",
+        "jsonpath": "$.changelog[0].name"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.pstmn.io/download/$version/Postman%20v$version%20(x64).exe#/dl.7z",
+                "hash": {
+                    "url": "https://dl.pstmn.io/RELEASES?platform=win64&from=$version",
+                    "regex": "(?sm)$basename.*?$sha1"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "version": "6.38",
+    "description": "All-in-one utility for cleaning your PC",
+    "homepage": "https://www.glarysoft.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.glarysoft.com/inf/termsofuse/"
+    },
+    "url": "https://download.glarysoft.com/guportable.zip",
+    "hash": "f845318acf63a0711bf343347971021151f17f772a7918a0775f15d7873a69a0",
+    "shortcuts": [
+        [
+            "Integrator_Portable.exe",
+            "Glary Utilities"
+        ]
+    ],
+    "persist": [
+        "Portable\\data",
+        "Portable\\skins"
+    ],
+    "checkver": "([\\d.-]+)</span> for Windows",
+    "autoupdate": {
+        "url": "https://download.glarysoft.com/guportable.zip"
+    }
+}

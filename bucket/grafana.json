@@ -1,0 +1,47 @@
+{
+    "version": "12.3.3",
+    "description": "Open platform for analytics and data monitoring",
+    "homepage": "https://grafana.com/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.grafana.com/oss/release/grafana-12.3.3.windows-amd64.zip",
+            "hash": "50aa8c3afb908672b63296d3c508bc39052e148a8e9bab1b74103c797e4bdc6c"
+        },
+        "arm64": {
+            "url": "https://dl.grafana.com/oss/release/grafana-12.3.3.windows-arm64.zip",
+            "hash": "108e6428896e4409476b626432fb099ca16b0ddfb30de8b9f1823924dcc780e3"
+        }
+    },
+    "extract_dir": "grafana-12.3.3",
+    "bin": [
+        "bin\\grafana-cli.exe",
+        [
+            "bin\\grafana-server.exe",
+            "grafana-server",
+            "-homepath \"$dir\""
+        ]
+    ],
+    "persist": [
+        "conf",
+        "data"
+    ],
+    "checkver": {
+        "url": "https://grafana.com/grafana/download?edition=oss&platform=windows",
+        "regex": "grafana_([\\d.]+)_(?<stamp>[\\d]+)_windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.grafana.com/oss/release/grafana-$version.windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://dl.grafana.com/oss/release/grafana-$version.windows-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        },
+        "extract_dir": "grafana-$version"
+    }
+}
