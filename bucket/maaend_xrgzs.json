@@ -1,16 +1,16 @@
 {
-    "version": "1.15.6",
+    "version": "1.16.0",
     "description": "MaaEnd（终末地小助手）- 明日方舟：终末地全自动辅助工具",
     "homepage": "https://github.com/maaend/maaend",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maaend/maaend/releases/download/v1.15.6/MaaEnd-win-x86_64-v1.15.6.zip",
-            "hash": "a81ceb2fd8e1bdfb7318d0465724f3104f0ba2ba2d268dca61d707a6d64d2b57"
+            "url": "https://github.com/maaend/maaend/releases/download/v1.16.0/MaaEnd-win-x86_64-v1.16.0.zip",
+            "hash": "6b6335540bc6cbf7384c6ae113cd5767fdfd47d3349af3a574b71e6ffb4fa73b"
         },
         "arm64": {
-            "url": "https://github.com/maaend/maaend/releases/download/v1.15.6/MaaEnd-win-aarch64-v1.15.6.zip",
-            "hash": "d5b8855c96f6b4517d82a6491c9d2135f4e0b5b4e9c37ab80455770e04ac548d"
+            "url": "https://github.com/maaend/maaend/releases/download/v1.16.0/MaaEnd-win-aarch64-v1.16.0.zip",
+            "hash": "844e2a555d57150df48ebb5abc3715369184493bc399912bf8a0a7b82395d379"
         }
     },
     "pre_install": [
