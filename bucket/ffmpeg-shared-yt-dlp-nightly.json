@@ -1,5 +1,5 @@
 {
-    "version": "20260307-123250-gb8a4d8a18d",
+    "version": "20260308-123273-gc1263a3dd9",
     "description": "FFmpeg nightly build (shared) for yt-dlp.",
     "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
     "license": "MIT",
@@ -8,19 +8,19 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-03-07-14-22/ffmpeg-N-123250-gb8a4d8a18d-win64-gpl-shared.zip",
-            "hash": "8deb2d46270ed25b6afd34941f8f50f107ce333bda39fd153b5a7111403d765a",
-            "extract_dir": "ffmpeg-N-123250-gb8a4d8a18d-win64-gpl-shared"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-03-08-14-23/ffmpeg-N-123273-gc1263a3dd9-win64-gpl-shared.zip",
+            "hash": "33454db8d08c0fce19f67b334449626b796631c825b0ddbe1c2d6a2fbde3665e",
+            "extract_dir": "ffmpeg-N-123273-gc1263a3dd9-win64-gpl-shared"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-03-07-14-22/ffmpeg-N-123250-gb8a4d8a18d-win32-gpl-shared.zip",
-            "hash": "0231019ae2f50cf3f88b531a4c0d5fe1ff8f669d312a5ba3fbce94fe55f6666a",
-            "extract_dir": "ffmpeg-N-123250-gb8a4d8a18d-win32-gpl-shared"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-03-08-14-23/ffmpeg-N-123273-gc1263a3dd9-win32-gpl-shared.zip",
+            "hash": "4100dfbfd1ed65118ba43db08f11706db01fa2aa8f2294bf30b752c2045a82a0",
+            "extract_dir": "ffmpeg-N-123273-gc1263a3dd9-win32-gpl-shared"
         },
         "arm64": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-03-07-14-22/ffmpeg-N-123250-gb8a4d8a18d-winarm64-gpl-shared.zip",
-            "hash": "e316180e14aee06089b23e63f3ee18eac586a66e1efe1a4b3231a0c7f11ad9fd",
-            "extract_dir": "ffmpeg-N-123250-gb8a4d8a18d-winarm64-gpl-shared"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-03-08-14-23/ffmpeg-N-123273-gc1263a3dd9-winarm64-gpl-shared.zip",
+            "hash": "08c324ab778c191b3a06e6285543b102b5f915c6e735dc93cf81b66a96e6e1d8",
+            "extract_dir": "ffmpeg-N-123273-gc1263a3dd9-winarm64-gpl-shared"
         }
     },
     "bin": [
