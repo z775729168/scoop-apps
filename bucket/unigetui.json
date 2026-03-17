@@ -1,5 +1,5 @@
 {
-    "version": "2026.1.0",
+    "version": "2026.1.2",
     "description": "GUI for the most common CLI package managers, such as WinGet, Scoop, Chocolatey, Pip, Npm, .NET Tool, PowerShell Gallery and more.",
     "homepage": "https://devolutions.net/unigetui/",
     "license": "MIT",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.1.0/UniGetUI.x64.zip",
-            "hash": "91c4f10e576935af6342588be918248e5adedeb37c7182490e2a64dfc0608beb"
+            "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.1.2/UniGetUI.x64.zip",
+            "hash": "1cc1d856f6556dc152f451419473f67bc5107e56f1449c0b50151d5d6ba8ad72"
         },
         "arm64": {
-            "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.1.0/UniGetUI.arm64.zip",
-            "hash": "60eceb74e5a92a53821f0d04bae22314671b615c89d01e304977492c4c96a784"
+            "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.1.2/UniGetUI.arm64.zip",
+            "hash": "66fc52623791aa569daf517ff813503fbda72fc727b2026ab431f8da6824230c"
         }
     },
     "pre_install": "Set-Content -Value $null -Path \"$dir\\ForceUniGetUIPortable\"",
