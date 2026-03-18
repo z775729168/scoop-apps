@@ -1,12 +1,12 @@
 {
-    "version": "b3681",
+    "version": "b3696",
     "description": "(Nightly Build) A customisable music player.",
     "homepage": "https://github.com/fooyin/fooyin",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/fooyin/fooyin/actions/runs/23200219876/windows-amd64.zip",
-            "hash": "a0740d443f106be4a5d67033683e972b0d088a2f92cc9474e0e1dca1bd16ea52"
+            "url": "https://nightly.link/fooyin/fooyin/actions/runs/23259712624/windows-amd64.zip",
+            "hash": "8d9b28979e6711d629b674c9f761c02df95e1bdf06e23a110b6729897101db83"
         }
     },
     "pre_install": [
