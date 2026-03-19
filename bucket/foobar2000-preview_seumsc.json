@@ -1,5 +1,5 @@
 {
-    "version": "2.26-20260317",
+    "version": "2.26-20260319",
     "description": "An advanced freeware audio player for the Windows platform.",
     "homepage": "https://www.foobar2000.org/",
     "license": {
@@ -11,12 +11,12 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://www.foobar2000.org/files/foobar2000_v2.26_preview_2026-03-17.exe",
-            "hash": "d52cfbd73c1828892ee2991a6aef1b96f4f2421d2f9213f10c851fc2963a0d72"
+            "url": "https://www.foobar2000.org/files/foobar2000_v2.26_preview_2026-03-19.exe",
+            "hash": "6e325efdfc765897b79043e990019a995d741b192f4ff241a82403787ee9339b"
         },
         "64bit": {
-            "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.26_preview_2026-03-17.exe#/dl.7z",
-            "hash": "e22a0d122487ee56eb1eeabc118bdce1429821f7ee9bb82b1a317309918280fd"
+            "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.26_preview_2026-03-19.exe#/dl.7z",
+            "hash": "d5f19957b56c0ecc0bb586168f363ff265196cb32b3c032d265009df4b1663c9"
         }
     },
     "installer": {
