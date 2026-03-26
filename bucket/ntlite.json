@@ -1,5 +1,5 @@
 {
-    "version": "2026.03.10899",
+    "version": "2026.03.10902",
     "description": "Cutting-edge Windows configuration tool",
     "homepage": "https://www.ntlite.com",
     "license": "Proprietary",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe",
-            "hash": "7507daacd9f4476394e46d07cf49ea838cc97bc9c4752ea2e97d18fe77baeba6"
+            "hash": "b1f6611f8ce4b0e88ee0d5221a0a945bec6262db8058dcb055c6b3c23b34abe1"
         },
         "32bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x86_legacy.exe",
-            "hash": "a77175acb7dd01f01bd4e52763f106ed71f760539bc885c0061581e1babfb782"
+            "hash": "d2e342eb088aaef197860dac4cd6480fd0f9bd084ba86de2c7915e46a37550c7"
         }
     },
     "pre_install": [

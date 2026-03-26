@@ -1,12 +1,12 @@
 {
-    "version": "1.26.0",
+    "version": "1.28.0",
     "description": "Modern music player focused on streaming from free sources",
     "homepage": "https://nuclearplayer.com",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nukeop/nuclear/releases/download/player%401.26.0/Nuclear_1.26.0_x64-setup.exe#/dl.7z",
-            "hash": "27a96728cf8e7dd0589183544e8f57b9ae080357d913f59af3805ea5f87b222e"
+            "url": "https://github.com/nukeop/nuclear/releases/download/player%401.28.0/Nuclear_1.28.0_x64-setup.exe#/dl.7z",
+            "hash": "5ada173da932255105c0510187b28e29ebcdb1826e7d41612a4b7903cc2a1882"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse -ErrorAction Ignore",
