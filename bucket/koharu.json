@@ -1,12 +1,12 @@
 {
-    "version": "0.45.3",
+    "version": "0.47.1",
     "description": "ML-powered manga translator, written in Rust.",
     "homepage": "https://koharu.rs/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mayocream/koharu/releases/download/0.45.3/koharu_windows_x64.exe#/koharu.exe",
-            "hash": "e24cde7f11b2ab2470a1dc109afac5124604083fc3dae1233f44cbad66d186d2"
+            "url": "https://github.com/mayocream/koharu/releases/download/0.47.1/koharu_windows_x64.exe#/koharu.exe",
+            "hash": "8c2530d34f2c8faabcfe50fdcff8758a4a73073d7bc7190d71ab97763dbc8f7f"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.toml\")) { New-Item \"$dir\\config.toml\" -ItemType File | Out-Null }",
