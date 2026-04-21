@@ -1,10 +1,10 @@
 {
-    "version": "0.23.2",
+    "version": "0.23.5",
     "description": "AgentsView desktop app - local coding agent session viewer with analytics dashboard. (Experimental)",
     "homepage": "https://www.agentsview.io/",
     "license": "MIT",
-    "url": "https://github.com/wesm/agentsview/releases/download/v0.23.2/AgentsView_0.23.2_x64-setup.exe#/dl.7z",
-    "hash": "ed1d026de8017b0016dc95d378b1d0f399b757784542b19714ee9363a1a54b3e",
+    "url": "https://github.com/wesm/agentsview/releases/download/v0.23.5/AgentsView_0.23.5_x64-setup.exe#/dl.7z",
+    "hash": "f0b56c4b590947ba9094af3a08667a7525432d56b79f8e1dda3951b89c7a6508",
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse",
     "env_set": {
         "AGENTSVIEW_DESKTOP_AUTOUPDATE": "0"
