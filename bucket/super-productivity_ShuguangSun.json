@@ -1,20 +1,20 @@
 {
-    "version": "18.2.5",
+    "version": "18.2.8",
     "description": "To-do list & time tracker for programmers and other digital workers with Jira, Github, and Gitlab integration",
     "homepage": "https://super-productivity.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/johannesjo/super-productivity/releases/download/v18.2.5/Super-Productivity-Setup-x64.exe#/dl.7z",
-            "hash": "sha512:f77b52ace76cfaeed46412adc33040a2bccb20c0cc22f30998aa23ef3d6ce1beaae9b90ae33e2e5aadfdb282d349f953535a462dcae29281b34e62b681018129",
+            "url": "https://github.com/johannesjo/super-productivity/releases/download/v18.2.8/Super-Productivity-Setup-x64.exe#/dl.7z",
+            "hash": "sha512:ae9bba2dc765f0dd656c24f123c5e9f08fe7cdd4ccf924b918506e30735a23c81d5374e7fe82d2bd89876d41e89f75f10f6b34033fb5c89ccca4120ab39fb69e",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
             ]
         },
         "arm64": {
-            "url": "https://github.com/johannesjo/super-productivity/releases/download/v18.2.5/Super-Productivity-Setup-arm64.exe#/dl.7z",
-            "hash": "sha512:0053cfe397f822a513aca0bb42c907fa6df7779f8b369f650fa785eefe1147aebf98f378a6230810b0ba88131d677c639f25384d5b3f7624bbb12cff3f1ecd42",
+            "url": "https://github.com/johannesjo/super-productivity/releases/download/v18.2.8/Super-Productivity-Setup-arm64.exe#/dl.7z",
+            "hash": "sha512:15b1f10ee9aec599500f29ed5ddf754ff6eae376baba0c515dd361d275faa84a481c23700900dbecc3af48d1fecde369dd550957dc60552ba49058e06e57ade2",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
