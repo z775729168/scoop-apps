@@ -1,18 +1,18 @@
 {
-    "version": "0.11.5.1",
+    "version": "0.11.7.1",
     "description": "The Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat and no noise. (Pre-release)",
     "homepage": "https://helium.computer",
     "license": "BSD-3-Clause, GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/imputnet/helium-windows/releases/download/0.11.5.1/helium_0.11.5.1_x64-windows.zip",
-            "hash": "572b9da508a11a7b43fcb6c438302f1ffd063bfdaf216ade8a943d50e2cddcf3",
-            "extract_dir": "helium_0.11.5.1_x64-windows"
+            "url": "https://github.com/imputnet/helium-windows/releases/download/0.11.7.1/helium_0.11.7.1_x64-windows.zip",
+            "hash": "c136eba882075c175ccfd9fe275ffebc4eba5308cbf1ee9a9727d68deb192a42",
+            "extract_dir": "helium_0.11.7.1_x64-windows"
         },
         "arm64": {
-            "url": "https://github.com/imputnet/helium-windows/releases/download/0.11.5.1/helium_0.11.5.1_arm64-windows.zip",
-            "hash": "4886af468f5759bf9527bcd085e998bd4229ec66da103d0dccf00fb2360ff3e1",
-            "extract_dir": "helium_0.11.5.1_arm64-windows"
+            "url": "https://github.com/imputnet/helium-windows/releases/download/0.11.7.1/helium_0.11.7.1_arm64-windows.zip",
+            "hash": "7e14dbb234dc545b9e020529bf2d830d5795a39a5e1aba8f318bea2816b13633",
+            "extract_dir": "helium_0.11.7.1_arm64-windows"
         }
     },
     "bin": [
