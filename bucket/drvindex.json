@@ -1,0 +1,45 @@
+{
+    "description": "DrvIndex 安装设备驱动程序工具（多线程版）",
+    "version": "8.2026.5.300",
+    "homepage": "https://bbs.wuyou.net/forum.php?mod=viewthread&tid=425316",
+    "license": "Freeware",
+    "architecture": {
+        "32bit": {
+            "url": "https://gitee.com/sgave/my-app/raw/master/86/DrvIndex_x86.exe#/DrvIndex.exe",
+            "hash": "105abcbb9f3c206af81b64eb1a40fd2ff6ec48fb1ba4a17f213f76dc8d371b3e"
+        },
+        "64bit": {
+            "url": "https://gitee.com/sgave/my-app/raw/master/64/DrvIndex.exe#/DrvIndex.exe",
+            "hash": "887e73095579911edd9bb484bb0813c76f6e193f0ded5c5a8fe8352066d60a15"
+        }
+    },
+    "bin": "DrvIndex.exe",
+    "shortcuts": [
+        [
+            "DrvIndex.exe",
+            "DrvIndex"
+        ]
+    ],
+    "checkver": {
+        "url": "https://gitee.com/sgave/my-app/raw/master/64/version.txt",
+        "regex": "^(.+)\\r"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://gitee.com/sgave/my-app/raw/master/86/DrvIndex_x86.exe#/DrvIndex.exe",
+                "hash": {
+                    "url": "https://gitee.com/sgave/my-app/raw/master/86/version.txt",
+                    "regex": "$sha256"
+                }
+            },
+            "64bit": {
+                "url": "https://gitee.com/sgave/my-app/raw/master/64/DrvIndex.exe#/DrvIndex.exe",
+                "hash": {
+                    "url": "https://gitee.com/sgave/my-app/raw/master/64/version.txt",
+                    "regex": "$sha256"
+                }
+            }
+        }
+    }
+}
