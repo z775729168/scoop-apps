@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/brian6932/Scoop/64bit-v2-v3-v4/schema.json",
-    "version": "20260515-1778847297-4498c0ff81",
+    "version": "20260516-1778951635-059bc7025b",
     "description": "Video player based on MPlayer/mplayer2 (builds by zhongfly)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -13,16 +13,16 @@
     },
     "architecture": {
         "arm64": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-05-15-4498c0ff81/mpv-aarch64-20260515-git-4498c0ff81.7z",
-            "hash": "62b9c45c1de951ecbddef91aa4f373cc685b8ddf7372db5495d72fb2a34aced5"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-05-16-059bc7025b/mpv-aarch64-20260516-git-059bc7025b.7z",
+            "hash": "9037c4f614e47857f2cc3af4457cb40558eff2d38dbf11808a247ef1d4a24fd8"
         },
         "64bit-v3": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-05-15-4498c0ff81/mpv-x86_64-v3-20260515-git-4498c0ff81.7z",
-            "hash": "c6a2f57eb832b44e7bb7591e57ffcfcf9ce117d0834aeb763d9fec7f6ec89796"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-05-16-059bc7025b/mpv-x86_64-v3-20260516-git-059bc7025b.7z",
+            "hash": "c461a431c54825672bbe4130fcdf669ecc6f41744eabf0cafa87f0667b443e9c"
         },
         "64bit": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-05-15-4498c0ff81/mpv-x86_64-20260515-git-4498c0ff81.7z",
-            "hash": "583c42de9cd61e4ecd898501f4688061b775053c7f088c40dba78f4b9458b561"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-05-16-059bc7025b/mpv-x86_64-20260516-git-059bc7025b.7z",
+            "hash": "2106d950ed389c21b023564d937d7077d2bc3d7728f7c79967eeb89abe1c4e12"
         }
     },
     "pre_install": "Remove-Item \"$dir/updater.bat\"",
