@@ -1,12 +1,12 @@
 {
-    "version": "0.130.0",
+    "version": "0.122.0",
     "description": "OpenAI Codex for Rust - AI-powered code completion and generation tool",
     "homepage": "https://github.com/openai/codex",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.130.0/codex-npm-win32-x64-0.130.0.tgz",
-            "hash": "2f6309d4cf55d5a49847a018c4dcd4354995324ed9d240a9d4f57fb3254f2fec",
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.122.0/codex-npm-win32-x64-0.122.0.tgz",
+            "hash": "cfb9b3b37c1d2e0acb7d1c28f5939921e890b35c209ad0d6a44d0ffa520023aa",
             "installer": {
                 "script": [
                     "$vendorRoot = Join-Path $dir 'package\\vendor\\x86_64-pc-windows-msvc'",
@@ -26,8 +26,8 @@
             }
         },
         "arm64": {
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.130.0/codex-npm-win32-arm64-0.130.0.tgz",
-            "hash": "69329907688d5cf6786efff9a584a80f0649969deed6ca351770d0b8e83a1e53",
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.122.0/codex-npm-win32-arm64-0.122.0.tgz",
+            "hash": "50c44002a7ed4d814de0417a9f80dcbf6f3045d879197668d6c86c9e97e560c9",
             "installer": {
                 "script": [
                     "$vendorRoot = Join-Path $dir 'package\\vendor\\aarch64-pc-windows-msvc'",
