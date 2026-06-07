@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.4.7/zyfun-win-3.4.7-x64.exe#/dl.7z",
-            "hash": "sha512:4a184a4f6a105a308ef6dd20cf5c50041062ca793bbd933b83de9445f27055db014558d15041358668036da2b211f1d700e80bdc0697acd675a4366ea93cd726",
+            "hash": "sha512:63b5a10cea30cde3ebdb8c744a0a869dae0a734626759f1a087b5d43ae8ce1156b7d80a7e2406eaefea7d580a51441d202321fc933287809be42d9ff16f16e42",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
@@ -17,7 +17,7 @@
         },
         "32bit": {
             "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.4.7/zyfun-win-3.4.7.exe#/dl.7z",
-            "hash": "sha512:4a184a4f6a105a308ef6dd20cf5c50041062ca793bbd933b83de9445f27055db014558d15041358668036da2b211f1d700e80bdc0697acd675a4366ea93cd726",
+            "hash": "sha512:63b5a10cea30cde3ebdb8c744a0a869dae0a734626759f1a087b5d43ae8ce1156b7d80a7e2406eaefea7d580a51441d202321fc933287809be42d9ff16f16e42",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
@@ -25,7 +25,7 @@
         },
         "arm64": {
             "url": "https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.4.7/zyfun-win-3.4.7-arm64.exe#/dl.7z",
-            "hash": "sha512:4a184a4f6a105a308ef6dd20cf5c50041062ca793bbd933b83de9445f27055db014558d15041358668036da2b211f1d700e80bdc0697acd675a4366ea93cd726",
+            "hash": "sha512:63b5a10cea30cde3ebdb8c744a0a869dae0a734626759f1a087b5d43ae8ce1156b7d80a7e2406eaefea7d580a51441d202321fc933287809be42d9ff16f16e42",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
