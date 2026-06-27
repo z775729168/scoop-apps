@@ -1,33 +1,27 @@
 {
     "##": "The 64-bit version is just a placeholder to pass CI checks.",
-    "version": "b9820",
+    "version": "b9827",
     "description": "(OpenCL Backend for Qualcomm Adreno GPU) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b9820/llama-b9820-bin-win-cpu-x64.zip",
-            "hash": "826d2908a668e6da36a6d6242fc99365799bce81619dde6c00ac29d029e69da7"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b9827/llama-b9827-bin-win-cpu-x64.zip",
+            "hash": "6434771295dc9631a0a240986444b76ec4f7944f6689651933b6bf76a6b6ea59"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b9820/llama-b9820-bin-win-opencl-adreno-arm64.zip",
-            "hash": "7c0bdb4e6c6a0da02b8b59032a804985b9e9bd32ae9c0cf4459725acfb412ec1"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b9827/llama-b9827-bin-win-opencl-adreno-arm64.zip",
+            "hash": "769a4aa6d98620e3897aa960c7e3f4ae7b433b929f99e108bc519ef54dcc76c9"
         }
     },
     "bin": [
+        "llama.exe",
         "llama-cli.exe",
         "llama-server.exe",
-        "llama-perplexity.exe",
         "llama-bench.exe",
-        "llama-imatrix.exe",
-        "llama-quantize.exe",
-        "llama-tokenize.exe",
-        "llama-tts.exe",
+        "llama-completion.exe",
         "llama-mtmd-cli.exe",
-        [
-            "rpc-server.exe",
-            "llama-rpc-server"
-        ]
+        "ggml-rpc-server.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
