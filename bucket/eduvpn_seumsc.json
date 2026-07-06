@@ -1,20 +1,20 @@
 {
-    "version": "4.5.99.5",
+    "version": "4.5.99.7",
     "description": "Access your institute's network or the Internet using an encrypted connection.",
     "homepage": "https://www.eduvpn.org/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "32bit": {
-            "url": "https://codeberg.org/eduVPN/windows/releases/download/4.5.99.5/eduVPNClient_4.5.99.5_x86.msi",
-            "hash": "e65a4c531536bf10f4cd09591bdff029247ece916c859a8be591f8a65c71ce22"
+            "url": "https://codeberg.org/eduVPN/windows/releases/download/4.5.99.7/eduVPNClient_4.5.99.7_x86.msi",
+            "hash": "365e6db564f1d78b4c1eead787b5955ef2aec10e9b887f953906171a1be30a64"
         },
         "64bit": {
-            "url": "https://codeberg.org/eduVPN/windows/releases/download/4.5.99.5/eduVPNClient_4.5.99.5_x64.msi",
-            "hash": "c36b9ad8e5e9138c054df48a2d2c3c3315300e67128ef51361b0a9a84ccee845"
+            "url": "https://codeberg.org/eduVPN/windows/releases/download/4.5.99.7/eduVPNClient_4.5.99.7_x64.msi",
+            "hash": "a7d1c56aeeffb9d758fd833341ce042a6d793c7b9126b507d887921d591dba22"
         },
         "arm64": {
-            "url": "https://codeberg.org/eduVPN/windows/releases/download/4.5.99.5/eduVPNClient_4.5.99.5_ARM64.msi",
-            "hash": "47d09ac01aea7afce94e046a95a0d65e49b2b6ac19dfb9558650ebfd488ffe83"
+            "url": "https://codeberg.org/eduVPN/windows/releases/download/4.5.99.7/eduVPNClient_4.5.99.7_ARM64.msi",
+            "hash": "8580721daadb22f5162a12c0c339d380ae8d2b9b7be80a4084087169627944cb"
         }
     },
     "extract_dir": "eduVPN",
