@@ -1,0 +1,22 @@
+{
+    "version": "5.17.8",
+    "description": "MemProcFS",
+    "homepage": "https://github.com/ufrisk/MemProcFS",
+    "license": "AGPL-3.0",
+    "url": "https://github.com/ufrisk/MemProcFS/releases/download/v5.17/MemProcFS_files_and_binaries_v5.17.8-win_x64-20260611.zip",
+    "hash": "d5b33be277b4fd9b04e5e66da89d74f03e2c252ceb7d4d2d10f0ac4eee3e811f",
+    "bin": "MemProcFS.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/ufrisk/MemProcFS/releases/latest",
+        "regex": "download/(?<tag>v[\\d\\.]+)/MemProcFS_files_and_binaries_v([\\d.]+)-win_x64-(?<commit>\\d{8}).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ufrisk/MemProcFS/releases/download/$matchTag/MemProcFS_files_and_binaries_v$version-win_x64-$matchCommit.zip"
+    },
+    "notes": [
+        "【工具类型】: 安全工具",
+        "【主要功能】: 高级内存取证框架，支持内存分析和取证",
+        "【适用场景】: 内存取证、恶意软件分析、数字取证",
+        "【技术特点】: 支持多种内存获取方式，提供丰富的内存分析API"
+    ]
+}
