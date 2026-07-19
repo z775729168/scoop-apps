@@ -1,59 +1,53 @@
 {
-  "version": "0.9.12",
-  "description": "QoderWork - Beyond chat, get it done",
-  "homepage": "https://qoder.com/qoderwork",
+  "version": "1.15.1",
+  "description": "Qoder - The Agentic Coding Platform，AI 驱动的智能编程平台，专为真实软件开发而设计",
+  "homepage": "https://qoder.com/",
   "license": {
     "identifier": "Proprietary",
     "url": "https://qoder.com/product-service"
   },
+  "notes": [
+    "Qoder 是一个 AI 驱动的智能编程平台，主要功能：",
+    "- 智能代码生成和补全",
+    "- AI 驱动的代码重构和优化",
+    "- 智能调试和错误修复",
+    "- 项目级别的代码理解和分析",
+    "- 多语言支持和跨平台开发",
+    "",
+    "数据目录：",
+    "- 用户数据：%APPDATA%\\Qoder -> persist/qoder/roaming",
+    "- 扩展配置：~\\.qoder -> persist/qoder/home/config",
+    "",
+    "首次使用可能需要登录账号以获得完整功能。"
+  ],
   "architecture": {
     "64bit": {
-      "url": "https://download.qoder.com/qoder-work/releases/latest/QoderWork-Setup-User-x64.exe#/dl.7z",
-      "hash": "f325b5c82bb1822c75b4e808f5a410c8091a9b837d1020bed42aa7fd8c33c382",
-      "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\`$*\" -Recurse"
-      ]
+      "url": "https://qoder-ide.oss-accelerate.aliyuncs.com/release/1.15.1/QoderUserSetup-x64.exe",
+      "hash": "f9d4459345059779b9707ab44926d35c42acc7060bb96d1fd1d69b2dd9a25fec"
     }
   },
+  "innosetup": true,
+  "extract_dir": "{code_GetDestDir}",
   "shortcuts": [
     [
-      "QoderWork.exe",
-      "QoderWork"
+      "Qoder.exe",
+      "Qoder"
     ]
   ],
   "persist": "data",
   "checkver": {
-    "script": [
-      "$downloadUrl = 'https://download.qoder.com/qoder-work/releases/latest/QoderWork-Setup-User-x64.exe'",
-      "$headers = @{ Range = 'bytes=0-3145727' }",
-      "$tmpFile = Join-Path $env:TEMP ('qoderwork_' + [guid]::NewGuid().ToString() + '.exe')",
-      "try {",
-      "    Invoke-WebRequest -Uri $downloadUrl -Headers $headers -UseBasicParsing -OutFile $tmpFile",
-      "    $version = (Get-Item $tmpFile).VersionInfo.FileVersion",
-      "    if (-not $version) { throw 'Unable to read QoderWork version from installer metadata.' }",
-      "    Write-Output ($downloadUrl + '|' + $version)",
-      "}",
-      "finally {",
-      "    if (Test-Path $tmpFile) { Remove-Item $tmpFile -Force -ErrorAction SilentlyContinue }",
-      "}"
-    ],
-    "regex": "^(?<url>.+)\\|(?<version>[\\d.]+)$"
+    "url": "https://center.qoder.sh/algo/api/update/win32-x64-user/stable/0.0.0",
+    "jsonpath": "$.url",
+    "regex": "(?<url>.*release/(?<version>[\\d.]+)/QoderUserSetup-x64\\.exe)",
+    "replace": "${version}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "$matchUrl#/dl.7z"
+        "url": "$matchUrl"
       }
     }
   },
-  "notes": [
-    "QoderWork 使用官方 latest 安装器直链。",
-    "实机首启已确认：~\\.qoderwork -> persist/qoderwork/home/config。",
-    "~\\.qoder 属于 qoder 侧目录，当前清单不做持久化。",
-    "checkver 通过请求安装器前 3 MiB 分片并读取文件版本号实现。",
-    "当前尚未观察到 %APPDATA%\\QoderWork 的首启写入；若后续发现额外数据目录，可再补充 portableProfile。"
-  ],
   "post_install": [
     "#region scoop-portable-profile",
     "# Portable profile helpers for Scoop manifests.",
@@ -192,7 +186,8 @@
     "}",
     "#endregion",
     "Invoke-PortableMappings -Action Install -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-    "    @{ Label = 'home-config'; Source = 'UserProfile/.qoderwork'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+    "    @{ Label = 'roaming'; Source = 'AppData/Qoder'; Target = \"$persist_dir/roaming\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
+    "    @{ Label = 'home-config'; Source = 'UserProfile/.qoder'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
     ") -Log:$true"
   ],
   "pre_uninstall": [
@@ -333,7 +328,8 @@
     "}",
     "#endregion",
     "Invoke-PortableMappings -Action Uninstall -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-    "    @{ Label = 'home-config'; Source = 'UserProfile/.qoderwork'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+    "    @{ Label = 'roaming'; Source = 'AppData/Qoder'; Target = \"$persist_dir/roaming\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
+    "    @{ Label = 'home-config'; Source = 'UserProfile/.qoder'; Target = \"$persist_dir/home/config\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
     ") -Log:$true"
   ]
 }
