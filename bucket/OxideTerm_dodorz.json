@@ -1,16 +1,16 @@
 {
-    "version": "2.0.6",
+    "version": "2.0.8",
     "description": "AI-native SSH client for remote servers — terminal, SFTP, port forwarding, and local shells in one Tauri workspace. Zero Electron, zero telemetry.",
     "homepage": "https://oxideterm.app",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.6/OxideTerm_2.0.6_windows_x64-setup.exe#/dl.7z",
-            "hash": "83471a919755a9d93a459663f7f4af2b58dda42b276ac60f015763a95a1ff8e2"
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.8/OxideTerm_2.0.8_windows_x64-setup.exe#/dl.7z",
+            "hash": "9ff23ed9df82017678d9c5f304b8c048a6a7adfa8ee786fc7a9ba1c429a86ef3"
         },
         "arm64": {
-            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.6/OxideTerm_2.0.6_windows_arm64-setup.exe#/dl.7z",
-            "hash": "ae67892724c555f4c4132bbe8a42ad1d772985a88727773b28cfe6e6c3f716bf"
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.8/OxideTerm_2.0.8_windows_arm64-setup.exe#/dl.7z",
+            "hash": "28354cc37ba7c84114492bc6d7930b27b06718e9641d706a3e9f467e24ff0539"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\", \"$dir\\agents\" -Force -Recurse",
