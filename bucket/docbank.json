@@ -1,16 +1,16 @@
 {
-    "version": "0.9.0",
+    "version": "0.10.1",
     "description": "Local-first system of record for documents (PDFs, images, text files, etc.) for you and your agents",
     "homepage": "https://docbank.ai",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kenn-io/docbank/releases/download/v0.9.0/docbank_0.9.0_windows_amd64.zip",
-            "hash": "e7ec17ef6e992cb7147da06c4570a950df98264314e6956f322e9c8f098e799f"
+            "url": "https://github.com/kenn-io/docbank/releases/download/v0.10.1/docbank_0.10.1_windows_amd64.zip",
+            "hash": "4737bf4e1260c72db06c803874c07fd20592e46d5d1ccb9532aaae25c79ea7a0"
         },
         "arm64": {
-            "url": "https://github.com/kenn-io/docbank/releases/download/v0.9.0/docbank_0.9.0_windows_arm64.zip",
-            "hash": "63a358c611d3910b8fdef6d81a49954155c11de364469887e9c8f7ac323dfb4b"
+            "url": "https://github.com/kenn-io/docbank/releases/download/v0.10.1/docbank_0.10.1_windows_arm64.zip",
+            "hash": "08d25cc7eef6a1ad7d953eb096fc90e6c12e9a3877bcefe17baf383c6f19797d"
         }
     },
     "bin": "docbank.exe",
