@@ -1,20 +1,20 @@
 {
-    "version": "4.8.19.0",
+    "version": "5.0.0.5",
     "description": "Amnezia VPN Client (Desktop+Mobile).",
     "homepage": "https://github.com/amnezia-vpn/amnezia-client",
     "license": "GPL-3",
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.19.0/AmneziaVPN_4.8.19.0_x64.exe#/AmneziaVPN_x64.exe",
-            "hash": "03df5389fead00343bf2162a6506b1be1b63d8b272cbffb37eb4110092960d36"
+            "url": "https://github.com/amnezia-vpn/amnezia-client/releases/download/5.0.0.5/AmneziaVPN_5.0.0.5_windows_x64.exe#/AmneziaVPN_windows_x64.exe",
+            "hash": "7c27606a1b899e325b5a421557adda41bd16c903496e4d42c2e480ce4cc0ec40"
         }
     },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/amnezia-vpn/amnezia-client/releases/download/$version/AmneziaVPN_$version_x64.exe#/AmneziaVPN_x64.exe"
+                "url": "https://github.com/amnezia-vpn/amnezia-client/releases/download/$version/AmneziaVPN_$version_windows_x64.exe#/AmneziaVPN_windows_x64.exe"
             }
         }
     },
