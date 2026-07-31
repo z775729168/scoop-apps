@@ -1,20 +1,20 @@
 {
-    "version": "1.5.0.2825",
+    "version": "1.5.0.2828",
     "description": "Lightweight and fast file manager",
     "homepage": "https://explorerplusplus.com",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.explorerplusplus.com/dev/1.5.0.2825/explorerpp_x64.zip",
-            "hash": "a91244f42edc49ba7966eeb1a86c58728901516c413eed1b79dea65099e8f923"
+            "url": "https://download.explorerplusplus.com/dev/1.5.0.2828/explorerpp_x64.zip",
+            "hash": "3fc49063929237c2352bd4844123a97fa311844a51d714e030af5e4790182e9d"
         },
         "32bit": {
-            "url": "https://download.explorerplusplus.com/dev/1.5.0.2825/explorerpp_x86.zip",
-            "hash": "bf1c9aa78722f22dbefa561e862a1482cb315d8bfbe7756d2432cc2cb91bd964"
+            "url": "https://download.explorerplusplus.com/dev/1.5.0.2828/explorerpp_x86.zip",
+            "hash": "14a1db043d2dfcd2279d9fe2be072af3c67ab5022aa34fe6e2515c1880ef14f6"
         },
         "arm64": {
-            "url": "https://download.explorerplusplus.com/dev/1.5.0.2825/explorerpp_arm64.zip",
-            "hash": "dbee0403b9f9f4f21758a7b100fc212fe3c053bb04f63926963b3be8d7fdd56c"
+            "url": "https://download.explorerplusplus.com/dev/1.5.0.2828/explorerpp_arm64.zip",
+            "hash": "16449b67e54b3fb94e2f7279c25fd34ff78d98b43a659b60e420368628e08eb3"
         }
     },
     "persist": "config.xml",
