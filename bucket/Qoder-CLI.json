@@ -1,23 +1,23 @@
 {
-    "version": "0.1.13",
-    "description": "",
-    "homepage": "",
-    "license": "",
+    "version": "1.1.11",
+    "description": "Qoder command-line interface",
+    "homepage": "https://qoder.com/",
+    "license": "proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://download.qoder.com/qodercli/releases/0.1.13/qodercli_0.1.13_windows_amd64.zip",
-            "hash": "5a38e14029da94d9e223461123fac61881e3cd3c72ead3fc672867c9801ab37e"
+            "url": "https://qoder-ide.oss-accelerate.aliyuncs.com/qodercli/releases/1.1.11/qodercli-windows-x64.zip",
+            "hash": "5fc99a0d991825a438c01a852c57c760c716969b9abfe0fe1358c0c30fa60262"
         }
     },
-    "bin": "",
+    "bin": "qodercli.exe",
     "checkver": {
-        "url": "https://qoder-ide.oss-ap-southeast-1.aliyuncs.com/qodercli/channels/manifest.json",
-        "jq": ".files[] | select(.os==\"windows\").url"
+        "url": "https://qoder-ide.oss-accelerate.aliyuncs.com/qodercli/channels/manifest.json",
+        "jsonpath": "$.latest"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.qoder.com/qodercli/releases/$version/qodercli_$version_windows_amd64.zip"
+                "url": "https://qoder-ide.oss-accelerate.aliyuncs.com/qodercli/releases/$version/qodercli-windows-x64.zip"
             }
         }
     }
