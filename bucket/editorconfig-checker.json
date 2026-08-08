@@ -1,20 +1,20 @@
 {
-    "version": "3.8.0",
+    "version": "3.11.1",
     "description": "A tool to verify that your files are in harmony with your .editorconfig.",
     "homepage": "https://github.com/editorconfig-checker/editorconfig-checker",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/v3.8.0/editorconfig-checker-windows-amd64.zip",
-            "hash": "9fd802b75ae71b2005907ff3300e0efa1a2de3c9c02280e2fffc79fa31259ad3"
+            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/v3.11.1/editorconfig-checker-windows-amd64.zip",
+            "hash": "bcbeee1456c342c03fb3accd84bc55770f29146c420d532ffa29610d0e01ce33"
         },
         "32bit": {
-            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/v3.8.0/editorconfig-checker-windows-386.zip",
-            "hash": "ffeb0e0b7490029ab31cb496923f525bb9e7bc50b3870d5ef176066cfe783205"
+            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/v3.11.1/editorconfig-checker-windows-386.zip",
+            "hash": "f9e0086ab8cd62c448da6dd4bd431bd6fe14602191b06f7faebc31f86233f0f2"
         },
         "arm64": {
-            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/v3.8.0/editorconfig-checker-windows-arm64.zip",
-            "hash": "303dcd092c766bc9db79196f3cac703f668d2923146bccd42076154c1089b941"
+            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/v3.11.1/editorconfig-checker-windows-arm64.zip",
+            "hash": "deaf069ef2b4af1db6aaafe0c03d59bbbb46b0bfe3280e959199bf20907c5b4c"
         }
     },
     "bin": [
