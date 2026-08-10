@@ -1,16 +1,16 @@
 {
-    "version": "30714585466",
+    "version": "31354583292",
     "description": "Practical and minimal image viewer",
     "homepage": "https://github.com/jdpurcell/qView",
     "license": "GPL-3.0-only",
     "architecture": {
         "arm64": {
-            "url": "https://nightly.link/jdpurcell/qView/workflows/build/master/qView-JDP-2026-08-01.ee20744-Windows_arm64.zip",
-            "hash": "55b6fd65868f0a90067c9ec07b1b734460a9858a52c1c32e3daffddec68180ce"
+            "url": "https://nightly.link/jdpurcell/qView/workflows/build/master/qView-JDP-2026-08-10.adf5525-Windows_arm64.zip",
+            "hash": "178da0f98ac2fb3eb709723e5fc837fbf74bfb6c7d87c86a88238621532cb9d8"
         },
         "64bit": {
-            "url": "https://nightly.link/jdpurcell/qView/workflows/build/master/qView-JDP-2026-08-01.ee20744-Windows_64.zip",
-            "hash": "fb23dff84c2f7e23dc2aec4252ef7e5bd2792a3f104c72d6a1fb393af1bb2309"
+            "url": "https://nightly.link/jdpurcell/qView/workflows/build/master/qView-JDP-2026-08-10.adf5525-Windows_64.zip",
+            "hash": "537d4892bcf17a87ef6502ed1b8d21fdc2858bc137a93c740ca07dca920d2d09"
         }
     },
     "pre_install": [
