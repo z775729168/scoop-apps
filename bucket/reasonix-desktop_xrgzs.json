@@ -1,16 +1,16 @@
 {
-    "version": "1.22.0",
+    "version": "1.24.0",
     "description": "Reasonix Desktop (Wails shell) | A native desktop window around the Reasonix Go kernel.",
     "homepage": "https://reasonix.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.22.0/Reasonix-windows-amd64.zip",
-            "hash": "32a1a7ce009e6eb250b183da4ee11132594de0ae74949392ac36ddcb552998fc"
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.24.0/Reasonix-windows-amd64.zip",
+            "hash": "8be4abc4f1420ee22fdd73c275b535b62a3e6a1997cc2a353630203a77c6ee4a"
         },
         "arm64": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.22.0/Reasonix-windows-arm64.zip",
-            "hash": "adccec54b6cffd2cf76a4431e8441bb262b5b325843db77bd012b81c1858b7b2"
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.24.0/Reasonix-windows-arm64.zip",
+            "hash": "21939ee9b43542e60801130f9835f14e4380dd205f792c9dd4d724a7290d4f14"
         }
     },
     "shortcuts": [
