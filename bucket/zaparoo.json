@@ -1,0 +1,47 @@
+{
+    "version": "2.16.1",
+    "description": "An open source universal loading system that lets you launch games and media instantly using physical objects.",
+    "homepage": "https://zaparoo.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.16.1/zaparoo-windows_amd64-2.16.1.zip",
+            "hash": "9fb69a798a1fcd4c00d23e7eb73dcb94a0cd51ed278955acad4fd0c182fca877"
+        },
+        "32bit": {
+            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.16.1/zaparoo-windows_386-2.16.1.zip",
+            "hash": "dbf2cb828f14f5b238bf21c0eb38ac78149e25efe07e574f2de2a4640c652b87"
+        },
+        "arm64": {
+            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.16.1/zaparoo-windows_arm64-2.16.1.zip",
+            "hash": "026f621f750dc5800224dd629e9764e59f25a3295ee51be4bf1265127a429478"
+        }
+    },
+    "shortcuts": [
+        [
+            "Zaparoo.exe",
+            "Zaparoo"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\zaparoo\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Zaparoo is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\zaparoo', and will be purged during uninstallation."
+    ],
+    "checkver": {
+        "github": "https://github.com/ZaparooProject/zaparoo-core"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v$version/zaparoo-windows_amd64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v$version/zaparoo-windows_386-$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v$version/zaparoo-windows_arm64-$version.zip"
+            }
+        }
+    }
+}

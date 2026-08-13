@@ -1,0 +1,21 @@
+{
+    "version": "0.2.3-a",
+    "description": "A 100% local and privacy-focused open-source API client for testing GraphQL, REST, WebSockets, Server-sent events and gRPC in development/production.",
+    "homepage": "https://github.com/ArchGPT/insomnium",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/insomnium/insomnium-0.2.3-a-full.nupkg#/dl.7z",
+            "hash": "sha1:8ef4d8dd233612afe8d5699ef0ccb1c3e130a062"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\Update*\" -Force",
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "Insomnium.exe",
+            "Insomnium"
+        ]
+    ],
+    "notes": "Attention: Insomnium Project was archived on Jul 20, 2024."
+}

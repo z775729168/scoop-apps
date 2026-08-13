@@ -1,0 +1,25 @@
+{
+    "version": "0.4.3-funasr",
+    "description": "腾讯会议摸鱼工具",
+    "homepage": "https://github.com/jxlpzqc/TMSpeech",
+    "license": {
+        "identifier": "MIT license",
+        "url": "https://github.com/jxlpzqc/TMSpeech#MIT-1-ov-file"
+    },
+    "url": "https://github.com/jxlpzqc/TMSpeech/releases/download/v0.4.3-funasr/TMSpeech.win-x64.zip",
+    "hash": "cabc7aa93ea293d09b9e94e9f2c06444307de7dbd63b88f833038a1e8af43b7e",
+    "shortcuts": [
+        [
+            "TMSpeech.exe",
+            "TMSpeech"
+        ]
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/jxlpzqc/TMSpeech/releases",
+        "jp": "$[0].assets[1].browser_download_url",
+        "regex": "releases/download/v([\\w.-]+)/(?<file>TMSpeech.*\\.(?:zip|7z))"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jxlpzqc/TMSpeech/releases/download/v$version/$matchFile"
+    }
+}

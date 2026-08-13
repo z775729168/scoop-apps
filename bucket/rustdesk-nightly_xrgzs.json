@@ -1,0 +1,50 @@
+{
+    "version": "2026.08.13.161534",
+    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+    "homepage": "https://github.com/rustdesk/rustdesk",
+    "license": "AGPL-3.0-only",
+    "notes": [
+        "* Known issue:",
+        "  - UAC/Elevation Related : https://rustdesk.com/docs/en/client/windows-portable-elevation/"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.9-x86_64.msi",
+            "hash": "8d577365966e02a970f45de6154d40841716666f76e2b08a344f381759beed7b",
+            "extract_dir": "PFiles64\\RustDesk"
+        },
+        "32bit": {
+            "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.9-x86-sciter.exe#/RustDesk.exe",
+            "hash": "cc60815126948c8f6e2ab8c448d716d47f9b9a1c39274949ae145770ffba081f"
+        }
+    },
+    "shortcuts": [
+        [
+            "RustDesk.exe",
+            "RustDesk"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$api = Invoke-RestMethod 'https://api.github.com/repos/rustdesk/rustdesk/releases/tags/nightly'",
+            "foreach ($ass in $api.assets) { ",
+            "    if ($ass.name -clike '*-x86_64.msi') { ",
+            "        $ass.name + '=====' + (Get-Date $ass.updated_at -Format 'yyyy.MM.dd.HHmmss' -AsUTC)",
+            "        break",
+            "    } ",
+            "}"
+        ],
+        "regex": "rustdesk-(?<release>[\\d.-]+)-x86_64.msi=====(?<date>.+)",
+        "replace": "${date}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86_64.msi"
+            },
+            "32bit": {
+                "url": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86-sciter.exe#/RustDesk.exe"
+            }
+        }
+    }
+}

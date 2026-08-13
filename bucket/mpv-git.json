@@ -1,0 +1,48 @@
+{
+    "version": "202608131245",
+    "description": "A free, open source, and cross-platform media player",
+    "homepage": "https://mpv.io",
+    "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
+    "notes": [
+        "To set and unset file type associations and AutoPlay handlers, run '$dir\\mpv-register.bat' and '$dir\\mpv-unregister.bat', respectively.",
+        "You can use Icaros ('nonportable/icaros-np') to enable thumbnails for all media types."
+    ],
+    "suggest": {
+        "yt-dlp": "yt-dlp"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-08-13-f4d13e1c2c/mpv-x86_64-20260813-git-f4d13e1c2c.7z",
+            "hash": "66e5722a3346418e54fbe76babfc0d5cd0c8bad8674139402c4991021a82dfb7"
+        },
+        "arm64": {
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-08-13-f4d13e1c2c/mpv-aarch64-20260813-git-f4d13e1c2c.7z",
+            "hash": "b42dd2fd845a9f35790763a6c2f19370e4754b2c7cd6a880f610b11b32cf921c"
+        }
+    },
+    "pre_install": "'updater.bat', 'installer' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse }",
+    "env_add_path": ".",
+    "shortcuts": [
+        [
+            "mpv.exe",
+            "mpv"
+        ]
+    ],
+    "persist": "portable_config",
+    "checkver": {
+        "github": "https://api.github.com/repos/zhongfly/mpv-winbuild/releases/latest",
+        "jsonpath": "$..['tag_name', 'name']",
+        "regex": "(?<tag>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})-(?<commit>[a-f0-9]{10})).*?(?<hour>\\d{2}):(?<minute>\\d{2})",
+        "replace": "${year}${month}${day}${hour}${minute}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/$matchTag/mpv-x86_64-$matchYear$matchMonth$matchDay-git-$matchCommit.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/$matchTag/mpv-aarch64-$matchYear$matchMonth$matchDay-git-$matchCommit.7z"
+            }
+        }
+    }
+}

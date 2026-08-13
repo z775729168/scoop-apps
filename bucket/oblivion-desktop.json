@@ -1,0 +1,48 @@
+{
+    "version": "3.11.0",
+    "description": "Oblivion Desktop is an unofficial Cloudflare Warp client which provides secure, optimized internet access.",
+    "homepage": "https://github.com/bepass-org/oblivion-desktop",
+    "license": {
+        "identifier": "Restrictive",
+        "url": "https://github.com/bepass-org/oblivion-desktop/blob/main/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v3.11.0/oblivion-desktop-win-x64.zip",
+            "hash": "956c0e35e8309bd33c2c05457a3f595fb69036372bc3532eddba301dcb58fb22"
+        },
+        "32bit": {
+            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v3.11.0/oblivion-desktop-win-ia32.zip",
+            "hash": "709fe91ce40760c5d8f93edfac210cb1e15dffcd89dafad416dd2e809cdf4049"
+        },
+        "arm64": {
+            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v3.11.0/oblivion-desktop-win-arm64.zip",
+            "hash": "328f3645d97c74cae2e999bc0426d1f7a2717f613f7c6eeeccae974d12c23986"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse | Out-Null",
+    "shortcuts": [
+        [
+            "Oblivion Desktop.exe",
+            "Oblivion Desktop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/bepass-org/oblivion-desktop/releases/latest",
+        "regex": "/oblivion-desktop/tree/v([^/]+?)\""
+    },
+    "notes": "Oblivion Desktop is NOT portable.",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v$version/oblivion-desktop-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v$version/oblivion-desktop-win-ia32.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v$version/oblivion-desktop-win-arm64.zip"
+            }
+        }
+    }
+}

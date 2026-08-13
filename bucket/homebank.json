@@ -1,0 +1,33 @@
+{
+    "version": "5.10.2",
+    "description": "Personal accounting",
+    "homepage": "https://www.gethomebank.org",
+    "license": "GPL-2.0-or-later",
+    "url": "https://www.gethomebank.org/public/binaries/HomeBank-5.10.2-setup.exe",
+    "hash": "09cb2580b8e9e4e4a85540bf9e6ee4e774e69a30e3b21693b5882a53b4fb5d3e",
+    "innosetup": true,
+    "installer": {
+        "script": [
+            "Rename-Item \"$dir\\HomeBank,2.exe\" 'HomeBank.exe'",
+            "Remove-Item \"$dir\\HomeBank,*.exe\""
+        ]
+    },
+    "shortcuts": [
+        [
+            "HomeBank.exe",
+            "HomeBank"
+        ]
+    ],
+    "persist": "config",
+    "checkver": {
+        "url": "https://www.gethomebank.org/en/downloads.php",
+        "regex": "Latest version.*?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.gethomebank.org/public/binaries/HomeBank-$version-setup.exe",
+        "hash": {
+            "url": "https://www.gethomebank.org/en/downloads.php",
+            "regex": "(?sm)$basename.*?SHA256:\\s<code>$sha256"
+        }
+    }
+}

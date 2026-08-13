@@ -1,0 +1,56 @@
+{
+  "version": "20260811-126061-g844e10e1a7",
+  "description": "FFmpeg nightly build for yt-dlp.",
+  "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
+  "license": "MIT",
+  "suggest": {
+    "yt-dlp": "yt-dlp"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-11-18-08/ffmpeg-N-126061-g844e10e1a7-win64-gpl.zip",
+      "hash": "cdb6000941ef5c3b39701202ae9acad12cb383f81c3309556cd2b035e56d348d",
+      "extract_dir": "ffmpeg-N-126061-g844e10e1a7-win64-gpl"
+    },
+    "32bit": {
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-11-18-08/ffmpeg-N-126061-g844e10e1a7-win32-gpl.zip",
+      "hash": "11a0ef91f8a888c939a23bbf636f9a19edc3a69165bf13b10f2addb27ce14621",
+      "extract_dir": "ffmpeg-N-126061-g844e10e1a7-win32-gpl"
+    },
+    "arm64": {
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-11-18-08/ffmpeg-N-126061-g844e10e1a7-winarm64-gpl.zip",
+      "hash": "6b0aa89562fe31e9ad1eee2c3593006cdc2dbb02192d07080422c7e13848af28",
+      "extract_dir": "ffmpeg-N-126061-g844e10e1a7-winarm64-gpl"
+    }
+  },
+  "bin": [
+    "bin\\ffmpeg.exe",
+    "bin\\ffplay.exe",
+    "bin\\ffprobe.exe"
+  ],
+  "checkver": {
+    "github": "https://api.github.com/repos/yt-dlp/FFmpeg-Builds/releases",
+    "jsonpath": "$..assets[?(@.browser_download_url =~ /ffmpeg-N-\\d+-g[0-9a-f]+-win64-gpl\\.zip/i)].browser_download_url",
+    "regex": "autobuild-(?<buildtime>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})[\\d-]+)/ffmpeg-N-(?<commitnum>\\d+)-g(?<commithash>[0-9a-f]+)-win64-gpl\\.zip",
+    "replace": "${year}${month}${day}-${commitnum}-g${commithash}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-win64-gpl.zip",
+        "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-win64-gpl"
+      },
+      "32bit": {
+        "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-win32-gpl.zip",
+        "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-win32-gpl"
+      },
+      "arm64": {
+        "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/ffmpeg-N-$matchCommitnum-g$matchCommithash-winarm64-gpl.zip",
+        "extract_dir": "ffmpeg-N-$matchCommitnum-g$matchCommithash-winarm64-gpl"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.sha256"
+    }
+  }
+}

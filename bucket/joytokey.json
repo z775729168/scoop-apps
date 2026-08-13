@@ -1,0 +1,22 @@
+{
+  "version": "7.3.3",
+  "description": "JoyToKey: converts input from joysticks to virtual output of a keyboard or a mouse",
+  "homepage": "https://joytokey.net/ja/",
+  "license": "Shareware",
+  "url": "https://joytokey.net/download/JoyToKey.zip",
+  "hash": "fa2f38e43080fbab9a5878f8c7b07977a861daeee4d92987c8e134f78182f927",
+  "bin": "JoyToKey.exe",
+  "shortcuts": [
+    [
+      "JoyToKey.exe",
+      "JoyToKey"
+    ]
+  ],
+  "checkver": {
+    "url": "https://joytokey.net/ja/news",
+    "regex": "<h5>JoyToKey ([\\d.]+)</h5>"
+  },
+  "autoupdate": {
+    "url": "https://joytokey.net/download/JoyToKey.zip"
+  }
+}

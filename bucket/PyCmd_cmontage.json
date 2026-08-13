@@ -1,0 +1,36 @@
+{
+  "homepage": "https://github.com/horeah/PyCmd",
+  "description": "Improved interactive experience for Windows' cmd.exe",
+  "version": "2.0.0",
+  "license": "LGPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/horeah/PyCmd/releases/download/2.0.0/PyCmd-2.0.0-w64.zip",
+      "hash": "6352ba707775d795825c3d46de651805c1c8a3454fd404cc84ccd10b617ef42b"
+    },
+    "32bit": {
+      "url": "https://github.com/horeah/PyCmd/releases/download/2.0.0/PyCmd-2.0.0-w32.zip",
+      "hash": "890c67e162e3b237023d514fd28dfddfa7699c3995ffa950700db2e113c74846"
+    }
+  },
+  "extract_dir": "PyCmd",
+  "bin": "PyCmd.exe",
+  "persist": "init.py",
+  "shortcuts": [
+    [
+      "PyCmd.exe",
+      "PyCmd"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w64.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w32.zip"
+      }
+    }
+  }
+}

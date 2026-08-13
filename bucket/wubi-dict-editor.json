@@ -1,0 +1,30 @@
+{
+    "version": "1.33",
+    "description": "五笔码表助手 for Rime，主要服务于 rime-wubi86-jidian 方案",
+    "homepage": "https://github.com/KyleBing/wubi-dict-editor",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v1.33/wubi-dict-editor-v1.33-win32-x64.zip",
+            "extract_dir": "五笔码表助手-v1.33-win32-x64",
+            "hash": "7a044943cd3ace288f593e5f2ef60a35aa4082f4b3056b20416493f6b6d11766"
+        }
+    },
+    "shortcuts": [
+        [
+            "WubiDictEditor.exe",
+            "五笔码表助手",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v$version/wubi-dict-editor-v$version-win32-x64.zip",
+                "extract_dir": "五笔码表助手-v$version-win32-x64"
+            }
+        }
+    }
+}

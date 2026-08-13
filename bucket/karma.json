@@ -1,0 +1,39 @@
+{
+    "version": "0.132",
+    "description": "Alert dashboard for Prometheus Alertmanager.",
+    "homepage": "https://github.com/prymitive/karma",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/prymitive/karma/releases/download/v0.132/karma-windows-amd64.exe.tar.gz",
+            "hash": "sha512:d85911c99c51997fb35df36151efbe38eb84dc08b7b9f7b939a09fccbf3f94bef16039d09edf1d1e2d3129e6704f8345a7028ffa10e5de3677154d4f68cb5f6e"
+        },
+        "32bit": {
+            "url": "https://github.com/prymitive/karma/releases/download/v0.132/karma-windows-386.exe.tar.gz",
+            "hash": "sha512:f09ee9bef03941501a7090b6b0364afdd63a7df9c56decbf5d2d7805cfca35f5fc78081b5bff4346bdbe6ea05a7bfcfc9066432133be3a2eba8790a5f7053bda"
+        },
+        "arm64": {
+            "url": "https://github.com/prymitive/karma/releases/download/v0.132/karma-windows-arm64.exe.tar.gz",
+            "hash": "sha512:9dee87e17613bdb0accf2360de6c2de58244ebbe8a4cab859e36a490ca792d4392b481b8d1c5452607bae83886ebd7fd44dfd7acff7a9e80e459c207f86152a8"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'karma-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'karma.exe'",
+    "bin": "karma.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/prymitive/karma/releases/download/v$version/karma-windows-amd64.exe.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/prymitive/karma/releases/download/v$version/karma-windows-386.exe.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/prymitive/karma/releases/download/v$version/karma-windows-arm64.exe.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha512sum.txt"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "version": "1.10",
+    "homepage": "https://www.nirsoft.net/utils/installed_app_view.html",
+    "bin": "InstalledAppView.exe",
+    "shortcuts": [
+        [
+            "InstalledAppView.exe",
+            "NirSoft\\InstalledAppView"
+        ]
+    ],
+    "persist": [
+        "installedappview_lng.ini",
+        "installedappview.cfg"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nirsoft.net/utils/installedappview-x64.zip",
+            "hash": "0c78244ec5bc54cc11e3a284f70f23d370b80e153055dc70f2907223a2231357"
+        },
+        "32bit": {
+            "url": "https://www.nirsoft.net/utils/installedappview.zip",
+            "hash": "030b2343e8ab95ea9c6e025d468f7bcd5f270926ce362ac1b12fe1035466405c"
+        }
+    },
+    "description": "View installed Windows 10 apps",
+    "license": "Freeware",
+    "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html",
+    "checkver": {
+        "url": "https://www.nirsoft.net/pad/installedappview.xml",
+        "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nirsoft.net/utils/installedappview-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.nirsoft.net/utils/installedappview.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "version": "9.5.0",
+  "description": "A data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite \"stash\".",
+  "homepage": "https://www.elastic.co/logstash",
+  "license": {
+    "identifier": "Freeware|Apache-2.0",
+    "url": "https://github.com/elastic/logstash/blob/master/LICENSE.txt"
+  },
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://artifacts.elastic.co/downloads/logstash/logstash-9.5.0-windows-x86_64.zip",
+      "hash": "sha512:ba5b2214c91874fe79ea9b2728d7af401b8359945e9d9abb4f9fd852431cb1a434e9fbae3a1be2a335971891ac571a4c62ea08ea80c03878cc09c328c0d5d786"
+    }
+  },
+  "extract_dir": "logstash-9.5.0",
+  "bin": [
+    [
+      "bin\\logstash.bat",
+      "logstash"
+    ],
+    [
+      "bin\\logstash-plugin.bat",
+      "logstash-plugin"
+    ]
+  ],
+  "persist": [
+    "config",
+    "data"
+  ],
+  "checkver": {
+    "url": "https://www.elastic.co/downloads/logstash",
+    "regex": "logstash-([\\d.]+)-windows-x86_64\\.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://artifacts.elastic.co/downloads/logstash/logstash-$version-windows-x86_64.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha512"
+    },
+    "extract_dir": "logstash-$version"
+  }
+}

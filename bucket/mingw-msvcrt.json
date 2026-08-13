@@ -1,0 +1,35 @@
+{
+    "version": "16.1.0-rt_v14-rev1",
+    "description": "Minimalistic GNU for Windows is a runtime environment for GCC, GDB, make and related binutils (MSVCRT Build Varient).",
+    "homepage": "https://www.mingw-w64.org",
+    "license": "ZPL-2.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/niXman/mingw-builds-binaries/releases/download/16.1.0-rt_v14-rev1/x86_64-16.1.0-release-posix-seh-msvcrt-rt_v14-rev1.7z",
+            "hash": "3cdb7df2fbba8c5624b34686b3dbb11e9c9c62c028e4d3477b1f6b522fb6fff5",
+            "extract_dir": "mingw64"
+        },
+        "32bit": {
+            "url": "https://github.com/niXman/mingw-builds-binaries/releases/download/16.1.0-rt_v14-rev1/i686-16.1.0-release-posix-dwarf-msvcrt-rt_v14-rev1.7z",
+            "hash": "73d5a74af0def72d424b25b05cba783c3f5fee0ee4836541510a9d52f3ffb24e",
+            "extract_dir": "mingw32"
+        }
+    },
+    "post_install": "Copy-Item \"$dir\\bin\\mingw32-make.exe\" \"$dir\\bin\\make.exe\"",
+    "env_add_path": "bin",
+    "checkver": {
+        "github": "https://github.com/niXman/mingw-builds-binaries",
+        "regex": "([\\d.]+)-(?<build>[a-z0-9_\\-]+)",
+        "replace": "${1}-${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/niXman/mingw-builds-binaries/releases/download/$version/x86_64-$match1-release-posix-seh-msvcrt-$matchBuild.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/niXman/mingw-builds-binaries/releases/download/$version/i686-$match1-release-posix-dwarf-msvcrt-$matchBuild.7z"
+            }
+        }
+    }
+}

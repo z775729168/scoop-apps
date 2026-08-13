@@ -1,0 +1,37 @@
+{
+    "version": "3.5.0.8",
+    "description": "（测试版）功能强大使用简单的截图/贴图工具，帮助你提高效率",
+    "homepage": "https://pixpinapp.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.pixpin.cn/PixPin_win_3.5.0.8.zip",
+            "hash": "d833b9ecfee88f59f76503af2fa36960d68fc2d7d92504c3298f5d04343977f1"
+        }
+    },
+    "extract_dir": "PixPin",
+    "shortcuts": [
+        [
+            "PixPin.exe",
+            "PixPin Beta"
+        ]
+    ],
+    "post_install": "if (!(Test-Path \"$dir\\Config\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config\\config.json\" -Value '{\"System.Update.AutoCheckUpdate\":{\"subConf\":{\"checkBeta\":true},\"value\":false}}' }",
+    "persist": [
+        "History",
+        "Data",
+        "Config",
+        "OcrModel"
+    ],
+    "checkver": {
+        "url": "https://upgrade.pixpin.cn/api/check/1/3.4.1.3/windows/x64/intl/zh-cn/.zip",
+        "jsonpath": "$.[0].version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.pixpin.cn/PixPin_win_$version.zip"
+            }
+        }
+    }
+}

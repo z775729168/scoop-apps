@@ -1,0 +1,50 @@
+{
+    "version": "b10411",
+    "description": "Inference of LLaMA model in pure C/C++ (CPU version)",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10411/llama-b10411-bin-win-cpu-x64.zip",
+            "hash": "dc0013f1a55d6365d91061a19a017dc1b82b472bc69b361c314996ac8f080cf8"
+        },
+        "arm64": {
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10411/llama-b10411-bin-win-cpu-arm64.zip",
+            "hash": "7e21ef2dceb5c4baa38eb70f615d34cad4be4f0f7eb3f58da5886ca0743f84f7"
+        }
+    },
+    "bin": [
+        "llama-batched-bench.exe",
+        "llama-bench.exe",
+        "llama-cli.exe",
+        "llama-completion.exe",
+        "llama-fit-params.exe",
+        "llama-gemma3-cli.exe",
+        "llama-gguf-split.exe",
+        "llama-imatrix.exe",
+        "llama-llava-cli.exe",
+        "llama-minicpmv-cli.exe",
+        "llama-mtmd-cli.exe",
+        "llama-perplexity.exe",
+        "llama-quantize.exe",
+        "llama-qwen2vl-cli.exe",
+        "llama-server.exe",
+        "llama-tokenize.exe",
+        "llama-tts.exe"
+    ],
+    "persist": "models",
+    "checkver": {
+        "github": "https://github.com/ggml-org/llama.cpp",
+        "regex": "(b[\\d]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cpu-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cpu-arm64.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "version": "6.0.2",
+    "description": "Disk space cleaner, privacy manager, and computer system optimizer.",
+    "homepage": "https://www.bleachbit.org/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://download.bleachbit.org/BleachBit-6.0.2-portable.zip",
+    "hash": "0322920a592ba311cb374b4f44053ee35f793c5a5690f1f8cb419b57321b2883",
+    "extract_dir": "BleachBit-portable",
+    "bin": [
+        "bleachbit_console.exe",
+        [
+            "bleachbit_console.exe",
+            "bleachbit"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "bleachbit.exe",
+            "BleachBit"
+        ]
+    ],
+    "persist": [
+        "cleaners",
+        "BleachBit.ini"
+    ],
+    "checkver": {
+        "useragent": "Scoop",
+        "url": "https://www.bleachbit.org/download/windows",
+        "regex": "BleachBit ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.bleachbit.org/BleachBit-$version-portable.zip"
+    }
+}

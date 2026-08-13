@@ -1,0 +1,27 @@
+{
+  "version": "1.05",
+  "homepage": "https://www.nirsoft.net/utils/shutdown_performance_view.html",
+  "url": "https://www.nirsoft.net/utils/shutdownperformanceview.zip",
+  "bin": "ShutdownPerformanceView.exe",
+  "shortcuts": [
+    [
+      "ShutdownPerformanceView.exe",
+      "NirSoft\\ShutdownPerformanceView"
+    ]
+  ],
+  "persist": [
+    "shutdownperformanceview_lng.ini",
+    "shutdownperformanceview.cfg"
+  ],
+  "hash": "a05d6429fdd93862169dee2cf7e35c975aff10736e97a6bc4524237a05b2ab13",
+  "description": "Displays the performance information of Windows shutdown process",
+  "license": "Freeware",
+  "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html",
+  "checkver": {
+    "url": "https://www.nirsoft.net/pad/shutdownperformanceview.xml",
+    "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+  },
+  "autoupdate": {
+    "url": "https://www.nirsoft.net/utils/shutdownperformanceview.zip"
+  }
+}

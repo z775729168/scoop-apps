@@ -1,0 +1,40 @@
+{
+    "version": "7.45",
+    "description": "Yet another typical ZIP archiver",
+    "homepage": "http://www.bandisoft.com/bandizip/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://en.bandisoft.com/bandizip/eula/"
+    },
+    "url": "https://bandisoft.app/bandizip/BANDIZIP-PORTABLE.ZIP",
+    "hash": "1641e5f59445e3232208cebb2687f82fc00c8320365ae80b71e6fd33b585943e",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Rename-Item \"$dir\\Bandizip.x64.exe\" 'Bandizip.exe'"
+        },
+        "32bit": {
+            "pre_install": "Rename-Item \"$dir\\Bandizip.x86.exe\" 'Bandizip.exe'"
+        }
+    },
+    "installer": {
+        "script": [
+            "Get-ChildItem \"$dir\\Bandizip.x*.exe\" | Remove-Item",
+            "if (!(Test-Path \"$persist_dir\\Bandizip.ini\")) { New-Item \"$dir\\Bandizip.ini\" | Out-Null }"
+        ]
+    },
+    "bin": "Bandizip.exe",
+    "shortcuts": [
+        [
+            "Bandizip.exe",
+            "Bandizip"
+        ]
+    ],
+    "persist": "Bandizip.ini",
+    "checkver": {
+        "url": "https://en.bandisoft.com/bandizip/history/",
+        "regex": "v([\\d.]+)</"
+    },
+    "autoupdate": {
+        "url": "https://bandisoft.app/bandizip/BANDIZIP-PORTABLE.ZIP"
+    }
+}

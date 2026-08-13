@@ -1,0 +1,38 @@
+{
+    "##": "Please keep checkver field as is. We cannot fetch the latest version via the GitHub API, due to the IP restrictions in the Databricks org.",
+    "version": "1.12.1",
+    "description": "CLI for interacting with the Databricks platform.",
+    "homepage": "https://docs.databricks.com/aws/en/dev-tools/cli",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://github.com/databricks/cli/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/databricks/cli/releases/download/v1.12.1/databricks_cli_1.12.1_windows_amd64.zip",
+            "hash": "d0ae7bc459ab3fdd8c1c2a6be78de5d5b81bb66a188b8b56482c02e6009a8c55"
+        },
+        "arm64": {
+            "url": "https://github.com/databricks/cli/releases/download/v1.12.1/databricks_cli_1.12.1_windows_arm64.zip",
+            "hash": "e0d25f588da3241cf3fb94b887c1d898d34a8c188e4ed9d258e71784449f2ec9"
+        }
+    },
+    "bin": "databricks.exe",
+    "checkver": {
+        "url": "https://github.com/databricks/cli/releases/latest",
+        "regex": "/tree/(?:v|V)([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/databricks/cli/releases/download/v$version/databricks_cli_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/databricks/cli/releases/download/v$version/databricks_cli_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/databricks_cli_$version_SHA256SUMS"
+        }
+    }
+}

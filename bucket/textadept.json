@@ -1,0 +1,23 @@
+{
+    "version": "13.0",
+    "description": "A fast, minimalist, and remarkably extensible cross-platform text editor",
+    "homepage": "https://orbitalquark.github.io/textadept/",
+    "license": "MIT",
+    "url": "https://github.com/orbitalquark/textadept/releases/download/textadept_13.0/textadept_13.0.win.zip",
+    "hash": "21b14cecc320513c4dbe30e40c07073f2cbe9273e5ffd765bc4347e042b4166b",
+    "extract_dir": "textadept",
+    "bin": [
+        "textadept.exe",
+        "textadept-curses.exe"
+    ],
+    "shortcuts": [
+        [
+            "textadept.exe",
+            "Textadept"
+        ]
+    ],
+    "checkver": "Stable Release.*?\\(([\\d.]+)\\)",
+    "autoupdate": {
+        "url": "https://github.com/orbitalquark/textadept/releases/download/textadept_$version/textadept_$version.win.zip"
+    }
+}

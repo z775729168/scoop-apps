@@ -1,0 +1,24 @@
+{
+    "version": "0.4.1",
+    "description": "Convert Chinese text among Trad/Simp and regional variants | 中文简繁及地區詞轉換",
+    "homepage": "https://github.com/Gowee/zhconv-rs",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Gowee/zhconv-rs/releases/download/v0.4.1/zhconv-x86_64-pc-windows-msvc.exe#/zhconv.exe",
+            "hash": "cebf60c30895d821a4ff80ba657c144570f55f9ddd26ac2d87ecb8d1f647df68"
+        }
+    },
+    "bin": "zhconv.exe",
+    "checkver": {
+        "url": "https://github.com/Gowee/zhconv-rs/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Gowee/zhconv-rs/releases/download/v$version/zhconv-x86_64-pc-windows-msvc.exe#/zhconv.exe"
+            }
+        }
+    }
+}

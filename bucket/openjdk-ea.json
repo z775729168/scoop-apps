@@ -1,0 +1,33 @@
+{
+    "description": "Official Early-Access Builds of OpenJDK",
+    "homepage": "https://jdk.java.net/",
+    "version": "27-34-ea",
+    "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.java.net/java/early_access/jdk27/34/GPL/openjdk-27-ea+34_windows-x64_bin.zip",
+            "hash": "4fed0bc58b30accb04efc3aefa04dcaac86ca3dbc15bdbec92db68dd751bc2db"
+        }
+    },
+    "extract_dir": "jdk-27",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://jdk.java.net/27",
+        "re": "/(?<type>early_access|GA)/(?<path>jdk(?<major>[\\d.]+)(?:.*)?/(?<build>[\\d]+)(?:/GPL|/binaries)?)/(?<file>openjdk-(?<version>[\\d.]+)(?<ea>-ea)?(?:\\+[\\d]+)?_windows-x64_bin.(zip|tar.gz))",
+        "replace": "${version}-${build}${ea}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.java.net/java/$matchType/$matchPath/$matchFile"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        },
+        "extract_dir": "jdk-$matchVersion"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "version": "0.1.4",
+    "description": "A fast, configurable and intuitive fuzzy searcher.",
+    "homepage": "https://github.com/Squirreljetpack/matchmaker",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Squirreljetpack/matchmaker/releases/download/v0.1.4/matchmaker-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "8b02a7ce9e402b1b760a6e3beeb846463a3f9ed51af958785317fe5a8794d960"
+        },
+        "arm64": {
+            "url": "https://github.com/Squirreljetpack/matchmaker/releases/download/v0.1.4/matchmaker-cli-aarch64-pc-windows-msvc.zip",
+            "hash": "a424d093339e936c77b83780c3b00ac148f984cecfbc3964d5f5f515cd47980c"
+        }
+    },
+    "bin": "mm.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Squirreljetpack/matchmaker/releases/download/v$version/matchmaker-cli-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Squirreljetpack/matchmaker/releases/download/v$version/matchmaker-cli-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "version": "21.0.11-b1163.116",
+    "homepage": "https://github.com/JetBrains/JetBrainsRuntime",
+    "description": "A fork of OpenJDK that includes a number enhancements in font rendering, HiDPI support, ligatures, performance improvements, and bugfixes. These are mainly for running IntelliJ Platform-based products",
+    "license": "GPL-2.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-windows-x86-b1163.116.tar.gz",
+            "hash": "sha512:c304a608c649d4979c742bc13f15cd6fd2abd73a83c72c8a1f0e1aa9f92f4f22ddf688bbb61f38d817ecd8d934e67dfe2ca2e64adea41f789356bf83b287153e",
+            "extract_dir": "jbr-21.0.11-windows-x86-b1163.116"
+        },
+        "64bit": {
+            "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-windows-x64-b1163.116.tar.gz",
+            "hash": "sha512:1b5a3b602bf8096263a87d60a524fdd422696a0ff4af288e554dde8b11a3178c99f5a8d9161e9cc6b318790330fa75fdaa597d23551cbfc6a9387afbc4f51626",
+            "extract_dir": "jbr-21.0.11-windows-x64-b1163.116"
+        },
+        "arm64": {
+            "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.0.11-windows-aarch64-b1163.116.tar.gz",
+            "hash": "sha512:ec1d49c6b3cddb7c508d0fa0ab2cdbfd689f6f7b30865bde53f33ddbab546246547bf85dbc4c5cbb8c474df2eb5b3b50b360d80a8d87358b7c2eb5a1f7f8091e",
+            "extract_dir": "jbr-21.0.11-windows-aarch64-b1163.116"
+        }
+    },
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "env_add_path": "bin",
+    "checkver": {
+        "script": [
+            "$url = 'https://api.github.com/repos/JetBrains/JetBrainsRuntime/releases'",
+            "$releases = Invoke-RestMethod $url",
+            "$tags = $releases | ForEach-Object { $_.tag_name }",
+            "# `$Script:expected_ver` is current version for fallback",
+            "$tags += 'jbr-release-' + ($Script:expected_ver -replace '-', '')",
+            "$pattern = 'jbr-release-21\\.(?<Version>[\\d.]+)b(?<BuildNum>[\\d]+)\\.(?<Patch>\\d+)'",
+            "$matches = foreach ($t in $tags) { if ($t -match $pattern) {",
+            "    [PSCustomObject]@{",
+            "      Tag = $t",
+            "      VersionParts = ($Matches.Version -split '\\.') | ForEach-Object { [int]$_ }",
+            "      BuildNum = [int]$Matches.BuildNum",
+            "      Patch = [int]$Matches.Patch",
+            "    }",
+            "  } }",
+            "$latest = $matches | Sort-Object @{Expression={$_.VersionParts[0]}},",
+            "                                 @{Expression={$_.VersionParts[1]}},",
+            "                                 @{Expression={$_.BuildNum}},",
+            "                                 @{Expression={$_.Patch}} | Select-Object -Last 1",
+            "Write-Output $latest.Tag"
+        ],
+        "regex": "jbr-release-21\\.(?<Version>[\\d.]+)(?<Build>[\\w]+)\\.(?<Patch>[\\d]+)",
+        "replace": "21.${Version}-${Build}.${Patch}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.$matchVersion-windows-x86-$matchBuild.$matchPatch.tar.gz",
+                "hash": {
+                    "url": "$url.checksum",
+                    "regex": "$sha512\\s"
+                },
+                "extract_dir": "jbr-21.$matchVersion-windows-x86-$matchBuild.$matchPatch"
+            },
+            "64bit": {
+                "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.$matchVersion-windows-x64-$matchBuild.$matchPatch.tar.gz",
+                "hash": {
+                    "url": "$url.checksum",
+                    "regex": "$sha512\\s"
+                },
+                "extract_dir": "jbr-21.$matchVersion-windows-x64-$matchBuild.$matchPatch"
+            },
+            "arm64": {
+                "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbr-21.$matchVersion-windows-aarch64-$matchBuild.$matchPatch.tar.gz",
+                "hash": {
+                    "url": "$url.checksum",
+                    "regex": "$sha512\\s"
+                },
+                "extract_dir": "jbr-21.$matchVersion-windows-aarch64-$matchBuild.$matchPatch"
+            }
+        }
+    }
+}

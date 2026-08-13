@@ -1,0 +1,28 @@
+{
+    "version": "4.0.3",
+    "description": "TeraCopy. A popular utility designed to copy files faster and more reliably, providing the user with many features.",
+    "homepage": "http://www.codesector.com/teracopy",
+    "license": "free for home users",
+    "changelog": "https://blog.codesector.com/category/teracopy/",
+    "url": "https://www.codesector.com/files/teracopy.zip",
+    "hash": "29d224811146417fe349ec5bf6a058663ca4497120c7df7befcc6fee95c1df47",
+    "extract_dir": "TeraCopy",
+    "bin": "TeraCopy.exe",
+    "persist": [
+        "Options.ini",
+        "main.db"
+    ],
+    "shortcuts": [
+        [
+            "TeraCopy.exe",
+            "TeraCopy"
+        ]
+    ],
+    "checkver": {
+        "url": "https://blog.codesector.com/category/teracopy/",
+        "regex": ">TeraCopy ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.codesector.com/files/teracopy.zip"
+    }
+}

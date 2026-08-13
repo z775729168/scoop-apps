@@ -1,0 +1,32 @@
+{
+    "version": "2026.7.0",
+    "description": "Password management solutions for individuals, teams, and business organizations",
+    "homepage": "https://bitwarden.com",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.7.0/Bitwarden-Portable-2026.7.0.exe",
+    "hash": "f41ee5fb0fb0ba4e9a9228ccfba2858479a2925686411d4ca86c0e4b7e58c685",
+    "pre_install": [
+        "Rename-Item \"$dir\\Bitwarden-Portable-$version.exe\" 'Bitwarden.exe'",
+        "# copy config from non-portable version",
+        "if (!(Test-Path \"$dir\\bitwarden-appdata\\*\") -and (Test-Path \"$env:Appdata\\Bitwarden\")) {",
+        "    if (!(Test-Path \"$dir\\bitwarden-appdata\")) { New-Item \"$dir\\bitwarden-appdata\" -ItemType Directory | Out-Null }",
+        "    Copy-Item \"$env:Appdata\\Bitwarden\\*\" \"$dir\\bitwarden-appdata\\\" -Recurse -Force",
+        "}"
+    ],
+    "bin": "Bitwarden.exe",
+    "shortcuts": [
+        [
+            "Bitwarden.exe",
+            "Bitwarden"
+        ]
+    ],
+    "persist": "bitwarden-appdata",
+    "checkver": {
+        "github": "https://api.github.com/repos/bitwarden/clients/releases",
+        "jsonpath": "$[*].tag_name",
+        "regex": "desktop-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
+    }
+}

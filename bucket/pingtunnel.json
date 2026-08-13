@@ -1,0 +1,39 @@
+{
+    "version": "b243-a0d08ec",
+    "description": "A tool that send TCP/UDP traffic over ICMP.",
+    "homepage": "https://github.com/esrrhs/pingtunnel",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-a0d08ec7d44f4829c543416542ef3734453a4a55/pingtunnel_windows_amd64.zip",
+            "hash": "b1b3f713e0344e90390559ca2b008f27f53c6e1408ad76a9e070eab16a39ff2b"
+        },
+        "32bit": {
+            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-a0d08ec7d44f4829c543416542ef3734453a4a55/pingtunnel_windows_386.zip",
+            "hash": "307c4feba446c6de581a0428f69f10a5110389899bfcfcc879bd2f011d7709b8"
+        },
+        "arm64": {
+            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-a0d08ec7d44f4829c543416542ef3734453a4a55/pingtunnel_windows_arm64.zip",
+            "hash": "9c93bf391ee6c2202a7ba69cae8c913fed3a9065a8a2e4e510fc9dbe886b5257"
+        }
+    },
+    "bin": "pingtunnel.exe",
+    "checkver": {
+        "url": "https://github.com/esrrhs/pingtunnel/releases.atom",
+        "regex": "(?sm)Repository/\\d+/(?<tag>master-(?<short>.{7}).+?)<.+?master\\s+build\\s+(?<build>\\d+)",
+        "replace": "b${build}-${short}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/esrrhs/pingtunnel/releases/download/$matchTag/pingtunnel_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/esrrhs/pingtunnel/releases/download/$matchTag/pingtunnel_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/esrrhs/pingtunnel/releases/download/$matchTag/pingtunnel_windows_arm64.zip"
+            }
+        }
+    }
+}

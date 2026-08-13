@@ -1,0 +1,27 @@
+{
+  "version": "10.2.0",
+  "description": "学习英语必备的听力软件",
+  "homepage": "https://dict.eudic.net/ting/",
+  "license": "Freeware",
+  "url": "https://static.frdic.com/pkg/ting_en_setup.zip",
+  "hash": "17988e542973a0775e2410e2a795fe98469aab2c9dbd0ee6dfb0ff86371c19be",
+  "installer": {
+    "script": [
+      "Expand-7ZipArchive \"$dir\\ting_en_setup.exe\" \"$dir\\\" -Removal",
+      "Expand-7ZipArchive \"$dir\\ting_en.7z\" \"$dir\" -Removal"
+    ]
+  },
+  "shortcuts": [
+    [
+      "ting_en.exe",
+      "每日英语听力"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.eudic.net/v4/en/app/ting",
+    "regex": "应用版本：([\\d\\.]+)"
+  },
+  "autoupdate": {
+    "url": "https://static.frdic.com/pkg/ting_en_setup.zip"
+  }
+}

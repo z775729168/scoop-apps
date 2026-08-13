@@ -1,0 +1,24 @@
+{
+    "version": "0.5.0",
+    "description": "CLI for Lumis, a syntax highlighter powered by Tree-sitter and Neovim themes.",
+    "homepage": "https://lumis.sh/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/leandrocp/lumis/releases/download/cargo-lumis-cli%2Fv0.5.0/lumis-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "70db5b44f9e3f42e3bb4aea84032aaa2d41f3d3e30d355930f44c12314ed6289"
+        }
+    },
+    "bin": "lumis.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/lumis-cli?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/leandrocp/lumis/releases/download/cargo-lumis-cli%2Fv$version/lumis-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}

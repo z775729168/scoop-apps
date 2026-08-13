@@ -1,0 +1,34 @@
+{
+    "version": "1.40.0",
+    "description": "A fast Node.js package manager.",
+    "homepage": "https://aube.jdx.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jdx/aube/releases/download/v1.40.0/aube-v1.40.0-x86_64-pc-windows-msvc.zip",
+            "hash": "79ceeded5550d422edee5ad0b24a64c6d1a386aa368f6d87fe551a2a6cdf7447"
+        },
+        "arm64": {
+            "url": "https://github.com/jdx/aube/releases/download/v1.40.0/aube-v1.40.0-aarch64-pc-windows-msvc.zip",
+            "hash": "33191244c90e0972f87c74e4d05225224e4646a2eb955a1598c8306b6d8a8a32"
+        }
+    },
+    "bin": [
+        "aube.exe",
+        "aubr.exe",
+        "aubx.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/jdx/aube"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jdx/aube/releases/download/v$version/aube-v$version-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/jdx/aube/releases/download/v$version/aube-v$version-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "version": "3.8.0beta1-18",
+    "description": "A simple, lightweight but featureful, and easy-to-use e-mail client.",
+    "homepage": "https://sylpheed.sraoss.jp/en/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "arm64": {
+            "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-3.8.0beta1-18/sylpheed-3.8.0beta1-arm64-clangarm64.zip",
+            "hash": "786001500c11e93b4b61764453aee8b19220fbd9e2e2d169e7078b2cd69c80ce",
+            "extract_dir": "sylpheed-3.8.0beta1-arm64-clangarm64"
+        },
+        "64bit": {
+            "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-3.8.0beta1-18/sylpheed-3.8.0beta1-x64-clang64.zip",
+            "hash": "ba9c6df5ffbd0f89327a1318ba2a5a4cb7080baa1a0c41f5d6dd384f7c034ae4",
+            "extract_dir": "sylpheed-3.8.0beta1-x64-clang64"
+        },
+        "32bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/sylpheed/sylpheed-3.8beta1-win32.zip",
+            "hash": "77149eb8e0fd5383794c8a45edb2d5b1e05d41a4f956529a33791a9e756aebba",
+            "extract_dir": "Sylpheed-3.8beta1"
+        }
+    },
+    "bin": "sylpheed.exe",
+    "shortcuts": [
+        [
+            "sylpheed.exe",
+            "Sylpheed"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\sylpheed.ini\")) { Copy-Item \"$dir\\sample-sylpheed.ini\" \"$dir\\sylpheed.ini\" }",
+    "persist": [
+        "sylpheed.ini",
+        "config",
+        "plugins",
+        "share\\themes",
+        "etc\\gtk-2.0"
+    ],
+    "checkver": {
+        "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases.atom",
+        "regex": "Repository/\\d+/sylpheed-(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "arm64": {
+                "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-$version/sylpheed-$majorVersion.$minorVersion.$patchVersion-arm64-clangarm64.zip",
+                "extract_dir": "sylpheed-$majorVersion.$minorVersion.$patchVersion-arm64-clangarm64"
+            },
+            "64bit": {
+                "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-$version/sylpheed-$majorVersion.$minorVersion.$patchVersion-x64-clang64.zip",
+                "extract_dir": "sylpheed-$majorVersion.$minorVersion.$patchVersion-x64-clang64"
+            },
+            "32bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/sylpheed/sylpheed-3.8beta1-win32.zip",
+                "extract_dir": "Sylpheed-3.8beta1"
+            }
+        }
+    }
+}

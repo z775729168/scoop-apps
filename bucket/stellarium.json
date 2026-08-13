@@ -1,0 +1,38 @@
+{
+    "version": "26.2",
+    "description": "Real time realistic skies generator",
+    "homepage": "https://stellarium.org",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Stellarium/stellarium/releases/download/v26.2/stellarium-26.2-qt6-win64.exe",
+            "hash": "cda1d07081c94781e388f6c607da5b85a3215a366ae545473ce92a7d38135045"
+        },
+        "arm64": {
+            "url": "https://github.com/Stellarium/stellarium/releases/download/v26.2/stellarium-26.2-qt6-arm64.exe",
+            "hash": "8c35bde7a6f580b9c97d85d514de33148e4b56c2b4d05744dca374af3d7f38d3"
+        }
+    },
+    "innosetup": true,
+    "bin": "stellarium.exe",
+    "shortcuts": [
+        [
+            "stellarium.exe",
+            "Stellarium"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Stellarium/stellarium/releases",
+        "regex": "(?sm)stellarium-(?<long>[\\d\\.]+)\\.tar\\.gz</.*?Stellarium (?<version>[\\d\\.]+) for"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Stellarium/stellarium/releases/download/v$version/stellarium-$matchLong-qt6-win64.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Stellarium/stellarium/releases/download/v$version/stellarium-$matchLong-qt6-arm64.exe"
+            }
+        }
+    }
+}

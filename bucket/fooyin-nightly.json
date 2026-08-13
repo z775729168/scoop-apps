@@ -1,0 +1,52 @@
+{
+    "version": "b5221",
+    "description": "(Nightly Build) A customisable music player.",
+    "homepage": "https://github.com/fooyin/fooyin",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/fooyin/fooyin/actions/runs/31724745808/windows-portable-amd64.zip",
+            "hash": "f4700e170928f971595062fe3b4a1803d3d145859d829d435abffc400083513f"
+        },
+        "arm64": {
+            "url": "https://nightly.link/fooyin/fooyin/actions/runs/31724745808/windows-portable-arm64.zip",
+            "hash": "7a7f489e74df9ade49b46710635a7afb95b5a9c9bc20e5a32b4b289830eb7144"
+        }
+    },
+    "pre_install": [
+        "Remove-Item \"$dir\\fooyin-*.exe\" -ErrorAction SilentlyContinue",
+        "$zipfile = Get-ChildItem \"$dir\" 'fooyin-*.zip' | Select-Object -First 1",
+        "if (!$zipfile) { error 'Failed to find portable package file.' ; exit }",
+        "Expand-7zipArchive -Path $zipfile.FullName -Destination \"$dir\" -Removal -ExtractDir $zipfile.BaseName"
+    ],
+    "shortcuts": [
+        [
+            "fooyin.exe",
+            "fooyin"
+        ]
+    ],
+    "persist": [
+        "data",
+        "config",
+        "cache"
+    ],
+    "checkver": {
+        "url": "https://github.com/fooyin/fooyin/actions/workflows/build.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
+        "replace": "b${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/fooyin/fooyin/actions/runs/$matchRun/windows-portable-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/fooyin/fooyin/actions/runs/$matchRun/windows-portable-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://api.github.com/repos/fooyin/fooyin/actions/runs/$matchRun/artifacts",
+            "regex": "(?sm)$basenameNoExt.*?sha256:$sha256"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "version": "5.0.1",
+    "description": "Free Virtual Keyboard is a free, lightweight, multilingual, and finger-friendly virtual on-screen keyboard.",
+    "homepage": "https://freevirtualkeyboard.com/",
+    "license": "Freeware",
+    "url": "https://freevirtualkeyboard.com/FreeVK.zip",
+    "hash": "2c7937f12c618ae0809c5ec15b62b06ed80b24fdc111ebf7f8c77a59cb65098e",
+    "shortcuts": [
+        [
+            "FreeVK.exe",
+            "Free Virtual Keyboard"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\FreeVK.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\FreeVK.ini\" -Value '[Main]','Site=1' }",
+    "persist": "FreeVK.ini",
+    "checkver": {
+        "regex": "Version:</span>\\s*([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://freevirtualkeyboard.com/FreeVK.zip"
+    }
+}

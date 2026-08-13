@@ -1,0 +1,24 @@
+{
+    "version": "2.1.1",
+    "description": "A command-line tool to obtain, build, and incorporate Ada librariess into your own projects.",
+    "homepage": "https://alire.ada.dev",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/alire-project/alire/releases/download/v2.1.1/alr-2.1.1-bin-x86_64-windows.zip",
+            "hash": "863013b1f94da6f3b7d0d5a74022ac3370424eeea9a470ebdb33d188d61b9125"
+        }
+    },
+    "extract_dir": "bin",
+    "bin": "alr.exe",
+    "checkver": {
+        "github": "https://github.com/alire-project/alire"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/alire-project/alire/releases/download/v$version/alr-$version-bin-x86_64-windows.zip"
+            }
+        }
+    }
+}

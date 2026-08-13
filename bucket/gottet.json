@@ -1,0 +1,29 @@
+{
+    "version": "1.2.8",
+    "description": "A falling blocks game.",
+    "homepage": "https://gottcode.org/gottet/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://gottcode.org/gottet/Gottet_1.2.8.zip",
+            "hash": "86719ca5ba84840bbe926e31a9626c818be71d619d664140199929c09fde711e"
+        }
+    },
+    "shortcuts": [
+        [
+            "Gottet.exe",
+            "Gottet"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "github": "https://github.com/gottcode/gottet"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gottcode.org/gottet/Gottet_$version.zip"
+            }
+        }
+    }
+}

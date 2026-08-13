@@ -1,0 +1,37 @@
+{
+    "version": "1.149.0",
+    "description": "Utils for Victoria Metrics Enterprise",
+    "homepage": "https://docs.victoriametrics.com/vmctl.html",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.149.0/vmutils-windows-amd64-v1.149.0-enterprise.zip",
+            "hash": "29b88fa5b0d44c82f49821e58eb55857c5f3a48f21bf4a1996eed172bea8b2d6"
+        }
+    },
+    "bin": [
+        "vmagent.exe",
+        "vmalert.exe",
+        "vmauth.exe",
+        "vmbackup.exe",
+        "vmctl.exe",
+        "vmrestore.exe",
+        "vmbackupmanager.exe",
+        "vmgateway.exe"
+    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'vm*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
+    "checkver": {
+        "url": "https://docs.victoriametrics.com/quick-start/",
+        "regex": "victoriametrics/victoria-metrics:v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v$version/vmutils-windows-amd64-v$version-enterprise.zip",
+                "hash": {
+                    "url": "$baseurl/vmutils-windows-amd64-v$version-enterprise_checksums.txt"
+                }
+            }
+        }
+    }
+}

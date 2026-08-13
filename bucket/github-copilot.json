@@ -1,0 +1,38 @@
+{
+    "version": "1.1.8",
+    "description": "GitHub Copilot, an agent-native desktop development environment.",
+    "homepage": "https://github.com/github/app",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://github.com/github/app/blob/main/License.md"
+    },
+    "notes": "Requires an active GitHub Copilot subscription (Pro, Pro+, Business, or Enterprise) and Git installed.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/github/app/releases/download/v1.1.8/GitHub-Copilot-windows-x64.msi",
+            "hash": "fa648228786ad66a7b0e71b57ddadb6053ff0e64c010f34fb405b0d7aad77a3d"
+        },
+        "arm64": {
+            "url": "https://github.com/github/app/releases/download/v1.1.8/GitHub-Copilot-windows-arm64.msi",
+            "hash": "2d74b1d20d7dd464bfc2ad6f42042437452acb703c791dd649fe2cf6decc9e0d"
+        }
+    },
+    "extract_dir": "PFiles\\GitHub Copilot",
+    "shortcuts": [
+        [
+            "github.exe",
+            "GitHub Copilot"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/github/app/releases/download/v$version/GitHub-Copilot-windows-x64.msi"
+            },
+            "arm64": {
+                "url": "https://github.com/github/app/releases/download/v$version/GitHub-Copilot-windows-arm64.msi"
+            }
+        }
+    }
+}

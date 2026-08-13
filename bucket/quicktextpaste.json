@@ -1,0 +1,63 @@
+{
+    "version": "9.55",
+    "description": "Insert pre-defined text in any Windows applications via keyboard shortcut.",
+    "homepage": "https://www.softwareok.com/?Download=QuickTextPaste",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.softwareok.com/?seite=Microsoft/QuickTextPaste/Eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.com/Download/QuickTextPaste_x64_Portable.zip",
+            "hash": "3eb5b3f6fa165a55973c93a470abb95c727a40505206eb06fdb2c7ff67e0bbbf",
+            "bin": [
+                [
+                    "QuickTextPaste_x64_p.exe",
+                    "QuickTextPaste"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "QuickTextPaste_x64_p.exe",
+                    "QuickTextPaste"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.softwareok.com/Download/QuickTextPaste_Portable.zip",
+            "hash": "6c174f33cd3a7d289656c7068896a833e2b0442c4355d22bfa363aa2c2beffe6",
+            "bin": [
+                [
+                    "QuickTextPaste_p.exe",
+                    "QuickTextPaste"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "QuickTextPaste_p.exe",
+                    "QuickTextPaste"
+                ]
+            ]
+        }
+    },
+    "pre_install": "if (-not (Test-Path \"$persist_dir\\QuickTextPaste.ini\")) { New-Item \"$dir\\QuickTextPaste.ini\" | Out-Null }",
+    "persist": "QuickTextPaste.ini",
+    "checkver": {
+        "url": "https://www.softwareok.com/?seite=Microsoft/QuickTextPaste/History",
+        "regex": "version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.com/Download/QuickTextPaste_x64_Portable.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.com/Download/QuickTextPaste_Portable.zip"
+            }
+        },
+        "hash": {
+            "url": "https://www.softwareok.com/?Download=QuickTextPaste",
+            "regex": "$basename.*?$sha256<"
+        }
+    }
+}

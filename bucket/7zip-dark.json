@@ -1,0 +1,105 @@
+{
+    "version": "26.02-v0.70.0",
+    "description": "A multi-format file archiver with high compression ratios (Dark Mode patched by ozone10)",
+    "homepage": "https://github.com/ozone10/7zip-Dark7zip",
+    "license": {
+        "identifier": "MIT,MPL-2.0,BSD-2-Clause,BSD-3-Clause,LGPL-2.1-or-later",
+        "url": "https://github.com/ozone10/7zip-Dark7zip/blob/main/LICENSE.md"
+    },
+    "notes": [
+        "To avoid Scoop installing a duplicate default 7zip, please execute the following command:",
+        "scoop config use_external_7zip true",
+        "",
+        "To register the context menu entry, please execute the following command:",
+        "reg import \"$dir\\install-context.reg\"",
+        "",
+        "If an error occurs while attempting to delete files during uninstallation, run the following command and then retry:",
+        "Stop-Process -Name 'explorer'"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/ip7z/7zip/releases/download/26.02/7z2602-x64.msi",
+                "https://github.com/ozone10/7zip-Dark7zip/releases/download/v26.02-v0.70.0/7z26.02-v0.70.0-x64.zip#/patch.dl"
+            ],
+            "hash": [
+                "db407a4f6d4999e5c7bc00ce8a882be94717b56e7fa68140fe3f12605d91643e",
+                "d74c29aef671d4e52144dd0bbf19f2918c82a2ddb336226ee2939450d096fba3"
+            ],
+            "extract_dir": "Files\\7-Zip",
+            "pre_install": [
+                "Invoke-ExternalCommand \"$dir\\7z.exe\" @('x', \"$dir\\patch.dl\", \"-o$dir\", '-y') | Out-Null",
+                "Remove-Item \"$dir\\patch.dl\" -Force"
+            ]
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/ip7z/7zip/releases/download/26.02/7z2602-arm64.exe",
+                "https://github.com/ozone10/7zip-Dark7zip/releases/download/v26.02-v0.70.0/7z26.02-v0.70.0-arm64.zip#/patch.dl"
+            ],
+            "hash": [
+                "7c6fde79ed5e11b81c7bb6573b7962d3b6322aa5fce69c33ed19f672b55173ab",
+                "01ab67c6be73a282e62a94ac7f8d05c672acbd9750ceeae066e8866bf492bccb"
+            ],
+            "pre_install": [
+                "$7zr = Join-Path $env:TMP '7zr.exe'",
+                "$7zVersion = $version -split '-' | Select-Object -First 1",
+                "Invoke-WebRequest -Uri \"https://github.com/ip7z/7zip/releases/download/$7zVersion/7zr.exe\" -OutFile $7zr",
+                "$arm_exe = (Get-ChildItem \"$dir\\*-arm64.exe\").FullName",
+                "Invoke-ExternalCommand $7zr @('x', $arm_exe, \"-o$dir\", '-y') | Out-Null",
+                "Invoke-ExternalCommand \"$dir\\7z.exe\" @('x', \"$dir\\patch.dl\", \"-o$dir\", '-y') | Out-Null",
+                "Remove-Item \"$dir\\Uninstall.exe\", $arm_exe, \"$dir\\patch.dl\", $7zr -Force"
+            ]
+        }
+    },
+    "post_install": [
+        "$7zip_dir = $dir -replace '\\\\', '\\\\'",
+        "Get-ChildItem -Path \"$bucketsdir\\main\\scripts\\7-zip\" -Filter '*.reg' -File | ForEach-Object {",
+        "    $content = Get-Content -Path $_.FullName -Encoding utf8",
+        "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER(?=.+Classes)', 'HKEY_LOCAL_MACHINE' }",
+        "    $content -replace '{{7zip_dir}}', $7zip_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "}"
+    ],
+    "bin": [
+        "7z.exe",
+        "7zG.exe",
+        "7zFM.exe"
+    ],
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip\\7-Zip File Manager (Dark Mode)"
+        ],
+        [
+            "7-zip.chm",
+            "7-Zip\\7-Zip Help"
+        ]
+    ],
+    "persist": [
+        "Codecs",
+        "Formats"
+    ],
+    "uninstaller": {
+        "script": "if ($cmd -eq 'uninstall') { reg import \"$dir\\uninstall-context.reg\" *> $null }"
+    },
+    "checkver": {
+        "github": "https://github.com/ozone10/7zip-Dark7zip",
+        "regex": "v([\\d.]+-v[\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/ip7z/7zip/releases/download/$matchHead/7z$majorVersion$minorVersion-x64.msi",
+                    "https://github.com/ozone10/7zip-Dark7zip/releases/download/v$version/7z$version-x64.zip#/patch.dl"
+                ]
+            },
+            "arm64": {
+                "url": [
+                    "https://github.com/ip7z/7zip/releases/download/$matchHead/7z$majorVersion$minorVersion-arm64.exe",
+                    "https://github.com/ozone10/7zip-Dark7zip/releases/download/v$version/7z$version-arm64.zip#/patch.dl"
+                ]
+            }
+        }
+    }
+}

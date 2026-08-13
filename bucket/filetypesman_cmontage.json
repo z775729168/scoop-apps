@@ -1,0 +1,42 @@
+{
+  "version": "2.01",
+  "homepage": "https://www.nirsoft.net/utils/file_types_manager.html",
+  "bin": "FileTypesMan.exe",
+  "shortcuts": [
+    [
+      "FileTypesMan.exe",
+      "NirSoft\\FileTypesMan"
+    ]
+  ],
+  "persist": [
+    "filetypesman_lng.ini",
+    "filetypesman.cfg"
+  ],
+  "architecture": {
+    "64bit": {
+      "url": "https://www.nirsoft.net/utils/filetypesman-x64.zip",
+      "hash": "77ec5589f6f9ed8c2a43407138dc49bdfd6830e158ddf42145bd013445c8463f"
+    },
+    "32bit": {
+      "url": "https://www.nirsoft.net/utils/filetypesman.zip",
+      "hash": "a9467f9a47fa6c78ad3521c8ecb56cca53f0b285c26f84b48bce323d4025bb39"
+    }
+  },
+  "description": "Alternative to the 'File Types' manager of Windows.",
+  "license": "Freeware",
+  "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html",
+  "checkver": {
+    "url": "https://www.nirsoft.net/pad/filetypesman.xml",
+    "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.nirsoft.net/utils/filetypesman-x64.zip"
+      },
+      "32bit": {
+        "url": "https://www.nirsoft.net/utils/filetypesman.zip"
+      }
+    }
+  }
+}

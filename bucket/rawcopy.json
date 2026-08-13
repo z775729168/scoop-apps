@@ -1,0 +1,41 @@
+{
+    "version": "1.3.9.16",
+    "description": "A command line tool to read and write files and devices.",
+    "homepage": "http://www.ltr-data.se/opencode.html#rawcopy",
+    "license": {
+        "identifier": "Freeware",
+        "url": "http://static.ltr-data.se/files/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://static.ltr-data.se/files/win64/rawcopy64.zip",
+            "hash": "a26c2cbaa1b88b003c8418847a7fa25fb7e8cc71e614bc076931801ee3a91a70"
+        },
+        "32bit": {
+            "url": "http://static.ltr-data.se/files/rawcopy.zip",
+            "hash": "0e4223b96fbfbf2d4a641c810c6b2606fb967ba45087dd7d5db59757125a0ab8"
+        },
+        "arm64": {
+            "url": "http://static.ltr-data.se/files/winarm64/rawcopy.zip",
+            "hash": "0c881345489e4073a504b5325fd3d821a743c12fa195634dd928ecd82af2a36c"
+        }
+    },
+    "bin": "rawcopy.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/rawcopy/state.json",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://static.ltr-data.se/files/win64/rawcopy64.zip"
+            },
+            "32bit": {
+                "url": "http://static.ltr-data.se/files/rawcopy.zip"
+            },
+            "arm64": {
+                "url": "http://static.ltr-data.se/files/winarm64/rawcopy.zip"
+            }
+        }
+    }
+}

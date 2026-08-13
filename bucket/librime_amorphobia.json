@@ -1,0 +1,95 @@
+{
+    "version": "1.17.0",
+    "description": "Rime Input Method Engine",
+    "homepage": "https://rime.im/",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rime/librime/releases/download/1.17.0/rime-33e7814-Windows-msvc-x64.7z",
+            "hash": "7478c7caa4ff6b37de86daba1f7ce4a994a4f5ba24872a820fb2b3a9b01fed15"
+        },
+        "32bit": {
+            "url": "https://github.com/rime/librime/releases/download/1.17.0/rime-33e7814-Windows-msvc-x86.7z",
+            "hash": "af235c26c06152ce09ceb8fe9d9ab9fba7ab43ce30aa952b40174d806f5cc3d9"
+        }
+    },
+    "extract_dir": "dist",
+    "installer": {
+        "script": [
+            "ensure \"$dir\\lib\\pkgconfig\" | Out-Null",
+            "$content = \"prefix=$dir`nexec_prefix=$dir`nlibdir=$dir\\lib`nincludedir=$dir\\include`npkgdatadir=$dir\\share\\rime-data`npluginsdir=$dir\\lib\\rime-plugins`n`nName: Rime`nDescription: Rime Input Method Engine`nVersion: $version`nCflags: -I`${includedir}`nLibs: -L`${libdir} -lrime\"",
+            "$content = $content -replace \"\\\\\", \"/\"",
+            "Set-Content -Path \"$dir\\lib\\pkgconfig\\rime.pc\" -Value \"$content\"",
+            "function Add-PathToEnvVar {",
+            "    param(",
+            "        [string[]]$Path,",
+            "        [string]$TargetEnvVar,",
+            "        [switch]$Global,",
+            "        [switch]$Force",
+            "    )",
+            "    $inPath, $strippedPath = Split-PathLikeEnvVar $Path (Get-EnvVar -Name $TargetEnvVar -Global:$Global) -Verbose",
+            "    if ([string]::IsNullOrEmpty($strippedPath)) {",
+            "        $val = (@($Path) -join ';')",
+            "    } else {",
+            "        $val = ((@($Path) + $strippedPath) -join ';')",
+            "    }",
+            "    if (!$inPath -or $Force) {",
+            "        Set-EnvVar -Name $TargetEnvVar -Value $val -Global:$Global",
+            "    }",
+            "    Set-Content env:\\$TargetEnvVar $val",
+            "}",
+            "Add-PathToEnvVar -Path \"$dir\\lib\\pkgconfig\" -TargetEnvVar \"PKG_CONFIG_PATH\" -Global:$global -Force",
+            "Add-PathToEnvVar -Path \"$dir\" -TargetEnvVar \"CMAKE_PREFIX_PATH\" -Global:$global -Force"
+        ]
+    },
+    "pre_uninstall": [
+        "function Remove-PathFromEnvVar {",
+        "    param(",
+        "        [string[]]$Path,",
+        "        [string]$TargetEnvVar,",
+        "        [switch]$Global,",
+        "        [switch]$PassThru",
+        "    )",
+        "    $inPath, $strippedPath = Split-PathLikeEnvVar $Path (Get-EnvVar -Name $TargetEnvVar -Global:$Global)",
+        "    if ($inPath) {",
+        "        Set-EnvVar -Name $TargetEnvVar -Value $strippedPath -Global:$Global",
+        "    }",
+        "    $inSessionPath, $inSessionStrippedPath = Split-PathLikeEnvVar $Path $(Get-Content env:\\$TargetEnvVar -ErrorAction SilentlyContinue)",
+        "    if ($inSessionPath) {",
+        "        Set-Content env:\\$TargetEnvVar $inSessionStrippedPath",
+        "    }",
+        "    if ($PassThru) {",
+        "        return $inPath",
+        "    }",
+        "}",
+        "Remove-PathFromEnvVar -Path \"$dir\\lib\\pkgconfig\" -TargetEnvVar \"PKG_CONFIG_PATH\" -Global:$global",
+        "Remove-PathFromEnvVar -Path \"$dir\" -TargetEnvVar \"CMAKE_PREFIX_PATH\" -Global:$global"
+    ],
+    "bin": [
+        "bin\\rime_deployer.exe",
+        "bin\\rime_dict_manager.exe",
+        "bin\\rime_patch.exe"
+    ],
+    "env_add_path": "lib",
+    "env_set": {
+        "LIBRIME_INCLUDE_DIR": "$dir\\include",
+        "LIBRIME_LIB_DIR": "$dir\\lib",
+        "RIME_INCLUDE_DIR": "$dir\\include",
+        "RIME_LIB_DIR": "$dir\\lib"
+    },
+    "checkver": {
+        "url": "https://api.github.com/repositories/3776878/releases/latest",
+        "jsonpath": "$..browser_download_url",
+        "regex": "download/([\\d.]+)/rime-(?<hash>[\\d\\w]{7})-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x86.7z"
+            }
+        }
+    }
+}

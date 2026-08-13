@@ -1,0 +1,32 @@
+{
+    "version": "1.4.0",
+    "description": "A free utility to backup, clone, erase and restore entire drives with ease.",
+    "homepage": "https://multidrive.io/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.atola.com/multidrive/MultiDrive_1.4.0.zip",
+            "hash": "28e0258d849813d3241d64dff46f2730f4d02850f1268a839477960ac8ab43a8"
+        }
+    },
+    "extract_dir": "MultiDrive",
+    "bin": "mdcli.exe",
+    "shortcuts": [
+        [
+            "MultiDrive.exe",
+            "MultiDrive"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\mdupdater.exe\" -Force -ErrorAction SilentlyContinue",
+    "checkver": {
+        "url": "https://multidrive.io/download",
+        "regex": "MultiDrive_([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.atola.com/multidrive/MultiDrive_$version.zip"
+            }
+        }
+    }
+}

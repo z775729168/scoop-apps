@@ -1,0 +1,42 @@
+{
+    "version": "1.75",
+    "homepage": "https://www.nirsoft.net/utils/folder_time_update.html",
+    "bin": "FolderTimeUpdate.exe",
+    "shortcuts": [
+        [
+            "FolderTimeUpdate.exe",
+            "NirSoft\\FolderTimeUpdate"
+        ]
+    ],
+    "persist": [
+        "foldertimeupdate_lng.ini",
+        "foldertimeupdate.cfg"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nirsoft.net/utils/foldertimeupdate-x64.zip",
+            "hash": "b15f751ea1f784726291cf84b22e04391ca28808320863ea393d5e5a1f55ba07"
+        },
+        "32bit": {
+            "url": "https://www.nirsoft.net/utils/foldertimeupdate.zip",
+            "hash": "3c4bb26867ea3e500712b223ee9586e5dfae24f15814d03d91220969c5e9ebdd"
+        }
+    },
+    "description": "Updates the 'Modified Time' of folders.",
+    "license": "Freeware",
+    "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html",
+    "checkver": {
+        "url": "https://www.nirsoft.net/pad/foldertimeupdate.xml",
+        "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nirsoft.net/utils/foldertimeupdate-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.nirsoft.net/utils/foldertimeupdate.zip"
+            }
+        }
+    }
+}

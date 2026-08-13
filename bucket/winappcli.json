@@ -1,0 +1,28 @@
+{
+    "version": "0.6.0",
+    "description": "The Windows App Development CLI (winapp CLI) is a single command-line interface for managing Windows SDKs, packaging, generating app identity, manifests, certificates, and using build tools with any app framework.",
+    "homepage": "https://github.com/microsoft/winappCli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/winappCli/releases/download/v0.6.0/winappcli-x64.zip",
+            "hash": "f6dc42e3b4e4709c8f617003008e2cfdd9a51735e04e7170d60edda258db78a8"
+        },
+        "arm64": {
+            "url": "https://github.com/microsoft/winappCli/releases/download/v0.6.0/winappcli-arm64.zip",
+            "hash": "423d24d8d361841f78643a05c1212125bd33d85d710619c7b9819f5754061056"
+        }
+    },
+    "bin": "winapp.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/winappCli/releases/download/v$version/winappcli-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/microsoft/winappCli/releases/download/v$version/winappcli-arm64.zip"
+            }
+        }
+    }
+}

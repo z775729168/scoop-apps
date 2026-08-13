@@ -1,0 +1,20 @@
+{
+  "version": "4_dev673",
+  "description": "Accurately resize and reposition windows",
+  "homepage": "http://www.brianapps.net/sizer4/",
+  "license": "Freeware",
+  "url": "http://www.brianapps.net/sizer4/sizer4_dev673.zip",
+  "hash": "fbe673a5d5357be80d3fad60878ad1cd19b07b45edf3232ca9f02b226d8b9891",
+  "shortcuts": [
+    [
+      "sizer.exe",
+      "Sizer"
+    ]
+  ],
+  "checkver": {
+    "regex": "sizer([\\w.-]+).zip"
+  },
+  "autoupdate": {
+    "url": "http://www.brianapps.net/sizer4/sizer$version.zip"
+  }
+}
