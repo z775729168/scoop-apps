@@ -1,12 +1,12 @@
 {
-    "version": "1.18.2",
+    "version": "1.18.4",
     "description": "A rich interface for OpenCode.",
     "homepage": "https://github.com/openchamber/openchamber",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openchamber/openchamber/releases/download/v1.18.2/OpenChamber-1.18.2-win-x64.exe#/dl.7z",
-            "hash": "530aba0fd85bcadc6e45ad74da6da94613ffa44cdfb7ab11eb46e4a63c03dbad"
+            "url": "https://github.com/openchamber/openchamber/releases/download/v1.18.4/OpenChamber-1.18.4-win-x64.exe#/dl.7z",
+            "hash": "d10c4e784b1ebbe4fc6ca5ed3bac88002d732af6c6ecc086d6a0b73f88891510"
         }
     },
     "pre_install": [
