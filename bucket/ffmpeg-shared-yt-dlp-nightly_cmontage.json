@@ -1,5 +1,5 @@
 {
-  "version": "20260816-126175-g0056dd32fd",
+  "version": "20260818-126207-g21bbd98e7b",
   "description": "FFmpeg nightly build (shared) for yt-dlp.",
   "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
   "license": "MIT",
@@ -8,19 +8,19 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-16-14-25/ffmpeg-N-126175-g0056dd32fd-win64-gpl-shared.zip",
-      "hash": "c4553e686f4e6aa56ee6061424ba35cd6fbfad038b41056fb66980c81d8608e5",
-      "extract_dir": "ffmpeg-N-126175-g0056dd32fd-win64-gpl-shared"
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-18-14-41/ffmpeg-N-126207-g21bbd98e7b-win64-gpl-shared.zip",
+      "hash": "a58b9be81b22ea1d1f2fee38f6c1e15647cf6b6b56e9ac756ebca3dea4b8362d",
+      "extract_dir": "ffmpeg-N-126207-g21bbd98e7b-win64-gpl-shared"
     },
     "32bit": {
-      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-16-14-25/ffmpeg-N-126175-g0056dd32fd-win32-gpl-shared.zip",
-      "hash": "e22d1b4f5bc9b5f1658f61be0ba54a6d0bd52ba868e102b632b1961558a0528e",
-      "extract_dir": "ffmpeg-N-126175-g0056dd32fd-win32-gpl-shared"
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-18-14-41/ffmpeg-N-126207-g21bbd98e7b-win32-gpl-shared.zip",
+      "hash": "9f4190934d256b8f05f4fd834343a977956fbddd89d831e1eddf08f882a518cc",
+      "extract_dir": "ffmpeg-N-126207-g21bbd98e7b-win32-gpl-shared"
     },
     "arm64": {
-      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-16-14-25/ffmpeg-N-126175-g0056dd32fd-winarm64-gpl-shared.zip",
-      "hash": "a521d696b5f2ebc1842530089b7bceca879cd6a1a0e081ba6a889767ca4609c6",
-      "extract_dir": "ffmpeg-N-126175-g0056dd32fd-winarm64-gpl-shared"
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-08-18-14-41/ffmpeg-N-126207-g21bbd98e7b-winarm64-gpl-shared.zip",
+      "hash": "9362e62ae77a6470f80226e377d06c1e170af46f42df3cfc5e4823b09d8e31bc",
+      "extract_dir": "ffmpeg-N-126207-g21bbd98e7b-winarm64-gpl-shared"
     }
   },
   "bin": [

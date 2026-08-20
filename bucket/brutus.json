@@ -1,20 +1,20 @@
 {
-    "version": "1.13.0",
+    "version": "1.14.2",
     "description": "A modern credential testing tool written in pure Go for brute forcing SSH, MySQL, PostgreSQL, Redis, MongoDB, SMB, and 20+ protocols.",
     "homepage": "https://github.com/praetorian-inc/brutus",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/praetorian-inc/brutus/releases/download/v1.13.0/brutus-windows-amd64.zip",
-            "hash": "35cc85767829a76d2cc63ec4453a30d715352e267994b334e4760138169c8873"
+            "url": "https://github.com/praetorian-inc/brutus/releases/download/v1.14.2/brutus-windows-amd64.zip",
+            "hash": "e10706b9e397ee2c63c7a713274b8b73f06586fbdc72b50386be77ae90654980"
         },
         "32bit": {
-            "url": "https://github.com/praetorian-inc/brutus/releases/download/v1.13.0/brutus-windows-386.zip",
-            "hash": "a3fd7db5144e339042480de470f83026130310470d0d133578f08cac33c1ed69"
+            "url": "https://github.com/praetorian-inc/brutus/releases/download/v1.14.2/brutus-windows-386.zip",
+            "hash": "be190eb814e55c29d5c19858c72f0271fd8012dc9233b1c25dcaae7f978039c0"
         },
         "arm64": {
-            "url": "https://github.com/praetorian-inc/brutus/releases/download/v1.13.0/brutus-windows-arm64.zip",
-            "hash": "e3b1fa976e73e12e65889240f8a5525a32af80b6f602ba91f867cfd0dfddbc66"
+            "url": "https://github.com/praetorian-inc/brutus/releases/download/v1.14.2/brutus-windows-arm64.zip",
+            "hash": "4a02cd15b5bded8ee0130c3c7e3874976450782cef39ecd6c4138d811e9f861d"
         }
     },
     "bin": "brutus.exe",

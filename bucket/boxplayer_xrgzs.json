@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/gaozhangmin/boxplayer/releases/download/v5.0.21/boxplayer-5.0.21-win-x64.exe#/dl.7z",
-            "hash": "sha512:48221df7604e914ac01199f7c5483affd4f03d4630c69858b0bc3fb3ddc131dc2b208570c00a0841b4452e61838db18d157a9ea10c5507b914652079043d4bea",
+            "hash": "sha512:8e88eb266fa697e98f0e6d955243ec4eb1402e9e22babcc2d91f35acc243697b2fcf6c4ff796dfc423f92d3b27c7b90edabfb74103171e1ccc2a935b5d2c87e0",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
