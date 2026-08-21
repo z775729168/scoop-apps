@@ -1,16 +1,16 @@
 {
-    "version": "0.7.2",
+    "version": "0.7.4",
     "description": "A local-first alternative to Logitech Options+, written in Rust. Remap buttons, drive DPI and SmartShift over HID++. No account, no telemetry.",
     "homepage": "https://openlogi.org",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.7.2/OpenLogi-v0.7.2-windows-x86_64.zip",
-            "hash": "ea4f5abeabeb73c2d6ec5766f4e682cb818c67d16f5b596ba5af205877b4d203"
+            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.7.4/OpenLogi-v0.7.4-windows-x86_64.zip",
+            "hash": "6c504831cbecb209f912889641619a2b3d5c7ef759f72db669a073a8bc7160e9"
         },
         "arm64": {
-            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.7.2/OpenLogi-v0.7.2-windows-arm64.zip",
-            "hash": "765e3af7119bbb89517542d0e76865e30e3d2bbb8dcb4df69942acc49343797d"
+            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.7.4/OpenLogi-v0.7.4-windows-arm64.zip",
+            "hash": "951ee7a01fcf4a054174bacc030558089817c3573651a23618453cf104b5133f"
         }
     },
     "shortcuts": [
