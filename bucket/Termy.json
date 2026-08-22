@@ -1,12 +1,12 @@
 {
-    "version": "0.2.39",
+    "version": "0.2.41",
     "description": "Minimal GPU-powered terminal emulator",
     "homepage": "https://github.com/lassejlv/termy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lassejlv/termy/releases/download/v0.2.39/Termy-v0.2.39-windows-x64-Setup.exe",
-            "hash": "23e30cfee57019f1673d085574acf4ada56df053344fb890571ce24720c9b051"
+            "url": "https://github.com/lassejlv/termy/releases/download/v0.2.41/Termy-v0.2.41-windows-x64-Setup.exe",
+            "hash": "347bba14164a9a1c3f8ab9de192875544bb3f3d02b2645453e5ea5b015ffedec"
         }
     },
     "innosetup": true,

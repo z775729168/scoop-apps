@@ -1,5 +1,5 @@
 {
-    "version": "1.235.1.0",
+    "version": "1.236.0.4",
     "description": "A cross-platform, open-source text editor written in Object Pascal, available free of charge for both personal and commercial use, featuring fast startup and extensibility through Python-based add-ons.",
     "homepage": "https://cudatext.github.io",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/cudatext/files/release/1.235.1.0/cudatext-windows-amd64-1.235.1.0.zip",
-            "hash": "sha1:0fe565b8deda45cee6b555db3d3750b90999fd09"
+            "url": "https://sourceforge.net/projects/cudatext/files/release/1.236.0.4/cudatext-windows-amd64-1.236.0.4.zip",
+            "hash": "sha1:9f07c01ed60e0a5df10c7bc248629fba0cda9135"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/cudatext/files/release/1.235.1.0/cudatext-windows-i386-1.235.1.0.zip",
-            "hash": "sha1:36d4291841c6aeb5a5238d34c1410fb701d3612e"
+            "url": "https://sourceforge.net/projects/cudatext/files/release/1.236.0.4/cudatext-windows-i386-1.236.0.4.zip",
+            "hash": "sha1:31aadadc9f8f9aca52288f213ed385a8f6e65797"
         }
     },
     "extract_dir": "cudatext",
