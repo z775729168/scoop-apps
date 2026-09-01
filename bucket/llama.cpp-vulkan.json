@@ -1,12 +1,12 @@
 {
-    "version": "b10727",
+    "version": "b10750",
     "description": "Inference of LLaMA model in pure C/C++ (Vulkan version)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10727/llama-b10727-bin-win-vulkan-x64.zip",
-            "hash": "b47fc7c923bc79b77029752214b262bad99a290a5b0bdca65d83aed902f503fd"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10750/llama-b10750-bin-win-vulkan-x64.zip",
+            "hash": "beac62758866ddd5847dd9085897228854e914e1b940338e4c5be5e2f66d4fc5"
         }
     },
     "bin": [
@@ -26,7 +26,8 @@
         "llama-qwen2vl-cli.exe",
         "llama-server.exe",
         "llama-tokenize.exe",
-        "llama-tts.exe"
+        "llama-tts.exe",
+        "llama.exe"
     ],
     "persist": "models",
     "checkver": {
