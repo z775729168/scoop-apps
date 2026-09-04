@@ -1,17 +1,17 @@
 {
-    "version": "155.0.8040.0",
+    "version": "155.0.8042.0",
     "description": "An open source tool for automated testing of webapps across many browsers",
     "homepage": "https://chromedriver.chromium.org/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/155.0.8040.0/win64/chromedriver-win64.zip",
-            "hash": "aba3b1a84edde0637ad045f4ea15bbfb09f5a9c8c8051e45dae7b78bb99aa377",
+            "url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/155.0.8042.0/win64/chromedriver-win64.zip",
+            "hash": "02cdee06c81a1f6cd3b6d53c18cde33f223e47fe6ac4de44a9a90e3139b016e8",
             "extract_dir": "chromedriver-win64"
         },
         "32bit": {
-            "url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/155.0.8040.0/win32/chromedriver-win32.zip",
-            "hash": "e315513d3fccf66bf4346f8828b0318ab983ff14a2e6154a01ebaddaf273a8ac",
+            "url": "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/155.0.8042.0/win32/chromedriver-win32.zip",
+            "hash": "9071aa6a63088113334f832f4360e4047bdba5d1ffde9d08d23dcb4bb0ad7016",
             "extract_dir": "chromedriver-win32"
         }
     },
