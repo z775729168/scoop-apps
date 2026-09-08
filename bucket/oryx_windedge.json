@@ -1,0 +1,40 @@
+{
+    "version": "1.1.0",
+    "description": "Markdown viewer and editor",
+    "homepage": "https://github.com/wmahfoudh/oryx",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wmahfoudh/oryx/releases/download/v1.1.0/oryx-1.1.0-windows-x86_64.zip",
+            "hash": "be0535bc09f8dc302fe885486b0b475a40f5d61c4b8c17760761fa8f51ed50d5",
+            "extract_dir": "oryx"
+        }
+    },
+    "bin": [
+        [
+            "oryx.exe",
+            "oryx"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "oryx.exe",
+            "Oryx"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/wmahfoudh/oryx"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wmahfoudh/oryx/releases/download/v$version/oryx-$version-windows-x86_64.zip",
+                "extract_dir": "oryx"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS",
+            "find": "$basename"
+        }
+    }
+}
