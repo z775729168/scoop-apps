@@ -1,5 +1,5 @@
 {
-    "version": "9.9.31.260528",
+    "version": "9.9.33.260813",
     "description": "An instant messaging software service developed by Tencent",
     "homepage": "https://im.qq.com/pcqq/index.shtml",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.31/release/092069d7/QQ_9.9.31_260528_x64_01.exe#/dl.7z",
-            "hash": "0beb5cb4ff776cba822caa0abadbd53f5892f12628a86dabea1b372c82c086bc"
+            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/497e2f1f/QQ_9.9.33_260813_x64_01.exe#/dl.7z",
+            "hash": "b25c0d3ce9df764074a9118d0ded927e1b2d7ebf60e306112e8df18a040ec492"
         },
         "32bit": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.31/release/092069d7/QQ_9.9.31_260528_x86_01.exe#/dl.7z",
-            "hash": "3d5841389abaf7c552363d84543a06734939aa2abdf6599fee11f6565ca43db1"
+            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/497e2f1f/QQ_9.9.33_260813_x86_01.exe#/dl.7z",
+            "hash": "fd7214c7a70a6e0eb46781e0d653d5c56b0d496d2f710b4d5c07939c40b73be6"
         },
         "arm64": {
-            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.31/release/092069d7/QQ_9.9.31_260528_arm64_01.exe#/dl.7z",
-            "hash": "c8d3e75914f6cf7b7276b1492a506d67ed6ab15636a69577906745c8b04c843d"
+            "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/497e2f1f/QQ_9.9.33_260813_arm64_01.exe#/dl.7z",
+            "hash": "ee77d6d8bdfc4f4c9bf9c6d2521322ff410d2614a7e8ba005aaa9703fc9ef174"
         }
     },
     "extract_dir": "Files",
@@ -78,22 +78,34 @@
             "$headers = @{ 'Accept-Encoding' = 'gzip' }",
             "$url = 'https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js'",
             "$response = Invoke-WebRequest -Uri $url -UseBasicParsing -Headers $headers",
-            "Write-Output $response.Content"
+            "$content = $response.Content",
+            "$m = [regex]::Match($content, 'https://qqdl\\.gtimg\\.cn/qqfile/QQNT(?:V2)?/[\\d\\.]+/release/[0-9a-f]+/QQ_[\\d\\.]+_[\\d]+_x86_01\\.exe')",
+            "if (-not $m.Success) { Write-Output $content; exit }",
+            "$bare = $m.Value -replace '_x86_', '_x64_'",
+            "try {",
+            "    $sign = Invoke-RestMethod -Uri 'https://im.qq.com/http2rpc/gotrpc/noauth/trpc.qqntv2.urlsign.UrlSign/GetSign' -Method Post -ContentType 'application/json' -Headers @{ 'x-oidb' = '{\"uint32_command\":\"0x9b8e\",\"uint32_service_type\":1}' } -Body (@{ url = $bare } | ConvertTo-Json -Compress)",
+            "    if ($sign.retcode -eq 0 -and $sign.data.url) { Write-Output ($m.Value + '|' + $sign.data.url) } else { Write-Output $content }",
+            "} catch {",
+            "    Write-Output $content",
+            "}"
         ],
-        "regex": "(?<url>https://qqdl\\.gtimg\\.cn/qqfile/QQNT/([\\d\\.]+)/release/([0-9a-f]+)/QQ_([\\d\\.]+)_([\\d]+)_x86_01\\.exe)",
+        "regex": "(?<url>https://qqdl\\.gtimg\\.cn/qqfile/QQNT(?:V2)?/([\\d\\.]+)/release/([0-9a-f]+)/QQ_([\\d\\.]+)_([\\d]+)_x86_01\\.exe)(?:\\|(?<signedurl>https://[^|]+\\.exe\\?sign=[^|]+))?",
         "replace": "${3}.${4}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$match1/release/$match2/QQ_$match3_$match4_x64_01.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$match1/release/$match2/QQ_$match3_$match4_x86_01.exe#/dl.7z"
-            },
-            "arm64": {
-                "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$match1/release/$match2/QQ_$match3_$match4_arm64_01.exe#/dl.7z"
+                "url": "$matchSignedurl#/dl.7z",
+                "hash": {
+                    "mode": "download"
+                }
             }
         }
-    }
+    },
+    "notes": [
+        "2026-09-15 终局定性：腾讯新分发路径 qqfile/QQNTV2（9.9.35 起独占）的裸链接对一切脚本下载器 403（Lego 网关）——**不是指纹问题，是缺签名**：官网点击时先 POST 免登录接口 https://im.qq.com/http2rpc/gotrpc/noauth/trpc.qqntv2.urlsign.UrlSign/GetSign（headers 带 x-oidb：{\"uint32_command\":\"0x9b8e\",\"uint32_service_type\":1}，body {url:裸链接}）换带 ?sign=&t= 的签名 URL（打到 tencent-cos，任何客户端可下）。**签名时效 <1 小时**（实测 1 小时前的票已 403）。",
+        "升级机制（已集成）：checkver script 内置 GetSign 调用，输出「裸链接|签名链接」，autoupdate 64bit 走 $matchSignedurl——**`checkver.ps1 qq-nt -u` 一条命令全自动完成签名+下载+算哈希+更新清单**（09-15 实测哈希与浏览器下载一致）。GetSign 失败时 script 兜底只输出版本源，不影响 checkver。",
+        "清单钉 9.9.33 的纪律：签名 URL 一小时内过期，**写进公开清单必烂**（任何环境的 install 会在过期后 403）——所以升级流程固定为四步：①checkver -u；②scoop update qq-nt（趁签名新鲜直接装，无需预填缓存）；③rm bucket/qq-nt.json 后 bun scripts/build.ts --only qq-nt 回退钉版；④提交推送。autoupdate 已砍单 x64（32bit/arm64 的签名哈希算不出，多架构会让 -u 失败）。备用：scripts/qqnt-fetch.ps1 独立签名下载器。",
+        "替代通道：QQ 客户端自研热更新（QQEX 启动器式版本目录）不破坏 scoop 布局。"
+    ]
 }
