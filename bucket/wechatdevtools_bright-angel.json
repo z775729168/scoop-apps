@@ -1,10 +1,10 @@
 {
     "homepage": "https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html",
     "description": "The official devtool to develop and debug WeChat Mini Programs",
-    "version": "2.01.2510290",
+    "version": "2.02.2608070",
     "license": "Freeware",
-    "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=win32_x64&from=mpwiki&download_version=2012510290&version_type=1",
-    "hash": "62981f7c5b3b4bc61641832a555c494326db6c95c193d9e1e0f1a266d99969d6",
+    "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=win32_x64&from=mpwiki&download_version=2022608070&version_type=1#/installer.exe",
+    "hash": "a502dead2e4fb6dcb0b5e157e1f2b9ac00c10a20f1940917112a1f8481ed5ed9",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\installer.exe\" \"$dir\\app\" -Removal",
@@ -20,12 +20,11 @@
         ]
     ],
     "checkver": {
-        "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/log.html#stable",
-        "regex": "版本：([\\d.]+)",
-        "replace": "${1}"
+        "url": "https://devtools.wxqcloud.qq.com.cn/WechatWebDev/nightly/versions/history_stable.json",
+        "jsonpath": "$.history[0].version"
     },
     "autoupdate": {
-        "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=win32_x64&from=mpwiki&download_version=$matchTag&version_type=1"
+        "url": "https://servicewechat.com/wxa-dev-logic/download_redirect?type=win32_x64&from=mpwiki&download_version=$majorVersion$minorVersion$patchVersion$buildVersion&version_type=1#/installer.exe"
     },
     "notes": [
         "【工具类型】: 开发工具",
