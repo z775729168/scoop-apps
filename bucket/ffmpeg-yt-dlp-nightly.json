@@ -1,5 +1,5 @@
 {
-    "version": "20260921-126740-gcdc79d6949",
+    "version": "20260924-126838-g9058b3622e",
     "description": "FFmpeg nightly build for yt-dlp.",
     "homepage": "https://github.com/yt-dlp/FFmpeg-Builds",
     "license": "MIT",
@@ -8,19 +8,19 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-09-21-19-21/ffmpeg-N-126740-gcdc79d6949-win64-gpl.zip",
-            "hash": "8ff596b77ade8a5e57cc4ed2f5c380d715d9c7bdb4089d0ca848211f02dac131",
-            "extract_dir": "ffmpeg-N-126740-gcdc79d6949-win64-gpl"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-09-24-18-44/ffmpeg-N-126838-g9058b3622e-win64-gpl.zip",
+            "hash": "cb5020c310eb2439322cb65cf32af89fc714a78061b464bfdb7d1eeaa1b232c7",
+            "extract_dir": "ffmpeg-N-126838-g9058b3622e-win64-gpl"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-09-21-19-21/ffmpeg-N-126740-gcdc79d6949-win32-gpl.zip",
-            "hash": "7b120a97f03b5f3d4c7b0ca70cb406b472884684d904320d4f3776e393d824af",
-            "extract_dir": "ffmpeg-N-126740-gcdc79d6949-win32-gpl"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-09-24-18-44/ffmpeg-N-126838-g9058b3622e-win32-gpl.zip",
+            "hash": "bb38368896b5d5595592735ab3ad2e4bf1a7ab57cfca4e74ea7e8fd850bcc142",
+            "extract_dir": "ffmpeg-N-126838-g9058b3622e-win32-gpl"
         },
         "arm64": {
-            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-09-21-19-21/ffmpeg-N-126740-gcdc79d6949-winarm64-gpl.zip",
-            "hash": "a02fa5ba8497c4580faaf04ba581fa9f2972f370008a34664376e1fc28134c7d",
-            "extract_dir": "ffmpeg-N-126740-gcdc79d6949-winarm64-gpl"
+            "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-09-24-18-44/ffmpeg-N-126838-g9058b3622e-winarm64-gpl.zip",
+            "hash": "877a5cbb34800dbb5c31457f58dadf79888050e2940d5c42431ec0071d8b6b5d",
+            "extract_dir": "ffmpeg-N-126838-g9058b3622e-winarm64-gpl"
         }
     },
     "bin": [
