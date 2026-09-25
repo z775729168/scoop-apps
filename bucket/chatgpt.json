@@ -20,6 +20,16 @@
         }
     },
     "extract_dir": "app",
+    "post_install": [
+        "# MSIX stores names as OPC/AppX percent-encoded UTF-8 (e.g. %40 -> @); decode to the real name.",
+        "# Children are renamed before their parents to ensure each item's path is still valid when it's renamed.",
+        "Get-ChildItem -LiteralPath $dir -Recurse | Sort-Object { $_.FullName.Length } -Descending | ForEach-Object {",
+        "    $decodedName = [uri]::UnescapeDataString($_.Name)",
+        "    if ($decodedName -ne $_.Name) {",
+        "        Rename-Item -LiteralPath $_.FullName -NewName $decodedName",
+        "    }",
+        "}"
+    ],
     "shortcuts": [
         [
             "ChatGPT.exe",
@@ -32,7 +42,8 @@
     },
     "checkver": {
         "url": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
-        "jsonpath": "$.buildVersion"
+        "script": "(Invoke-WebRequest 'https://persistent.oaistatic.com/codex-app-prod/ChatGPT-x64.msix' -Method Head -UseBasicParsing).Headers['x-ms-meta-package_version']",
+        "regex": "([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
