@@ -1,20 +1,20 @@
 {
-    "version": "0.28.0",
+    "version": "0.29.2",
     "description": "A desktop app with tray integration for managing and synchronizing kubectl port-forward configurations with ease.",
     "homepage": "https://kftray.app/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.28.0/kftray_0.28.0_x64-setup.exe#/dl.7z",
-            "hash": "e93150f63402c0336e893feacb9975a1014f08bd8aa84e0ac709d06aa38c8cd6"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.29.2/kftray_0.29.2_x64-setup.exe#/dl.7z",
+            "hash": "85b21250405fa87abed681eaa1bf81c5fa40376ff761977040064126dda571c9"
         },
         "32bit": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.28.0/kftray_0.28.0_x86-setup.exe#/dl.7z",
-            "hash": "1b1f98117fc1da026c5b5b69580886e40256e193ad5a2d32dcc1fb55417fb818"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.29.2/kftray_0.29.2_x86-setup.exe#/dl.7z",
+            "hash": "949dd93dc15dd119746a58386ce05c3c221374157339276ab944b3482e4466de"
         },
         "arm64": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.28.0/kftray_0.28.0_arm64-setup.exe#/dl.7z",
-            "hash": "7d88b8c560a945c20566729fbd7531cee73ef43b46579455b5348fdc3b0e65bb"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.29.2/kftray_0.29.2_arm64-setup.exe#/dl.7z",
+            "hash": "66f62bfca06ef5f5fa1bf6551d56e0b8c3889d68725c9796b213091b5bb73826"
         }
     },
     "shortcuts": [
