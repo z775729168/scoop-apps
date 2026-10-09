@@ -1,62 +1,52 @@
 {
-  "version": "0.2.0",
-  "description": "Motion graphics and visual effects compositor: an open-source, clean-room reimplementation of Adobe After Effects written in pure Rust.",
-  "homepage": "https://getartcraft.com/apps/effectcraft",
-  "license": "MIT OR Apache-2.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/storytold/effectcraft/releases/download/v0.2.0/effectcraft-0.2.0-windows-x64-portable.zip",
-      "hash": "377ef4d68511114c631e2a156d59cfc23abe93a27fa526748be73859231917a0",
-      "extract_dir": "effectcraft-0.2.0-windows-x64-portable"
-    },
-    "32bit": {
-      "url": "https://github.com/storytold/effectcraft/releases/download/v0.2.0/effectcraft-0.2.0-windows-x86-portable.zip",
-      "hash": "3346a12415676448f29c8e76497f9a028f85ba78a3db735736ca0e848101c05d",
-      "extract_dir": "effectcraft-0.2.0-windows-x86-portable"
-    }
-  },
-  "bin": [
-    "effectcraft.exe",
-    "effectcraft-cli.exe"
-  ],
-  "persist": [
-    "EffectCraft"
-  ],
-  "shortcuts": [
-    [
-      "effectcraft.exe",
-      "EffectCraft"
-    ]
-  ],
-  "pre_install": [
-    "if (!(Test-Path \"$dir\\EffectCraft\")) { New-Item -ItemType Directory -Path \"$dir\\EffectCraft\" | Out-Null }"
-  ],
-  "env_set": {
-    "EFFECTCRAFT_CONFIG_DIR": "$persist_dir\\EffectCraft"
-  },
-  "checkver": {
-    "github": "https://github.com/storytold/effectcraft"
-  },
-  "autoupdate": {
+    "version": "0.6.0",
+    "description": "Motion graphics and visual effects; an open-source, clean-room reimplementation of Adobe After Effects, rebuilt in pure Rust",
+    "homepage": "https://getartcraft.com/apps/effectcraft",
+    "license": "MIT|Apache-2.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/storytold/effectcraft/releases/download/v$version/effectcraft-$version-windows-x64-portable.zip",
-        "extract_dir": "effectcraft-$version-windows-x64-portable"
-      },
-      "32bit": {
-        "url": "https://github.com/storytold/effectcraft/releases/download/v$version/effectcraft-$version-windows-x86-portable.zip",
-        "extract_dir": "effectcraft-$version-windows-x86-portable"
-      }
+        "64bit": {
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-windows-x64-portable.zip",
+            "hash": "07cfa4da3ab0e19908967326cd3530f28ce7a06ff0517b42f49b553113f9034a",
+            "extract_dir": "effectcraft-0.6.0-windows-x64-portable"
+        },
+        "32bit": {
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-windows-x86-portable.zip",
+            "hash": "7cf8d4d727abbdaddcaf367ec3b46a8f889efb74e4442e01c727c752b0cfc174",
+            "extract_dir": "effectcraft-0.6.0-windows-x86-portable"
+        },
+        "arm64": {
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.6.0/effectcraft-0.6.0-windows-arm64-portable.zip",
+            "hash": "f5dc6f253963a41847494e626f17fce908c4643147eb158581906a21509f0584",
+            "extract_dir": "effectcraft-0.6.0-windows-arm64-portable"
+        }
     },
-    "hash": {
-      "url": "$baseurl/SHA256SUMS.txt",
-      "find": "$basename"
+    "bin": "effectcraft-cli.exe",
+    "shortcuts": [
+        [
+            "effectcraft.exe",
+            "EffectCraft"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/storytold/effectcraft"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/storytold/effectcraft/releases/download/v$version/effectcraft-$version-windows-x64-portable.zip",
+                "extract_dir": "effectcraft-$version-windows-x64-portable"
+            },
+            "32bit": {
+                "url": "https://github.com/storytold/effectcraft/releases/download/v$version/effectcraft-$version-windows-x86-portable.zip",
+                "extract_dir": "effectcraft-$version-windows-x86-portable"
+            },
+            "arm64": {
+                "url": "https://github.com/storytold/effectcraft/releases/download/v$version/effectcraft-$version-windows-arm64-portable.zip",
+                "extract_dir": "effectcraft-$version-windows-arm64-portable"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
     }
-  },
-  "notes": [
-    "EFFECTCRAFT_CONFIG_DIR is set to the persisted folder, so settings, shortcut presets, plug-ins and auto-saves survive updates. Upstream default on Windows is %APPDATA%\\EffectCraft.",
-    "Two commands are installed: `effectcraft` launches the compositor GUI, `effectcraft-cli` is the headless renderer/scripting/MCP client (e.g. `effectcraft-cli render --comp Main --out main.mp4`).",
-    "Projects use the `.ecproj` format; Adobe After Effects `.aep`/`.aepx` files are not supported.",
-    "Upstream states macOS is the most tested platform and Windows still has early interaction bugs."
-  ]
 }
