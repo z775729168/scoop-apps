@@ -1,6 +1,6 @@
 {
   "version": "0.2.1",
-  "description": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.",
+  "description": "An open-source photo library and raw developer that runs on your machine.",
   "homepage": "https://getartcraft.com/apps/lightcraft",
   "license": "MIT OR Apache-2.0",
   "architecture": {
@@ -38,10 +38,6 @@
         "url": "https://github.com/storytold/lightcraft/releases/download/v$version/lightcraft-$version-windows-x86-portable.zip",
         "extract_dir": "lightcraft-$version-windows-x86-portable"
       }
-    },
-    "hash": {
-      "url": "$baseurl/SHA256SUMS.txt",
-      "find": "$basename"
     }
   }
 }
